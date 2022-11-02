@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Wendy&#39;s Sky</title>
+    <link>http://1xiaoyuan.github.io/</link>
+    <description>Recent content on Wendy&#39;s Sky</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 20 Oct 2022 10:14:28 +0800</lastBuildDate><atom:link href="http://1xiaoyuan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>生活</title>
+      <link>http://1xiaoyuan.github.io/class/life/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://1xiaoyuan.github.io/class/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>阅读</title>
+      <link>http://1xiaoyuan.github.io/class/book/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://1xiaoyuan.github.io/class/book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hello World!</title>
+      <link>http://1xiaoyuan.github.io/post/helloworld/</link>
+      <pubDate>Thu, 20 Oct 2022 10:14:28 +0800</pubDate>
+      
+      <guid>http://1xiaoyuan.github.io/post/helloworld/</guid>
+      <description>简简单单，无关风月，听从内心，真情表达。 非常感谢马同学和Rollrock两位大哥的协助，帮我解决了一些建站难题，使得本站的初版得以建立。 我希</description>
+    </item>
+    
+    <item>
+      <title>分类 | 合集</title>
+      <link>http://1xiaoyuan.github.io/classfy/</link>
+      <pubDate>Thu, 11 Aug 2022 23:50:11 +0800</pubDate>
+      
+      <guid>http://1xiaoyuan.github.io/classfy/</guid>
+      <description>分类 读书(0) 观影(0) 生活(0) 合集</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://1xiaoyuan.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://1xiaoyuan.github.io/about/</guid>
+      <description>About Me Hello!</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://1xiaoyuan.github.io/search/placeholder/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://1xiaoyuan.github.io/search/placeholder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Posts Archive</title>
+      <link>http://1xiaoyuan.github.io/archive/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://1xiaoyuan.github.io/archive/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>观影</title>
+      <link>http://1xiaoyuan.github.io/class/movie/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://1xiaoyuan.github.io/class/movie/</guid>
+      <description>推荐看《超脱》</description>
+    </item>
+    
+  </channel>
+</rss>
