@@ -6,7 +6,7 @@
     <description>Recent content on Wendy&#39;s Sky</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Oct 2022 10:14:28 +0800</lastBuildDate><atom:link href="http://1xiaoyuan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 02 Nov 2022 14:42:35 +0800</lastBuildDate><atom:link href="http://1xiaoyuan.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>生活</title>
       <link>http://1xiaoyuan.github.io/class/life/</link>
@@ -23,6 +23,15 @@
       
       <guid>http://1xiaoyuan.github.io/class/book/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo使用经验</title>
+      <link>http://1xiaoyuan.github.io/post/hugo%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/</link>
+      <pubDate>Wed, 02 Nov 2022 14:42:35 +0800</pubDate>
+      
+      <guid>http://1xiaoyuan.github.io/post/hugo%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/</guid>
+      <description>大人，时代变了 在搭建静态网站的早期，我先学了一些html和css知识，傻乎乎地打算靠自己搞定写出网页的每一步。没过几天我发现，想完全掌握并熟</description>
     </item>
     
     <item>
