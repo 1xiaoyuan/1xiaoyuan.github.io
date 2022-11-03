@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>aaa on Wendy&#39;s Sky</title>
-    <link>http://1xiaoyuan.github.io/categories/aaa/</link>
+    <link>https://1xiaoyuan.github.io/categories/aaa/</link>
     <description>Recent content in aaa on Wendy&#39;s Sky</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Oct 2022 10:14:28 +0800</lastBuildDate><atom:link href="http://1xiaoyuan.github.io/categories/aaa/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 20 Oct 2022 10:14:28 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/categories/aaa/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hello World!</title>
-      <link>http://1xiaoyuan.github.io/post/helloworld/</link>
+      <link>https://1xiaoyuan.github.io/post/helloworld/</link>
       <pubDate>Thu, 20 Oct 2022 10:14:28 +0800</pubDate>
       
-      <guid>http://1xiaoyuan.github.io/post/helloworld/</guid>
+      <guid>https://1xiaoyuan.github.io/post/helloworld/</guid>
       <description>简简单单，无关风月，听从内心，真情表达。 非常感谢马同学和Rollrock两位大哥的协助，帮我解决了一些建站难题，使得本站的初版得以建立。 我希</description>
     </item>
     
