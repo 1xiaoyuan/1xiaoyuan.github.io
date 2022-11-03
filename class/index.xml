@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Classes on Wendy&#39;s Sky</title>
-    <link>https://1xiaoyuan.github.io/class/</link>
+    <link>http://1xiaoyuan.github.io/class/</link>
     <description>Recent content in Classes on Wendy&#39;s Sky</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://1xiaoyuan.github.io/class/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://1xiaoyuan.github.io/class/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>生活</title>
-      <link>https://1xiaoyuan.github.io/class/life/</link>
+      <link>http://1xiaoyuan.github.io/class/life/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://1xiaoyuan.github.io/class/life/</guid>
+      <guid>http://1xiaoyuan.github.io/class/life/</guid>
       <description></description>
     </item>
     
     <item>
       <title>阅读</title>
-      <link>https://1xiaoyuan.github.io/class/book/</link>
+      <link>http://1xiaoyuan.github.io/class/book/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://1xiaoyuan.github.io/class/book/</guid>
+      <guid>http://1xiaoyuan.github.io/class/book/</guid>
       <description></description>
     </item>
     
     <item>
       <title>观影</title>
-      <link>https://1xiaoyuan.github.io/class/movie/</link>
+      <link>http://1xiaoyuan.github.io/class/movie/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://1xiaoyuan.github.io/class/movie/</guid>
+      <guid>http://1xiaoyuan.github.io/class/movie/</guid>
       <description>推荐看《超脱》</description>
     </item>
     
