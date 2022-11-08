@@ -15,9 +15,9 @@
     
 
     
-    <meta name="title" content="阅读" />
-    <meta property="og:title" content="阅读" />
-    <meta property="twitter:title" content="阅读" />
+    <meta name="title" content="Hugo使用经验" />
+    <meta property="og:title" content="Hugo使用经验" />
+    <meta property="twitter:title" content="Hugo使用经验" />
     
 
     
@@ -34,9 +34,9 @@
     <meta name="keyword"  content="Big-z, 大Z, Big-z的网络日志, Big-z的博客, Big-z Blog, 博客, 个人网站, 效率">
     <link rel="shortcut icon" href="/img/%e5%a4%b4%e5%83%8f-%e6%98%9f%e7%90%83.png">
 
-    <title>阅读  </title>
+    <title>Hugo使用经验  </title>
 
-    <link rel="canonical" href="/class/book/">
+    <link rel="canonical" href="/post/2hugo%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/">
 
     
     
@@ -151,10 +151,9 @@
 
 
 
-
 <style type="text/css">
     header.intro-header {
-        background-image: url('/img/back/tag-bg.jpg')
+        background-image: url('/img/back/home-%e6%98%9f%e7%a9%ba.jpg')
     }
 </style>
 
@@ -164,10 +163,25 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-heading">
-                    <h1>阅读</h1>
+
+                    <h1>Hugo使用经验</h1>
+                    
                     <span class="meta">
                         
-                        也许会有读书笔记
+                        
+                        2022-11-02
+                            
+                        | 1088 字
+                            
+                        
+                        | 标签:
+                            
+                        
+                        
+                        <a text-decoration:underline class="tag" href="/tags/%E6%8A%80%E6%9C%AF/" title="技术">
+                        <u>技术</u>    
+                        </a>
+                        
                     </span>
                 </div>
             </div>
@@ -189,8 +203,148 @@
                 post-container">
 
                 
-                
+                <blockquote>
+<p>为了防止时间太久忘记方法，建站的关键知识点还是要记录一下的。</p>
+</blockquote>
+<h2 id="大人时代变了">大人，时代变了</h2>
+<p>在搭建静态网站的早期，我先学了一些html和css知识，傻乎乎地打算靠自己搞定写出网页的每一步。没过几天我发现，想完全掌握并熟练运用这些知识，需要很长时间，而且就算掌握了它们，写出漂亮页面还需要想象力和创造力——作为一个门外汉，短期内根本不可能写出完整的网页。</p>
+<blockquote>
+<p>独自造轮子的时代已经结束了，前人已经帮你把模型调好了。</p>
+</blockquote>
+<p>后来看到了上面这句话才恍然大悟。我们这个时代太快了，闭门造车的做法很是愚蠢，应该学会借力前行才是。</p>
+<p>不过html和css知识也没有白学，它们在后来帮了我不少——如修改主题模板。</p>
+<p>如果有长期使用Hugo搭建静态网站的打算，对Hugo如何生成网页有所了解，会对使用更有帮助。</p>
+<p>常见的静态网页结构是由html、css、JavaScript组成的，内容（文字、图像等）则有作者书写。</p>
+<p>Hugo的作用则是帮助你自动生成网页结构，大部分建站的人，主要目的是输出内容，而不是花费大量时间研究怎么靠自己写出每一个页面，你需要做的只是告诉它你想要</p>
+<h2 id="文件夹">文件夹</h2>
+<p>这是每个文件夹存放的内容及其作用</p>
 
+<script src="/js/mindmap.min.js"></script>
+<script src="/js/kity.min.js"></script>
+<script src="/js/kityminder.core.min.js"></script>
+
+
+<link rel="stylesheet" href="/css/mindmap.css" />
+
+
+<div id="" class="mindmap mindmap-lg">
+    <ul>
+<li>blog
+<ul>
+<li>archetypes
+<ul>
+<li>在default.md文件中存放文章页面参数</li>
+</ul>
+</li>
+<li>content
+<ul>
+<li>存放所有文章，如关于、分类、以及每篇文章</li>
+</ul>
+</li>
+<li>layouts
+<ul>
+<li>存放生成页面所使用的模板、参数
+<ul>
+<li>_default
+<ul>
+<li>页面模板</li>
+<li>如list.html是列表页的模板，page.html是普通页的模板</li>
+<li>hugo渲染并生成页面的本质：内容+模板=页面</li>
+</ul>
+</li>
+<li>partials
+<ul>
+<li>配件模板</li>
+<li>如footer.html是页面底部区域的模板，header.html是页面头部的模板</li>
+<li>页面模板中常会引用这些配件模板</li>
+</ul>
+</li>
+<li>shortcodes
+<ul>
+<li>短代码</li>
+<li>在文章中固定格式的简洁代码，如引用bilibili的视频，插入网易云的音乐，所使用的代码存放在这里</li>
+<li>这个思维导图，以及顶部的音乐都是短代码的功劳</li>
+<li>如有需要，欢迎留言</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>static
+<ul>
+<li>img
+<ul>
+<li>存放图像</li>
+</ul>
+</li>
+<li>css
+<ul>
+<li>css模板</li>
+</ul>
+</li>
+<li>js
+<ul>
+<li>JavaScript</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>themes
+<ul>
+<li>存放所有待用的主题</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+</div>
+
+<h2 id="代码">代码</h2>
+<h4 id="hugo">Hugo</h4>
+<ul>
+<li><strong>查看版本</strong>：<code>hugo version</code></li>
+<li><strong>新建文章</strong>： <code>hugo new post/name.md</code>
+<ul>
+<li>意思是在content/post文件夹内，生成一个名为name.md的文件</li>
+</ul>
+</li>
+<li><strong>生成网页</strong>： <code>hugo</code>
+<ul>
+<li>将在父文件夹中生成public文件夹，存放着已经渲染好的所有页面</li>
+</ul>
+</li>
+<li><strong>查看效果</strong>： <code>hugo server</code>
+<ul>
+<li>返回一个网址，你可以使用自己的浏览器来实时查看自己的页面效果</li>
+</ul>
+</li>
+</ul>
+<h4 id="github">Github</h4>
+<p><strong>初始化配置</strong></p>
+<pre tabindex="0"><code>cd public
+git init
+git remote add origin https://github.com/ooxx/pornhub.github.io.git
+git add -A
+git commit -m &#34;自行填写备注&#34;
+git push -u origin master
+</code></pre><blockquote>
+<p>第三行的网络地址是Github仓库的SSH链接，可以在仓库中复制。如果一直连不成功，很有可能是SSH没有绑定密钥，可自行上网搜索。</p>
+</blockquote>
+<p><strong>这是以后每次上传的代码</strong></p>
+<pre tabindex="0"><code>cd public
+git add .
+git commit -m &#34;自行填写备注&#34;
+git push
+</code></pre><p>如果push和本地无关，则需要<code>git pull</code>将网上的内容和本地的同步。</p>
+<h2 id="其他">其他</h2>
+<p>剩下的有时间再写</p>
+
+
+                
+                
+                
                 
 
                 
@@ -199,12 +353,12 @@
                 <ul class="pager">
                     
                     <li class="previous">
-                        <a href="/class/movie/" data-toggle="tooltip" data-placement="top" title="观影">&larr;观影</a>
+                        <a href="/post/1helloworld/" data-toggle="tooltip" data-placement="top" title="Hello World!">Hello World!<br>Previous</br></a>
                     </li>
                     
                     
                     <li class="next">
-                        <a href="/class/life/" data-toggle="tooltip" data-placement="top" title="生活">生活 &rarr;</a>
+                        <a href="/post/4%E4%BB%8E%E6%B8%B8%E6%88%8F%E4%B8%AD%E7%9A%84%E6%84%9F%E6%82%9F/" data-toggle="tooltip" data-placement="top" title="从游戏中感悟生活">从游戏中感悟生活<br>Next</br></a>
                     </li>
                     
                 </ul>

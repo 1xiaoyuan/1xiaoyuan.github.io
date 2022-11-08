@@ -6,22 +6,31 @@
     <description>Recent content in Posts on Wendy&#39;s Sky</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Nov 2022 14:42:35 +0800</lastBuildDate><atom:link href="http://1xiaoyuan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Nov 2022 20:21:40 +0800</lastBuildDate><atom:link href="http://1xiaoyuan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>从游戏中感悟生活</title>
+      <link>http://1xiaoyuan.github.io/post/4%E4%BB%8E%E6%B8%B8%E6%88%8F%E4%B8%AD%E7%9A%84%E6%84%9F%E6%82%9F/</link>
+      <pubDate>Sun, 06 Nov 2022 20:21:40 +0800</pubDate>
+      
+      <guid>http://1xiaoyuan.github.io/post/4%E4%BB%8E%E6%B8%B8%E6%88%8F%E4%B8%AD%E7%9A%84%E6%84%9F%E6%82%9F/</guid>
+      <description>科雷的游戏做得很棒，我从游戏中看到了生活的一部分。 饥荒 解决各种问题，对抗环境，勇敢地生存下去！ 故事背景：科学家威尔逊被传送到了异世界荒野，他</description>
+    </item>
+    
     <item>
       <title>Hugo使用经验</title>
-      <link>http://1xiaoyuan.github.io/post/hugo%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/</link>
+      <link>http://1xiaoyuan.github.io/post/2hugo%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/</link>
       <pubDate>Wed, 02 Nov 2022 14:42:35 +0800</pubDate>
       
-      <guid>http://1xiaoyuan.github.io/post/hugo%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/</guid>
-      <description>大人，时代变了 在搭建静态网站的早期，我先学了一些html和css知识，傻乎乎地打算靠自己搞定写出网页的每一步。没过几天我发现，想完全掌握并熟</description>
+      <guid>http://1xiaoyuan.github.io/post/2hugo%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/</guid>
+      <description>为了防止时间太久忘记方法，建站的关键知识点还是要记录一下的。 大人，时代变了 在搭建静态网站的早期，我先学了一些html和css知识，傻乎乎地打</description>
     </item>
     
     <item>
       <title>Hello World!</title>
-      <link>http://1xiaoyuan.github.io/post/helloworld/</link>
+      <link>http://1xiaoyuan.github.io/post/1helloworld/</link>
       <pubDate>Thu, 20 Oct 2022 10:14:28 +0800</pubDate>
       
-      <guid>http://1xiaoyuan.github.io/post/helloworld/</guid>
+      <guid>http://1xiaoyuan.github.io/post/1helloworld/</guid>
       <description>简简单单，无关风月，听从内心，真情表达。 非常感谢马同学和Rollrock两位大哥的协助，帮我解决了一些建站难题，使得本站的初版得以建立。 我希</description>
     </item>
     
