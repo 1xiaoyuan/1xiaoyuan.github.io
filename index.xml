@@ -6,7 +6,7 @@
     <description>Recent content on Wendy&#39;s Sky</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 10 Nov 2022 13:52:24 +0800</lastBuildDate><atom:link href="http://1xiaoyuan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Nov 2022 00:29:17 +0800</lastBuildDate><atom:link href="http://1xiaoyuan.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>生活</title>
       <link>http://1xiaoyuan.github.io/class/life/</link>
@@ -23,6 +23,15 @@
       
       <guid>http://1xiaoyuan.github.io/class/book/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Win10鲜为人知的技巧</title>
+      <link>http://1xiaoyuan.github.io/post/win10%E9%B2%9C%E4%B8%BA%E4%BA%BA%E7%9F%A5%E7%9A%84%E6%8A%80%E5%B7%A7/</link>
+      <pubDate>Sat, 12 Nov 2022 00:29:17 +0800</pubDate>
+      
+      <guid>http://1xiaoyuan.github.io/post/win10%E9%B2%9C%E4%B8%BA%E4%BA%BA%E7%9F%A5%E7%9A%84%E6%8A%80%E5%B7%A7/</guid>
+      <description>搜索框——省去搜索时的鼠标操作 任务栏左下角又宽又丑的搜索框，一般人会选择关闭，或设为只显示图标，据我观察许多人搜索东西会先打开浏览器，然后点</description>
     </item>
     
     <item>
