@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Wendy&#39;s Sky</title>
-    <link>http://1xiaoyuan.github.io/post/</link>
-    <description>Recent content in Posts on Wendy&#39;s Sky</description>
+    <title>有点价值 on Wendy&#39;s Sky</title>
+    <link>http://1xiaoyuan.github.io/categories/%E6%9C%89%E7%82%B9%E4%BB%B7%E5%80%BC/</link>
+    <description>Recent content in 有点价值 on Wendy&#39;s Sky</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 20 Nov 2022 13:55:56 +0800</lastBuildDate><atom:link href="http://1xiaoyuan.github.io/post/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>考研周记1</title>
-      <link>http://1xiaoyuan.github.io/post/ky%E8%80%83%E7%A0%94%E5%91%A8%E8%AE%B01/</link>
-      <pubDate>Sun, 20 Nov 2022 13:55:56 +0800</pubDate>
-      
-      <guid>http://1xiaoyuan.github.io/post/ky%E8%80%83%E7%A0%94%E5%91%A8%E8%AE%B01/</guid>
-      <description>第一周 11.21~11.27 做了什么 这周的主要成果是独自完成了工程财务分析和运筹学实验，也因此学了一些excel函数。课程上，对财务知识提起兴趣，自学了两天，以</description>
-    </item>
-    
+    <lastBuildDate>Sat, 12 Nov 2022 00:29:17 +0800</lastBuildDate><atom:link href="http://1xiaoyuan.github.io/categories/%E6%9C%89%E7%82%B9%E4%BB%B7%E5%80%BC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Win10超技巧</title>
       <link>http://1xiaoyuan.github.io/post/5win10%E9%B2%9C%E4%B8%BA%E4%BA%BA%E7%9F%A5%E7%9A%84%E6%8A%80%E5%B7%A7/</link>
@@ -35,30 +26,12 @@
     </item>
     
     <item>
-      <title>从游戏中感悟生活</title>
-      <link>http://1xiaoyuan.github.io/post/3%E4%BB%8E%E6%B8%B8%E6%88%8F%E4%B8%AD%E7%9A%84%E6%84%9F%E6%82%9F/</link>
-      <pubDate>Sun, 06 Nov 2022 20:21:40 +0800</pubDate>
-      
-      <guid>http://1xiaoyuan.github.io/post/3%E4%BB%8E%E6%B8%B8%E6%88%8F%E4%B8%AD%E7%9A%84%E6%84%9F%E6%82%9F/</guid>
-      <description>我很喜欢科雷公司的游戏，所以必须推荐你去B站看看下面两款游戏的画风，简直不要太艺术。二对于游戏内容我要说的是，它们都非常贴近现实生活，包含了</description>
-    </item>
-    
-    <item>
       <title>Hugo使用经验</title>
       <link>http://1xiaoyuan.github.io/post/2hugo%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/</link>
       <pubDate>Wed, 02 Nov 2022 14:42:35 +0800</pubDate>
       
       <guid>http://1xiaoyuan.github.io/post/2hugo%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C/</guid>
       <description>为了防止时间太久忘记方法，建站的关键知识点还是要记录一下的。 大人，时代变了 最初我打算自己写出整个网站（现在想想真傻），于是学了一些html和</description>
-    </item>
-    
-    <item>
-      <title>Hello World!</title>
-      <link>http://1xiaoyuan.github.io/post/1helloworld/</link>
-      <pubDate>Thu, 20 Oct 2022 10:14:28 +0800</pubDate>
-      
-      <guid>http://1xiaoyuan.github.io/post/1helloworld/</guid>
-      <description>简简单单，无关风月，听从内心，真情表达。 非常感谢马同学和Rollrock两位大哥的协助，帮我解决了一些建站难题，使得本站的初版得以建立。 我希</description>
     </item>
     
   </channel>
