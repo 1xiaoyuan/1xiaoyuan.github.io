@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工具 on 1xiao</title>
+    <link>http://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7/</link>
+    <description>Recent content in 工具 on 1xiao</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>excellencezz@outlook.com (keke)</managingEditor>
+    <webMaster>excellencezz@outlook.com (keke)</webMaster>
+    <copyright>© 2021 &lt;a href=&#34;https://github.com/miiiku/hugo-theme-kagome&#34;&gt;kagome&lt;/a&gt;.</copyright>
+    <lastBuildDate>Sat, 12 Nov 2022 00:29:17 +0800</lastBuildDate><atom:link href="http://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Win10技巧</title>
+      <link>http://1xiaoyuan.github.io/posts/202211120029/</link>
+      <pubDate>Sat, 12 Nov 2022 00:29:17 +0800</pubDate>
+      <author>excellencezz@outlook.com (keke)</author>
+      <guid>http://1xiaoyuan.github.io/posts/202211120029/</guid>
+      <description>私以为，最节省时间的办法是多用键盘，这里是一些利用键盘节省时间的小技巧，分享！！ 任务栏搜索框 任务栏左下角的搜索框，既能搜本地应用和服务，又能</description>
+    </item>
+    
+    <item>
+      <title>Hugo使用经验</title>
+      <link>http://1xiaoyuan.github.io/posts/202211021442/</link>
+      <pubDate>Wed, 02 Nov 2022 14:42:35 +0800</pubDate>
+      <author>excellencezz@outlook.com (keke)</author>
+      <guid>http://1xiaoyuan.github.io/posts/202211021442/</guid>
+      <description>为了防止时间太久忘记方法，建站的关键知识点还是要记录一下的。 大人，时代变了 最初我打算自己写出整个网站（现在想想真傻），于是学了一些html和</description>
+    </item>
+    
+  </channel>
+</rss>
