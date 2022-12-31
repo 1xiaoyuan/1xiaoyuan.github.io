@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on 1xiao的博客</title>
+    <link>http://1xiaoyuan.github.io/categories/</link>
+    <description>Recent content in Categories on 1xiao的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 12 Nov 2022 00:29:17 +0800</lastBuildDate><atom:link href="http://1xiaoyuan.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>工具</title>
+      <link>http://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Sat, 12 Nov 2022 00:29:17 +0800</pubDate>
+      
+      <guid>http://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>技术</title>
+      <link>http://1xiaoyuan.github.io/categories/%E6%8A%80%E6%9C%AF/</link>
+      <pubDate>Wed, 02 Nov 2022 14:42:35 +0800</pubDate>
+      
+      <guid>http://1xiaoyuan.github.io/categories/%E6%8A%80%E6%9C%AF/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>生活</title>
+      <link>http://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB/</link>
+      <pubDate>Thu, 20 Oct 2022 10:14:28 +0800</pubDate>
+      
+      <guid>http://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
