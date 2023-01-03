@@ -6,7 +6,20 @@
     <description>Recent content in 技术 on 1xiao的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 02 Nov 2022 14:42:35 +0800</lastBuildDate><atom:link href="http://1xiaoyuan.github.io/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Nov 2022 00:29:17 +0800</lastBuildDate><atom:link href="http://1xiaoyuan.github.io/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Win10技巧</title>
+      <link>http://1xiaoyuan.github.io/archives/win10%E6%8A%80%E5%B7%A7.html/</link>
+      <pubDate>Sat, 12 Nov 2022 00:29:17 +0800</pubDate>
+      
+      <guid>http://1xiaoyuan.github.io/archives/win10%E6%8A%80%E5%B7%A7.html/</guid>
+      <description>私以为，最节省时间的办法是多用键盘，这里是一些利用键盘节省时间的小技巧，分享！！
+任务栏搜索框 任务栏左下角的搜索框，既能搜本地应用和服务，又能当作互联网搜索引擎使用，妙哉~你不会不知道吧^
+你还知道控制面板在哪里吗？别用鼠标左键右键来回找了，用搜索框吧！只需按一下win键（会弹出开始菜单，不用管它），然后直接用键盘打字输入“控制”，再加一个回车，三步到达目的地，简单高效。
+无论在桌面还是浏览器中，都利用win键+打字的方法，把任务栏搜索框当作搜索引擎，避免在鼠键之间来回切换的繁琐。
+总而言之，你会爱上键盘的，尤其是win键。</description>
+    </item>
+    
     <item>
       <title>Hugo使用经验</title>
       <link>http://1xiaoyuan.github.io/archives/hugo%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C.html/</link>
