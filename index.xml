@@ -146,8 +146,8 @@
 不过html和css知识也没有白学，因为对网页结构有了解的话，知道什么是标签，什么是属性和值，以及它们的基本规则，与网页打交道时很有帮助，才有可能根据自己喜好修改主题的细节。
 选择Hugo 网站生成器有很多，我看到许多人建站都会经历兜兜转转的过程，工具从wordpress到hexo，再到hugo，再到wordpress&amp;hellip;&amp;hellip;所以我想避免这个坑，于是在开始动手之前花了许久做决定，我的要求是经济、高效、方便——Hugo最适合不过了——静态网页经济安全，Hugo生成速度最快，也不需要服务器。
 文件目录 这是每个文件夹存放的内容及其作用的标准格式。
-archetypes 在default.md文件中存放文章页面参数 content 存放所有文章，如关于、分类、以及每篇文章 layouts：存放生成页面所使用的模板、参数 _default 页面模板 如list.html是列表页的模板，page.html是普通页的模板 hugo渲染并生成页面的本质：内容+模板=页面 partials 配件模板 如footer.html是页面底部区域的模板，header.html是页面头部的模板 页面模板中常会引用这些配件模板 shortcodes 短代码 在文章中固定格式的简洁代码，如引用bilibili的视频，插入网易云的音乐，所使用的代码存放在这里 这个思维导图，以及顶部的音乐都是短代码的功劳 如有需要，欢迎留言 static img 存放图像 css css模板 css的作用是让页面更漂亮，就像穿了新衣服 js JavaScript 存放所有待用的主题：themes 代码 Hugo 查看版本：hugo version 新建文章： hugo new post/name.md 意思是在content/post文件夹内，生成一个名为name.md的文件 生成网页： hugo 将在父文件夹中生成public文件夹，存放着已经渲染好的所有页面 查看效果： hugo server 返回一个网址，你可以使用自己的浏览器来实时查看自己的页面效果 Github 初始化配置
-cd public git init git remote add origin https://github.com/ooxx/pornhub.github.io.git git add -A git commit -m &amp;#34;自行填写备注&amp;#34; git push -u origin master #我的&amp;#34;master&amp;#34;用的&amp;#34;main&amp;#34; 第三行的网络地址是Github仓库的SSH链接，可以在仓库中复制。如果一直连不成功，很有可能是SSH没有绑定密钥，可自行上网搜索。</description>
+archetypes 在default.md文件中存放文章页面参数 content 存放所有文章，如关于、分类、以及每篇文章 layouts：存放生成页面所使用的模板、参数 _default 页面模板 如list.html是列表页的模板，page.html是普通页的模板 hugo渲染并生成页面的本质：内容+模板=页面 partials 配件模板 如footer.html是页面底部区域的模板，header.html是页面头部的模板 页面模板中常会引用这些配件模板 shortcodes 短代码 在文章中固定格式的简洁代码，如引用bilibili的视频，插入网易云的音乐，所使用的代码存放在这里 这个思维导图，以及顶部的音乐都是短代码的功劳 如有需要，欢迎留言 static img 存放图像 css css模板 css的作用是让页面更漂亮，就像穿了新衣服 js JavaScript themes 存放所有的主题 代码 Hugo 查看版本：hugo version 新建库：hugo new site 666 在当前目录下，新建一个名为&amp;quot;666&amp;quot;的文件夹，其中内置应有的结构 新建文章： hugo new post/name.md 意思是在content/post文件夹内，生成一个名为name.md的文件 生成网页： hugo 将在父文件夹中生成public文件夹，存放着已经渲染好的所有页面 查看效果： hugo server 返回一个网址，你可以使用自己的浏览器来实时查看自己的页面效果 主题 我用的笨方法，下载主题zip包并解压到themes文件夹，之后在config文件中设置theme参数为主题名。 Github 初始化配置
+cd public git init git remote add origin https://github.</description>
     </item>
     
     <item>
