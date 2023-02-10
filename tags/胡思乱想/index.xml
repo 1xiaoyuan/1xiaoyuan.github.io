@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>生活 on 1xiao的博客</title>
-    <link>https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB/</link>
-    <description>Recent content in 生活 on 1xiao的博客</description>
+    <title>胡思乱想 on 1xiao的博客</title>
+    <link>https://1xiaoyuan.github.io/tags/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/</link>
+    <description>Recent content in 胡思乱想 on 1xiao的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 31 Dec 2022 15:19:20 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 31 Dec 2022 15:19:20 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/tags/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>活在当下？No！</title>
       <link>https://1xiaoyuan.github.io/archives/%E6%B4%BB%E5%9C%A8%E5%BD%93%E4%B8%8Bno.html/</link>
@@ -22,17 +22,6 @@
 所以， 想象未来，回到当下，让未来活在当下，让当下活在未来。提前成为未来的自己，多令人激动啊！
 下面举几个例子：
 害怕公众演讲？那就想象来来随口就是一段佳话的自己，把他的从容、自信拿到当下，提前成为他。 不敢向窈窕淑女索要微信？那就想象未来的自己。（或许你也可以把她想象成未来的女朋友，甚至老婆😄），然后你就能消除恐惧，发现“要联系方式是多么简单的事情”。 其实，勇气是可以向未来的自己预支的，而你能支付给未来自己的回报，就是他提前来到世界。 换个角度想，我们人脑所拥有的最强的能力就是想象力——它是时间和空间也无法束缚的存在，这就是我们进步的秘密武器。</description>
-    </item>
-    
-    <item>
-      <title>Hello World!</title>
-      <link>https://1xiaoyuan.github.io/archives/hello-world.html/</link>
-      <pubDate>Thu, 20 Oct 2022 10:14:28 +0800</pubDate>
-      
-      <guid>https://1xiaoyuan.github.io/archives/hello-world.html/</guid>
-      <description>简简单单，无关风月，听从内心，真情表达。
-非常感谢马同学和Rollrock两位大哥的协助，帮我解决了一些建站难题，使得本站的初版得以建立。
-我希望将生活的一部分记录于此，不知道互联网能带我走向何处，但一定要留下一些属于我的足迹。如果能与一些人建立新的联系，当然再好不过，这也是我的初心之一。</description>
     </item>
     
   </channel>
