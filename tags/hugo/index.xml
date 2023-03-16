@@ -1,31 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>技术 on 1xiao的博客</title>
-    <link>https://1xiaoyuan.github.io/categories/%E6%8A%80%E6%9C%AF/</link>
-    <description>Recent content in 技术 on 1xiao的博客</description>
+    <title>hugo on 1xiao的博客</title>
+    <link>https://1xiaoyuan.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on 1xiao的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Feb 2023 12:18:53 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/categories/%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>我们是怎样访问网页的</title>
-      <link>https://1xiaoyuan.github.io/archives/%E6%88%91%E4%BB%AC%E6%98%AF%E6%80%8E%E6%A0%B7%E8%AE%BF%E9%97%AE%E7%BD%91%E9%A1%B5%E7%9A%84.html/</link>
-      <pubDate>Fri, 10 Feb 2023 12:18:53 +0800</pubDate>
-      
-      <guid>https://1xiaoyuan.github.io/archives/%E6%88%91%E4%BB%AC%E6%98%AF%E6%80%8E%E6%A0%B7%E8%AE%BF%E9%97%AE%E7%BD%91%E9%A1%B5%E7%9A%84.html/</guid>
-      <description>以静态网页为例。
-Html 文件 Html 文件是可以被浏览器读取后生成静态网页的文件。该文件使用 Html 语言编写，html 语言被称为超文本语言，&amp;ldquo;超&amp;quot;体现在这种语言在纯文本的基础上添加了结构化的语法——标签——来赋予纯文本标题、段落、菜单、列表、链接等结构化属性。此外，Html 文件还支持嵌入图像、视频等。
-服务器 服务器是一台联网的、用于储存文件的电脑。 服务器是一个联网的、专门用于储存文件的电脑（大小像一个盒子）。每个服务器都有独特的 Ip 地址，用于交互。
-补充
-静态网站服务器是指，文件保持原样传送给用户。 动态网站服务器在硬件和 http 软件之外加入新功能，常见应用服务器和数据库。发送文件会进行更新。 Ip 地址 Ip 地址是一个 32 位的二进制数（这决定了人很难记住它）。 Ip 地址就像是每个人的电话号一样，每一个人的电话号都唯一。
-同样，每台联网的电脑都有一个唯一的 Ip 地址。只要知道了这个地址，我们就能知道储存在网络上的文件的位置。
-Url 地址 url 是一个简单化的互联网资源定位器，俗称网址，可与 Ip 地址关联（解决了 Ip 地址不方便人记忆的问题）。
-url 的组成：协议+域名+资源路径。
-如 wendys.love 是域名， https://wendys.love 是协议+域名， https://wendys.love/archives/hello-world.html/ 是协议+域名+资源路径。 一般情况下，可以不输入协议直接访问。还有 https 协议要比 http 协议安全些。 同样，互联网上的每个文件都有唯一的 Url。 浏览器 浏览器是解析、渲染 html、css 等文件的工具，也是解析 url 的工具，是客户端（用户）和服务器端产生交互的桥梁。
-用户通过向浏览器输入 Url（网址），浏览器解析出 Url 对应的 Ip 地址，并向该 Ip 发送交互请求，以求获得访问文件的权限。
-我们访问网页的过程可以描述为：</description>
-    </item>
-    
+    <lastBuildDate>Thu, 05 Jan 2023 20:36:23 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CDN加速</title>
       <link>https://1xiaoyuan.github.io/archives/cdn%E5%8A%A0%E9%80%9F.html/</link>
@@ -47,23 +28,6 @@ jsdelivr 现在该轮到今天的主角了——jsdelivr。
 https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/
 比如我是这么用的：https://cdn.jsdelivr.net/gh/1xiaoyuan/1xiaoyuan.github.io/
 后来我才发现去掉版本号可以直接上传整个仓库🤷‍♂️</description>
-    </item>
-    
-    <item>
-      <title>快速搜索网页、打开常用应用</title>
-      <link>https://1xiaoyuan.github.io/archives/%E5%BF%AB%E9%80%9F%E6%90%9C%E7%B4%A2%E7%BD%91%E9%A1%B5%E6%89%93%E5%BC%80%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8.html/</link>
-      <pubDate>Sat, 12 Nov 2022 00:29:17 +0800</pubDate>
-      
-      <guid>https://1xiaoyuan.github.io/archives/%E5%BF%AB%E9%80%9F%E6%90%9C%E7%B4%A2%E7%BD%91%E9%A1%B5%E6%89%93%E5%BC%80%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8.html/</guid>
-      <description>抛开效率应用不谈，最节省时间的办法是多用键盘，尤其是win键（对windows用户而言）。
-任务栏搜索 任务栏左下角的搜索框，既能搜索并打开本地应用和服务，又能当作互联网搜索引擎使用。使用win键+输入文字也可以直接使用该功能。
-使用方法：
-按下win键，然后直接用键盘打字，内容可以是
-一个软件名字的一部分：如微，wx，微信，然后会出现对应的本地程序以及网页搜索建议。按下回车就能打开微信。 一个服务：如控制，控制面板，kzmb，然后会出现对应的服务以及网页搜索建议。 再也不用怕有些很难找到具体位置的服务了。 一个搜索：如平凡之路，然后会出现网页搜索推荐。 这样一来，打开常用的软件、服务，就能这样加快速度了。
-搜索某个问题，也不用再打开新页面，再点击搜索框后，再输入了。一个win键简化前两个步骤。
-浏览器快速搜索 现在的主流浏览器是 Edge 和 Chrome ，我使用它们浏览网页，想要搜索一个概念或问题，就需要另开一个新网页再搜索，甚是麻烦。
-下面提供一种在原页面进行搜索的方法。
-Ctrl + E 打开地址栏快捷搜索； 输入想搜的问题； Alt + Enter 在新标签页打开搜索内容。 如果第3步直接用Enter，当前页面会被刷新。</description>
     </item>
     
     <item>
