@@ -6,7 +6,20 @@
     <description>Recent content in 所有文章 on xiao的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 24 Jul 2023 21:51:32 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 28 Jul 2023 13:55:34 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023 07 28 【食谱】白菜</title>
+      <link>https://1xiaoyuan.github.io/archives/2023-07-28-%E9%A3%9F%E8%B0%B1%E7%99%BD%E8%8F%9C.html/</link>
+      <pubDate>Fri, 28 Jul 2023 13:55:34 +0800</pubDate>
+      
+      <guid>https://1xiaoyuan.github.io/archives/2023-07-28-%E9%A3%9F%E8%B0%B1%E7%99%BD%E8%8F%9C.html/</guid>
+      <description>前记 今天学了一道 下饭白菜，现将步骤记录如下
+食材 &amp;amp; 调味料 白菜 红辣椒 蒜瓣 葱/青辣椒 一勺：生抽、老抽、淀粉、耗油。 半勺：食盐、白糖。 少许：胡椒粉。 一个小碗，大概200~300ml的样子。 花椒、八角等自行选择。 步骤 1、将食材清洗、切块、放入事先准备好的盆、碗中； 2、将调味料按上述比例加入小碗中，配半碗水； 3、开火，加入适量食物油；
+4、油热后加入红辣椒、蒜瓣，配味；（花椒、八角也是这个时候放的，自行选择）
+5、加入白菜，翻炒直至炒软； 6、加入调味料汁水，2分钟后加入葱段/青辣椒，2分钟后出锅。
+注意事项 第一次做遇到的问题是：火候的掌握情况不明，下次实践调整后再记述。</description>
+    </item>
+    
     <item>
       <title>2023 07 24</title>
       <link>https://1xiaoyuan.github.io/archives/2023-07-24.html/</link>
@@ -278,10 +291,10 @@ jsdelivr 现在该轮到今天的主角了——jsdelivr。
 注意：下面“你的Github名”、“你的仓库名”、“@发布的版本号”都需要你按照自己的Github来输入，你可以参考该文章末尾处最后一个代码（我的用法）。
 如果想上传博客文件库的某个版本： https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/@发布的版本号/ 或者上传版本中的某个文件： https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/@发布的版本号/文件名+后缀 或者上传版本中的某个文件夹： https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/@发布的版本号/文件夹名/ 注意结尾的 / 号是必须有的。
 成功后会出现已上传的文档页面。然后你可能就会发现自己的网页打开速度飞快，至少比上次快。
-使用以下代码可以直接上传整个仓库的文件，实时更新，而不是某个版本，事实上我觉得这是最方便的做法。
+使用以下代码可以直接上传整个仓库的文件，并且实时更新文件，而不是一次上传一个版本，事实上我觉得这是最方便的做法。
 https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/
-比如我是这么用的，每次更新博客后，都在浏览器输入一次：https://cdn.jsdelivr.net/gh/1xiaoyuan/1xiaoyuan.github.io/
-后来我才发现去掉版本号可以直接上传整个仓库🤷‍♂️</description>
+比如我是这么用的：https://cdn.jsdelivr.net/gh/1xiaoyuan/1xiaoyuan.github.io/
+这是后来我才发现的，去掉版本号可以直接上传整个仓库🤷‍♂️ 实时更新真的太爽了。</description>
     </item>
     
     <item>
