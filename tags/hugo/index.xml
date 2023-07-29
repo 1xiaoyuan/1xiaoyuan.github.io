@@ -13,11 +13,13 @@
       <pubDate>Sat, 29 Jul 2023 09:41:28 +0800</pubDate>
       
       <guid>https://1xiaoyuan.github.io/archives/2023-07-29-%E4%B8%80%E4%BB%B6%E5%AE%8C%E6%88%90%E5%8D%9A%E5%AE%A2%E6%8C%87%E4%BB%A4.html/</guid>
-      <description>前言 我的博客所使用的工具如下
-hugo：博客网站生成工具 vscode：文件编辑工具 git：上传文件到Github的工具 使用 vscode 和 git ，每次更新博客都需要输入一连串重复的代码，那么下面的内容可能会对为此而苦恼的你有所帮助。
+      <description>我使用的博客工具 hugo：博客网站生成工具 vscode：文件编辑工具 git：上传文件到Github的工具 使用 vscode 和 git ，每次更新博客都需要输入一连串重复的代码，那么下面的内容可能会对为此而苦恼的用户有所帮助。
 使用vscode和git的不方便之处 每次新建文件都需要在vscode的终端输入hugo new posts/新文件名.md来创建新文件 每次上传文件都需要在vscode的终端输入至少5个指令&amp;hellip;&amp;hellip;hugo、cd public、git add .&amp;hellip;&amp;hellip; 如果每修改并上传一次就要输入5个指令，这很令人产生不快，厌倦 那么有没有比较好的解决方案呢？ 答案是肯定的。
 解决方案 一键创建新文件 1、首先，在博客的顶级文件夹创建new.sh文件 2、在文件中输入以下内容
-time=$(date &amp;#34;+%Y-%m-%d&amp;#34;) echo $time hugo new posts/$time.md exit 3、每次新建文件时，在终端输入new再按Tab键，然后按回车键，即可在posts/目录中新建以当天日期为文件名的新文件。</description>
+time=$(date &amp;#34;+%Y-%m-%d&amp;#34;) echo $time hugo new posts/$time.md exit 3、每次新建文件时，在终端输入new再按Tab键，然后按回车键，即可在posts/目录中新建以当天日期为文件名的新文件。
+一键上传文件 1、首先，在博客的顶级文件夹创建hugo.sh文件 2、在文件中输入以下内容
+hugo time=$(date &amp;#34;+%Y-%m-%d %H:%M:%S&amp;#34;) echo $time cd public git add . git commit -m &amp;#34;自动执行构建脚本 🎓$time&amp;#34; git push exit 3、每次更新（上传）文件时，在终端输入hugo再按Tab键，然后按回车，即可将更新的博客自动上传至Github，并以当时的日期为更新备注。
+如有问题，请通过邮箱联系。</description>
     </item>
     
     <item>

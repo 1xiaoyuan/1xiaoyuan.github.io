@@ -24,7 +24,7 @@
       "articleSection" : "posts",
       "name" : "2023 07 29 一件完成博客指令",
       "headline" : "2023 07 29 一件完成博客指令",
-      "description" : "前言 我的博客所使用的工具如下\nhugo：博客网站生成工具 vscode：文件编辑工具 git：上传文件到Github的工具 使用 vscode 和 git ，每次更新博客都需要输入一连串重复的代码，那么下面的内容可能会对为此而苦恼的你有所帮助。\n使用vscode和git的不方便之处 每次新建文件都需要在vscode的终端输入hugo new posts\/新文件名.md来创建新文件 每次上传文件都需要在vscode的终端输入至少5个指令\u0026hellip;\u0026hellip;hugo、cd public、git add .\u0026hellip;\u0026hellip; 如果每修改并上传一次就要输入5个指令，这很令人产生不快，厌倦 那么有没有比较好的解决方案呢？ 答案是肯定的。\n解决方案 一键创建新文件 1、首先，在博客的顶级文件夹创建new.sh文件 2、在文件中输入以下内容\ntime=$(date \u0026#34;\u002b%Y-%m-%d\u0026#34;) echo $time hugo new posts\/$time.md exit 3、每次新建文件时，在终端输入new再按Tab键，然后按回车键，即可在posts\/目录中新建以当天日期为文件名的新文件。",
+      "description" : "我使用的博客工具 hugo：博客网站生成工具 vscode：文件编辑工具 git：上传文件到Github的工具 使用 vscode 和 git ，每次更新博客都需要输入一连串重复的代码，那么下面的内容可能会对为此而苦恼的用户有所帮助。\n使用vscode和git的不方便之处 每次新建文件都需要在vscode的终端输入hugo new posts\/新文件名.md来创建新文件 每次上传文件都需要在vscode的终端输入至少5个指令\u0026hellip;\u0026hellip;hugo、cd public、git add .\u0026hellip;\u0026hellip; 如果每修改并上传一次就要输入5个指令，这很令人产生不快，厌倦 那么有没有比较好的解决方案呢？ 答案是肯定的。\n解决方案 一键创建新文件 1、首先，在博客的顶级文件夹创建new.sh文件 2、在文件中输入以下内容\ntime=$(date \u0026#34;\u002b%Y-%m-%d\u0026#34;) echo $time hugo new posts\/$time.md exit 3、每次新建文件时，在终端输入new再按Tab键，然后按回车键，即可在posts\/目录中新建以当天日期为文件名的新文件。\n一键上传文件 1、首先，在博客的顶级文件夹创建hugo.sh文件 2、在文件中输入以下内容\nhugo time=$(date \u0026#34;\u002b%Y-%m-%d %H:%M:%S\u0026#34;) echo $time cd public git add . git commit -m \u0026#34;自动执行构建脚本 🎓$time\u0026#34; git push exit 3、每次更新（上传）文件时，在终端输入hugo再按Tab键，然后按回车，即可将更新的博客自动上传至Github，并以当时的日期为更新备注。\n如有问题，请通过邮箱联系。",
       "inLanguage" : "en-US",
       "author" : "1xiao",
       "creator" : "1xiao",
@@ -40,16 +40,20 @@
 </script><title>2023 07 29 一件完成博客指令</title>
   <meta property="og:title" content="2023 07 29 一件完成博客指令" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="前言 我的博客所使用的工具如下
-hugo：博客网站生成工具 vscode：文件编辑工具 git：上传文件到Github的工具 使用 vscode 和 git ，每次更新博客都需要输入一连串重复的代码，那么下面的内容可能会对为此而苦恼的你有所帮助。
+  <meta property="og:description" content="我使用的博客工具 hugo：博客网站生成工具 vscode：文件编辑工具 git：上传文件到Github的工具 使用 vscode 和 git ，每次更新博客都需要输入一连串重复的代码，那么下面的内容可能会对为此而苦恼的用户有所帮助。
 使用vscode和git的不方便之处 每次新建文件都需要在vscode的终端输入hugo new posts/新文件名.md来创建新文件 每次上传文件都需要在vscode的终端输入至少5个指令&amp;hellip;&amp;hellip;hugo、cd public、git add .&amp;hellip;&amp;hellip; 如果每修改并上传一次就要输入5个指令，这很令人产生不快，厌倦 那么有没有比较好的解决方案呢？ 答案是肯定的。
 解决方案 一键创建新文件 1、首先，在博客的顶级文件夹创建new.sh文件 2、在文件中输入以下内容
-time=$(date &amp;#34;&#43;%Y-%m-%d&amp;#34;) echo $time hugo new posts/$time.md exit 3、每次新建文件时，在终端输入new再按Tab键，然后按回车键，即可在posts/目录中新建以当天日期为文件名的新文件。" />
-  <meta name="description" content="前言 我的博客所使用的工具如下
-hugo：博客网站生成工具 vscode：文件编辑工具 git：上传文件到Github的工具 使用 vscode 和 git ，每次更新博客都需要输入一连串重复的代码，那么下面的内容可能会对为此而苦恼的你有所帮助。
+time=$(date &amp;#34;&#43;%Y-%m-%d&amp;#34;) echo $time hugo new posts/$time.md exit 3、每次新建文件时，在终端输入new再按Tab键，然后按回车键，即可在posts/目录中新建以当天日期为文件名的新文件。
+一键上传文件 1、首先，在博客的顶级文件夹创建hugo.sh文件 2、在文件中输入以下内容
+hugo time=$(date &amp;#34;&#43;%Y-%m-%d %H:%M:%S&amp;#34;) echo $time cd public git add . git commit -m &amp;#34;自动执行构建脚本 🎓$time&amp;#34; git push exit 3、每次更新（上传）文件时，在终端输入hugo再按Tab键，然后按回车，即可将更新的博客自动上传至Github，并以当时的日期为更新备注。
+如有问题，请通过邮箱联系。" />
+  <meta name="description" content="我使用的博客工具 hugo：博客网站生成工具 vscode：文件编辑工具 git：上传文件到Github的工具 使用 vscode 和 git ，每次更新博客都需要输入一连串重复的代码，那么下面的内容可能会对为此而苦恼的用户有所帮助。
 使用vscode和git的不方便之处 每次新建文件都需要在vscode的终端输入hugo new posts/新文件名.md来创建新文件 每次上传文件都需要在vscode的终端输入至少5个指令&amp;hellip;&amp;hellip;hugo、cd public、git add .&amp;hellip;&amp;hellip; 如果每修改并上传一次就要输入5个指令，这很令人产生不快，厌倦 那么有没有比较好的解决方案呢？ 答案是肯定的。
 解决方案 一键创建新文件 1、首先，在博客的顶级文件夹创建new.sh文件 2、在文件中输入以下内容
-time=$(date &amp;#34;&#43;%Y-%m-%d&amp;#34;) echo $time hugo new posts/$time.md exit 3、每次新建文件时，在终端输入new再按Tab键，然后按回车键，即可在posts/目录中新建以当天日期为文件名的新文件。" />
+time=$(date &amp;#34;&#43;%Y-%m-%d&amp;#34;) echo $time hugo new posts/$time.md exit 3、每次新建文件时，在终端输入new再按Tab键，然后按回车键，即可在posts/目录中新建以当天日期为文件名的新文件。
+一键上传文件 1、首先，在博客的顶级文件夹创建hugo.sh文件 2、在文件中输入以下内容
+hugo time=$(date &amp;#34;&#43;%Y-%m-%d %H:%M:%S&amp;#34;) echo $time cd public git add . git commit -m &amp;#34;自动执行构建脚本 🎓$time&amp;#34; git push exit 3、每次更新（上传）文件时，在终端输入hugo再按Tab键，然后按回车，即可将更新的博客自动上传至Github，并以当时的日期为更新备注。
+如有问题，请通过邮箱联系。" />
   <meta property="og:locale" content="en-us" /><meta property="og:image" content="/img/商标.png" />
   
 
@@ -148,15 +152,14 @@ time=$(date &amp;#34;&#43;%Y-%m-%d&amp;#34;) echo $time hugo new posts/$time.md 
           <div class="autoMenu" id="autoMenu" data-autoMenu></div>
           <div class="post-content markdown-body">
             
-            <h2 id="前言">前言</h2>
-<p>我的博客所使用的工具如下</p>
+            <h2 id="我使用的博客工具">我使用的博客工具</h2>
 <ul>
 <li>hugo：博客网站生成工具</li>
 <li>vscode：文件编辑工具</li>
 <li>git：上传文件到Github的工具</li>
 </ul>
-<p>使用 vscode 和 git ，每次更新博客都需要输入一连串重复的代码，那么下面的内容可能会对为此而苦恼的你有所帮助。</p>
-<h3 id="使用vscode和git的不方便之处">使用vscode和git的不方便之处</h3>
+<p>使用 vscode 和 git ，每次更新博客都需要输入一连串重复的代码，那么下面的内容可能会对为此而苦恼的用户有所帮助。</p>
+<h2 id="使用vscode和git的不方便之处">使用vscode和git的不方便之处</h2>
 <ul>
 <li>每次新建文件都需要在vscode的终端输入<code>hugo new posts/新文件名.md</code>来创建新文件</li>
 <li>每次上传文件都需要在vscode的终端输入至少5个指令&hellip;&hellip;<code>hugo</code>、<code>cd public</code>、<code>git add .</code>&hellip;&hellip;</li>
@@ -164,8 +167,8 @@ time=$(date &amp;#34;&#43;%Y-%m-%d&amp;#34;) echo $time hugo new posts/$time.md 
 </ul>
 <p><strong>那么有没有比较好的解决方案呢？</strong>   <br>
 答案是肯定的。</p>
-<h2 id="解决方案">解决方案</h2>
-<h3 id="一键创建新文件">一键创建新文件</h3>
+<h1 id="解决方案">解决方案</h1>
+<h2 id="一键创建新文件">一键创建新文件</h2>
 <p>1、首先，在博客的顶级文件夹创建<code>new.sh</code>文件  <br>
 2、在文件中输入以下内容</p>
 <pre tabindex="0"><code>time=$(date &#34;+%Y-%m-%d&#34;)
@@ -173,6 +176,22 @@ echo $time
 hugo new posts/$time.md
 exit
 </code></pre><p>3、每次新建文件时，在终端输入<code>new</code>再按<code>Tab</code>键，然后按<code>回车</code>键，即可在posts/目录中新建以当天日期为文件名的新文件。</p>
+<h2 id="一键上传文件">一键上传文件</h2>
+<p>1、首先，在博客的顶级文件夹创建<code>hugo.sh</code>文件
+2、在文件中输入以下内容</p>
+<pre tabindex="0"><code>hugo
+time=$(date &#34;+%Y-%m-%d %H:%M:%S&#34;)
+echo $time
+cd public
+git add .
+git commit -m &#34;自动执行构建脚本 🎓$time&#34;
+git push
+exit
+</code></pre><p>3、每次更新（上传）文件时，在终端输入<code>hugo</code>再按<code>Tab</code>键，然后按<code>回车</code>，即可将更新的博客自动上传至Github，并以当时的日期为更新备注。</p>
+<hr>
+<blockquote>
+<p>如有问题，请通过邮箱联系。</p>
+</blockquote>
 
           </div>
 
