@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>python on 1xiao的博客</title>
-    <link>http://1xiaoyuan.github.io/tags/python/</link>
-    <description>Recent content in python on 1xiao的博客</description>
+    <title>python on xiao的博客</title>
+    <link>https://1xiaoyuan.github.io/tags/python/</link>
+    <description>Recent content in python on xiao的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 03 Jan 2023 21:52:45 +0800</lastBuildDate><atom:link href="http://1xiaoyuan.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Jan 2023 21:52:45 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python正则表达式pattern分类</title>
-      <link>http://1xiaoyuan.github.io/archives/python%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8Fpattern%E5%88%86%E7%B1%BB.html/</link>
+      <link>https://1xiaoyuan.github.io/archives/python%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8Fpattern%E5%88%86%E7%B1%BB.html/</link>
       <pubDate>Tue, 03 Jan 2023 21:52:45 +0800</pubDate>
       
-      <guid>http://1xiaoyuan.github.io/archives/python%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8Fpattern%E5%88%86%E7%B1%BB.html/</guid>
+      <guid>https://1xiaoyuan.github.io/archives/python%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8Fpattern%E5%88%86%E7%B1%BB.html/</guid>
       <description>网上的相关资料非常多，但都很乱。于是我做了个分类，一来自己方便查看，二来看到此文章的同仁也能省去些麻烦。
 提示：正则表达式中的 pattern 参数通常都包含反斜杠，为了防止它们被识别为转义字符，最好使用原始字符串 r&#39;&#39; 来表示它们。(如 r&#39;\t&#39;，等价于 \\t )匹配相应的特殊字符。
 使用原始字符串的优点是可以少写\号，代码阅读起来也更容易些。
