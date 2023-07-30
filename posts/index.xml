@@ -6,7 +6,27 @@
     <description>Recent content in 所有文章 on xiao的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 29 Jul 2023 09:41:28 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 30 Jul 2023 09:16:02 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023 07 30 博客写作定位</title>
+      <link>https://1xiaoyuan.github.io/archives/2023-07-30-%E5%8D%9A%E5%AE%A2%E5%86%99%E4%BD%9C%E5%AE%9A%E4%BD%8D.html/</link>
+      <pubDate>Sun, 30 Jul 2023 09:16:02 +0800</pubDate>
+      
+      <guid>https://1xiaoyuan.github.io/archives/2023-07-30-%E5%8D%9A%E5%AE%A2%E5%86%99%E4%BD%9C%E5%AE%9A%E4%BD%8D.html/</guid>
+      <description>为什么写博客？ 写博客给自己带来的好处有？
+推销自己，既廉价又简单的方式； 对比现实，遇见更多的牛人，让更多的人认识自己； 提高自己的思想，沟通技巧（这需要有沟通）； 带来新的流量、新的顾客，顾客和流量能相互转换。 如何打造成功的博客？
+持之以恒地不断更，每周至少1篇，这样每年至少能产出52篇； 高质量内容，对自己、对他人有好处，就会有回报，价值交换才是硬道理； 每篇文章至少应该能够解决一个问题。 想想那些我们愿意主动关注的人吧，他们是不是都在某一领域有自己独特的价值呢？自我营销=证明自己对他人有价值。 跟别人讲“我是这个世界上最酷的博主”对自己并无益处，但如果能够帮助别人解决他遇到的问题，他就会认为你很棒。
+认可了博客能带来的好处、也激发出了打造成功博客的强烈意愿，那么下一个问题就是“该写什么？”
+该写什么？ 解决不知道写什么、觉得没什么可写的最好方法就是在动笔前花一段时间，头脑风暴出各种想法，随时更新这些想法，这样，你总能保持一堆话题可供选择。
+如果实在没有可写的话题，把最近学过的东西中能对大部分人有价值的知识，用自己的话组织起来，用讲述给别人听的方式训练自己的大脑，这样既可以使自己理解透彻，又可以传递一些价值。
+如何衡量写作是否有价值？只需问自己一个问题：这篇文章是否能至少解决一个问题。
+写博客的道路可简单归纳为：发现问题+寻找答案+搜集证据+分享=提供价值。
+我写博客的原则（不定时更新） 以下是我给自己规定的要求
+每周至少1~2篇，一篇文章写3天（养成检查修正补充的习惯）； 定位要明确，以下是我2023聚焦的内容 知识管理 分类、逻辑思维 个人管理系统 学习写作 效率 试试公开 80% 的自己，验证“没有因此损失什么”。 都2023年了，博客的缺点 博客是互联网上的乡村别墅，平台是互联网上的城市广场。都2023年了，现在是互联网平台（抖音、B站、小红书&amp;hellip;&amp;hellip;）占据流量的时代，即便博客内容再精湛也不一定比得上一个普通的UP主的流量，因为大多数人生活在抖音、B站、小红书&amp;hellip;&amp;hellip;酒香也怕巷子深。宣传自己和证明自己（作品）都很重要。
+写博客就要接受一个现实：“博客是小众的狂欢”（流量低）； 还要有一个意识：“应各种平台宣传自己，才能扩大流量”，哪里人多我们就去哪里叫卖（酒）。
+2023-07-30，初版1037字，用时47.40min</description>
+    </item>
+    
     <item>
       <title>2023 07 29 一键完成博客指令</title>
       <link>https://1xiaoyuan.github.io/archives/2023-07-29-%E4%B8%80%E9%94%AE%E5%AE%8C%E6%88%90%E5%8D%9A%E5%AE%A2%E6%8C%87%E4%BB%A4.html/</link>
@@ -333,7 +353,8 @@ jsdelivr 现在该轮到今天的主角了——jsdelivr。
 使用以下代码可以直接上传整个仓库的文件，并且实时更新文件，而不是一次上传一个版本，事实上我觉得这是最方便的做法。
 https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/
 比如我是这么用的：https://cdn.jsdelivr.net/gh/1xiaoyuan/1xiaoyuan.github.io/
-这是后来我才发现的，去掉版本号可以直接上传整个仓库🤷‍♂️ 实时更新真的太爽了。</description>
+这是后来我才发现的，去掉版本号可以直接上传整个仓库🤷‍♂️ 实时更新真的太爽了。
+新方案：cloudflare 2023-07-30，将新域名用 cloudflare 进行CDN托管，速度大大提高。</description>
     </item>
     
     <item>

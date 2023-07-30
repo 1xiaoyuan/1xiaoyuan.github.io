@@ -28,7 +28,8 @@ jsdelivr 现在该轮到今天的主角了——jsdelivr。
 使用以下代码可以直接上传整个仓库的文件，并且实时更新文件，而不是一次上传一个版本，事实上我觉得这是最方便的做法。
 https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/
 比如我是这么用的：https://cdn.jsdelivr.net/gh/1xiaoyuan/1xiaoyuan.github.io/
-这是后来我才发现的，去掉版本号可以直接上传整个仓库🤷‍♂️ 实时更新真的太爽了。</description>
+这是后来我才发现的，去掉版本号可以直接上传整个仓库🤷‍♂️ 实时更新真的太爽了。
+新方案：cloudflare 2023-07-30，将新域名用 cloudflare 进行CDN托管，速度大大提高。</description>
     </item>
     
     <item>
