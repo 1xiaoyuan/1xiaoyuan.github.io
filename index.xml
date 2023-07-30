@@ -8,11 +8,11 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 29 Jul 2023 09:41:28 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2023 07 29 一件完成博客指令</title>
-      <link>https://1xiaoyuan.github.io/archives/2023-07-29-%E4%B8%80%E4%BB%B6%E5%AE%8C%E6%88%90%E5%8D%9A%E5%AE%A2%E6%8C%87%E4%BB%A4.html/</link>
+      <title>2023 07 29 一键完成博客指令</title>
+      <link>https://1xiaoyuan.github.io/archives/2023-07-29-%E4%B8%80%E9%94%AE%E5%AE%8C%E6%88%90%E5%8D%9A%E5%AE%A2%E6%8C%87%E4%BB%A4.html/</link>
       <pubDate>Sat, 29 Jul 2023 09:41:28 +0800</pubDate>
       
-      <guid>https://1xiaoyuan.github.io/archives/2023-07-29-%E4%B8%80%E4%BB%B6%E5%AE%8C%E6%88%90%E5%8D%9A%E5%AE%A2%E6%8C%87%E4%BB%A4.html/</guid>
+      <guid>https://1xiaoyuan.github.io/archives/2023-07-29-%E4%B8%80%E9%94%AE%E5%AE%8C%E6%88%90%E5%8D%9A%E5%AE%A2%E6%8C%87%E4%BB%A4.html/</guid>
       <description>我使用的博客工具 hugo：博客网站生成工具 vscode：文件编辑工具 git：上传文件到Github的工具 使用 vscode 和 git ，每次更新博客都需要输入一连串重复的代码，那么下面的内容可能会对为此而苦恼的用户有所帮助。
 使用vscode和git的不方便之处 每次新建文件都需要在vscode的终端输入hugo new posts/新文件名.md来创建新文件 每次上传文件都需要在vscode的终端输入至少5个指令&amp;hellip;&amp;hellip;hugo、cd public、git add .&amp;hellip;&amp;hellip; 如果每修改并上传一次就要输入5个指令，这很令人产生不快，厌倦 那么有没有比较好的解决方案呢？ 答案是肯定的。
 解决方案 一键创建新文件 1、首先，在博客的顶级文件夹创建new.sh文件 2、在文件中输入以下内容
@@ -116,7 +116,7 @@ ok，扮演伟人的真正目的是：要像伟人一样思考！
       <pubDate>Mon, 08 May 2023 19:40:16 +0800</pubDate>
       
       <guid>https://1xiaoyuan.github.io/archives/2023-05-08-%E4%B8%AA%E4%BA%BA%E7%AE%A1%E7%90%86.html/</guid>
-      <description> 学会休息比学会努力更重要，人的精力有限。
+      <description> 学会休息和学会努力同样重要，人的精力有限。
 拖延症 不过是惰于思考罢了。
 5分钟原则。迟迟不愿行动的事件，先做5分钟就好！ 2分钟原则。如果一件事迟早要做，且两分钟就能搞定，那一刻也不要犹豫。否则小时堆积，要花费更多时间精力（切换）。 拆分任务。太困难导致畏难心理，应该一步一步来。 只需要花费很低的事件。精力成本，就能将看似艰巨的模糊消除。知道中途需要做什么，不用再转移意志力去重新思考。 可以把两个小时当作一个尺度，来分配一个大任务；也可以把任务内容当作尺度来分配。 奖励+延迟。给自己些动力，督促自己完成任务。 手机篇 戒掉手机最好的办法不是远离它，而是占用它。用它开启番茄钟，占用它。 情绪篇 改变心态只需要一分钟，而这一分钟却能改变一整天。 </description>
     </item>
