@@ -35,11 +35,11 @@
     </item>
     
     <item>
-      <title>2023 08 01 任务管理系统——如何制定任务</title>
-      <link>https://1xiaoyuan.github.io/archives/2023-08-01-%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E5%A6%82%E4%BD%95%E5%88%B6%E5%AE%9A%E4%BB%BB%E5%8A%A1.html/</link>
+      <title>个人任务管理系统——如何制定任务</title>
+      <link>https://1xiaoyuan.github.io/archives/%E4%B8%AA%E4%BA%BA%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E5%A6%82%E4%BD%95%E5%88%B6%E5%AE%9A%E4%BB%BB%E5%8A%A1.html/</link>
       <pubDate>Tue, 01 Aug 2023 10:03:12 +0800</pubDate>
       
-      <guid>https://1xiaoyuan.github.io/archives/2023-08-01-%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E5%A6%82%E4%BD%95%E5%88%B6%E5%AE%9A%E4%BB%BB%E5%8A%A1.html/</guid>
+      <guid>https://1xiaoyuan.github.io/archives/%E4%B8%AA%E4%BA%BA%E4%BB%BB%E5%8A%A1%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F%E5%A6%82%E4%BD%95%E5%88%B6%E5%AE%9A%E4%BB%BB%E5%8A%A1.html/</guid>
       <description>本篇文章主题：有根据、有条理地制定任务列表。以及兼容工作和生活的小技巧。
 明确目标 写下自己的年度目标和月度目标和完成目标，以及关键结果。（注意这是两个要求）
 必须明确自己的目标，有方向才不会迷路，有目标才不会漫无目的地浪费时间。 必须知道完成目的需要做什么，x+y=z，从取得结果 z 倒推需要完成的条件 x , y 。 example1：使身体更健康是目标，【达到 70 kg体重、睡眠时间保持 7h 以上、跑步5公里，配速达到4公里/分钟】是关键结果。 example2：通过考试是目标，【数学130分、英语70分】是关键结果。 example3：背500个单词是目标，【一个月后词汇量提升至xxxx】是关键结果。每天的背诵数和背单词的目标关系并不大，这是一个误区。
@@ -55,11 +55,11 @@ ABC清单的核心本质是：能带来报酬的任务就是优先重要的任�
     </item>
     
     <item>
-      <title>2023 07 29 一键完成博客指令</title>
-      <link>https://1xiaoyuan.github.io/archives/2023-07-29-%E4%B8%80%E9%94%AE%E5%AE%8C%E6%88%90%E5%8D%9A%E5%AE%A2%E6%8C%87%E4%BB%A4.html/</link>
+      <title>博客相关——一键完成博客指令</title>
+      <link>https://1xiaoyuan.github.io/archives/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3%E4%B8%80%E9%94%AE%E5%AE%8C%E6%88%90%E5%8D%9A%E5%AE%A2%E6%8C%87%E4%BB%A4.html/</link>
       <pubDate>Sat, 29 Jul 2023 09:41:28 +0800</pubDate>
       
-      <guid>https://1xiaoyuan.github.io/archives/2023-07-29-%E4%B8%80%E9%94%AE%E5%AE%8C%E6%88%90%E5%8D%9A%E5%AE%A2%E6%8C%87%E4%BB%A4.html/</guid>
+      <guid>https://1xiaoyuan.github.io/archives/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3%E4%B8%80%E9%94%AE%E5%AE%8C%E6%88%90%E5%8D%9A%E5%AE%A2%E6%8C%87%E4%BB%A4.html/</guid>
       <description>我使用的博客工具 hugo：博客网站生成工具 vscode：文件编辑工具 git：上传文件到Github的工具 使用 vscode 和 git ，每次更新博客都需要输入一连串重复的代码，那么下面的内容可能会对为此而苦恼的用户有所帮助。
 使用vscode和git的不方便之处 每次新建文件都需要在vscode的终端输入hugo new posts/新文件名.md来创建新文件 每次上传文件都需要在vscode的终端输入至少5个指令&amp;hellip;&amp;hellip;hugo、cd public、git add .&amp;hellip;&amp;hellip; 如果每修改并上传一次就要输入5个指令，这很令人产生不快，厌倦 那么有没有比较好的解决方案呢？ 答案是肯定的。
 解决方案 一键创建新文件 1、首先，在博客的顶级文件夹创建new.sh文件 2、在文件中输入以下内容
