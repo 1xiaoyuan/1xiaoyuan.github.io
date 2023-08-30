@@ -8,11 +8,11 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 05 Jan 2023 20:36:23 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/tags/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>CDN加速</title>
-      <link>https://1xiaoyuan.github.io/archives/cdn%E5%8A%A0%E9%80%9F.html/</link>
+      <title>博客相关——CDN加速</title>
+      <link>https://1xiaoyuan.github.io/archives/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3cdn%E5%8A%A0%E9%80%9F.html/</link>
       <pubDate>Thu, 05 Jan 2023 20:36:23 +0800</pubDate>
       
-      <guid>https://1xiaoyuan.github.io/archives/cdn%E5%8A%A0%E9%80%9F.html/</guid>
+      <guid>https://1xiaoyuan.github.io/archives/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3cdn%E5%8A%A0%E9%80%9F.html/</guid>
       <description>小白互助😄
 Oh，我的网站好慢呐 博客搭在Github的一个缺点是网页访问速度慢，为了解决这个问题，可以借助CDN。
 网页为什么慢，简单地说，就是服务器（Github服务器在国外）和客户端（访问网站的用户）距离太远，资源拉取慢。
@@ -55,11 +55,11 @@ https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/
     </item>
     
     <item>
-      <title>快速搜索网页、打开常用应用</title>
-      <link>https://1xiaoyuan.github.io/archives/%E5%BF%AB%E9%80%9F%E6%90%9C%E7%B4%A2%E7%BD%91%E9%A1%B5%E6%89%93%E5%BC%80%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8.html/</link>
+      <title>常用电脑小技巧——快速搜索网页、打开常用应用</title>
+      <link>https://1xiaoyuan.github.io/archives/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%84%91%E5%B0%8F%E6%8A%80%E5%B7%A7%E5%BF%AB%E9%80%9F%E6%90%9C%E7%B4%A2%E7%BD%91%E9%A1%B5%E6%89%93%E5%BC%80%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8.html/</link>
       <pubDate>Sat, 12 Nov 2022 00:29:17 +0800</pubDate>
       
-      <guid>https://1xiaoyuan.github.io/archives/%E5%BF%AB%E9%80%9F%E6%90%9C%E7%B4%A2%E7%BD%91%E9%A1%B5%E6%89%93%E5%BC%80%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8.html/</guid>
+      <guid>https://1xiaoyuan.github.io/archives/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%84%91%E5%B0%8F%E6%8A%80%E5%B7%A7%E5%BF%AB%E9%80%9F%E6%90%9C%E7%B4%A2%E7%BD%91%E9%A1%B5%E6%89%93%E5%BC%80%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8.html/</guid>
       <description>抛开效率应用不谈，最节省时间的办法是多用键盘，尤其是win键（对windows用户而言）。
 任务栏搜索 任务栏左下角的搜索框，既能搜索并打开本地应用和服务，又能当作互联网搜索引擎使用。使用win键+输入文字也可以直接使用该功能。
 使用方法：

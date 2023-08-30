@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.101.0" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="toTop" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="xiao" />
+  <meta property="og:url" content="https://1xiaoyuan.github.io/archives/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3cdn%E5%8A%A0%E9%80%9F.html/" />
+  <link rel="canonical" href="https://1xiaoyuan.github.io/archives/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3cdn%E5%8A%A0%E9%80%9F.html/" /><link rel="apple-touch-icon" href="/img/%e5%95%86%e6%a0%87.png" />
+  <link rel="icon" href="/img/%e5%95%86%e6%a0%87.png" />
+  <link rel="shortcut" href="/img/%e5%95%86%e6%a0%87.png" /><link rel="alternate" type="application/atom+xml" href="https://1xiaoyuan.github.io/index.xml" title="xiao的博客">
+
+  <script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https:\/\/1xiaoyuan.github.io\/"
+      },
+      "articleSection" : "posts",
+      "name" : "博客相关——CDN加速",
+      "headline" : "博客相关——CDN加速",
+      "description" : "小白互助😄\nOh，我的网站好慢呐 博客搭在Github的一个缺点是网页访问速度慢，为了解决这个问题，可以借助CDN。\n网页为什么慢，简单地说，就是服务器（Github服务器在国外）和客户端（访问网站的用户）距离太远，资源拉取慢。\nCDN，即内容分发网络。它的功能是将指定的资源提前缓存到分布在各个城市的站点（缓存服务器）。这样一来，在用户在访问网站后，数据将直接从距离最近的服务器中获取，无需再从原来那个远在天边的源服务器获取（如果它真的远在天边的话）。\nok，那么接下来的问题就是找到一个能白嫖的CDN了，嘻嘻。\njsdelivr 现在该轮到今天的主角了——jsdelivr。\n配置起来及其简单，你不需要下载任何软件、申请任何账号，甚至只需要在浏览器的地址栏，按照要求的格式输入代码（其实就是一个网址\/url），即可将你Github page上的博客文件上传到jsdelivr的服务器，然后使用他们的服务——CDN加速访问你的博客文件。\n如果你的博客也搭建在Github，那么下面的内容对你会有所帮助。\n首先，为你的Github的博客仓库发布一个release版本（只有这样才能使用jsdelivr）（很简单，需要你自行上网搜一下），然后我来告诉你需要在浏览器地址栏输入的代码：\n注意：下面“你的Github名”、“你的仓库名”、“@发布的版本号”都需要你按照自己的Github来输入，你可以参考该文章末尾处最后一个代码（我的用法）。\n如果想上传博客文件库的某个版本： https:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/@发布的版本号\/ 或者上传版本中的某个文件： https:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/@发布的版本号\/文件名\u002b后缀 或者上传版本中的某个文件夹： https:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/@发布的版本号\/文件夹名\/ 注意结尾的 \/ 号是必须有的。\n成功后会出现已上传的文档页面。然后你可能就会发现自己的网页打开速度飞快，至少比上次快。\n使用以下代码可以直接上传整个仓库的文件，并且实时更新文件，而不是一次上传一个版本，事实上我觉得这是最方便的做法。\nhttps:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/\n比如我是这么用的：https:\/\/cdn.jsdelivr.net\/gh\/1xiaoyuan\/1xiaoyuan.github.io\/\n这是后来我才发现的，去掉版本号可以直接上传整个仓库🤷‍♂️ 实时更新真的太爽了。\n新方案：cloudflare 2023-07-30，将新域名用 cloudflare 进行CDN托管，速度大大提高。",
+      "inLanguage" : "en-US",
+      "author" : "xiao",
+      "creator" : "xiao",
+      "publisher": "xiao",
+      "accountablePerson" : "xiao",
+      "copyrightHolder" : "xiao",
+      "copyrightYear" : "2023",
+      "datePublished": "2023-01-05 20:36:23 \u002b0800 CST",
+      "dateModified" : "2023-01-05 20:36:23 \u002b0800 CST",
+      "url" : "https:\/\/1xiaoyuan.github.io\/archives\/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3cdn%E5%8A%A0%E9%80%9F.html\/",
+      "keywords" : [ "hugo","工具", ]
+  }
+</script><title>博客相关——CDN加速</title>
+  <meta property="og:title" content="博客相关——CDN加速" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="小白互助😄
+Oh，我的网站好慢呐 博客搭在Github的一个缺点是网页访问速度慢，为了解决这个问题，可以借助CDN。
+网页为什么慢，简单地说，就是服务器（Github服务器在国外）和客户端（访问网站的用户）距离太远，资源拉取慢。
+CDN，即内容分发网络。它的功能是将指定的资源提前缓存到分布在各个城市的站点（缓存服务器）。这样一来，在用户在访问网站后，数据将直接从距离最近的服务器中获取，无需再从原来那个远在天边的源服务器获取（如果它真的远在天边的话）。
+ok，那么接下来的问题就是找到一个能白嫖的CDN了，嘻嘻。
+jsdelivr 现在该轮到今天的主角了——jsdelivr。
+配置起来及其简单，你不需要下载任何软件、申请任何账号，甚至只需要在浏览器的地址栏，按照要求的格式输入代码（其实就是一个网址/url），即可将你Github page上的博客文件上传到jsdelivr的服务器，然后使用他们的服务——CDN加速访问你的博客文件。
+如果你的博客也搭建在Github，那么下面的内容对你会有所帮助。
+首先，为你的Github的博客仓库发布一个release版本（只有这样才能使用jsdelivr）（很简单，需要你自行上网搜一下），然后我来告诉你需要在浏览器地址栏输入的代码：
+注意：下面“你的Github名”、“你的仓库名”、“@发布的版本号”都需要你按照自己的Github来输入，你可以参考该文章末尾处最后一个代码（我的用法）。
+如果想上传博客文件库的某个版本： https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/@发布的版本号/ 或者上传版本中的某个文件： https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/@发布的版本号/文件名&#43;后缀 或者上传版本中的某个文件夹： https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/@发布的版本号/文件夹名/ 注意结尾的 / 号是必须有的。
+成功后会出现已上传的文档页面。然后你可能就会发现自己的网页打开速度飞快，至少比上次快。
+使用以下代码可以直接上传整个仓库的文件，并且实时更新文件，而不是一次上传一个版本，事实上我觉得这是最方便的做法。
+https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/
+比如我是这么用的：https://cdn.jsdelivr.net/gh/1xiaoyuan/1xiaoyuan.github.io/
+这是后来我才发现的，去掉版本号可以直接上传整个仓库🤷‍♂️ 实时更新真的太爽了。
+新方案：cloudflare 2023-07-30，将新域名用 cloudflare 进行CDN托管，速度大大提高。" />
+  <meta name="description" content="小白互助😄
+Oh，我的网站好慢呐 博客搭在Github的一个缺点是网页访问速度慢，为了解决这个问题，可以借助CDN。
+网页为什么慢，简单地说，就是服务器（Github服务器在国外）和客户端（访问网站的用户）距离太远，资源拉取慢。
+CDN，即内容分发网络。它的功能是将指定的资源提前缓存到分布在各个城市的站点（缓存服务器）。这样一来，在用户在访问网站后，数据将直接从距离最近的服务器中获取，无需再从原来那个远在天边的源服务器获取（如果它真的远在天边的话）。
+ok，那么接下来的问题就是找到一个能白嫖的CDN了，嘻嘻。
+jsdelivr 现在该轮到今天的主角了——jsdelivr。
+配置起来及其简单，你不需要下载任何软件、申请任何账号，甚至只需要在浏览器的地址栏，按照要求的格式输入代码（其实就是一个网址/url），即可将你Github page上的博客文件上传到jsdelivr的服务器，然后使用他们的服务——CDN加速访问你的博客文件。
+如果你的博客也搭建在Github，那么下面的内容对你会有所帮助。
+首先，为你的Github的博客仓库发布一个release版本（只有这样才能使用jsdelivr）（很简单，需要你自行上网搜一下），然后我来告诉你需要在浏览器地址栏输入的代码：
+注意：下面“你的Github名”、“你的仓库名”、“@发布的版本号”都需要你按照自己的Github来输入，你可以参考该文章末尾处最后一个代码（我的用法）。
+如果想上传博客文件库的某个版本： https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/@发布的版本号/ 或者上传版本中的某个文件： https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/@发布的版本号/文件名&#43;后缀 或者上传版本中的某个文件夹： https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/@发布的版本号/文件夹名/ 注意结尾的 / 号是必须有的。
+成功后会出现已上传的文档页面。然后你可能就会发现自己的网页打开速度飞快，至少比上次快。
+使用以下代码可以直接上传整个仓库的文件，并且实时更新文件，而不是一次上传一个版本，事实上我觉得这是最方便的做法。
+https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/
+比如我是这么用的：https://cdn.jsdelivr.net/gh/1xiaoyuan/1xiaoyuan.github.io/
+这是后来我才发现的，去掉版本号可以直接上传整个仓库🤷‍♂️ 实时更新真的太爽了。
+新方案：cloudflare 2023-07-30，将新域名用 cloudflare 进行CDN托管，速度大大提高。" />
+  <meta property="og:locale" content="en-us" /><meta property="og:image" content="/img/商标.png" />
+  
+
+  <link rel="stylesheet" href="/css/simplebox.min.css">
+  <link rel="stylesheet" href="/css/flexboxgrid-6.3.1.min.css">
+  <link rel="stylesheet" href="/css/index.css">
+
+  <link href="/index.xml" rel="alternate" type="application/rss+xml"
+    title="xiao的博客">
+
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-671ZJMVQN9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-671ZJMVQN9');
+  </script>
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?5f4839173d00c8b0d3dd40533d14450d";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+</head>
+
+
+<body>
+  <article class="post " id="article">
+    <div class="row">
+      <div class="col-xs-12">
+        <div class="site-header">
+          
+
+<div class="progress-bar"></div>
+<header>
+  <div class="header-title">
+    <a href="/">What? Why? How?</a>
+  </div>
+  <div class="header-subtitle"></div>
+</header>
+<div class="row end-md center-xs header-items">
+
+
+  
+  
+  <div class="header-item">
+    <a href="/posts">📁归档</a>
+  </div>
+  
+  <div class="header-item">
+    <a href="/tags1">📌标签</a>
+  </div>
+  
+  <div class="header-item">
+    <a href="/message">📝留言</a>
+  </div>
+  
+  <div class="header-item">
+    <a href="/about">😲关于</a>
+  </div>
+  
+</div>
+
+<div class="header-line"></div>
+        </div>
+        <div class="post-box">
+          <header class="post-header">
+            <h1 class="post-title">博客相关——CDN加速</h1>
+            
+            <div class="row post-desc">
+              <div class="col-xs-6">
+                
+                <time class="post-date" datetime=" 2023-01-05 20:36:23 CST">
+                  发布于 2023-01-05
+                </time>
+                
+              </div>
+              <div class="col-xs-6">
+                
+                <div class="post-author">
+                  <a target="_blank" href="/">@xiao</a>
+                </div>
+                
+              </div>
+            </div>
+            
+          </header>
+          
+          <div class="autoMenu" id="autoMenu" data-autoMenu></div>
+          <div class="post-content markdown-body">
+            
+            <blockquote>
+<p>小白互助😄</p>
+</blockquote>
+<h2 id="oh我的网站好慢呐">Oh，我的网站好慢呐</h2>
+<p>博客搭在Github的一个缺点是网页访问速度慢，为了解决这个问题，可以借助CDN。</p>
+<p>网页为什么慢，简单地说，就是服务器（Github服务器在国外）和客户端（访问网站的用户）距离太远，资源拉取慢。</p>
+<p>CDN，即内容分发网络。它的功能是将指定的资源提前缓存到分布在各个城市的站点（缓存服务器）。这样一来，在用户在访问网站后，数据将直接从距离最近的服务器中获取，无需再从原来那个远在天边的源服务器获取（如果它真的远在天边的话）。</p>
+<p>ok，那么接下来的问题就是找到一个能白嫖的CDN了，嘻嘻。</p>
+<h2 id="jsdelivr">jsdelivr</h2>
+<p>现在该轮到今天的主角了——<a href="https://www.jsdelivr.com/">jsdelivr</a>。</p>
+<p>配置起来及其简单，你不需要下载任何软件、申请任何账号，甚至只需要在浏览器的地址栏，按照要求的格式输入代码（其实就是一个网址/url），即可将你Github page上的博客文件上传到jsdelivr的服务器，然后使用他们的服务——CDN加速访问你的博客文件。</p>
+<p>如果你的博客也搭建在Github，那么下面的内容对你会有所帮助。</p>
+<p>首先，为你的Github的博客仓库发布一个release版本（只有这样才能使用jsdelivr）（很简单，需要你自行上网搜一下），然后我来告诉你需要在浏览器地址栏输入的代码：</p>
+<blockquote>
+<p>注意：下面“你的Github名”、“你的仓库名”、“@发布的版本号”都需要你按照自己的Github来输入，你可以参考该文章末尾处最后一个代码（我的用法）。</p>
+</blockquote>
+<ul>
+<li>如果想上传博客文件库的某个版本：
+<ul>
+<li><code>https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/@发布的版本号/</code></li>
+</ul>
+</li>
+<li>或者上传版本中的某个文件：
+<ul>
+<li><code>https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/@发布的版本号/文件名+后缀</code></li>
+</ul>
+</li>
+<li>或者上传版本中的某个文件夹：
+<ul>
+<li><code>https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/@发布的版本号/文件夹名/</code></li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>注意结尾的 <code>/</code> 号是必须有的。</p>
+</blockquote>
+<blockquote>
+<p>成功后会出现已上传的文档页面。然后你可能就会发现自己的网页打开速度飞快，至少比上次快。</p>
+</blockquote>
+<p>使用以下代码可以直接上传整个仓库的文件，并且实时更新文件，而不是一次上传一个版本，事实上我觉得这是最方便的做法。</p>
+<p><code>https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/</code></p>
+<p>比如我是这么用的：<code>https://cdn.jsdelivr.net/gh/1xiaoyuan/1xiaoyuan.github.io/</code></p>
+<blockquote>
+<p>这是后来我才发现的，去掉版本号可以直接上传整个仓库🤷‍♂️ 实时更新真的太爽了。</p>
+</blockquote>
+<h2 id="新方案cloudflare">新方案：cloudflare</h2>
+<blockquote>
+<p>2023-07-30，将新域名用 <a href="https://www.cloudflare-cn.com/">cloudflare</a> 进行CDN托管，速度大大提高。</p>
+</blockquote>
+
+          </div>
+
+          
+          <div class="row middle-xs">
+            <div class="col-xs-12">
+              
+              <div class="post-tags">
+                <a href="/tags/hugo/">
+                  hugo
+                </a>
+              </div>
+              
+              <div class="post-tags">
+                <a href="/tags/%E5%B7%A5%E5%85%B7/">
+                  工具
+                </a>
+              </div>
+              
+            </div>
+          </div>
+          <br>
+
+          
+          
+          <div class="cate">
+            <div class="posts-line"><a class="post-tags" href="/archives/%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85%E7%BB%8F%E5%85%B8%E8%AF%AD%E5%BD%95.html/" data-toggle="tooltip" data-placement="top" title="火影忍者经典语录">
+              Last-Python正则表达式pattern分类</a></div>
+            <div class="posts-line"><a class="post-tags" href="/archives/%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85%E7%BB%8F%E5%85%B8%E8%AF%AD%E5%BD%95.html/" data-toggle="tooltip" data-placement="top" title="火影忍者经典语录">
+              Nest-火影忍者经典语录</a></div>
+          </div>
+          
+          
+
+      
+
+          
+          <div class="row">
+            <div class="col-xs-12">
+              
+            </div>
+          </div>
+
+          
+
+        
+        <div style="height:15px;"></div>
+        <div class="post-box">
+          <div class="post-comments">
+            
+            <div class="giscus"></div>
+<script src="https://utteranc.es/client.js"
+    repo="1xiaoyuan/comment"
+    issue-term="pathname"
+    theme="github-light"
+    crossorigin="anonymous"
+    async>
+</script>
+
+          </div>
+          
+        </div>
+        
+        <div class="site-footer">
+  <div>
+    © 2022-<span id="year"></span> ·
+    <a href="https://beian.miit.gov.cn/" target="_blank">
+      <span></span>
+    </a>
+    · 网站运行: <span id="days">0</span> 天
+  </div>
+  
+</div>
+<div class="canvas-wrap">
+  <canvas id="canvas"></canvas>
+</div>
+<div id="toTop">
+  Top!!
+</div>
+<script>
+  var s0 = '2022-10-20';
+  s1 = new Date(s0.replace(/-/g, "/"));
+  s2 = new Date();
+  var days = s2.getTime() - s1.getTime();
+  var number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
+  document.getElementById('days').innerHTML = number_of_days;
+
+  var date = new Date;
+  var year = date.getFullYear();
+  document.getElementById('year').innerHTML = year;
+</script>
+      </div>
+    </div>
+  </article>
+
+  <script src="https://cdn.zburu.com/list/jquery3.6.0.js"></script>
+
+
+
+<script src="/js/toc.js"></script>
+<script src="/js/simplebox.min.js"></script>
+<script src="/js/canvas.js"></script>
+<script src="/js/main.js"></script>
+  
+
+</body>
+
+</html>
