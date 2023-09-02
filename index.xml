@@ -42,7 +42,7 @@
 反过来想一想，如果像记日记/日志一样记笔记，所有科目的笔记都“以日期为单位”记录在同一个笔记本上，最终想要复习某一门具体的课，一定需要二次整理自己的笔记（把语文整理在一起、数学整理在一起&amp;hellip;&amp;hellip;），如果一个本子上什么都记，这不就是舍近求远了吗？我们完全可以在一开始就准备多个笔记本，用一个笔记本专门记录一门课的知识。
 这给我的启发是：日记本不一定只能有一个；以日期为单位记录日记的方法对“复盘”的作用很有可能是舍近求远，需要二次整理。解决这个问题的关键就是，解决二次整理的问题。
 最终的解决方案 像笔记一样一门课用一个本子，我将用于复盘的日记和用于记录生活感知的日记分开，并且用多个笔记本记录。
-明确目标。我可能需要一个跑步日记本、一个阅读日记本、一个写作日记本、一个饮食日记本&amp;hellip;&amp;hellip; 软件选择WPS。解决可检索、易记录的需求。一个日记本就是一个Excel文件。 使用模板。解决易于复盘和阅读的需求。这是最关键的一步。 模板如下
+明确目标。我可能需要一个跑步日记本、一个阅读日记本、一个写作日记本、一个饮食日记本&amp;hellip;&amp;hellip; 软件选择WPS。解决可检索、易记录的需求。一个日记本就是一个Excel文件。 使用模板。解决易于复盘和阅读的需求。这是最关键的一步。 模板如下，一个Excel文件中创建12张表，对应12个月；
 为什么是十年？ 用10年专攻某个领域，做到有所作为 让生活的过程可视化 </description>
     </item>
     
@@ -118,25 +118,23 @@ hugo time=$(date &amp;#34;+%Y-%m-%d %H:%M:%S&amp;#34;) echo $time cd public git 
     </item>
     
     <item>
-      <title>周记2</title>
-      <link>https://1xiaoyuan.github.io/archives/%E5%91%A8%E8%AE%B02.html/</link>
+      <title>生活随想2</title>
+      <link>https://1xiaoyuan.github.io/archives/%E7%94%9F%E6%B4%BB%E9%9A%8F%E6%83%B32.html/</link>
       <pubDate>Mon, 24 Jul 2023 21:51:32 +0800</pubDate>
       
-      <guid>https://1xiaoyuan.github.io/archives/%E5%91%A8%E8%AE%B02.html/</guid>
-      <description>长跑一次4km 读完两本英文小小说《神奇树屋》1＋2
-1本短篇《奇特的一生》
-启发：梳理正确的时间观念换人生目标的重要性。
+      <guid>https://1xiaoyuan.github.io/archives/%E7%94%9F%E6%B4%BB%E9%9A%8F%E6%83%B32.html/</guid>
+      <description>本周 长跑一次4km 读完两本英文小小说《神奇树屋》1＋2 1本短篇《奇特的一生》 笔记 启发：梳理正确的时间观念换人生目标的重要性。
 简述：讲述了柳比歇夫的时间记账，他的时间观念是「人除了时间一无所有，时间是人唯一的资产」，50多年不曾间断地记录每天的时间“开支”，记录内容为「事件+所属分类＋用时」，不同的是他的记录没有思考、没有细节，只有客观的流水账。 这样一个怪人，取得了不凡的成就。奇特的一生，与他有清晰的目标关系重大，能够把事件明确投入到最重要的事情中去。 清晰的目标+事件的分类+客观的数据+阶段性总结（效率有什么变化、什么没有变化、为什么&amp;hellip;&amp;hellip;）——结果可衡量+客观分析自我。 以上为个人感悟。
 听说幸福的人不看表（不受时间束缚）。
 缺乏分类学知识。 不要炫耀，这是“多余动作”。 减少“工具”，控制APP的数量。 </description>
     </item>
     
     <item>
-      <title>周记1</title>
-      <link>https://1xiaoyuan.github.io/archives/%E5%91%A8%E8%AE%B01.html/</link>
+      <title>生活随想1</title>
+      <link>https://1xiaoyuan.github.io/archives/%E7%94%9F%E6%B4%BB%E9%9A%8F%E6%83%B31.html/</link>
       <pubDate>Mon, 03 Jul 2023 21:18:49 +0800</pubDate>
       
-      <guid>https://1xiaoyuan.github.io/archives/%E5%91%A8%E8%AE%B01.html/</guid>
+      <guid>https://1xiaoyuan.github.io/archives/%E7%94%9F%E6%B4%BB%E9%9A%8F%E6%83%B31.html/</guid>
       <description>本周指：6-26~7-2
 我的本周 本学期丢失了第二张校园卡，怀疑凶手是某条裤子 连续成功日志第5天，连续运动第5天 考试3天，造价4天（外加今天） 本周输出 1、谨慎选择你的竞争对手，因为最终你们会变得很像。
 总是研究谁，羡慕谁，你就会模仿谁的行为，最后你可能就会成为谁。
@@ -602,8 +600,8 @@ cd public git init git remote add origin https://github.</description>
       
       <guid>https://1xiaoyuan.github.io/about/</guid>
       <description>个人说明 欢迎观临，我是1xiao。
-建设这个网站的目的？ 整理一些自己平时遇到的问题。 记录生活。
-2023年下半年聚焦：找工作、个人管理系统的搭建（信息处理、任务管理、精力管理）。
+建设这个网站的目的？ 直面问题，解决问题，记录过程。
+2023年下半年聚焦：找工作（最理想的工作是管理沟通类职位）、个人管理系统的搭建（信息处理、任务管理、精力管理）。
 📩E-mail: auesc@foxmail.com</description>
     </item>
     
