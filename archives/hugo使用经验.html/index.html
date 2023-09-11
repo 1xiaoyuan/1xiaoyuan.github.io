@@ -24,7 +24,7 @@
       "articleSection" : "posts",
       "name" : "Hugo使用经验",
       "headline" : "Hugo使用经验",
-      "description" : "为了防止时间太久忘记方法，建站的关键知识点还是要记录一下的。\n大人，时代变了 最初我打算自己写出整个网站（现在想想真傻），于是学了一些html和css知识。后来打开第一个txt文件准备动手写主页html文件时，我发现，我一点也写不下去，几个标签下来就厌倦不已，想完全掌握并熟练运用这些知识需要很长时间，就算掌握了它们，写出漂亮页面还需要想象力和创造力——短期内根本不可能写出完整的网页。最重要的是它们非常繁琐，一个人要投入多少时间精力才能搞定所有工作啊！\n后来看到网友的一句话——独自造轮子的时代已经结束了，前人已经帮你把模型调好了——我才恍然大悟。我们这个时代太快了，闭门造车的做法很是愚蠢，学会借力前行才是。所以后来果断选择使用hugo引擎来做网站——它的作用是，你给出参数（模型），它负责组装。\n不过html和css知识也没有白学，因为对网页结构有了解的话，知道什么是标签，什么是属性和值，以及它们的基本规则，与网页打交道时很有帮助，才有可能根据自己喜好修改主题的细节。\n选择Hugo 网站生成器有很多，我看到许多人建站都会经历兜兜转转的过程，工具从wordpress到hexo，再到hugo，再到wordpress\u0026hellip;\u0026hellip;所以我想避免这个坑，于是在开始动手之前花了许久做决定，我的要求是经济、高效、方便——Hugo最适合不过了——静态网页经济安全，Hugo生成速度最快，也不需要服务器。\n文件目录 这是每个文件夹存放的内容及其作用的标准格式。\narchetypes 在default.md文件中存放文章页面参数 content 存放所有文章，如关于、分类、以及每篇文章 layouts：存放生成页面所使用的模板、参数 _default 页面模板 如list.html是列表页的模板，page.html是普通页的模板 hugo渲染并生成页面的本质：内容\u002b模板=页面 partials 配件模板 如footer.html是页面底部区域的模板，header.html是页面头部的模板 页面模板中常会引用这些配件模板 shortcodes 短代码 在文章中固定格式的简洁代码，如引用bilibili的视频，插入网易云的音乐，所使用的代码存放在这里 这个思维导图，以及顶部的音乐都是短代码的功劳 如有需要，欢迎留言 static img 存放图像 css css模板 css的作用是让页面更漂亮，就像穿了新衣服 js JavaScript themes 存放所有的主题 代码 Hugo 查看版本：hugo version 新建库：hugo new site 666 在当前目录下，新建一个名为\u0026quot;666\u0026quot;的文件夹，其中内置应有的结构 新建文章： hugo new post\/name.md 意思是在content\/post文件夹内，生成一个名为name.md的文件 生成网页： hugo 将在父文件夹中生成public文件夹，存放着已经渲染好的所有页面 查看效果： hugo server 返回一个网址，你可以使用自己的浏览器来实时查看自己的页面效果 主题 我用的笨方法，下载主题zip包并解压到themes文件夹，之后在config文件中设置theme参数为主题名。 Github 初始化配置\ncd public git init git remote add origin https:\/\/github.",
+      "description" : "为了防止时间太久忘记方法，建站的关键知识点还是要记录一下的。\n大人，时代变了 最初我打算自己写出整个网站（现在想想真傻），于是学了一些html和css知识。后来打开第一个txt文件准备动手写主页html文件时，我发现，我一点也写不下去，几个标签下来就厌倦不已，想完全掌握并熟练运用这些知识需要很长时间，就算掌握了它们，写出漂亮页面还需要想象力和创造力——短期内根本不可能写出完整的网页。最重要的是它们非常繁琐，一个人要投入多少时间精力才能搞定所有工作啊！\n后来看到网友的一句话——独自造轮子的时代已经结束了，前人已经帮你把模型调好了——我才恍然大悟。我们这个时代太快了，闭门造车的做法很是愚蠢，学会借力前行才是。所以后来果断选择使用hugo引擎来做网站——它的作用是，你给出参数（模型），它负责组装。\n不过html和css知识也没有白学，因为对网页结构有了解的话，知道什么是标签，什么是属性和值，以及它们的基本规则，与网页打交道时很有帮助，才有可能根据自己喜好修改主题的细节。\n选择Hugo 网站生成器有很多，我看到许多人建站都会经历兜兜转转的过程，工具从wordpress到hexo，再到hugo，再到wordpress\u0026hellip;\u0026hellip;所以我想避免这个坑，于是在开始动手之前花了许久做决定，我的要求是经济、高效、方便——Hugo最适合不过了——静态网页经济安全，Hugo生成速度最快，也不需要服务器。\n文件目录 这是每个文件夹存放的内容及其作用的标准格式。\narchetypes 在default.md文件中存放文章页面参数 content 存放所有文章，如关于、分类、以及每篇文章 layouts：存放生成页面所使用的模板、参数 _default 页面模板 如list.html是列表页的模板，page.html是普通页的模板 hugo渲染并生成页面的本质：内容\u002b模板=页面 partials 配件模板 如footer.html是页面底部区域的模板，header.html是页面头部的模板 页面模板中常会引用这些配件模板 shortcodes 短代码 在文章中固定格式的简洁代码，如引用bilibili的视频，插入网易云的音乐，所使用的代码存放在这里 这个思维导图，以及顶部的音乐都是短代码的功劳 如有需要，欢迎留言 static img 存放图像 css css模板 css的作用是让页面更漂亮，就像穿了新衣服 js JavaScript themes 存放所有的主题 代码 Hugo 查看版本：hugo version 新建库：hugo new site 666 在当前目录下，新建一个名为\u0026quot;666\u0026quot;的文件夹，其中内置应有的结构 新建文章： hugo new post\/name.md 意思是在content\/post文件夹内，生成一个名为name.md的文件 生成网页： hugo 将在父文件夹中生成public文件夹，存放着已经渲染好的所有页面 查看效果： hugo server 返回一个网址，你可以使用自己的浏览器来实时查看自己的页面效果 主题 我用的笨方法，下载主题zip包并解压到themes文件夹，之后在config文件中设置theme参数为主题名。 站内引用文章 知道越多越不快乐？：[知道越多越不快乐](https:\/\/1xiaoyuan.github.io\/archives\/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%95%BF%E5%A4%A7%E5%90%8E%E4%BC%9A%E5%8F%98%E5%BE%97%E4%B8%8D%E5%BF%AB%E4%B9%90.html\/) 引用图片 ![实例](\/img\/posts\/实例.png) Github 初始化配置\ncd public git init git remote add origin https:\/\/github.",
       "inLanguage" : "en-US",
       "author" : "xiao",
       "creator" : "xiao",
@@ -46,7 +46,7 @@
 不过html和css知识也没有白学，因为对网页结构有了解的话，知道什么是标签，什么是属性和值，以及它们的基本规则，与网页打交道时很有帮助，才有可能根据自己喜好修改主题的细节。
 选择Hugo 网站生成器有很多，我看到许多人建站都会经历兜兜转转的过程，工具从wordpress到hexo，再到hugo，再到wordpress&amp;hellip;&amp;hellip;所以我想避免这个坑，于是在开始动手之前花了许久做决定，我的要求是经济、高效、方便——Hugo最适合不过了——静态网页经济安全，Hugo生成速度最快，也不需要服务器。
 文件目录 这是每个文件夹存放的内容及其作用的标准格式。
-archetypes 在default.md文件中存放文章页面参数 content 存放所有文章，如关于、分类、以及每篇文章 layouts：存放生成页面所使用的模板、参数 _default 页面模板 如list.html是列表页的模板，page.html是普通页的模板 hugo渲染并生成页面的本质：内容&#43;模板=页面 partials 配件模板 如footer.html是页面底部区域的模板，header.html是页面头部的模板 页面模板中常会引用这些配件模板 shortcodes 短代码 在文章中固定格式的简洁代码，如引用bilibili的视频，插入网易云的音乐，所使用的代码存放在这里 这个思维导图，以及顶部的音乐都是短代码的功劳 如有需要，欢迎留言 static img 存放图像 css css模板 css的作用是让页面更漂亮，就像穿了新衣服 js JavaScript themes 存放所有的主题 代码 Hugo 查看版本：hugo version 新建库：hugo new site 666 在当前目录下，新建一个名为&amp;quot;666&amp;quot;的文件夹，其中内置应有的结构 新建文章： hugo new post/name.md 意思是在content/post文件夹内，生成一个名为name.md的文件 生成网页： hugo 将在父文件夹中生成public文件夹，存放着已经渲染好的所有页面 查看效果： hugo server 返回一个网址，你可以使用自己的浏览器来实时查看自己的页面效果 主题 我用的笨方法，下载主题zip包并解压到themes文件夹，之后在config文件中设置theme参数为主题名。 Github 初始化配置
+archetypes 在default.md文件中存放文章页面参数 content 存放所有文章，如关于、分类、以及每篇文章 layouts：存放生成页面所使用的模板、参数 _default 页面模板 如list.html是列表页的模板，page.html是普通页的模板 hugo渲染并生成页面的本质：内容&#43;模板=页面 partials 配件模板 如footer.html是页面底部区域的模板，header.html是页面头部的模板 页面模板中常会引用这些配件模板 shortcodes 短代码 在文章中固定格式的简洁代码，如引用bilibili的视频，插入网易云的音乐，所使用的代码存放在这里 这个思维导图，以及顶部的音乐都是短代码的功劳 如有需要，欢迎留言 static img 存放图像 css css模板 css的作用是让页面更漂亮，就像穿了新衣服 js JavaScript themes 存放所有的主题 代码 Hugo 查看版本：hugo version 新建库：hugo new site 666 在当前目录下，新建一个名为&amp;quot;666&amp;quot;的文件夹，其中内置应有的结构 新建文章： hugo new post/name.md 意思是在content/post文件夹内，生成一个名为name.md的文件 生成网页： hugo 将在父文件夹中生成public文件夹，存放着已经渲染好的所有页面 查看效果： hugo server 返回一个网址，你可以使用自己的浏览器来实时查看自己的页面效果 主题 我用的笨方法，下载主题zip包并解压到themes文件夹，之后在config文件中设置theme参数为主题名。 站内引用文章 知道越多越不快乐？：[知道越多越不快乐](https://1xiaoyuan.github.io/archives/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%95%BF%E5%A4%A7%E5%90%8E%E4%BC%9A%E5%8F%98%E5%BE%97%E4%B8%8D%E5%BF%AB%E4%B9%90.html/) 引用图片 ![实例](/img/posts/实例.png) Github 初始化配置
 cd public git init git remote add origin https://github." />
   <meta name="description" content="为了防止时间太久忘记方法，建站的关键知识点还是要记录一下的。
 大人，时代变了 最初我打算自己写出整个网站（现在想想真傻），于是学了一些html和css知识。后来打开第一个txt文件准备动手写主页html文件时，我发现，我一点也写不下去，几个标签下来就厌倦不已，想完全掌握并熟练运用这些知识需要很长时间，就算掌握了它们，写出漂亮页面还需要想象力和创造力——短期内根本不可能写出完整的网页。最重要的是它们非常繁琐，一个人要投入多少时间精力才能搞定所有工作啊！
@@ -54,7 +54,7 @@ cd public git init git remote add origin https://github." />
 不过html和css知识也没有白学，因为对网页结构有了解的话，知道什么是标签，什么是属性和值，以及它们的基本规则，与网页打交道时很有帮助，才有可能根据自己喜好修改主题的细节。
 选择Hugo 网站生成器有很多，我看到许多人建站都会经历兜兜转转的过程，工具从wordpress到hexo，再到hugo，再到wordpress&amp;hellip;&amp;hellip;所以我想避免这个坑，于是在开始动手之前花了许久做决定，我的要求是经济、高效、方便——Hugo最适合不过了——静态网页经济安全，Hugo生成速度最快，也不需要服务器。
 文件目录 这是每个文件夹存放的内容及其作用的标准格式。
-archetypes 在default.md文件中存放文章页面参数 content 存放所有文章，如关于、分类、以及每篇文章 layouts：存放生成页面所使用的模板、参数 _default 页面模板 如list.html是列表页的模板，page.html是普通页的模板 hugo渲染并生成页面的本质：内容&#43;模板=页面 partials 配件模板 如footer.html是页面底部区域的模板，header.html是页面头部的模板 页面模板中常会引用这些配件模板 shortcodes 短代码 在文章中固定格式的简洁代码，如引用bilibili的视频，插入网易云的音乐，所使用的代码存放在这里 这个思维导图，以及顶部的音乐都是短代码的功劳 如有需要，欢迎留言 static img 存放图像 css css模板 css的作用是让页面更漂亮，就像穿了新衣服 js JavaScript themes 存放所有的主题 代码 Hugo 查看版本：hugo version 新建库：hugo new site 666 在当前目录下，新建一个名为&amp;quot;666&amp;quot;的文件夹，其中内置应有的结构 新建文章： hugo new post/name.md 意思是在content/post文件夹内，生成一个名为name.md的文件 生成网页： hugo 将在父文件夹中生成public文件夹，存放着已经渲染好的所有页面 查看效果： hugo server 返回一个网址，你可以使用自己的浏览器来实时查看自己的页面效果 主题 我用的笨方法，下载主题zip包并解压到themes文件夹，之后在config文件中设置theme参数为主题名。 Github 初始化配置
+archetypes 在default.md文件中存放文章页面参数 content 存放所有文章，如关于、分类、以及每篇文章 layouts：存放生成页面所使用的模板、参数 _default 页面模板 如list.html是列表页的模板，page.html是普通页的模板 hugo渲染并生成页面的本质：内容&#43;模板=页面 partials 配件模板 如footer.html是页面底部区域的模板，header.html是页面头部的模板 页面模板中常会引用这些配件模板 shortcodes 短代码 在文章中固定格式的简洁代码，如引用bilibili的视频，插入网易云的音乐，所使用的代码存放在这里 这个思维导图，以及顶部的音乐都是短代码的功劳 如有需要，欢迎留言 static img 存放图像 css css模板 css的作用是让页面更漂亮，就像穿了新衣服 js JavaScript themes 存放所有的主题 代码 Hugo 查看版本：hugo version 新建库：hugo new site 666 在当前目录下，新建一个名为&amp;quot;666&amp;quot;的文件夹，其中内置应有的结构 新建文章： hugo new post/name.md 意思是在content/post文件夹内，生成一个名为name.md的文件 生成网页： hugo 将在父文件夹中生成public文件夹，存放着已经渲染好的所有页面 查看效果： hugo server 返回一个网址，你可以使用自己的浏览器来实时查看自己的页面效果 主题 我用的笨方法，下载主题zip包并解压到themes文件夹，之后在config文件中设置theme参数为主题名。 站内引用文章 知道越多越不快乐？：[知道越多越不快乐](https://1xiaoyuan.github.io/archives/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%95%BF%E5%A4%A7%E5%90%8E%E4%BC%9A%E5%8F%98%E5%BE%97%E4%B8%8D%E5%BF%AB%E4%B9%90.html/) 引用图片 ![实例](/img/posts/实例.png) Github 初始化配置
 cd public git init git remote add origin https://github." />
   <meta property="og:locale" content="en-us" /><meta property="og:image" content="/img/商标.png" />
   
@@ -257,6 +257,16 @@ cd public git init git remote add origin https://github." />
 <li><strong>主题</strong>
 <ul>
 <li>我用的笨方法，下载主题zip包并解压到themes文件夹，之后在config文件中设置<code>theme</code>参数为主题名。</li>
+</ul>
+</li>
+<li><strong>站内引用文章</strong>
+<ul>
+<li><a href="https://1xiaoyuan.github.io/archives/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%95%BF%E5%A4%A7%E5%90%8E%E4%BC%9A%E5%8F%98%E5%BE%97%E4%B8%8D%E5%BF%AB%E4%B9%90.html/">知道越多越不快乐？</a>：<code>[知道越多越不快乐](https://1xiaoyuan.github.io/archives/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%95%BF%E5%A4%A7%E5%90%8E%E4%BC%9A%E5%8F%98%E5%BE%97%E4%B8%8D%E5%BF%AB%E4%B9%90.html/)</code></li>
+</ul>
+</li>
+<li>引用图片
+<ul>
+<li><code>![实例](/img/posts/实例.png)</code></li>
 </ul>
 </li>
 </ul>
