@@ -6,7 +6,27 @@
     <description>Recent content on xiao的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 06 Sep 2023 09:00:33 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Sep 2023 20:43:35 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2023，我的职业规划</title>
+      <link>https://1xiaoyuan.github.io/archives/2023%E6%88%91%E7%9A%84%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92.html/</link>
+      <pubDate>Wed, 20 Sep 2023 20:43:35 +0800</pubDate>
+      
+      <guid>https://1xiaoyuan.github.io/archives/2023%E6%88%91%E7%9A%84%E8%81%8C%E4%B8%9A%E8%A7%84%E5%88%92.html/</guid>
+      <description>引言 千里马常有，而伯乐不常有。故虽有名马，祇辱于奴隶人之手，骈死于槽枥之间，不以千里称也。——《马说》
+试错的成本并不高，而错过的成本非常高。——雷军
+前言 我是1xiao，这篇blog讲述了我在大学临近毕业的时候，对自己将来人生的职业思考。
+应届毕业生，选择的路无非三条：考研、就业、考公。可是大多数人从来没有一个明确的职业规划，我就没有。好在现在有了。
+2023年5月下旬，我很迷茫，即使每天都在为考研做准备，但还是因为一些原因和中铁十一局签了《就业意向书》。
+2023年7月，我很虚无，我可能不适合考研，但家人并不支持&amp;hellip;&amp;hellip;
+2023年9月，我很焦虑，中铁的三方协议向我发起邀约，我真的要进入土木当牛马了吗？
+我必须做点什么，思考自己究竟想做什么。。。
+我的思路 假如进了土木，
+地理位置：施工单位需要跟着项目走，中铁的项目铁路、地铁较多，项目都在人烟稀少之地； 工作环境：全是露天作业，风吹日晒，B站大猛子已经被摧残的像各40岁的中间人了； 人脉圈子：前几年跟着项目走，平日里接触的大多会是农民工，就算未来升职了，接触到的也只是土木人； 职业前途：传统行业是旧的既得利益者已制定好的体系，关系户较多，职业发展较难； 工作强度：风吹日晒非常消磨精力，学习？几乎不可能。晚上学？加班严重，做梦吧； 技能积累：除了用于土木领域，无法转行； 社交氛围：接触到的人文化程度较低、年龄较大，社交环境会比较差。 于是我开始思考我是谁，
+我想要工作之余，有一个能够阅读的环境； 我很想要做不确定性更大的事，不想走已知晓答案的职业路线（有种认命的绝望感）； 做有益于社会的事，我希望能得到及时的反馈； 我认为活着是为了创造，本科生进入土木行业，没什么可研究、创造的，只有重复； 我希望我的工作是一场无限游戏，能够让我积累“受益终生”的技能； 我希望我能和年轻人一起工作，而不是走在社会边缘，过时落伍； 我希望我的工作能和 OpenAI 类工具相关，谁都知道它是未来的钥匙； 我希望我能有周末假期，去参加交流会、培训课，去认识更多的人，土木行业不可能满足这一条件； 我希望我能在一线城市工作，那里的机会多。 可以预见，假如我第一个职业是土木，我必然会跳槽。既然早晚要跳槽，那不如第一份工作就跳槽。只不过我没有其他行业的实习经历，大四的秋招只能错过。
+2023-09-20 晚21:42，已写50+min，剩下的明天写。</description>
+    </item>
+    
     <item>
       <title>flomo标签系统设计</title>
       <link>https://1xiaoyuan.github.io/archives/flomo%E6%A0%87%E7%AD%BE%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1.html/</link>
@@ -19,16 +39,6 @@
 标签体系解读 所有“置顶标签”都是索引卡片。（红色） 所有以“0”为开头的标签都是内容卡片。（蓝色） 举个例子
 置顶标签 1.复盘 的子标签包括： 1.复盘/决策日志，1.复盘/人生系统，1.复盘/生活观察记。这些子标签都可以在全部标签中找到，它们的共同特征是：都是以“01.”为开头的标签，如 01.决策日志。
 卡片笔记的重点就在于，有两个卡片盒，一个用来存放内容本身，一个用来存放经过思考后对知识的串联（索引卡片）。而我就是要利用“置顶”这个功能和数字排序这两个设计，在一个软件中制造出两个卡片盒。</description>
-    </item>
-    
-    <item>
-      <title>效率提升——AutoHotkey 源码分享</title>
-      <link>https://1xiaoyuan.github.io/archives/%E6%95%88%E7%8E%87%E6%8F%90%E5%8D%87autohotkey-%E6%BA%90%E7%A0%81%E5%88%86%E4%BA%AB.html/</link>
-      <pubDate>Fri, 25 Aug 2023 15:07:24 +0800</pubDate>
-      
-      <guid>https://1xiaoyuan.github.io/archives/%E6%95%88%E7%8E%87%E6%8F%90%E5%8D%87autohotkey-%E6%BA%90%E7%A0%81%E5%88%86%E4%BA%AB.html/</guid>
-      <description>介绍 AutoHotKey是一款通过自己编写代码，设置电脑快捷键完成某种指令，从而达到“高效完成某些电脑操作”的需求，掌握此工具，工作效率将大大提升。
-你可以用1秒按下快捷键，秒回复一段早已编辑好的文字。（传统方法是：打开文本-复制-切换窗口-粘贴） 源码分享 !n::Run notepad ;===置顶与取消 #t:: WinSet AlwaysOnTop,On,A return #y:: WinSet AlwaysOnTop,Off,A return !w::!F4 return ;===打开应用======================= &amp;gt;!s:: Run D:\documents\auto\时钟 return !t:: Run D:\documents\auto\Microsoft To Do return !u:: Run D:\documents\auto\uTools return &amp;gt;!q:: Run D:\documents\auto\腾讯QQ return !o:: Run D:\documents\auto\Obsidian return !v:: Run D:\documents\auto\Visual Studio Code return !j:: Run D:\documents\auto\计算器 return &amp;gt;!w:: Run D:\documents\auto\微信 return &amp;gt;!e:: Run D:\documents\auto\时间 return ^1:: send !s send !t return ;关闭操作 #Esc::Send !{F4} ;===打开网站=========================== &amp;gt;^9:: Run https://dict.</description>
     </item>
     
     <item>
