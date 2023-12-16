@@ -11,7 +11,7 @@
   <meta property="og:url" content="https://1xiaoyuan.github.io/archives/%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E5%8A%A0%E9%80%9F%E6%96%B9%E6%A1%88.html/" />
   <link rel="canonical" href="https://1xiaoyuan.github.io/archives/%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E5%8A%A0%E9%80%9F%E6%96%B9%E6%A1%88.html/" /><link rel="apple-touch-icon" href="/img/%e5%95%86%e6%a0%87.png" />
   <link rel="icon" href="/img/%e5%95%86%e6%a0%87.png" />
-  <link rel="shortcut" href="/img/%e5%95%86%e6%a0%87.png" /><link rel="alternate" type="application/atom+xml" href="https://1xiaoyuan.github.io/index.xml" title="xiao的博客">
+  <link rel="shortcut" href="/img/%e5%95%86%e6%a0%87.png" /><link rel="alternate" type="application/atom+xml" href="https://1xiaoyuan.github.io/index.xml" title="抓住生活的尾巴">
 
   <script type="application/ld+json">
   {
@@ -24,7 +24,7 @@
       "articleSection" : "posts",
       "name" : "博客的CDN加速方案",
       "headline" : "博客的CDN加速方案",
-      "description" : "小白互助😄\nOh，我的网站好慢呐 博客搭在Github的一个缺点是网页访问速度慢，为了解决这个问题，可以借助CDN。\n网页为什么慢，简单地说，就是服务器（Github服务器在国外）和客户端（访问网站的用户）距离太远，资源拉取慢。\nCDN，即内容分发网络。它的功能是将指定的资源提前缓存到分布在各个城市的站点（缓存服务器）。这样一来，在用户在访问网站后，数据将直接从距离最近的服务器中获取，无需再从原来那个远在天边的源服务器获取（如果它真的远在天边的话）。\nok，那么接下来的问题就是找到一个能白嫖的CDN了，嘻嘻。\njsdelivr 现在该轮到今天的主角了——jsdelivr。\n配置起来及其简单，你不需要下载任何软件、申请任何账号，甚至只需要在浏览器的地址栏，按照要求的格式输入代码（其实就是一个网址\/url），即可将你Github page上的博客文件上传到jsdelivr的服务器，然后使用他们的服务——CDN加速访问你的博客文件。\n如果你的博客也搭建在Github，那么下面的内容对你会有所帮助。\n首先，为你的Github的博客仓库发布一个release版本（只有这样才能使用jsdelivr）（很简单，需要你自行上网搜一下），然后我来告诉你需要在浏览器地址栏输入的代码：\n注意：下面“你的Github名”、“你的仓库名”、“@发布的版本号”都需要你按照自己的Github来输入，你可以参考该文章末尾处最后一个代码（我的用法）。\n如果想上传博客文件库的某个版本： https:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/@发布的版本号\/ 或者上传版本中的某个文件： https:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/@发布的版本号\/文件名\u002b后缀 或者上传版本中的某个文件夹： https:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/@发布的版本号\/文件夹名\/ 注意结尾的 \/ 号是必须有的。\n成功后会出现已上传的文档页面。然后你可能就会发现自己的网页打开速度飞快，至少比上次快。\n使用以下代码可以直接上传整个仓库的文件，并且实时更新文件，而不是一次上传一个版本，事实上我觉得这是最方便的做法。\nhttps:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/\n比如我是这么用的：https:\/\/cdn.jsdelivr.net\/gh\/1xiaoyuan\/1xiaoyuan.github.io\/\n这是后来我才发现的，去掉版本号可以直接上传整个仓库🤷‍♂️ 实时更新真的太爽了。\n新方案：cloudflare 2023-07-30，将新域名用 cloudflare 进行CDN托管，速度大大提高。",
+      "description" : "小白互助😄\nOh，我的网站好慢呐 博客搭在Github的一个缺点是网页访问速度慢，为了解决这个问题，可以借助CDN。\n网页为什么慢，简单地说，就是服务器（Github服务器在国外）和客户端（访问网站的用户）距离太远，资源拉取慢。\nCDN，即内容分发网络。它的功能是将指定的资源提前缓存到分布在各个城市的站点（缓存服务器）。这样一来，在用户在访问网站后，数据将直接从距离最近的服务器中获取，无需再从原来那个远在天边的源服务器获取（如果它真的远在天边的话）。\nok，那么接下来的问题就是找到一个能白嫖的CDN了，嘻嘻。\njsdelivr（已弃用） 现在该轮到今天的主角了——jsdelivr。\n配置起来及其简单，你不需要下载任何软件、申请任何账号，甚至只需要在浏览器的地址栏，按照要求的格式输入代码（其实就是一个网址\/url），即可将你Github page上的博客文件上传到jsdelivr的服务器，然后使用他们的服务——CDN加速访问你的博客文件。\n如果你的博客也搭建在Github，那么下面的内容对你会有所帮助。\n首先，为你的Github的博客仓库发布一个release版本（只有这样才能使用jsdelivr）（很简单，需要你自行上网搜一下），然后我来告诉你需要在浏览器地址栏输入的代码：\n注意：下面“你的Github名”、“你的仓库名”、“@发布的版本号”都需要你按照自己的Github来输入，你可以参考该文章末尾处最后一个代码（我的用法）。\n如果想上传博客文件库的某个版本： https:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/@发布的版本号\/ 或者上传版本中的某个文件： https:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/@发布的版本号\/文件名\u002b后缀 或者上传版本中的某个文件夹： https:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/@发布的版本号\/文件夹名\/ 注意结尾的 \/ 号是必须有的。\n成功后会出现已上传的文档页面。然后你可能就会发现自己的网页打开速度飞快，至少比上次快。\n使用以下代码可以直接上传整个仓库的文件，并且实时更新文件，而不是一次上传一个版本，事实上我觉得这是最方便的做法。\nhttps:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/\n比如我是这么用的：https:\/\/cdn.jsdelivr.net\/gh\/1xiaoyuan\/1xiaoyuan.github.io\/\n这是后来我才发现的，去掉版本号可以直接上传整个仓库🤷‍♂️ 实时更新真的太爽了。\n新方案：cloudflare 2023-07-30，将新域名用 cloudflare 进行CDN托管，速度大大提高。",
       "inLanguage" : "en-US",
       "author" : "xiao",
       "creator" : "xiao",
@@ -45,7 +45,7 @@ Oh，我的网站好慢呐 博客搭在Github的一个缺点是网页访问速�
 网页为什么慢，简单地说，就是服务器（Github服务器在国外）和客户端（访问网站的用户）距离太远，资源拉取慢。
 CDN，即内容分发网络。它的功能是将指定的资源提前缓存到分布在各个城市的站点（缓存服务器）。这样一来，在用户在访问网站后，数据将直接从距离最近的服务器中获取，无需再从原来那个远在天边的源服务器获取（如果它真的远在天边的话）。
 ok，那么接下来的问题就是找到一个能白嫖的CDN了，嘻嘻。
-jsdelivr 现在该轮到今天的主角了——jsdelivr。
+jsdelivr（已弃用） 现在该轮到今天的主角了——jsdelivr。
 配置起来及其简单，你不需要下载任何软件、申请任何账号，甚至只需要在浏览器的地址栏，按照要求的格式输入代码（其实就是一个网址/url），即可将你Github page上的博客文件上传到jsdelivr的服务器，然后使用他们的服务——CDN加速访问你的博客文件。
 如果你的博客也搭建在Github，那么下面的内容对你会有所帮助。
 首先，为你的Github的博客仓库发布一个release版本（只有这样才能使用jsdelivr）（很简单，需要你自行上网搜一下），然后我来告诉你需要在浏览器地址栏输入的代码：
@@ -62,7 +62,7 @@ Oh，我的网站好慢呐 博客搭在Github的一个缺点是网页访问速�
 网页为什么慢，简单地说，就是服务器（Github服务器在国外）和客户端（访问网站的用户）距离太远，资源拉取慢。
 CDN，即内容分发网络。它的功能是将指定的资源提前缓存到分布在各个城市的站点（缓存服务器）。这样一来，在用户在访问网站后，数据将直接从距离最近的服务器中获取，无需再从原来那个远在天边的源服务器获取（如果它真的远在天边的话）。
 ok，那么接下来的问题就是找到一个能白嫖的CDN了，嘻嘻。
-jsdelivr 现在该轮到今天的主角了——jsdelivr。
+jsdelivr（已弃用） 现在该轮到今天的主角了——jsdelivr。
 配置起来及其简单，你不需要下载任何软件、申请任何账号，甚至只需要在浏览器的地址栏，按照要求的格式输入代码（其实就是一个网址/url），即可将你Github page上的博客文件上传到jsdelivr的服务器，然后使用他们的服务——CDN加速访问你的博客文件。
 如果你的博客也搭建在Github，那么下面的内容对你会有所帮助。
 首先，为你的Github的博客仓库发布一个release版本（只有这样才能使用jsdelivr）（很简单，需要你自行上网搜一下），然后我来告诉你需要在浏览器地址栏输入的代码：
@@ -82,7 +82,7 @@ https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/
   <link rel="stylesheet" href="/css/index.css">
 
   <link href="/index.xml" rel="alternate" type="application/rss+xml"
-    title="xiao的博客">
+    title="抓住生活的尾巴">
 
 
   
@@ -117,7 +117,7 @@ https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/
 <div class="progress-bar"></div>
 <header>
   <div class="header-title">
-    <a href="/">致远</a>
+    <a href="/">阿蒙的生活博客</a>
   </div>
   <div class="header-subtitle"></div>
 </header>
@@ -180,7 +180,7 @@ https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/
 <p>网页为什么慢，简单地说，就是服务器（Github服务器在国外）和客户端（访问网站的用户）距离太远，资源拉取慢。</p>
 <p>CDN，即内容分发网络。它的功能是将指定的资源提前缓存到分布在各个城市的站点（缓存服务器）。这样一来，在用户在访问网站后，数据将直接从距离最近的服务器中获取，无需再从原来那个远在天边的源服务器获取（如果它真的远在天边的话）。</p>
 <p>ok，那么接下来的问题就是找到一个能白嫖的CDN了，嘻嘻。</p>
-<h2 id="jsdelivr">jsdelivr</h2>
+<h2 id="jsdelivr已弃用">jsdelivr（已弃用）</h2>
 <p>现在该轮到今天的主角了——<a href="https://www.jsdelivr.com/">jsdelivr</a>。</p>
 <p>配置起来及其简单，你不需要下载任何软件、申请任何账号，甚至只需要在浏览器的地址栏，按照要求的格式输入代码（其实就是一个网址/url），即可将你Github page上的博客文件上传到jsdelivr的服务器，然后使用他们的服务——CDN加速访问你的博客文件。</p>
 <p>如果你的博客也搭建在Github，那么下面的内容对你会有所帮助。</p>
