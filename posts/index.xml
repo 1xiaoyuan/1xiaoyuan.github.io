@@ -1,12 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>所有文章 on 抓住生活的尾巴</title>
+    <title>所有文章 on 生活的尾巴</title>
     <link>https://1xiaoyuan.github.io/posts/</link>
-    <description>Recent content in 所有文章 on 抓住生活的尾巴</description>
+    <description>Recent content in 所有文章 on 生活的尾巴</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Dec 2023 22:18:10 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 16 Dec 2023 23:44:13 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://1xiaoyuan.github.io/archives/.html/</link>
+      <pubDate>Sat, 16 Dec 2023 23:44:13 +0800</pubDate>
+      
+      <guid>https://1xiaoyuan.github.io/archives/.html/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>距离2024还剩27天，我在做什么——生活需要爱好</title>
       <link>https://1xiaoyuan.github.io/archives/%E8%B7%9D%E7%A6%BB2024%E8%BF%98%E5%89%A927%E5%A4%A9%E6%88%91%E5%9C%A8%E5%81%9A%E4%BB%80%E4%B9%88%E7%94%9F%E6%B4%BB%E9%9C%80%E8%A6%81%E7%88%B1%E5%A5%BD.html/</link>
