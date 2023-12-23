@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="toTop" content="true">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="author" content="xiao" />
+  <meta name="author" content="阿蒙" />
   <meta property="og:url" content="https://1xiaoyuan.github.io/archives/%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E5%8A%A0%E9%80%9F%E6%96%B9%E6%A1%88.html/" />
   <link rel="canonical" href="https://1xiaoyuan.github.io/archives/%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E5%8A%A0%E9%80%9F%E6%96%B9%E6%A1%88.html/" /><link rel="apple-touch-icon" href="/img/%e5%95%86%e6%a0%87.png" />
   <link rel="icon" href="/img/%e5%95%86%e6%a0%87.png" />
@@ -26,16 +26,16 @@
       "headline" : "博客的CDN加速方案",
       "description" : "小白互助😄\nOh，我的网站好慢呐 博客搭在Github的一个缺点是网页访问速度慢，为了解决这个问题，可以借助CDN。\n网页为什么慢，简单地说，就是服务器（Github服务器在国外）和客户端（访问网站的用户）距离太远，资源拉取慢。\nCDN，即内容分发网络。它的功能是将指定的资源提前缓存到分布在各个城市的站点（缓存服务器）。这样一来，在用户在访问网站后，数据将直接从距离最近的服务器中获取，无需再从原来那个远在天边的源服务器获取（如果它真的远在天边的话）。\nok，那么接下来的问题就是找到一个能白嫖的CDN了，嘻嘻。\njsdelivr（已弃用） 现在该轮到今天的主角了——jsdelivr。\n配置起来及其简单，你不需要下载任何软件、申请任何账号，甚至只需要在浏览器的地址栏，按照要求的格式输入代码（其实就是一个网址\/url），即可将你Github page上的博客文件上传到jsdelivr的服务器，然后使用他们的服务——CDN加速访问你的博客文件。\n如果你的博客也搭建在Github，那么下面的内容对你会有所帮助。\n首先，为你的Github的博客仓库发布一个release版本（只有这样才能使用jsdelivr）（很简单，需要你自行上网搜一下），然后我来告诉你需要在浏览器地址栏输入的代码：\n注意：下面“你的Github名”、“你的仓库名”、“@发布的版本号”都需要你按照自己的Github来输入，你可以参考该文章末尾处最后一个代码（我的用法）。\n如果想上传博客文件库的某个版本： https:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/@发布的版本号\/ 或者上传版本中的某个文件： https:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/@发布的版本号\/文件名\u002b后缀 或者上传版本中的某个文件夹： https:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/@发布的版本号\/文件夹名\/ 注意结尾的 \/ 号是必须有的。\n成功后会出现已上传的文档页面。然后你可能就会发现自己的网页打开速度飞快，至少比上次快。\n使用以下代码可以直接上传整个仓库的文件，并且实时更新文件，而不是一次上传一个版本，事实上我觉得这是最方便的做法。\nhttps:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/\n比如我是这么用的：https:\/\/cdn.jsdelivr.net\/gh\/1xiaoyuan\/1xiaoyuan.github.io\/\n这是后来我才发现的，去掉版本号可以直接上传整个仓库🤷‍♂️ 实时更新真的太爽了。\n新方案：cloudflare 2023-07-30，将新域名用 cloudflare 进行CDN托管，速度大大提高。",
       "inLanguage" : "en-US",
-      "author" : "xiao",
-      "creator" : "xiao",
-      "publisher": "xiao",
-      "accountablePerson" : "xiao",
-      "copyrightHolder" : "xiao",
+      "author" : "阿蒙",
+      "creator" : "阿蒙",
+      "publisher": "阿蒙",
+      "accountablePerson" : "阿蒙",
+      "copyrightHolder" : "阿蒙",
       "copyrightYear" : "2023",
       "datePublished": "2023-01-05 20:36:23 \u002b0800 CST",
       "dateModified" : "2023-01-05 20:36:23 \u002b0800 CST",
       "url" : "https:\/\/1xiaoyuan.github.io\/archives\/%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E5%8A%A0%E9%80%9F%E6%96%B9%E6%A1%88.html\/",
-      "keywords" : [ "hugo","工具", ]
+      "keywords" : [ "hugo", ]
   }
 </script><title>博客的CDN加速方案</title>
   <meta property="og:title" content="博客的CDN加速方案" />
@@ -161,7 +161,7 @@ https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/
               <div class="col-xs-6">
                 
                 <div class="post-author">
-                  <a target="_blank" href="/">@xiao</a>
+                  <a target="_blank" href="/">@阿蒙</a>
                 </div>
                 
               </div>
@@ -231,12 +231,6 @@ https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/
               <div class="post-tags">
                 <a href="/tags/hugo/">
                   hugo
-                </a>
-              </div>
-              
-              <div class="post-tags">
-                <a href="/tags/%E5%B7%A5%E5%85%B7/">
-                  工具
                 </a>
               </div>
               

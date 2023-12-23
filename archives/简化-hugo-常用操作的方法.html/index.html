@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="toTop" content="true">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="author" content="xiao" />
+  <meta name="author" content="阿蒙" />
   <meta property="og:url" content="https://1xiaoyuan.github.io/archives/%E7%AE%80%E5%8C%96-hugo-%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E7%9A%84%E6%96%B9%E6%B3%95.html/" />
   <link rel="canonical" href="https://1xiaoyuan.github.io/archives/%E7%AE%80%E5%8C%96-hugo-%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E7%9A%84%E6%96%B9%E6%B3%95.html/" /><link rel="apple-touch-icon" href="/img/%e5%95%86%e6%a0%87.png" />
   <link rel="icon" href="/img/%e5%95%86%e6%a0%87.png" />
@@ -26,11 +26,11 @@
       "headline" : "简化 Hugo 常用操作的方法",
       "description" : "我使用的博客工具 hugo：博客网站生成工具 vscode：文件编辑工具 git：上传文件到Github的工具 shell语言：编写一键完成指令代码 使用 vscode 和 git ，每次更新博客都需要输入一连串重复的代码，那么下面的内容可能会对为此而苦恼的用户有所帮助。\n使用vscode和git的不方便之处 每次新建文件都需要在vscode的终端输入hugo new posts\/新文件名.md来创建新文件 每次上传文件都需要在vscode的终端输入至少5个指令\u0026hellip;\u0026hellip;hugo、cd public、git add .\u0026hellip;\u0026hellip; 如果每修改并上传一次就要输入5个指令，这很令人产生不快，厌倦 那么有没有比较好的解决方案呢？ 答案是肯定的。\n解决方案 一键创建新文件 1、首先，在博客的顶级文件夹创建new.sh文件 2、在文件中输入以下内容\ntime=$(date \u0026#34;\u002b%Y-%m-%d\u0026#34;) echo $time hugo new posts\/$time.md exit 3、每次新建文件时，在终端输入new再按Tab键，然后按回车键，即可在posts\/目录中新建以当天日期为文件名的新文件。\n一键上传文件 1、首先，在博客的顶级文件夹创建hugo.sh文件 2、在文件中输入以下内容\nhugo time=$(date \u0026#34;\u002b%Y-%m-%d %H:%M:%S\u0026#34;) echo $time cd public git add . git commit -m \u0026#34;自动执行构建脚本 🎓$time\u0026#34; git push exit 3、每次更新（上传）文件时，在终端输入hugo再按Tab键，然后按回车，即可将更新的博客自动上传至Github，并以当时的日期为更新备注。\n如有问题，请通过邮箱联系。",
       "inLanguage" : "en-US",
-      "author" : "xiao",
-      "creator" : "xiao",
-      "publisher": "xiao",
-      "accountablePerson" : "xiao",
-      "copyrightHolder" : "xiao",
+      "author" : "阿蒙",
+      "creator" : "阿蒙",
+      "publisher": "阿蒙",
+      "accountablePerson" : "阿蒙",
+      "copyrightHolder" : "阿蒙",
       "copyrightYear" : "2023",
       "datePublished": "2023-07-29 09:41:28 \u002b0800 CST",
       "dateModified" : "2023-07-29 09:41:28 \u002b0800 CST",
@@ -141,7 +141,7 @@ hugo time=$(date &amp;#34;&#43;%Y-%m-%d %H:%M:%S&amp;#34;) echo $time cd public 
               <div class="col-xs-6">
                 
                 <div class="post-author">
-                  <a target="_blank" href="/">@xiao</a>
+                  <a target="_blank" href="/">@阿蒙</a>
                 </div>
                 
               </div>
