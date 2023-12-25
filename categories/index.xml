@@ -6,7 +6,16 @@
     <description>Recent content in Categories on 朝闻道</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Dec 2023 17:49:41 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Dec 2023 19:43:43 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>思考</title>
+      <link>https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83/</link>
+      <pubDate>Mon, 25 Dec 2023 19:43:43 +0800</pubDate>
+      
+      <guid>https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>工具</title>
       <link>https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7/</link>
@@ -22,15 +31,6 @@
       <pubDate>Sat, 23 Dec 2023 16:53:42 +0800</pubDate>
       
       <guid>https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>思考</title>
-      <link>https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83/</link>
-      <pubDate>Fri, 06 Oct 2023 22:49:45 +0800</pubDate>
-      
-      <guid>https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83/</guid>
       <description></description>
     </item>
     
