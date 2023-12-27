@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>生产效率 on 朝闻道</title>
+    <link>https://1xiaoyuan.github.io/tags/%E7%94%9F%E4%BA%A7%E6%95%88%E7%8E%87/</link>
+    <description>Recent content in 生产效率 on 朝闻道</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 03 Jan 2023 21:52:45 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/tags/%E7%94%9F%E4%BA%A7%E6%95%88%E7%8E%87/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python正则表达式pattern分类</title>
+      <link>https://1xiaoyuan.github.io/archives/python%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8Fpattern%E5%88%86%E7%B1%BB.html/</link>
+      <pubDate>Tue, 03 Jan 2023 21:52:45 +0800</pubDate>
+      
+      <guid>https://1xiaoyuan.github.io/archives/python%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8Fpattern%E5%88%86%E7%B1%BB.html/</guid>
+      <description>网上的相关资料非常多，但都很乱。于是我做了个分类，一来自己方便查看，二来看到此文章的同仁也能省去些麻烦。
+提示：正则表达式中的 pattern 参数通常都包含反斜杠，为了防止它们被识别为转义字符，最好使用原始字符串 r&#39;&#39; 来表示它们。(如 r&#39;\t&#39;，等价于 \\t )匹配相应的特殊字符。
+使用原始字符串的优点是可以少写\号，代码阅读起来也更容易些。
+正则表达式四大功能：匹配(bool值)、获取、替换、分割。
+匹配单个字符 . ：表示任意一个字符。如表达式&#39;t.o&#39;，too或&#39;two&#39;都符合条件。 [&amp;hellip;]：匹配[]中列举的所有字符中的一个。 一个[]表示一个字符：[amk] 匹配 &amp;lsquo;a&amp;rsquo;，&amp;rsquo;m&amp;rsquo;或&amp;rsquo;k&amp;rsquo;。[a-zA-Z0-9]表示所有字母+数字。[A-Z][a-z]表示第一个字符为大写字母，第二个字符为小写字符，即两个字符。 注意无需使用 , 分割内容，[0-35-9] 表示0~3与5~9。 可以用 - 给出范围。如 [abc] 和 [a-c] 含义相同。 [^&amp;hellip;]：不在[]中的字符中的一个。 [^abc] 匹配除了a,b,c之外的字符。 匹配单个字符——它们可以写在字符集[]中 \w： 匹配数字字母下划线。等价于[a-zA-Z0-9_]，在Unicode字符中还可以匹配汉字、全角数字。 \W：匹配非数字字母下划线，等价于[^A-Za-z0-9_]。 \s：匹配任意空白字符、空格、tab键。等价于[\t\n\r\f]。 \S：匹配任意非空字符，等价于[^\t\n\r\f]。 \d：匹配任意数字，等价于 [0-9]。 \D：匹配任意非数字，等价于[^0-9]。 匹配多个字符 *：匹配*号前一个字符出现至少 0 次的表达式。如表达式abc*，匹配值ab，abccc。 +：匹配前⼀个字符出现 1 次或者⽆限次。如表达式abc+，匹配值abc，abccc。 ？：匹配前⼀个字符出现 1 次或者 0 次，即要么有 1 次，要么没有。非贪婪。 {m}：匹配前⼀个字符出现 m 次。如表达式ab{2}c，匹配值abbc。 {m,}：匹配前面表达式至少 m 次 {,n}：匹配前面的正则表达式最多 n 次 {m,n}：匹配前⼀个字符出现至少 m 至多 n 次。如表达式ab{1,3}c，匹配值abc，abbc，abbbc。 特殊匹配 | ：匹配左右任意一个表达式。如匹配0-100之间的数字，表达式re.</description>
+    </item>
+    
+    <item>
+      <title>常用电脑小技巧——快速搜索网页、打开常用应用</title>
+      <link>https://1xiaoyuan.github.io/archives/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%84%91%E5%B0%8F%E6%8A%80%E5%B7%A7%E5%BF%AB%E9%80%9F%E6%90%9C%E7%B4%A2%E7%BD%91%E9%A1%B5%E6%89%93%E5%BC%80%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8.html/</link>
+      <pubDate>Sat, 12 Nov 2022 00:29:17 +0800</pubDate>
+      
+      <guid>https://1xiaoyuan.github.io/archives/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%84%91%E5%B0%8F%E6%8A%80%E5%B7%A7%E5%BF%AB%E9%80%9F%E6%90%9C%E7%B4%A2%E7%BD%91%E9%A1%B5%E6%89%93%E5%BC%80%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8.html/</guid>
+      <description>抛开效率应用不谈，最节省时间的办法是多用键盘，尤其是win键（对windows用户而言）。
+任务栏搜索 任务栏左下角的搜索框，既能搜索并打开本地应用和服务，又能当作互联网搜索引擎使用。使用win键+输入文字也可以直接使用该功能。
+使用方法：
+按下win键，然后直接用键盘打字，内容可以是
+一个软件名字的一部分：如微，wx，微信，然后会出现对应的本地程序以及网页搜索建议。按下回车就能打开微信。 一个服务：如控制，控制面板，kzmb，然后会出现对应的服务以及网页搜索建议。 再也不用怕有些很难找到具体位置的服务了。 一个搜索：如平凡之路，然后会出现网页搜索推荐。 这样一来，打开常用的软件、服务，就能这样加快速度了。
+搜索某个问题，也不用再打开新页面，再点击搜索框后，再输入了。一个win键简化前两个步骤。
+浏览器快速搜索 现在的主流浏览器是 Edge 和 Chrome ，我使用它们浏览网页，想要搜索一个概念或问题，就需要另开一个新网页再搜索，甚是麻烦。
+下面提供一种在原页面进行搜索的方法。
+Ctrl + E 打开地址栏快捷搜索； 输入想搜的问题； Alt + Enter 在新标签页打开搜索内容。 如果第3步直接用Enter，当前页面会被刷新。</description>
+    </item>
+    
+  </channel>
+</rss>
