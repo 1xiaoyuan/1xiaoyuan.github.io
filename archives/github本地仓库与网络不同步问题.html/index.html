@@ -24,7 +24,7 @@
       "articleSection" : "posts",
       "name" : "Github本地仓库与网络不同步问题",
       "headline" : "Github本地仓库与网络不同步问题",
-      "description" : "问题1 在进行Git commit -m \u0027版本信息\u0027操作时，返回了多个以下结果：\nwarning: in the working copy of \u0026#39;img\/index.html\u0026#39;, LF will be replaced by CRLF the next time Git touches it 参考方案：输入git config --global core.autocrlf true。 原文链接：https:\/\/blog.csdn.net\/u012757419\/article\/details\/105614028\n问题2 On branch main Your branch is up to date with \u0026#39;origin\/main\u0026#39;. nothing to commit, working tree clean 经常遇到这个问题，之前一直用Git pull就能解决，昨天解决不了，瞎找方案最后 解决了，迷。。。\n参考方案\nhttps:\/\/blog.csdn.net\/weixin_44786530\/article\/details\/129735762 ",
+      "description" : "问题1 在进行Git add .\u0027操作时，返回了多个以下结果：\nwarning: in the working copy of \u0026#39;img\/index.html\u0026#39;, LF will be replaced by CRLF the next time Git touches it 问题原因：其实，这是因为在文本处理中，回车符 CR(CarriageReturn) 和换行符 LF(LineFeed) 混用造成的。\nDos和Windows平台: 使用回车 (CR) 和换行 (LF) 两个字符都可以作为换行结束一行。 Mac 和 Linux平台: 只能使用换行 (LF) 字符来结束一行。 Github 仓库则要求统一使用换行符 (LF) ，所以在 Windows 下混乱使用 CR 和 LF，会被警告。 同一篇文章中既使用回车 (Enter) 来换行，又使用换行 (Tab) 来换行，使得 Git add . 操作时，工作区的文章转化为暂存区的文件时无法统一换行符，所以提出警告。\n参考方案1：\n输入git config --global core.autocrlf true，不过在我这里无效 原文链接：https:\/\/blog.csdn.net\/u012757419\/article\/details\/105614028 补充解读：https:\/\/www.zhihu.com\/question\/50862500 参考方案2：\n只使用 Enter 键换行，不要使用 Tab 键换行。 我之所以会同时使用这两种键，是因为 .",
       "inLanguage" : "en-US",
       "author" : "阿蒙",
       "creator" : "阿蒙",
@@ -40,16 +40,18 @@
 </script><title>Github本地仓库与网络不同步问题</title>
   <meta property="og:title" content="Github本地仓库与网络不同步问题" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="问题1 在进行Git commit -m &#39;版本信息&#39;操作时，返回了多个以下结果：
-warning: in the working copy of &amp;#39;img/index.html&amp;#39;, LF will be replaced by CRLF the next time Git touches it 参考方案：输入git config --global core.autocrlf true。 原文链接：https://blog.csdn.net/u012757419/article/details/105614028
-问题2 On branch main Your branch is up to date with &amp;#39;origin/main&amp;#39;. nothing to commit, working tree clean 经常遇到这个问题，之前一直用Git pull就能解决，昨天解决不了，瞎找方案最后 解决了，迷。。。
-参考方案
-https://blog.csdn.net/weixin_44786530/article/details/129735762 " />
-  <meta name="description" content="问题1 在进行Git commit -m &#39;版本信息&#39;操作时，返回了多个以下结果：
-warning: in the working copy of &amp;#39;img/index.html&amp;#39;, LF will be replaced by CRLF the next time Git touches it 参考方案：输入git config --global core.autocrlf true。 原文链接：https://blog.csdn.net/u012757419/article/details/105614028
-问题2 On branch main Your branch is up to date with &amp;#39;origin/main&amp;#39;. nothing to commit, working tree clean 经常遇到这个问题，之前一直用Git pull就能解决，昨天解决不了，瞎找方案最后 解决了，迷。。。
-参考方案
-https://blog.csdn.net/weixin_44786530/article/details/129735762 " />
+  <meta property="og:description" content="问题1 在进行Git add .&#39;操作时，返回了多个以下结果：
+warning: in the working copy of &amp;#39;img/index.html&amp;#39;, LF will be replaced by CRLF the next time Git touches it 问题原因：其实，这是因为在文本处理中，回车符 CR(CarriageReturn) 和换行符 LF(LineFeed) 混用造成的。
+Dos和Windows平台: 使用回车 (CR) 和换行 (LF) 两个字符都可以作为换行结束一行。 Mac 和 Linux平台: 只能使用换行 (LF) 字符来结束一行。 Github 仓库则要求统一使用换行符 (LF) ，所以在 Windows 下混乱使用 CR 和 LF，会被警告。 同一篇文章中既使用回车 (Enter) 来换行，又使用换行 (Tab) 来换行，使得 Git add . 操作时，工作区的文章转化为暂存区的文件时无法统一换行符，所以提出警告。
+参考方案1：
+输入git config --global core.autocrlf true，不过在我这里无效 原文链接：https://blog.csdn.net/u012757419/article/details/105614028 补充解读：https://www.zhihu.com/question/50862500 参考方案2：
+只使用 Enter 键换行，不要使用 Tab 键换行。 我之所以会同时使用这两种键，是因为 ." />
+  <meta name="description" content="问题1 在进行Git add .&#39;操作时，返回了多个以下结果：
+warning: in the working copy of &amp;#39;img/index.html&amp;#39;, LF will be replaced by CRLF the next time Git touches it 问题原因：其实，这是因为在文本处理中，回车符 CR(CarriageReturn) 和换行符 LF(LineFeed) 混用造成的。
+Dos和Windows平台: 使用回车 (CR) 和换行 (LF) 两个字符都可以作为换行结束一行。 Mac 和 Linux平台: 只能使用换行 (LF) 字符来结束一行。 Github 仓库则要求统一使用换行符 (LF) ，所以在 Windows 下混乱使用 CR 和 LF，会被警告。 同一篇文章中既使用回车 (Enter) 来换行，又使用换行 (Tab) 来换行，使得 Git add . 操作时，工作区的文章转化为暂存区的文件时无法统一换行符，所以提出警告。
+参考方案1：
+输入git config --global core.autocrlf true，不过在我这里无效 原文链接：https://blog.csdn.net/u012757419/article/details/105614028 补充解读：https://www.zhihu.com/question/50862500 参考方案2：
+只使用 Enter 键换行，不要使用 Tab 键换行。 我之所以会同时使用这两种键，是因为 ." />
   <meta property="og:locale" content="en-us" /><meta property="og:image" content="/img/商标.png" />
   
 
@@ -149,16 +151,36 @@ https://blog.csdn.net/weixin_44786530/article/details/129735762 " />
           <div class="post-content markdown-body">
             
             <h1 id="问题1">问题1</h1>
-<p>在进行<code>Git commit -m '版本信息'</code>操作时，返回了多个以下结果：</p>
+<p>在进行<code>Git add .'</code>操作时，返回了多个以下结果：</p>
 <pre tabindex="0"><code>warning: in the working copy of &#39;img/index.html&#39;, LF will be replaced by CRLF the next time Git touches it
-</code></pre><p>参考方案：输入<code>git config --global core.autocrlf true</code>。     <br>
-原文链接：https://blog.csdn.net/u012757419/article/details/105614028</p>
+</code></pre><p>问题原因：其实，这是因为在文本处理中，回车符 CR(CarriageReturn) 和换行符 LF(LineFeed) 混用造成的。</p>
+<ul>
+<li>Dos和Windows平台: 使用回车 (CR) 和换行 (LF) 两个字符都可以作为换行结束一行。</li>
+<li>Mac 和 Linux平台: 只能使用换行 (LF) 字符来结束一行。</li>
+<li>Github 仓库则要求统一使用换行符 (LF) ，所以在 Windows 下混乱使用 CR 和 LF，会被警告。</li>
+</ul>
+<p>同一篇文章中既使用回车 (Enter) 来换行，又使用换行 (Tab) 来换行，使得 <code>Git add .</code> 操作时，工作区的文章转化为暂存区的文件时无法统一换行符，所以提出警告。</p>
+<p>参考方案1：</p>
+<ul>
+<li>输入<code>git config --global core.autocrlf true</code>，不过在我这里无效</li>
+<li>原文链接：https://blog.csdn.net/u012757419/article/details/105614028</li>
+<li>补充解读：https://www.zhihu.com/question/50862500</li>
+</ul>
+<p>参考方案2：</p>
+<ul>
+<li>只使用 Enter 键换行，不要使用 Tab 键换行。</li>
+</ul>
+<blockquote>
+<p>我之所以会同时使用这两种键，是因为 <code>.md</code> 文件相邻的两个段落在 <code>.html</code> 页面会融合成一段。但如果使用 Enter 换行，两段的距离就比较远；而若使用 Tab 分隔两行，这两行在可视化为 <code>.html</code> 页面后就是相邻且不同行的文字，这能满足我的一些排版需求。</p>
+</blockquote>
+<p>不过“警告”不影响向 Github 上传文件，真想解决这些问题，还是使用方案 2 吧，方案 1 并没有解决我的问题。</p>
 <h1 id="问题2">问题2</h1>
 <pre tabindex="0"><code>On branch main
 Your branch is up to date with &#39;origin/main&#39;.
 
 nothing to commit, working tree clean
-</code></pre><p>经常遇到这个问题，之前一直用<code>Git pull</code>就能解决，昨天解决不了，瞎找方案最后 解决了，迷。。。</p>
+</code></pre><p>经常遇到这个问题，原因是之前上传过文件，某种原因使得 Github 仓库的文件版本和本地的文件版本不对应。</p>
+<p>之前一直用<code>Git pull</code>就能解决，昨天解决不了，瞎找方案最后 解决了，迷。。。</p>
 <p>参考方案</p>
 <ul>
 <li><a href="https://blog.csdn.net/weixin_44786530/article/details/129735762">https://blog.csdn.net/weixin_44786530/article/details/129735762</a></li>

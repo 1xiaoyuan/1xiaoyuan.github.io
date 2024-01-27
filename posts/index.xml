@@ -13,11 +13,12 @@
       <pubDate>Sat, 27 Jan 2024 08:11:54 +0800</pubDate>
       
       <guid>https://1xiaoyuan.github.io/archives/github%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%8D%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98.html/</guid>
-      <description>问题1 在进行Git commit -m &#39;版本信息&#39;操作时，返回了多个以下结果：
-warning: in the working copy of &amp;#39;img/index.html&amp;#39;, LF will be replaced by CRLF the next time Git touches it 参考方案：输入git config --global core.autocrlf true。 原文链接：https://blog.csdn.net/u012757419/article/details/105614028
-问题2 On branch main Your branch is up to date with &amp;#39;origin/main&amp;#39;. nothing to commit, working tree clean 经常遇到这个问题，之前一直用Git pull就能解决，昨天解决不了，瞎找方案最后 解决了，迷。。。
-参考方案
-https://blog.csdn.net/weixin_44786530/article/details/129735762 </description>
+      <description>问题1 在进行Git add .&#39;操作时，返回了多个以下结果：
+warning: in the working copy of &amp;#39;img/index.html&amp;#39;, LF will be replaced by CRLF the next time Git touches it 问题原因：其实，这是因为在文本处理中，回车符 CR(CarriageReturn) 和换行符 LF(LineFeed) 混用造成的。
+Dos和Windows平台: 使用回车 (CR) 和换行 (LF) 两个字符都可以作为换行结束一行。 Mac 和 Linux平台: 只能使用换行 (LF) 字符来结束一行。 Github 仓库则要求统一使用换行符 (LF) ，所以在 Windows 下混乱使用 CR 和 LF，会被警告。 同一篇文章中既使用回车 (Enter) 来换行，又使用换行 (Tab) 来换行，使得 Git add . 操作时，工作区的文章转化为暂存区的文件时无法统一换行符，所以提出警告。
+参考方案1：
+输入git config --global core.autocrlf true，不过在我这里无效 原文链接：https://blog.csdn.net/u012757419/article/details/105614028 补充解读：https://www.zhihu.com/question/50862500 参考方案2：
+只使用 Enter 键换行，不要使用 Tab 键换行。 我之所以会同时使用这两种键，是因为 .</description>
     </item>
     
     <item>
