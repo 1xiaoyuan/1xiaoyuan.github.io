@@ -6,7 +6,18 @@
     <description>Recent content in 工具 on 朝闻道</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 25 Dec 2023 19:43:43 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Jan 2024 08:11:54 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github本地仓库与网络不同步问题</title>
+      <link>https://1xiaoyuan.github.io/archives/github%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%8D%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98.html/</link>
+      <pubDate>Sat, 27 Jan 2024 08:11:54 +0800</pubDate>
+      
+      <guid>https://1xiaoyuan.github.io/archives/github%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%8D%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98.html/</guid>
+      <description>On branch main Your branch is up to date with &amp;#39;origin/main&amp;#39;. nothing to commit, working tree clean 经常遇到这个问题，之前一直用Git pull就能解决，昨天解决不了，瞎找方案最后 解决了，迷。。。
+参考方案
+https://blog.csdn.net/weixin_44786530/article/details/129735762 </description>
+    </item>
+    
     <item>
       <title>处理信息的软件体系与理念</title>
       <link>https://1xiaoyuan.github.io/archives/%E5%A4%84%E7%90%86%E4%BF%A1%E6%81%AF%E7%9A%84%E8%BD%AF%E4%BB%B6%E4%BD%93%E7%B3%BB%E4%B8%8E%E7%90%86%E5%BF%B5.html/</link>
