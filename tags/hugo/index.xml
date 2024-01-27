@@ -13,7 +13,9 @@
       <pubDate>Sat, 27 Jan 2024 08:11:54 +0800</pubDate>
       
       <guid>https://1xiaoyuan.github.io/archives/github%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%8D%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98.html/</guid>
-      <description>On branch main Your branch is up to date with &amp;#39;origin/main&amp;#39;. nothing to commit, working tree clean 经常遇到这个问题，之前一直用Git pull就能解决，昨天解决不了，瞎找方案最后 解决了，迷。。。
+      <description>问题1 在进行Git commit -m &#39;版本信息&#39;操作时，返回了多个以下结果：
+warning: in the working copy of &amp;#39;img/index.html&amp;#39;, LF will be replaced by CRLF the next time Git touches it 参考方案：输入git config --global core.autocrlf true。 原文链接：https://blog.csdn.net/u012757419/article/details/105614028
+问题2 On branch main Your branch is up to date with &amp;#39;origin/main&amp;#39;. nothing to commit, working tree clean 经常遇到这个问题，之前一直用Git pull就能解决，昨天解决不了，瞎找方案最后 解决了，迷。。。
 参考方案
 https://blog.csdn.net/weixin_44786530/article/details/129735762 </description>
     </item>

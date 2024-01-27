@@ -24,7 +24,7 @@
       "articleSection" : "posts",
       "name" : "Github本地仓库与网络不同步问题",
       "headline" : "Github本地仓库与网络不同步问题",
-      "description" : "On branch main Your branch is up to date with \u0026#39;origin\/main\u0026#39;. nothing to commit, working tree clean 经常遇到这个问题，之前一直用Git pull就能解决，昨天解决不了，瞎找方案最后 解决了，迷。。。\n参考方案\nhttps:\/\/blog.csdn.net\/weixin_44786530\/article\/details\/129735762 ",
+      "description" : "问题1 在进行Git commit -m \u0027版本信息\u0027操作时，返回了多个以下结果：\nwarning: in the working copy of \u0026#39;img\/index.html\u0026#39;, LF will be replaced by CRLF the next time Git touches it 参考方案：输入git config --global core.autocrlf true。 原文链接：https:\/\/blog.csdn.net\/u012757419\/article\/details\/105614028\n问题2 On branch main Your branch is up to date with \u0026#39;origin\/main\u0026#39;. nothing to commit, working tree clean 经常遇到这个问题，之前一直用Git pull就能解决，昨天解决不了，瞎找方案最后 解决了，迷。。。\n参考方案\nhttps:\/\/blog.csdn.net\/weixin_44786530\/article\/details\/129735762 ",
       "inLanguage" : "en-US",
       "author" : "阿蒙",
       "creator" : "阿蒙",
@@ -40,10 +40,14 @@
 </script><title>Github本地仓库与网络不同步问题</title>
   <meta property="og:title" content="Github本地仓库与网络不同步问题" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="On branch main Your branch is up to date with &amp;#39;origin/main&amp;#39;. nothing to commit, working tree clean 经常遇到这个问题，之前一直用Git pull就能解决，昨天解决不了，瞎找方案最后 解决了，迷。。。
+  <meta property="og:description" content="问题1 在进行Git commit -m &#39;版本信息&#39;操作时，返回了多个以下结果：
+warning: in the working copy of &amp;#39;img/index.html&amp;#39;, LF will be replaced by CRLF the next time Git touches it 参考方案：输入git config --global core.autocrlf true。 原文链接：https://blog.csdn.net/u012757419/article/details/105614028
+问题2 On branch main Your branch is up to date with &amp;#39;origin/main&amp;#39;. nothing to commit, working tree clean 经常遇到这个问题，之前一直用Git pull就能解决，昨天解决不了，瞎找方案最后 解决了，迷。。。
 参考方案
 https://blog.csdn.net/weixin_44786530/article/details/129735762 " />
-  <meta name="description" content="On branch main Your branch is up to date with &amp;#39;origin/main&amp;#39;. nothing to commit, working tree clean 经常遇到这个问题，之前一直用Git pull就能解决，昨天解决不了，瞎找方案最后 解决了，迷。。。
+  <meta name="description" content="问题1 在进行Git commit -m &#39;版本信息&#39;操作时，返回了多个以下结果：
+warning: in the working copy of &amp;#39;img/index.html&amp;#39;, LF will be replaced by CRLF the next time Git touches it 参考方案：输入git config --global core.autocrlf true。 原文链接：https://blog.csdn.net/u012757419/article/details/105614028
+问题2 On branch main Your branch is up to date with &amp;#39;origin/main&amp;#39;. nothing to commit, working tree clean 经常遇到这个问题，之前一直用Git pull就能解决，昨天解决不了，瞎找方案最后 解决了，迷。。。
 参考方案
 https://blog.csdn.net/weixin_44786530/article/details/129735762 " />
   <meta property="og:locale" content="en-us" /><meta property="og:image" content="/img/商标.png" />
@@ -144,7 +148,13 @@ https://blog.csdn.net/weixin_44786530/article/details/129735762 " />
           <div class="autoMenu" id="autoMenu" data-autoMenu></div>
           <div class="post-content markdown-body">
             
-            <pre tabindex="0"><code>On branch main
+            <h1 id="问题1">问题1</h1>
+<p>在进行<code>Git commit -m '版本信息'</code>操作时，返回了多个以下结果：</p>
+<pre tabindex="0"><code>warning: in the working copy of &#39;img/index.html&#39;, LF will be replaced by CRLF the next time Git touches it
+</code></pre><p>参考方案：输入<code>git config --global core.autocrlf true</code>。     <br>
+原文链接：https://blog.csdn.net/u012757419/article/details/105614028</p>
+<h1 id="问题2">问题2</h1>
+<pre tabindex="0"><code>On branch main
 Your branch is up to date with &#39;origin/main&#39;.
 
 nothing to commit, working tree clean
