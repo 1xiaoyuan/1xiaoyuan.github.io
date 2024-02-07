@@ -6,7 +6,18 @@
     <description>Recent content in 所有文章 on 朝闻道</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jan 2024 20:13:58 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Feb 2024 15:55:42 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo 语法备忘录</title>
+      <link>https://1xiaoyuan.github.io/archives/hugo-%E8%AF%AD%E6%B3%95%E5%A4%87%E5%BF%98%E5%BD%95.html/</link>
+      <pubDate>Wed, 07 Feb 2024 15:55:42 +0800</pubDate>
+      
+      <guid>https://1xiaoyuan.github.io/archives/hugo-%E8%AF%AD%E6%B3%95%E5%A4%87%E5%BF%98%E5%BD%95.html/</guid>
+      <description>音乐 在短代码括号内中填入：music id=&amp;quot;1859178955&amp;quot; type=&amp;quot;song&amp;quot; server=&amp;quot;netease&amp;quot;
+引用图片 例如：![打赏](/img/打赏.jpg)
+引用文档 例如[显示的文字](https://1xiaoyuan.github.io/archives/%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E7%9A%84%E7%94%A8%E6%B3%95.html/)</description>
+    </item>
+    
     <item>
       <title>尽量不要让太多人知道你的目标</title>
       <link>https://1xiaoyuan.github.io/archives/%E5%B0%BD%E9%87%8F%E4%B8%8D%E8%A6%81%E8%AE%A9%E5%A4%AA%E5%A4%9A%E4%BA%BA%E7%9F%A5%E9%81%93%E4%BD%A0%E7%9A%84%E7%9B%AE%E6%A0%87.html/</link>
@@ -94,26 +105,6 @@ Dos和Windows平台: 使用回车 (CR) 和换行 (LF) 两个字符都可以作�
 &amp;hellip;&amp;hellip;
 逝者如斯，而未尝往也；盈虚者如彼，而卒末消长也。
 盖将自其变者而观之，则天地曾不能以一瞬；</description>
-    </item>
-    
-    <item>
-      <title>我妈失业，也许是好事</title>
-      <link>https://1xiaoyuan.github.io/archives/%E6%88%91%E5%A6%88%E5%A4%B1%E4%B8%9A%E4%B9%9F%E8%AE%B8%E6%98%AF%E5%A5%BD%E4%BA%8B.html/</link>
-      <pubDate>Wed, 10 Jan 2024 21:54:06 +0800</pubDate>
-      
-      <guid>https://1xiaoyuan.github.io/archives/%E6%88%91%E5%A6%88%E5%A4%B1%E4%B8%9A%E4%B9%9F%E8%AE%B8%E6%98%AF%E5%A5%BD%E4%BA%8B.html/</guid>
-      <description>今天上午收拾好东西，10:00 离开学校，13:30 抵达家乡，在我姐公司办公室自学，和她一起等待下班回家。
-下班后，我姐给我妈打电话，我妈说要到另一家超市看一看。我姐挂了电话对我说，可能她没工作了。
-我姐猜对了。
-我妈失业也许是好事 吃饭时，我妈怪罪其他人针对她。我是这么安慰她的：这是好事，这个工作也不是什么好活，再一个你看，我今天刚到家你就没工作了，这是天意啊，老天知道我以后工作了，我姐结婚了，陪你的人时候少了，就让你不能去工作，让我们来多陪陪你。
-与其说是安慰，其实我就是这样想的。
-但我妈并不怎么认同，吃过饭她又和其他人打电话抱怨了一通。我则去收拾我的房间和衣物。（写在日记中了，今天很认真很认真地收拾，进入了心流状态）
-我的缺点 我说话“说教”感太重了。
-可话上和一个朋友聊天，她发了个动态是“能不能不要太说教啊啊啊啊”，我有点羞愧，这个毛病影响到陌生人了，我很难过。 和我妈说话，和我姐说话，我都有说教的姿态，我太讨厌这样的自己了。 一定要改掉。如果让我重来一次，我就多费一些口舌和她们解释我的想法，使用更温柔的语气。
-今天的收获 更加明确了我要学习如何学习的方向，以及思考如何思考的规划，因为学习和思考能力是真正的知识，是创造知识的知识。而干货型知识只是岁月精华，来得快去得快。
-我今天就是把这个东西说给了那位朋友，很说教。
-这种体悟就现在这个无人知晓的博客里吧，在我还没有名堂的时候给别人讲，恐怕谁都会觉得“这人怎么这么好为人师”。
-哎，对不住那位朋友，我这烂毛病。我想，这给我的教训就是在做成一件事之前，必须闷头干，别装。</description>
     </item>
     
     <item>

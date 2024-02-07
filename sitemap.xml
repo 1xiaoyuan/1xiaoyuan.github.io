@@ -3,10 +3,25 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://1xiaoyuan.github.io/categories/</loc>
-    <lastmod>2024-01-29T20:13:58+08:00</lastmod>
+    <lastmod>2024-02-07T15:55:42+08:00</lastmod>
+  </url><url>
+    <loc>https://1xiaoyuan.github.io/tags/hugo/</loc>
+    <lastmod>2024-02-07T15:55:42+08:00</lastmod>
+  </url><url>
+    <loc>https://1xiaoyuan.github.io/archives/hugo-%E8%AF%AD%E6%B3%95%E5%A4%87%E5%BF%98%E5%BD%95.html/</loc>
+    <lastmod>2024-02-07T15:55:42+08:00</lastmod>
   </url><url>
     <loc>https://1xiaoyuan.github.io/tags/</loc>
-    <lastmod>2024-01-29T20:13:58+08:00</lastmod>
+    <lastmod>2024-02-07T15:55:42+08:00</lastmod>
+  </url><url>
+    <loc>https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7/</loc>
+    <lastmod>2024-02-07T15:55:42+08:00</lastmod>
+  </url><url>
+    <loc>https://1xiaoyuan.github.io/posts/</loc>
+    <lastmod>2024-02-07T15:55:42+08:00</lastmod>
+  </url><url>
+    <loc>https://1xiaoyuan.github.io/</loc>
+    <lastmod>2024-02-07T15:55:42+08:00</lastmod>
   </url><url>
     <loc>https://1xiaoyuan.github.io/archives/%E5%B0%BD%E9%87%8F%E4%B8%8D%E8%A6%81%E8%AE%A9%E5%A4%AA%E5%A4%9A%E4%BA%BA%E7%9F%A5%E9%81%93%E4%BD%A0%E7%9A%84%E7%9B%AE%E6%A0%87.html/</loc>
     <lastmod>2024-01-29T20:13:58+08:00</lastmod>
@@ -14,22 +29,10 @@
     <loc>https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83/</loc>
     <lastmod>2024-01-29T20:13:58+08:00</lastmod>
   </url><url>
-    <loc>https://1xiaoyuan.github.io/posts/</loc>
-    <lastmod>2024-01-29T20:13:58+08:00</lastmod>
-  </url><url>
-    <loc>https://1xiaoyuan.github.io/</loc>
-    <lastmod>2024-01-29T20:13:58+08:00</lastmod>
-  </url><url>
     <loc>https://1xiaoyuan.github.io/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F/</loc>
     <lastmod>2024-01-29T20:13:58+08:00</lastmod>
   </url><url>
     <loc>https://1xiaoyuan.github.io/archives/github%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%8D%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98.html/</loc>
-    <lastmod>2024-01-27T08:11:54+08:00</lastmod>
-  </url><url>
-    <loc>https://1xiaoyuan.github.io/tags/hugo/</loc>
-    <lastmod>2024-01-27T08:11:54+08:00</lastmod>
-  </url><url>
-    <loc>https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2024-01-27T08:11:54+08:00</lastmod>
   </url><url>
     <loc>https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
@@ -43,9 +46,6 @@
   </url><url>
     <loc>https://1xiaoyuan.github.io/archives/%E4%BC%9A%E6%9C%89%E9%82%A3%E4%B8%80%E5%A4%A9.html/</loc>
     <lastmod>2024-01-17T21:08:45+08:00</lastmod>
-  </url><url>
-    <loc>https://1xiaoyuan.github.io/archives/%E6%88%91%E5%A6%88%E5%A4%B1%E4%B8%9A%E4%B9%9F%E8%AE%B8%E6%98%AF%E5%A5%BD%E4%BA%8B.html/</loc>
-    <lastmod>2024-01-10T21:54:06+08:00</lastmod>
   </url><url>
     <loc>https://1xiaoyuan.github.io/archives/%E5%86%8D%E6%97%A0%E5%A4%A7%E5%AD%A6%E8%80%83%E8%AF%95.html/</loc>
     <lastmod>2024-01-09T21:24:30+08:00</lastmod>
@@ -173,12 +173,6 @@
     <loc>https://1xiaoyuan.github.io/tags/%E7%94%9F%E4%BA%A7%E6%95%88%E7%8E%87/</loc>
     <lastmod>2023-01-03T21:52:45+08:00</lastmod>
   </url><url>
-    <loc>https://1xiaoyuan.github.io/self/</loc>
-    <lastmod>2023-01-03T12:24:16+08:00</lastmod>
-  </url><url>
-    <loc>https://1xiaoyuan.github.io/self/2023-01-03%E6%94%B6%E8%97%8F/</loc>
-    <lastmod>2023-01-03T12:24:16+08:00</lastmod>
-  </url><url>
     <loc>https://1xiaoyuan.github.io/archives/%E6%89%8B%E5%86%99%E7%AC%94%E8%AE%B0%E5%A6%82%E4%BD%95%E9%81%BF%E5%85%8D%E6%9D%82%E4%B9%B1%E6%97%A0%E7%AB%A0.html/</loc>
     <lastmod>2022-12-31T19:06:18+08:00</lastmod>
   </url><url>
@@ -215,9 +209,13 @@
     <loc>https://1xiaoyuan.github.io/archives/hello-world.html/</loc>
     <lastmod>2022-10-20T10:14:28+08:00</lastmod>
   </url><url>
+    <loc>https://1xiaoyuan.github.io/self/</loc>
+  </url><url>
     <loc>https://1xiaoyuan.github.io/about/</loc>
   </url><url>
     <loc>https://1xiaoyuan.github.io/list/</loc>
+  </url><url>
+    <loc>https://1xiaoyuan.github.io/self/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</loc>
   </url><url>
     <loc>https://1xiaoyuan.github.io/weekly/</loc>
   </url><url>
