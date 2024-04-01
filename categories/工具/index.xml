@@ -6,7 +6,19 @@
     <description>Recent content in 工具 on 朝闻道</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 07 Feb 2024 15:55:42 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Feb 2024 18:11:03 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>电脑不常见卡死问题解决方案</title>
+      <link>https://1xiaoyuan.github.io/archives/%E7%94%B5%E8%84%91%E4%B8%8D%E5%B8%B8%E8%A7%81%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html/</link>
+      <pubDate>Mon, 19 Feb 2024 18:11:03 +0800</pubDate>
+      
+      <guid>https://1xiaoyuan.github.io/archives/%E7%94%B5%E8%84%91%E4%B8%8D%E5%B8%B8%E8%A7%81%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html/</guid>
+      <description>任务栏消失、Win键失灵、桌面泛白 解决方案：只能重启。
+系统文件损坏有可能导致Win10任务栏卡死，所以重启后运行系统文件检查器扫描系统。
+运行系统文件检查器可以帮助修复这些损坏的文件。以下是如何运行系统文件检查器：
+打开命令提示符，以管理员身份运行命令提示符； 键入【sfc /scannow】并按回车键； 等待系统文件检查器完成扫描和修复，即可恢复任务栏正常响应。 以管理员身份运行命令提示符的方法：在搜索中输入“cmd”，然后选择“以管理员身份运行”。</description>
+    </item>
+    
     <item>
       <title>hugo 语法备忘录</title>
       <link>https://1xiaoyuan.github.io/archives/hugo-%E8%AF%AD%E6%B3%95%E5%A4%87%E5%BF%98%E5%BD%95.html/</link>
