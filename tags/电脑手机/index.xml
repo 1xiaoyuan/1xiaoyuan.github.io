@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>电脑&amp;手机 on 朝闻道</title>
+    <link>https://1xiaoyuan.github.io/tags/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA/</link>
+    <description>Recent content in 电脑&amp;手机 on 朝闻道</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 19 Feb 2024 18:11:03 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/tags/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>电脑不常见卡死问题解决方案</title>
+      <link>https://1xiaoyuan.github.io/archives/%E7%94%B5%E8%84%91%E4%B8%8D%E5%B8%B8%E8%A7%81%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html/</link>
+      <pubDate>Mon, 19 Feb 2024 18:11:03 +0800</pubDate>
+      
+      <guid>https://1xiaoyuan.github.io/archives/%E7%94%B5%E8%84%91%E4%B8%8D%E5%B8%B8%E8%A7%81%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html/</guid>
+      <description>任务栏消失、Win键失灵、桌面泛白 解决方案：只能重启。
+系统文件损坏有可能导致Win10任务栏卡死，所以重启后运行系统文件检查器扫描系统。
+运行系统文件检查器可以帮助修复这些损坏的文件。以下是如何运行系统文件检查器：
+打开命令提示符，以管理员身份运行命令提示符； 键入【sfc /scannow】并按回车键； 等待系统文件检查器完成扫描和修复，即可恢复任务栏正常响应。 以管理员身份运行命令提示符的方法：在搜索中输入“cmd”，然后选择“以管理员身份运行”。</description>
+    </item>
+    
+    <item>
+      <title>常用电脑小技巧——快速搜索网页、打开常用应用</title>
+      <link>https://1xiaoyuan.github.io/archives/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%84%91%E5%B0%8F%E6%8A%80%E5%B7%A7%E5%BF%AB%E9%80%9F%E6%90%9C%E7%B4%A2%E7%BD%91%E9%A1%B5%E6%89%93%E5%BC%80%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8.html/</link>
+      <pubDate>Sat, 12 Nov 2022 00:29:17 +0800</pubDate>
+      
+      <guid>https://1xiaoyuan.github.io/archives/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%84%91%E5%B0%8F%E6%8A%80%E5%B7%A7%E5%BF%AB%E9%80%9F%E6%90%9C%E7%B4%A2%E7%BD%91%E9%A1%B5%E6%89%93%E5%BC%80%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8.html/</guid>
+      <description>抛开效率应用不谈，最节省时间的办法是多用键盘，尤其是win键（对windows用户而言）。
+任务栏搜索 任务栏左下角的搜索框，既能搜索并打开本地应用和服务，又能当作互联网搜索引擎使用。使用win键+输入文字也可以直接使用该功能。
+使用方法：
+按下win键，然后直接用键盘打字，内容可以是
+一个软件名字的一部分：如微，wx，微信，然后会出现对应的本地程序以及网页搜索建议。按下回车就能打开微信。 一个服务：如控制，控制面板，kzmb，然后会出现对应的服务以及网页搜索建议。 再也不用怕有些很难找到具体位置的服务了。 一个搜索：如平凡之路，然后会出现网页搜索推荐。 这样一来，打开常用的软件、服务，就能这样加快速度了。
+搜索某个问题，也不用再打开新页面，再点击搜索框后，再输入了。一个win键简化前两个步骤。
+浏览器快速搜索 现在的主流浏览器是 Edge 和 Chrome ，我使用它们浏览网页，想要搜索一个概念或问题，就需要另开一个新网页再搜索，甚是麻烦。
+下面提供一种在原页面进行搜索的方法。
+Ctrl + E 打开地址栏快捷搜索； 输入想搜的问题； Alt + Enter 在新标签页打开搜索内容。 如果第3步直接用Enter，当前页面会被刷新。</description>
+    </item>
+    
+  </channel>
+</rss>

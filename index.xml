@@ -7,7 +7,7 @@
             <link href="https://1xiaoyuan.github.io/" rel="alternate" type="text/html" title="HTML" />
             <link href="https://1xiaoyuan.github.io/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://1xiaoyuan.github.io/index.json" rel="alternate" type="application/json" title="JSON" />
-    <updated>2024-04-09T09:14:05+08:00</updated>
+    <updated>2024-04-09T20:07:58+08:00</updated>
     
     
     <author>
@@ -18,10 +18,10 @@
     
         
         <entry>
-            <title type="html"><![CDATA[2024 04 07]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/2024-04-07.html/" rel="alternate" type="text/html" />
+            <title type="html"><![CDATA[MySQL 基础知识笔记]]></title>
+            <link href="https://1xiaoyuan.github.io/archives/mysql-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/2024-04-07.html/</id>
+                <id>https://1xiaoyuan.github.io/archives/mysql-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0.html/</id>
             
             
             <published>2024-04-07T08:17:31+08:00</published>
@@ -492,7 +492,23 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
             
                  
                     
+                         
+                        
+                            
+                             
+                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                            
+                        
+                    
                  
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%BC%96%E7%A8%8B" term="%E7%BC%96%E7%A8%8B" label="编程" />
+                            
+                        
                     
                 
             
@@ -614,7 +630,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/" term="" label="" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" term="%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" label="电脑&amp;手机" />
                             
                         
                     
@@ -1626,7 +1642,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%AC%94%E8%AE%B0%E6%96%B9%E6%B3%95" term="%E7%AC%94%E8%AE%B0%E6%96%B9%E6%B3%95" label="笔记方法" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                              
                                 <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                             
@@ -2612,7 +2628,7 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%AC%94%E8%AE%B0%E6%96%B9%E6%B3%95" term="%E7%AC%94%E8%AE%B0%E6%96%B9%E6%B3%95" label="笔记方法" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                             
                         
                     
@@ -3298,7 +3314,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%AC%94%E8%AE%B0%E6%96%B9%E6%B3%95" term="%E7%AC%94%E8%AE%B0%E6%96%B9%E6%B3%95" label="笔记方法" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                              
                                 <category scheme="https://1xiaoyuan.github.io/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
                             
@@ -3738,7 +3754,7 @@ url 的组成：协议+域名+资源路径。</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%B2%BE%E5%BD%A9%E6%91%98%E5%BD%95" term="%E7%B2%BE%E5%BD%A9%E6%91%98%E5%BD%95" label="精彩摘录" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -3954,7 +3970,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E4%BA%A7%E6%95%88%E7%8E%87" term="%E7%94%9F%E4%BA%A7%E6%95%88%E7%8E%87" label="生产效率" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%BC%96%E7%A8%8B" term="%E7%BC%96%E7%A8%8B" label="编程" />
                             
                         
                     
@@ -4043,7 +4059,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%AC%94%E8%AE%B0%E6%96%B9%E6%B3%95" term="%E7%AC%94%E8%AE%B0%E6%96%B9%E6%B3%95" label="笔记方法" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                             
                         
                     
@@ -4768,7 +4784,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E4%BA%A7%E6%95%88%E7%8E%87" term="%E7%94%9F%E4%BA%A7%E6%95%88%E7%8E%87" label="生产效率" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" term="%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" label="电脑&amp;手机" />
                             
                         
                     

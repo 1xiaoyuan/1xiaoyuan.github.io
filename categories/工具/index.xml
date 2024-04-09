@@ -6,7 +6,31 @@
     <description>Recent content in 工具 on 朝闻道</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 19 Feb 2024 18:11:03 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 07 Apr 2024 08:17:31 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MySQL 基础知识笔记</title>
+      <link>https://1xiaoyuan.github.io/archives/mysql-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0.html/</link>
+      <pubDate>Sun, 07 Apr 2024 08:17:31 +0800</pubDate>
+      
+      <guid>https://1xiaoyuan.github.io/archives/mysql-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0.html/</guid>
+      <description>MySQL 中的数据格式
+INT 整数 DECIMAL(m,n) 有小数的数，m是所有数字的个数，n是小数的个数 VARCHA(n) 字符串 BLOB 二进制文件，如图片、影片 DATE 日期，&amp;lsquo;YYYY-MM-DD&amp;rsquo; TIMESTAMP 时间，&amp;lsquo;YYYY-MM-DD HH:MM:SS&amp;rsquo; MySQL 中的命令书写习惯
+MySQL 自带命令关键字一般用大写表示，如 SHOU DATABASES 用户在 MySQL 中自定义的字段名一般用 `` 符号标记，如 sql_tutorial 要用 ; 在命令语句结尾标记，表示该语句已结束，如 CREATE DATABASE sql_tutorial; 1、单表格操作： CREATE DATABASE sql_tutorial;
+该命令表示创建数据库
+SHOW DATABASES;
+该命令表示显示所有数据库
+DROP DATABASE sql_tutorial;
+该命令表示删除数据库
+USE sql_tutorial;
+该命令表示使用数据库
+DESCRIBE TABLE sql_tutorial;
+查看数据表
+创建表格 CREATE TABLE `student`( `student_id` INT PRIMARY KEY, `name` VARCHAR(20), `major` VARCHAR(20) ); 该命令表示在使用的数据库中创建表
+DESCRIBE student;
+该命令表示查看表
+DROP TABLE student;</description>
+    </item>
+    
     <item>
       <title>电脑不常见卡死问题解决方案</title>
       <link>https://1xiaoyuan.github.io/archives/%E7%94%B5%E8%84%91%E4%B8%8D%E5%B8%B8%E8%A7%81%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html/</link>

@@ -8,11 +8,11 @@
     <language>en-us</language>
     <lastBuildDate>Sun, 07 Apr 2024 08:17:31 +0800</lastBuildDate><atom:link href="https://1xiaoyuan.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>2024 04 07</title>
-      <link>https://1xiaoyuan.github.io/archives/2024-04-07.html/</link>
+      <title>MySQL 基础知识笔记</title>
+      <link>https://1xiaoyuan.github.io/archives/mysql-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0.html/</link>
       <pubDate>Sun, 07 Apr 2024 08:17:31 +0800</pubDate>
       
-      <guid>https://1xiaoyuan.github.io/archives/2024-04-07.html/</guid>
+      <guid>https://1xiaoyuan.github.io/archives/mysql-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0.html/</guid>
       <description>MySQL 中的数据格式
 INT 整数 DECIMAL(m,n) 有小数的数，m是所有数字的个数，n是小数的个数 VARCHA(n) 字符串 BLOB 二进制文件，如图片、影片 DATE 日期，&amp;lsquo;YYYY-MM-DD&amp;rsquo; TIMESTAMP 时间，&amp;lsquo;YYYY-MM-DD HH:MM:SS&amp;rsquo; MySQL 中的命令书写习惯
 MySQL 自带命令关键字一般用大写表示，如 SHOU DATABASES 用户在 MySQL 中自定义的字段名一般用 `` 符号标记，如 sql_tutorial 要用 ; 在命令语句结尾标记，表示该语句已结束，如 CREATE DATABASE sql_tutorial; 1、单表格操作： CREATE DATABASE sql_tutorial;
