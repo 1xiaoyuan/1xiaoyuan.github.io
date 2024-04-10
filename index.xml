@@ -7,7 +7,7 @@
             <link href="https://1xiaoyuan.github.io/" rel="alternate" type="text/html" title="HTML" />
             <link href="https://1xiaoyuan.github.io/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://1xiaoyuan.github.io/index.json" rel="alternate" type="application/json" title="JSON" />
-    <updated>2024-04-09T20:07:58+08:00</updated>
+    <updated>2024-04-10T17:07:23+08:00</updated>
     
     
     <author>
@@ -15,6 +15,87 @@
             </author>
     
         <id>https://1xiaoyuan.github.io/</id>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[Python中的 “虚拟环境”，一个概念的缺失带来的影响]]></title>
+            <link href="https://1xiaoyuan.github.io/archives/python%E4%B8%AD%E7%9A%84-%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E4%B8%80%E4%B8%AA%E6%A6%82%E5%BF%B5%E7%9A%84%E7%BC%BA%E5%A4%B1%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%BD%B1%E5%93%8D.html/" rel="alternate" type="text/html" />
+            
+                <id>https://1xiaoyuan.github.io/archives/python%E4%B8%AD%E7%9A%84-%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E4%B8%80%E4%B8%AA%E6%A6%82%E5%BF%B5%E7%9A%84%E7%BC%BA%E5%A4%B1%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%BD%B1%E5%93%8D.html/</id>
+            
+            
+            <published>2024-04-10T16:37:55+08:00</published>
+            <updated>2024-04-10T16:37:55+08:00</updated>
+            
+            
+            <content type="html"><![CDATA[<p>2024-04-10，下午14:00~16:05，倒腾了2个小时，终于能够成功运行PyHanLP了！下面记录一下学到的知识👇</p>
+<p>为了完成毕业设计中的一个环节——从文本中提取非结构化的信息——我需要能够理解语义的工具，所以今天我为我的 Python 安装了 PyHanLP 。</p>
+<p>下面分享一下我遇到的问题。有空了就介绍一下什么是 HanLP，没空就算了。</p>
+<blockquote>
+<p>这篇文章，我将用我的实际经验向你证明，一个概念的缺失，有可能会让你的工作变得更复杂！如果我能够重视这个概念，并且理解它的影响，我想我会选择学习一个专业工具（用来专门负责 Python 的虚拟环境），再去下载 HanLP 这个第三方库。</p>
+</blockquote>
+<h2 id="hanlp-傻瓜安装注意事项">HanLP 傻瓜安装注意事项</h2>
+<p>我使用了官网的 <a href="https://hanlp.hankcs.com/install.html#_1-x%E7%89%88">傻瓜安装包</a>，谁知道这个傻瓜安装包真把我当傻瓜，它连安装目录都不让我选，就直接一键帮我安装了 JAVA 环境、HanLP、以及一个新 Python 3.8！</p>
+<p><strong>并且这些东西都被安装在了 C 盘！</strong></p>
+<p>我原本的 Python 3.12 无法调用 PyHanLP ，这个 PyHanLP 只能由傻瓜安装的 Python 3.8 才能调用。</p>
+<p>为了解决这个问题，我试图将原本的项目虚拟环境中的 Python 解释器换成 Python 3.8，但是换过之后原本写好的代码不管用了——原因是 Python 3.8 中并没有安装这些库。</p>
+<blockquote>
+<p>我这才明白，虚拟环境中的 Python 版本也是指定的，所以我必须新建一个虚拟环境。</p>
+</blockquote>
+<p>然后我新建了一个虚拟环境，并将之前的代码都复制过来，然后重新下载这些代码中需要的第三方库，然而问题笑着再次出现在我面前。</p>
+<p>我试着运行 PyHanLP ，发现终端无法找到这个库。<strong>我这又明白了，原来 PyHanLP 是全局环境的库，虚拟环境中无法调用全局环境中的库。</strong></p>
+<p>可问题是，在终端中使用 <code>pip install pyhanlp</code> 根本就无法下载，所以我才会选择傻瓜安装包。</p>
+<p>要解决这个问题，我不得不放弃使用虚拟环境，而直接使用全局环境。我需要将 Python 3.8 添加到电脑的环境变量中，并且Python3.8 的优先级必须比 Python3.12 的高。<strong>只有这样，在终端中使用的 <code>pip install</code> 命令才针对 Python3.8。</strong></p>
+<blockquote>
+<p>这样做的缺点就是，以后我安装的所有库，都会直接安装在 C 盘，而不是我的代码所在的文件夹。</p>
+</blockquote>
+<p>正是这一个个拦路虎，让我终于明白了虚拟环境的真正含义——拥有自己的 pip 库，独立于其他任何的 Python 解释器的工作环境！</p>
+<p>我的 C 盘将被下载更多的库，本就内存不多的它会更加痛苦。这一切都是因为我没有办法在虚拟环境中安装 PyHanLP！也都因为我之前不理解“虚拟环境”。</p>
+<p><strong>我的建议是</strong>：如果你将要使用许多 Python 第三方库，也准备经常使用 Python 下载新的库，并且你不想让你的 C 盘背负太多，那你就去老老实实下载一个 Conde 吧，（Conde 是一个专门管理 Python 库、创建虚拟环境的工作平台）。</p>
+<p>对于 HanLP 这个库，官方也提供的 conda 下载方案，两行代码就能搞定安装（并不比傻瓜安装包复杂）。而且我猜测，如果在 conda 中配置好了安装路径，那么它帮你安装的 PyHanLP 都不会傻乎乎地安装在 C 盘！</p>
+<h2 id="什么是虚拟环境">什么是虚拟环境</h2>
+<p>简而言之，虚拟环境就是，选择使用一个版本的 Python 、有自己独立的 pip 库。</p>
+<ol>
+<li>虚拟环境就相当于你又安装了一个新 Python ，不过毕竟不是真的安装了一个新 Python ，创建虚拟环境不会使用很大内存。</li>
+<li>如果你的项目已激活虚拟环境，那么你只能使用该环境中安装过的 Python 库，就算你原来那个 Python 里有很多库，虚拟环境中的 Python 也无法调用它们。</li>
+<li>虚拟环境是用来：将一个项目所需的库和其他项目所需的库区分开，对每个项目文件而言节省空间。</li>
+</ol>
+<h2 id="如何在-vscode-中创建虚拟环境">如何在 VSCode 中创建虚拟环境</h2>
+<p>在VSCode 中为项目创建专属的 Python 虚拟环境：</p>
+<ol>
+<li>打开VSCode，打开文件夹</li>
+<li>点击 VSCode 右下角的，Python 编辑器，在弹出的选项中选择，“创建虚拟环境”，点击创建一个虚拟环境，然后你打算使用的 Python 版本</li>
+<li>新建终端，在终端中输入 .<code>\venv\Scripts\activate</code> 激活虚拟环境，其实就是让终端进入这个目录。值得注意的是，下次再使用 VSCode 打开这个文件夹就不需要再激活虚拟环境了，软件会自动进入。</li>
+</ol>
+<h2 id="这件事的结局">这件事的结局</h2>
+<p>我并不打算下载 Conde 以重新安装 HanLP ，但我也不打算一直使用这个傻瓜安装包为我在 C 盘配置的一切。</p>
+<p>我没有更多时间去学 Conde的使用，不仅仅因为它是英文界面，还因为半天的时间对我而言也非常稀缺。我还有很多事情要忙。</p>
+<p>等我考上研究生后，再来好好操作这个好工具吧！现在我只好妥协，在 C 盘完成我的毕业设计。</p>
+]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                            
+                        
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%BC%96%E7%A8%8B" term="%E7%BC%96%E7%A8%8B" label="编程" />
+                            
+                        
+                    
+                
+            
+        </entry>
     
         
         <entry>
@@ -1623,7 +1704,7 @@ nothing to commit, working tree clean
 <blockquote>
 <p>用时 45 min.</p>
 </blockquote>
-<p><img src="/img/posts/2023-12-31%E5%BE%AE%E4%BF%A1%E9%98%85%E8%AF%BB%E6%8A%A5%E5%91%8A.jpg" alt="2023读书报告"></p>
+<p><img src="/img/posts/2023/2023-12-31%E5%BE%AE%E4%BF%A1%E9%98%85%E8%AF%BB%E6%8A%A5%E5%91%8A.jpg" alt="2023读书报告"></p>
 ]]></content>
             
                  
@@ -1891,7 +1972,7 @@ nothing to commit, working tree clean
             <content type="html"><![CDATA[<blockquote>
 <p>今日语录：我心向道，心净若明月。——出自《完美世界》·月婵</p>
 </blockquote>
-<p><img src="/img/posts/2023-12-27%E6%9C%88%E5%A9%B5.jpg" alt="月婵"></p>
+<p><img src="/img/posts/2023/2023-12-27%E6%9C%88%E5%A9%B5.jpg" alt="月婵"></p>
 <p>致未来：我真的好喜欢月婵这个人物，不可亵渎的存在，神圣而令人向往。🥰🥰🥰</p>
 <h2 id="近期身体状况">近期身体状况</h2>
 <p>最近连续 3 天晚上 21:00 将手机、电脑统统关机，记录一下身体的反应。</p>
@@ -2446,8 +2527,8 @@ layout: &#34;list&#34;
             
             
             <content type="html"><![CDATA[<h2 id="我回来了flomo">我回来了，flomo</h2>
-<p><img src="/img/posts/2023-09-08flomo2.png" alt="flomo"></p>
-<p><img src="/img/posts/2023-09-08flomo.png" alt="flomo"></p>
+<p><img src="/img/posts/2023/2023-09-08flomo2.png" alt="flomo"></p>
+<p><img src="/img/posts/2023/2023-09-08flomo.png" alt="flomo"></p>
 <p>以上是我的两个 flomo 账号，听我细细讲来两个账号被舍弃的原因</p>
 <ul>
 <li>图 1 账号：标签混乱，且由于是初次使用，不假思索地记录内容，没有想过日后整理的不宜，导致这个号成了一个文字垃圾站。虽然期间删除过 300 个 memo ，但仍然混乱不堪。</li>
@@ -2602,7 +2683,7 @@ layout: &#34;list&#34;
 <blockquote>
 <p>如果你觉得Excel打开不方便，推荐使用一个习惯记录类APP来做这件事，安卓端推荐“今日习惯”App。</p>
 </blockquote>
-<p><img src="/img/posts/2023-08-21%E5%8D%81%E5%B9%B4%E6%97%A5%E8%AE%B0.jpg" alt="十年日记"></p>
+<p><img src="/img/posts/2023/2023-08-21%E5%8D%81%E5%B9%B4%E6%97%A5%E8%AE%B0.jpg" alt="十年日记"></p>
 <p>感悟式日记，用日记软件（一本日记APP），按照前面说的“<strong>方式二</strong>”记录。</p>
 <blockquote>
 <p>为什么是十年？</p>
@@ -3019,7 +3100,7 @@ exit
 <p>启发：梳理正确的时间观念换人生目标的重要性。</p>
 <p>简述：这本书讲述了柳比歇夫的时间记账，他的时间观念是「人除了时间一无所有，时间是人唯一的资产」，50多年不曾间断地记录每天的时间“开支”，记录内容为「事件+所属分类＋用时」，不同的是他的记录没有思考、没有细节，只有客观的流水账。</p>
 <p>书中称他为一个怪人，却取得了不凡的成就，故此书名设为《奇特的一生》。之所以奇特，与他有清晰的目标关系重大，他能够把事件明确投入到最重要的事情中去。</p>
-<p><img src="/img/posts/2023-05-08%E4%BB%BB%E5%8A%A1%E5%88%86%E7%B1%BB.png" alt="时间分类"></p>
+<p><img src="/img/posts/2023/2023-05-08%E4%BB%BB%E5%8A%A1%E5%88%86%E7%B1%BB.png" alt="时间分类"></p>
 <p>柳比歇夫记录时间的特点👇</p>
 <ol>
 <li>清晰的目标</li>
