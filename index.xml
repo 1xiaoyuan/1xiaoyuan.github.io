@@ -7,7 +7,7 @@
             <link href="https://1xiaoyuan.github.io/" rel="alternate" type="text/html" title="HTML" />
             <link href="https://1xiaoyuan.github.io/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
             <link href="https://1xiaoyuan.github.io/index.json" rel="alternate" type="application/json" title="JSON" />
-    <updated>2024-04-11T17:22:43+08:00</updated>
+    <updated>2024-04-11T17:35:30+08:00</updated>
     
     
     <author>
@@ -44,7 +44,7 @@
 <p>没错，这缺少的一份就是今天我要谈论的主角。</p>
 <h2 id="一字之差的工作量">一字之差的工作量</h2>
 <p>这一份数据一直在报错，我不得不在每个省份的文件之间依次测试，找出有问题的文件。</p>
-<p>我发现出错的原因是：程序的确识别出了“X人死亡”，并且将“X”提取了出来，但报错的那份文件用的不是“二人死亡”，而是是“两人死亡”。<strong>cn2an 这个专门将表示数字的汉语转化为英语的库，无法识别“两”</strong>。</p>
+<p>我发现出错的原因是：程序的确识别出了“X人死亡”，并且将“X”提取了出来，但报错的那份文件用的不是“二人死亡”，而是是“两人死亡”。<strong>cn2an 这个专门将表示数字的中文转化为阿拉伯数字的库，它只能识别“二”，无法识别“两”</strong>。</p>
 <p>于是我又要设计出一个新的逻辑语句，如果识别出了“两”，就将它改为“二”，然后再用 <code>cn2an</code> 将其转化为阿拉伯数字。</p>
 <p>我找到这个导致错误的原因并写出解决问题的语句，花了近半个小时。仅仅是一个字的偏差，为了使程序能够适应这种情况，却需要大量的测试。</p>
 <p>我并非一个计算机专业的学生，我比较好奇的是，也许“大量时间花费在解决报错上”就是软件开发的常态？</p>
