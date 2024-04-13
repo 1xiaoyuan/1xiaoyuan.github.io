@@ -261,8 +261,8 @@ print(result)
           <div class="cate">
             <div class="posts-line"><a class="post-tags" href="/archives/%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E5%8A%A0%E9%80%9F%E6%96%B9%E6%A1%88.html/" data-toggle="tooltip" data-placement="top" title="博客的CDN加速方案">
               Last-博客的CDN加速方案</a></div>
-            <div class="posts-line"><a class="post-tags" href="/archives/%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E5%8A%A0%E9%80%9F%E6%96%B9%E6%A1%88.html/" data-toggle="tooltip" data-placement="top" title="博客的CDN加速方案">
-              Nest-手写笔记如何避免杂乱无章</a></div>
+            <div class="posts-line"><a class="post-tags" href="/archives/%E6%89%8B%E5%86%99%E7%AC%94%E8%AE%B0%E5%A6%82%E4%BD%95%E9%81%BF%E5%85%8D%E6%9D%82%E4%B9%B1%E6%97%A0%E7%AB%A0.html/" data-toggle="tooltip" data-placement="top" title="博客的CDN加速方案">
+              Past-手写笔记如何避免杂乱无章</a></div>
 
           </div>
           
@@ -282,6 +282,25 @@ print(result)
         
         <div style="height:15px;"></div>
         <div class="post-box">
+<div>
+  <div class="pagination__title">
+      <span class="pagination__title-h" style="font-size: 20px;">💬评论</span>
+      <hr />
+  </div>
+  <div id="tcomment"></div>
+  <script src="https://cdn.staticfile.org/twikoo/1.6.32/twikoo.all.min.js"></script>
+  <script>
+      twikoo.init({
+          envId: "https://zhaowendao-blog.hf.space/",  
+          el: "#tcomment",
+          lang: 'zh-CN',
+          region: 'ap-shanghai',  
+          path: window.TWIKOO_MAGIC_PATH||window.location.pathname,
+      });
+  </script>
+</div>
+          
+
           <div class="post-comments">
             
             <div class="giscus"></div>
