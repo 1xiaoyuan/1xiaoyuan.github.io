@@ -1,27 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
-    <generator uri="https://gohugo.io/" version="0.101.0">Hugo</generator><title type="html"><![CDATA[朝闻道]]></title>
+    <generator uri="https://gohugo.io/" version="0.127.0">Hugo</generator><title type="html"><![CDATA[朝闻道]]></title>
     
     
     
-            <link href="https://1xiaoyuan.github.io/" rel="alternate" type="text/html" title="HTML" />
-            <link href="https://1xiaoyuan.github.io/index.xml" rel="alternate" type="application/rss+xml" title="RSS" />
-            <link href="https://1xiaoyuan.github.io/index.json" rel="alternate" type="application/json" title="JSON" />
-    <updated>2024-04-13T19:38:10+08:00</updated>
+            <link href="http://localhost:1313/" rel="alternate" type="text/html" title="html" />
+            <link href="http://localhost:1313/index.xml" rel="alternate" type="application/rss+xml" title="rss" />
+            <link href="http://localhost:1313/index.json" rel="alternate" type="application/json" title="json" />
+    <updated>2024-06-24T13:55:08+08:00</updated>
     
     
     <author>
             <name>阿蒙</name>
             </author>
     
-        <id>https://1xiaoyuan.github.io/</id>
+        <id>http://localhost:1313/</id>
+    
+        
+        <entry>
+            <title type="html"><![CDATA[有益终身之事]]></title>
+            <link href="http://localhost:1313/archives/%E6%9C%89%E7%9B%8A%E7%BB%88%E8%BA%AB%E4%B9%8B%E4%BA%8B.html/" rel="alternate" type="text/html" />
+            
+                <id>http://localhost:1313/archives/%E6%9C%89%E7%9B%8A%E7%BB%88%E8%BA%AB%E4%B9%8B%E4%BA%8B.html/</id>
+            
+            
+            <published>2024-04-19T22:54:53+08:00</published>
+            <updated>2024-04-19T22:54:53+08:00</updated>
+            
+            
+            <content type="html"><![CDATA[<h2 id="学习">学习</h2>
+<ul>
+<li>有效学习的</li>
+<li>没有复习就不属于学习</li>
+</ul>
+<h2 id="未分类">未分类</h2>
+<ul>
+<li>笑一笑</li>
+<li>大声呼气</li>
+<li>发呆</li>
+<li>有氧运动</li>
+<li>能获得意义感的友谊</li>
+</ul>
+]]></content>
+            
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                            
+                        
+                    
+                 
+                    
+                         
+                        
+                            
+                             
+                                <category scheme="http://localhost:1313/tags1/" term="" label="" />
+                            
+                        
+                    
+                
+            
+        </entry>
     
         
         <entry>
             <title type="html"><![CDATA[统一的标准太重要了（预先解决无形的问题）]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E7%BB%9F%E4%B8%80%E7%9A%84%E6%A0%87%E5%87%86%E5%A4%AA%E9%87%8D%E8%A6%81%E4%BA%86%E9%A2%84%E5%85%88%E8%A7%A3%E5%86%B3%E6%97%A0%E5%BD%A2%E7%9A%84%E9%97%AE%E9%A2%98.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E7%BB%9F%E4%B8%80%E7%9A%84%E6%A0%87%E5%87%86%E5%A4%AA%E9%87%8D%E8%A6%81%E4%BA%86%E9%A2%84%E5%85%88%E8%A7%A3%E5%86%B3%E6%97%A0%E5%BD%A2%E7%9A%84%E9%97%AE%E9%A2%98.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E7%BB%9F%E4%B8%80%E7%9A%84%E6%A0%87%E5%87%86%E5%A4%AA%E9%87%8D%E8%A6%81%E4%BA%86%E9%A2%84%E5%85%88%E8%A7%A3%E5%86%B3%E6%97%A0%E5%BD%A2%E7%9A%84%E9%97%AE%E9%A2%98.html/</id>
+                <id>http://localhost:1313/archives/%E7%BB%9F%E4%B8%80%E7%9A%84%E6%A0%87%E5%87%86%E5%A4%AA%E9%87%8D%E8%A6%81%E4%BA%86%E9%A2%84%E5%85%88%E8%A7%A3%E5%86%B3%E6%97%A0%E5%BD%A2%E7%9A%84%E9%97%AE%E9%A2%98.html/</id>
             
             
             <published>2024-04-11T17:06:18+08:00</published>
@@ -72,7 +123,7 @@
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -82,7 +133,7 @@
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%BC%96%E7%A8%8B" term="%E7%BC%96%E7%A8%8B" label="编程" />
+                                <category scheme="http://localhost:1313/tags1/%E7%BC%96%E7%A8%8B" term="%E7%BC%96%E7%A8%8B" label="编程" />
                             
                         
                     
@@ -93,9 +144,9 @@
         
         <entry>
             <title type="html"><![CDATA[Python中的 “虚拟环境”，一个概念的缺失带来的影响]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/python%E4%B8%AD%E7%9A%84-%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E4%B8%80%E4%B8%AA%E6%A6%82%E5%BF%B5%E7%9A%84%E7%BC%BA%E5%A4%B1%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%BD%B1%E5%93%8D.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/python%E4%B8%AD%E7%9A%84-%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E4%B8%80%E4%B8%AA%E6%A6%82%E5%BF%B5%E7%9A%84%E7%BC%BA%E5%A4%B1%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%BD%B1%E5%93%8D.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/python%E4%B8%AD%E7%9A%84-%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E4%B8%80%E4%B8%AA%E6%A6%82%E5%BF%B5%E7%9A%84%E7%BC%BA%E5%A4%B1%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%BD%B1%E5%93%8D.html/</id>
+                <id>http://localhost:1313/archives/python%E4%B8%AD%E7%9A%84-%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E4%B8%80%E4%B8%AA%E6%A6%82%E5%BF%B5%E7%9A%84%E7%BC%BA%E5%A4%B1%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%BD%B1%E5%93%8D.html/</id>
             
             
             <published>2024-04-10T16:37:55+08:00</published>
@@ -154,7 +205,7 @@
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -164,7 +215,7 @@
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%BC%96%E7%A8%8B" term="%E7%BC%96%E7%A8%8B" label="编程" />
+                                <category scheme="http://localhost:1313/tags1/%E7%BC%96%E7%A8%8B" term="%E7%BC%96%E7%A8%8B" label="编程" />
                             
                         
                     
@@ -175,9 +226,9 @@
         
         <entry>
             <title type="html"><![CDATA[MySQL 基础知识笔记]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/mysql-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/mysql-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/mysql-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0.html/</id>
+                <id>http://localhost:1313/archives/mysql-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0.html/</id>
             
             
             <published>2024-04-07T08:17:31+08:00</published>
@@ -652,7 +703,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -662,7 +713,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%BC%96%E7%A8%8B" term="%E7%BC%96%E7%A8%8B" label="编程" />
+                                <category scheme="http://localhost:1313/tags1/%E7%BC%96%E7%A8%8B" term="%E7%BC%96%E7%A8%8B" label="编程" />
                             
                         
                     
@@ -673,9 +724,9 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
         
         <entry>
             <title type="html"><![CDATA[君子慎独]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%90%9B%E5%AD%90%E6%85%8E%E7%8B%AC.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E5%90%9B%E5%AD%90%E6%85%8E%E7%8B%AC.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E5%90%9B%E5%AD%90%E6%85%8E%E7%8B%AC.html/</id>
+                <id>http://localhost:1313/archives/%E5%90%9B%E5%AD%90%E6%85%8E%E7%8B%AC.html/</id>
             
             
             <published>2024-04-01T14:49:49+08:00</published>
@@ -726,7 +777,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="http://localhost:1313/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -736,7 +787,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="http://localhost:1313/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                             
                         
                     
@@ -747,9 +798,9 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
         
         <entry>
             <title type="html"><![CDATA[电脑不常见卡死问题解决方案]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E7%94%B5%E8%84%91%E4%B8%8D%E5%B8%B8%E8%A7%81%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E7%94%B5%E8%84%91%E4%B8%8D%E5%B8%B8%E8%A7%81%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E7%94%B5%E8%84%91%E4%B8%8D%E5%B8%B8%E8%A7%81%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html/</id>
+                <id>http://localhost:1313/archives/%E7%94%B5%E8%84%91%E4%B8%8D%E5%B8%B8%E8%A7%81%E5%8D%A1%E6%AD%BB%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.html/</id>
             
             
             <published>2024-02-19T18:11:03+08:00</published>
@@ -776,7 +827,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -786,7 +837,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" term="%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" label="电脑&amp;手机" />
+                                <category scheme="http://localhost:1313/tags1/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" term="%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" label="电脑&amp;手机" />
                             
                         
                     
@@ -797,9 +848,9 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
         
         <entry>
             <title type="html"><![CDATA[2024 除夕记事]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/2024-%E9%99%A4%E5%A4%95%E8%AE%B0%E4%BA%8B.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/2024-%E9%99%A4%E5%A4%95%E8%AE%B0%E4%BA%8B.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/2024-%E9%99%A4%E5%A4%95%E8%AE%B0%E4%BA%8B.html/</id>
+                <id>http://localhost:1313/archives/2024-%E9%99%A4%E5%A4%95%E8%AE%B0%E4%BA%8B.html/</id>
             
             
             <published>2024-02-09T22:23:36+08:00</published>
@@ -840,7 +891,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="http://localhost:1313/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -850,7 +901,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="http://localhost:1313/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                             
                         
                     
@@ -861,9 +912,9 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
         
         <entry>
             <title type="html"><![CDATA[hugo 语法备忘录]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/hugo-%E8%AF%AD%E6%B3%95%E5%A4%87%E5%BF%98%E5%BD%95.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/hugo-%E8%AF%AD%E6%B3%95%E5%A4%87%E5%BF%98%E5%BD%95.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/hugo-%E8%AF%AD%E6%B3%95%E5%A4%87%E5%BF%98%E5%BD%95.html/</id>
+                <id>http://localhost:1313/archives/hugo-%E8%AF%AD%E6%B3%95%E5%A4%87%E5%BF%98%E5%BD%95.html/</id>
             
             
             <published>2024-02-07T15:55:42+08:00</published>
@@ -881,7 +932,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
 <h2 id="引用图片">引用图片</h2>
 <p>例如：<code>![打赏](/img/打赏.jpg)</code></p>
 <h2 id="引用文档">引用文档</h2>
-<p>例如<code>[显示的文字](https://1xiaoyuan.github.io/archives/%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E7%9A%84%E7%94%A8%E6%B3%95.html/)</code></p>
+<p>例如<code>[显示的文字](http://localhost:1313/archives/%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E7%9A%84%E7%94%A8%E6%B3%95.html/)</code></p>
 ]]></content>
             
                  
@@ -890,7 +941,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -900,7 +951,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/hugo" term="hugo" label="hugo" />
+                                <category scheme="http://localhost:1313/tags1/hugo" term="hugo" label="hugo" />
                             
                         
                     
@@ -911,9 +962,9 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
         
         <entry>
             <title type="html"><![CDATA[尽量不要让太多人知道你的目标]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%B0%BD%E9%87%8F%E4%B8%8D%E8%A6%81%E8%AE%A9%E5%A4%AA%E5%A4%9A%E4%BA%BA%E7%9F%A5%E9%81%93%E4%BD%A0%E7%9A%84%E7%9B%AE%E6%A0%87.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E5%B0%BD%E9%87%8F%E4%B8%8D%E8%A6%81%E8%AE%A9%E5%A4%AA%E5%A4%9A%E4%BA%BA%E7%9F%A5%E9%81%93%E4%BD%A0%E7%9A%84%E7%9B%AE%E6%A0%87.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E5%B0%BD%E9%87%8F%E4%B8%8D%E8%A6%81%E8%AE%A9%E5%A4%AA%E5%A4%9A%E4%BA%BA%E7%9F%A5%E9%81%93%E4%BD%A0%E7%9A%84%E7%9B%AE%E6%A0%87.html/</id>
+                <id>http://localhost:1313/archives/%E5%B0%BD%E9%87%8F%E4%B8%8D%E8%A6%81%E8%AE%A9%E5%A4%AA%E5%A4%9A%E4%BA%BA%E7%9F%A5%E9%81%93%E4%BD%A0%E7%9A%84%E7%9B%AE%E6%A0%87.html/</id>
             
             
             <published>2024-01-29T20:13:58+08:00</published>
@@ -943,7 +994,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -953,7 +1004,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="http://localhost:1313/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -964,9 +1015,9 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
         
         <entry>
             <title type="html"><![CDATA[Github本地仓库与网络不同步问题]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/github%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%8D%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/github%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%8D%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/github%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%8D%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98.html/</id>
+                <id>http://localhost:1313/archives/github%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%8D%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98.html/</id>
             
             
             <published>2024-01-27T08:11:54+08:00</published>
@@ -1017,7 +1068,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -1027,7 +1078,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/hugo" term="hugo" label="Hugo" />
+                                <category scheme="http://localhost:1313/tags1/hugo" term="hugo" label="Hugo" />
                             
                         
                     
@@ -1038,9 +1089,9 @@ nothing to commit, working tree clean
         
         <entry>
             <title type="html"><![CDATA[谁都会老去]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E8%B0%81%E9%83%BD%E4%BC%9A%E8%80%81%E5%8E%BB.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E8%B0%81%E9%83%BD%E4%BC%9A%E8%80%81%E5%8E%BB.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E8%B0%81%E9%83%BD%E4%BC%9A%E8%80%81%E5%8E%BB.html/</id>
+                <id>http://localhost:1313/archives/%E8%B0%81%E9%83%BD%E4%BC%9A%E8%80%81%E5%8E%BB.html/</id>
             
             
             <published>2024-01-26T21:19:55+08:00</published>
@@ -1068,7 +1119,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="http://localhost:1313/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -1078,7 +1129,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="http://localhost:1313/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                             
                         
                     
@@ -1089,9 +1140,9 @@ nothing to commit, working tree clean
         
         <entry>
             <title type="html"><![CDATA[会有那一天]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E4%BC%9A%E6%9C%89%E9%82%A3%E4%B8%80%E5%A4%A9.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E4%BC%9A%E6%9C%89%E9%82%A3%E4%B8%80%E5%A4%A9.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E4%BC%9A%E6%9C%89%E9%82%A3%E4%B8%80%E5%A4%A9.html/</id>
+                <id>http://localhost:1313/archives/%E4%BC%9A%E6%9C%89%E9%82%A3%E4%B8%80%E5%A4%A9.html/</id>
             
             
             <published>2024-01-17T21:08:45+08:00</published>
@@ -1176,7 +1227,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="http://localhost:1313/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -1186,7 +1237,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="http://localhost:1313/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                             
                         
                     
@@ -1197,9 +1248,9 @@ nothing to commit, working tree clean
         
         <entry>
             <title type="html"><![CDATA[再无大学考试]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%86%8D%E6%97%A0%E5%A4%A7%E5%AD%A6%E8%80%83%E8%AF%95.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E5%86%8D%E6%97%A0%E5%A4%A7%E5%AD%A6%E8%80%83%E8%AF%95.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E5%86%8D%E6%97%A0%E5%A4%A7%E5%AD%A6%E8%80%83%E8%AF%95.html/</id>
+                <id>http://localhost:1313/archives/%E5%86%8D%E6%97%A0%E5%A4%A7%E5%AD%A6%E8%80%83%E8%AF%95.html/</id>
             
             
             <published>2024-01-09T21:24:30+08:00</published>
@@ -1248,7 +1299,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="http://localhost:1313/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -1258,7 +1309,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="http://localhost:1313/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                             
                         
                     
@@ -1269,9 +1320,9 @@ nothing to commit, working tree clean
         
         <entry>
             <title type="html"><![CDATA[复盘和反思的共同点]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%A4%8D%E7%9B%98%E5%92%8C%E5%8F%8D%E6%80%9D%E7%9A%84%E5%85%B1%E5%90%8C%E7%82%B9.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E5%A4%8D%E7%9B%98%E5%92%8C%E5%8F%8D%E6%80%9D%E7%9A%84%E5%85%B1%E5%90%8C%E7%82%B9.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E5%A4%8D%E7%9B%98%E5%92%8C%E5%8F%8D%E6%80%9D%E7%9A%84%E5%85%B1%E5%90%8C%E7%82%B9.html/</id>
+                <id>http://localhost:1313/archives/%E5%A4%8D%E7%9B%98%E5%92%8C%E5%8F%8D%E6%80%9D%E7%9A%84%E5%85%B1%E5%90%8C%E7%82%B9.html/</id>
             
             
             <published>2024-01-08T22:17:02+08:00</published>
@@ -1298,7 +1349,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -1308,7 +1359,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="http://localhost:1313/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -1319,9 +1370,9 @@ nothing to commit, working tree clean
         
         <entry>
             <title type="html"><![CDATA[今天的文章一字千金]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%96%87%E7%AB%A0%E4%B8%80%E5%AD%97%E5%8D%83%E9%87%91.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%96%87%E7%AB%A0%E4%B8%80%E5%AD%97%E5%8D%83%E9%87%91.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%96%87%E7%AB%A0%E4%B8%80%E5%AD%97%E5%8D%83%E9%87%91.html/</id>
+                <id>http://localhost:1313/archives/%E4%BB%8A%E5%A4%A9%E7%9A%84%E6%96%87%E7%AB%A0%E4%B8%80%E5%AD%97%E5%8D%83%E9%87%91.html/</id>
             
             
             <published>2024-01-06T16:54:43+08:00</published>
@@ -1356,7 +1407,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -1366,7 +1417,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="http://localhost:1313/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                             
                         
                     
@@ -1377,9 +1428,9 @@ nothing to commit, working tree clean
         
         <entry>
             <title type="html"><![CDATA[吐槽《完美世界》动漫]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%90%90%E6%A7%BD%E5%AE%8C%E7%BE%8E%E4%B8%96%E7%95%8C%E5%8A%A8%E6%BC%AB.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E5%90%90%E6%A7%BD%E5%AE%8C%E7%BE%8E%E4%B8%96%E7%95%8C%E5%8A%A8%E6%BC%AB.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E5%90%90%E6%A7%BD%E5%AE%8C%E7%BE%8E%E4%B8%96%E7%95%8C%E5%8A%A8%E6%BC%AB.html/</id>
+                <id>http://localhost:1313/archives/%E5%90%90%E6%A7%BD%E5%AE%8C%E7%BE%8E%E4%B8%96%E7%95%8C%E5%8A%A8%E6%BC%AB.html/</id>
             
             
             <published>2024-01-05T09:28:40+08:00</published>
@@ -1401,7 +1452,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="http://localhost:1313/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -1411,7 +1462,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="http://localhost:1313/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                             
                         
                     
@@ -1422,9 +1473,9 @@ nothing to commit, working tree clean
         
         <entry>
             <title type="html"><![CDATA[梳理一些当前遇到的问题]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E6%A2%B3%E7%90%86%E4%B8%80%E4%BA%9B%E5%BD%93%E5%89%8D%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E6%A2%B3%E7%90%86%E4%B8%80%E4%BA%9B%E5%BD%93%E5%89%8D%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E6%A2%B3%E7%90%86%E4%B8%80%E4%BA%9B%E5%BD%93%E5%89%8D%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98.html/</id>
+                <id>http://localhost:1313/archives/%E6%A2%B3%E7%90%86%E4%B8%80%E4%BA%9B%E5%BD%93%E5%89%8D%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98.html/</id>
             
             
             <published>2024-01-04T14:38:41+08:00</published>
@@ -1493,7 +1544,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -1503,11 +1554,11 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
+                                <category scheme="http://localhost:1313/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="http://localhost:1313/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
+                                <category scheme="http://localhost:1313/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                             
                         
                     
@@ -1518,9 +1569,9 @@ nothing to commit, working tree clean
         
         <entry>
             <title type="html"><![CDATA[应对信息爆炸的思考]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%BA%94%E5%AF%B9%E4%BF%A1%E6%81%AF%E7%88%86%E7%82%B8%E7%9A%84%E6%80%9D%E8%80%83.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E5%BA%94%E5%AF%B9%E4%BF%A1%E6%81%AF%E7%88%86%E7%82%B8%E7%9A%84%E6%80%9D%E8%80%83.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E5%BA%94%E5%AF%B9%E4%BF%A1%E6%81%AF%E7%88%86%E7%82%B8%E7%9A%84%E6%80%9D%E8%80%83.html/</id>
+                <id>http://localhost:1313/archives/%E5%BA%94%E5%AF%B9%E4%BF%A1%E6%81%AF%E7%88%86%E7%82%B8%E7%9A%84%E6%80%9D%E8%80%83.html/</id>
             
             
             <published>2024-01-03T11:40:51+08:00</published>
@@ -1579,7 +1630,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -1589,7 +1640,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="http://localhost:1313/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -1600,9 +1651,9 @@ nothing to commit, working tree clean
         
         <entry>
             <title type="html"><![CDATA[语法和逻辑和写作]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E8%AF%AD%E6%B3%95%E5%92%8C%E9%80%BB%E8%BE%91%E5%92%8C%E5%86%99%E4%BD%9C.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E8%AF%AD%E6%B3%95%E5%92%8C%E9%80%BB%E8%BE%91%E5%92%8C%E5%86%99%E4%BD%9C.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E8%AF%AD%E6%B3%95%E5%92%8C%E9%80%BB%E8%BE%91%E5%92%8C%E5%86%99%E4%BD%9C.html/</id>
+                <id>http://localhost:1313/archives/%E8%AF%AD%E6%B3%95%E5%92%8C%E9%80%BB%E8%BE%91%E5%92%8C%E5%86%99%E4%BD%9C.html/</id>
             
             
             <published>2024-01-02T19:24:29+08:00</published>
@@ -1641,7 +1692,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -1651,7 +1702,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
+                                <category scheme="http://localhost:1313/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
                             
                         
                     
@@ -1662,9 +1713,9 @@ nothing to commit, working tree clean
         
         <entry>
             <title type="html"><![CDATA[什么是普通人 | 我批判的目的]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E4%BB%80%E4%B9%88%E6%98%AF%E6%99%AE%E9%80%9A%E4%BA%BA-%E6%88%91%E6%89%B9%E5%88%A4%E7%9A%84%E7%9B%AE%E7%9A%84.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E4%BB%80%E4%B9%88%E6%98%AF%E6%99%AE%E9%80%9A%E4%BA%BA-%E6%88%91%E6%89%B9%E5%88%A4%E7%9A%84%E7%9B%AE%E7%9A%84.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E4%BB%80%E4%B9%88%E6%98%AF%E6%99%AE%E9%80%9A%E4%BA%BA-%E6%88%91%E6%89%B9%E5%88%A4%E7%9A%84%E7%9B%AE%E7%9A%84.html/</id>
+                <id>http://localhost:1313/archives/%E4%BB%80%E4%B9%88%E6%98%AF%E6%99%AE%E9%80%9A%E4%BA%BA-%E6%88%91%E6%89%B9%E5%88%A4%E7%9A%84%E7%9B%AE%E7%9A%84.html/</id>
             
             
             <published>2024-01-01T19:45:30+08:00</published>
@@ -1704,7 +1755,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -1714,7 +1765,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="http://localhost:1313/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                             
                         
                     
@@ -1725,9 +1776,9 @@ nothing to commit, working tree clean
         
         <entry>
             <title type="html"><![CDATA[再见，2023]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%86%8D%E8%A7%812023.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E5%86%8D%E8%A7%812023.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E5%86%8D%E8%A7%812023.html/</id>
+                <id>http://localhost:1313/archives/%E5%86%8D%E8%A7%812023.html/</id>
             
             
             <published>2023-12-31T08:41:31+08:00</published>
@@ -1788,7 +1839,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="http://localhost:1313/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -1798,9 +1849,9 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
+                                <category scheme="http://localhost:1313/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="http://localhost:1313/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                             
                         
                     
@@ -1811,9 +1862,9 @@ nothing to commit, working tree clean
         
         <entry>
             <title type="html"><![CDATA[可以被句子影响的思维]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%8F%AF%E4%BB%A5%E8%A2%AB%E5%8F%A5%E5%AD%90%E5%BD%B1%E5%93%8D%E7%9A%84%E6%80%9D%E7%BB%B4.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E5%8F%AF%E4%BB%A5%E8%A2%AB%E5%8F%A5%E5%AD%90%E5%BD%B1%E5%93%8D%E7%9A%84%E6%80%9D%E7%BB%B4.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E5%8F%AF%E4%BB%A5%E8%A2%AB%E5%8F%A5%E5%AD%90%E5%BD%B1%E5%93%8D%E7%9A%84%E6%80%9D%E7%BB%B4.html/</id>
+                <id>http://localhost:1313/archives/%E5%8F%AF%E4%BB%A5%E8%A2%AB%E5%8F%A5%E5%AD%90%E5%BD%B1%E5%93%8D%E7%9A%84%E6%80%9D%E7%BB%B4.html/</id>
             
             
             <published>2023-12-30T22:20:19+08:00</published>
@@ -1862,7 +1913,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -1872,7 +1923,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
+                                <category scheme="http://localhost:1313/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
                             
                         
                     
@@ -1883,9 +1934,9 @@ nothing to commit, working tree clean
         
         <entry>
             <title type="html"><![CDATA[先试错，再发力]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%85%88%E8%AF%95%E9%94%99%E5%86%8D%E5%8F%91%E5%8A%9B.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E5%85%88%E8%AF%95%E9%94%99%E5%86%8D%E5%8F%91%E5%8A%9B.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E5%85%88%E8%AF%95%E9%94%99%E5%86%8D%E5%8F%91%E5%8A%9B.html/</id>
+                <id>http://localhost:1313/archives/%E5%85%88%E8%AF%95%E9%94%99%E5%86%8D%E5%8F%91%E5%8A%9B.html/</id>
             
             
             <published>2023-12-29T17:36:18+08:00</published>
@@ -1930,7 +1981,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -1940,7 +1991,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="http://localhost:1313/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -1951,9 +2002,9 @@ nothing to commit, working tree clean
         
         <entry>
             <title type="html"><![CDATA[一些写作原则]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E4%B8%80%E4%BA%9B%E5%86%99%E4%BD%9C%E5%8E%9F%E5%88%99.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E4%B8%80%E4%BA%9B%E5%86%99%E4%BD%9C%E5%8E%9F%E5%88%99.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E4%B8%80%E4%BA%9B%E5%86%99%E4%BD%9C%E5%8E%9F%E5%88%99.html/</id>
+                <id>http://localhost:1313/archives/%E4%B8%80%E4%BA%9B%E5%86%99%E4%BD%9C%E5%8E%9F%E5%88%99.html/</id>
             
             
             <published>2023-12-28T04:14:55+08:00</published>
@@ -2014,7 +2065,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -2024,7 +2075,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
+                                <category scheme="http://localhost:1313/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
                             
                         
                     
@@ -2035,9 +2086,9 @@ nothing to commit, working tree clean
         
         <entry>
             <title type="html"><![CDATA[知行合一，大道至简]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E7%9F%A5%E8%A1%8C%E5%90%88%E4%B8%80%E5%A4%A7%E9%81%93%E8%87%B3%E7%AE%80.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E7%9F%A5%E8%A1%8C%E5%90%88%E4%B8%80%E5%A4%A7%E9%81%93%E8%87%B3%E7%AE%80.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E7%9F%A5%E8%A1%8C%E5%90%88%E4%B8%80%E5%A4%A7%E9%81%93%E8%87%B3%E7%AE%80.html/</id>
+                <id>http://localhost:1313/archives/%E7%9F%A5%E8%A1%8C%E5%90%88%E4%B8%80%E5%A4%A7%E9%81%93%E8%87%B3%E7%AE%80.html/</id>
             
             
             <published>2023-12-27T10:59:43+08:00</published>
@@ -2113,7 +2164,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="http://localhost:1313/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -2123,7 +2174,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="http://localhost:1313/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -2134,9 +2185,9 @@ nothing to commit, working tree clean
         
         <entry>
             <title type="html"><![CDATA[复盘什么 | 一个美妙的人生并不难 | 被忽略的语言]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%A4%8D%E7%9B%98%E4%BB%80%E4%B9%88-%E4%B8%80%E4%B8%AA%E7%BE%8E%E5%A6%99%E7%9A%84%E4%BA%BA%E7%94%9F%E5%B9%B6%E4%B8%8D%E9%9A%BE-%E8%A2%AB%E5%BF%BD%E7%95%A5%E7%9A%84%E8%AF%AD%E8%A8%80.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E5%A4%8D%E7%9B%98%E4%BB%80%E4%B9%88-%E4%B8%80%E4%B8%AA%E7%BE%8E%E5%A6%99%E7%9A%84%E4%BA%BA%E7%94%9F%E5%B9%B6%E4%B8%8D%E9%9A%BE-%E8%A2%AB%E5%BF%BD%E7%95%A5%E7%9A%84%E8%AF%AD%E8%A8%80.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E5%A4%8D%E7%9B%98%E4%BB%80%E4%B9%88-%E4%B8%80%E4%B8%AA%E7%BE%8E%E5%A6%99%E7%9A%84%E4%BA%BA%E7%94%9F%E5%B9%B6%E4%B8%8D%E9%9A%BE-%E8%A2%AB%E5%BF%BD%E7%95%A5%E7%9A%84%E8%AF%AD%E8%A8%80.html/</id>
+                <id>http://localhost:1313/archives/%E5%A4%8D%E7%9B%98%E4%BB%80%E4%B9%88-%E4%B8%80%E4%B8%AA%E7%BE%8E%E5%A6%99%E7%9A%84%E4%BA%BA%E7%94%9F%E5%B9%B6%E4%B8%8D%E9%9A%BE-%E8%A2%AB%E5%BF%BD%E7%95%A5%E7%9A%84%E8%AF%AD%E8%A8%80.html/</id>
             
             
             <published>2023-12-26T09:35:14+08:00</published>
@@ -2190,7 +2241,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -2200,9 +2251,9 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="http://localhost:1313/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
+                                <category scheme="http://localhost:1313/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
                             
                         
                     
@@ -2213,9 +2264,9 @@ nothing to commit, working tree clean
         
         <entry>
             <title type="html"><![CDATA[处理信息的软件体系与理念]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%A4%84%E7%90%86%E4%BF%A1%E6%81%AF%E7%9A%84%E8%BD%AF%E4%BB%B6%E4%BD%93%E7%B3%BB%E4%B8%8E%E7%90%86%E5%BF%B5.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E5%A4%84%E7%90%86%E4%BF%A1%E6%81%AF%E7%9A%84%E8%BD%AF%E4%BB%B6%E4%BD%93%E7%B3%BB%E4%B8%8E%E7%90%86%E5%BF%B5.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E5%A4%84%E7%90%86%E4%BF%A1%E6%81%AF%E7%9A%84%E8%BD%AF%E4%BB%B6%E4%BD%93%E7%B3%BB%E4%B8%8E%E7%90%86%E5%BF%B5.html/</id>
+                <id>http://localhost:1313/archives/%E5%A4%84%E7%90%86%E4%BF%A1%E6%81%AF%E7%9A%84%E8%BD%AF%E4%BB%B6%E4%BD%93%E7%B3%BB%E4%B8%8E%E7%90%86%E5%BF%B5.html/</id>
             
             
             <published>2023-12-25T19:43:43+08:00</published>
@@ -2283,9 +2334,9 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -2295,7 +2346,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
+                                <category scheme="http://localhost:1313/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                             
                         
                     
@@ -2306,9 +2357,9 @@ nothing to commit, working tree clean
         
         <entry>
             <title type="html"><![CDATA[分类和标签的用法]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E7%9A%84%E7%94%A8%E6%B3%95.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E7%9A%84%E7%94%A8%E6%B3%95.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E7%9A%84%E7%94%A8%E6%B3%95.html/</id>
+                <id>http://localhost:1313/archives/%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E7%9A%84%E7%94%A8%E6%B3%95.html/</id>
             
             
             <published>2023-12-23T17:49:41+08:00</published>
@@ -2316,7 +2367,7 @@ nothing to commit, working tree clean
             
             
             <content type="html"><![CDATA[<h2 id="对分类和标签的使用">对分类和标签的使用</h2>
-<p>书接上回，写完 <a href="https://1xiaoyuan.github.io/archives/%E6%88%91%E6%9D%A5%E4%BA%86xlog.html/">我来了，Xlog</a> 这篇文章后，我又对所有文档的分类和标签进行的优化。</p>
+<p>书接上回，写完 <a href="http://localhost:1313/archives/%E6%88%91%E6%9D%A5%E4%BA%86xlog.html/">我来了，Xlog</a> 这篇文章后，我又对所有文档的分类和标签进行的优化。</p>
 <p>首先对于“分类”和“标签”这两个功能，我的理解是👇</p>
 <ul>
 <li>分类用来对文章进行 方向/维度 的划分；</li>
@@ -2346,7 +2397,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -2356,7 +2407,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
+                                <category scheme="http://localhost:1313/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                             
                         
                     
@@ -2367,9 +2418,9 @@ nothing to commit, working tree clean
         
         <entry>
             <title type="html"><![CDATA[我来了，xlog]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E6%88%91%E6%9D%A5%E4%BA%86xlog.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E6%88%91%E6%9D%A5%E4%BA%86xlog.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E6%88%91%E6%9D%A5%E4%BA%86xlog.html/</id>
+                <id>http://localhost:1313/archives/%E6%88%91%E6%9D%A5%E4%BA%86xlog.html/</id>
             
             
             <published>2023-12-23T16:53:42+08:00</published>
@@ -2415,9 +2466,9 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="http://localhost:1313/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -2427,7 +2478,7 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/hugo" term="hugo" label="hugo" />
+                                <category scheme="http://localhost:1313/tags1/hugo" term="hugo" label="hugo" />
                             
                         
                     
@@ -2438,9 +2489,9 @@ layout: &#34;list&#34;
         
         <entry>
             <title type="html"><![CDATA[别焦急，生活需要爱好]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%88%AB%E7%84%A6%E6%80%A5%E7%94%9F%E6%B4%BB%E9%9C%80%E8%A6%81%E7%88%B1%E5%A5%BD.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E5%88%AB%E7%84%A6%E6%80%A5%E7%94%9F%E6%B4%BB%E9%9C%80%E8%A6%81%E7%88%B1%E5%A5%BD.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E5%88%AB%E7%84%A6%E6%80%A5%E7%94%9F%E6%B4%BB%E9%9C%80%E8%A6%81%E7%88%B1%E5%A5%BD.html/</id>
+                <id>http://localhost:1313/archives/%E5%88%AB%E7%84%A6%E6%80%A5%E7%94%9F%E6%B4%BB%E9%9C%80%E8%A6%81%E7%88%B1%E5%A5%BD.html/</id>
             
             
             <published>2023-12-03T22:18:10+08:00</published>
@@ -2482,7 +2533,7 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="http://localhost:1313/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -2492,9 +2543,9 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="http://localhost:1313/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
+                                <category scheme="http://localhost:1313/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                             
                         
                     
@@ -2505,9 +2556,9 @@ layout: &#34;list&#34;
         
         <entry>
             <title type="html"><![CDATA[无尽的探索，建立世界模型]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E6%97%A0%E5%B0%BD%E7%9A%84%E6%8E%A2%E7%B4%A2%E5%BB%BA%E7%AB%8B%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E6%97%A0%E5%B0%BD%E7%9A%84%E6%8E%A2%E7%B4%A2%E5%BB%BA%E7%AB%8B%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E6%97%A0%E5%B0%BD%E7%9A%84%E6%8E%A2%E7%B4%A2%E5%BB%BA%E7%AB%8B%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B.html/</id>
+                <id>http://localhost:1313/archives/%E6%97%A0%E5%B0%BD%E7%9A%84%E6%8E%A2%E7%B4%A2%E5%BB%BA%E7%AB%8B%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B.html/</id>
             
             
             <published>2023-10-06T22:49:45+08:00</published>
@@ -2571,7 +2622,7 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -2581,7 +2632,7 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="http://localhost:1313/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -2592,9 +2643,9 @@ layout: &#34;list&#34;
         
         <entry>
             <title type="html"><![CDATA[flomo标签系统设计]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/flomo%E6%A0%87%E7%AD%BE%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/flomo%E6%A0%87%E7%AD%BE%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/flomo%E6%A0%87%E7%AD%BE%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1.html/</id>
+                <id>http://localhost:1313/archives/flomo%E6%A0%87%E7%AD%BE%E7%B3%BB%E7%BB%9F%E8%AE%BE%E8%AE%A1.html/</id>
             
             
             <published>2023-09-06T09:00:33+08:00</published>
@@ -2630,7 +2681,7 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -2640,7 +2691,7 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
+                                <category scheme="http://localhost:1313/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                             
                         
                     
@@ -2651,9 +2702,9 @@ layout: &#34;list&#34;
         
         <entry>
             <title type="html"><![CDATA[一种纵向记录生活的方案]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E4%B8%80%E7%A7%8D%E7%BA%B5%E5%90%91%E8%AE%B0%E5%BD%95%E7%94%9F%E6%B4%BB%E7%9A%84%E6%96%B9%E6%A1%88.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E4%B8%80%E7%A7%8D%E7%BA%B5%E5%90%91%E8%AE%B0%E5%BD%95%E7%94%9F%E6%B4%BB%E7%9A%84%E6%96%B9%E6%A1%88.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E4%B8%80%E7%A7%8D%E7%BA%B5%E5%90%91%E8%AE%B0%E5%BD%95%E7%94%9F%E6%B4%BB%E7%9A%84%E6%96%B9%E6%A1%88.html/</id>
+                <id>http://localhost:1313/archives/%E4%B8%80%E7%A7%8D%E7%BA%B5%E5%90%91%E8%AE%B0%E5%BD%95%E7%94%9F%E6%B4%BB%E7%9A%84%E6%96%B9%E6%A1%88.html/</id>
             
             
             <published>2023-08-21T11:58:26+08:00</published>
@@ -2774,7 +2825,7 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -2784,7 +2835,7 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
+                                <category scheme="http://localhost:1313/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                             
                         
                     
@@ -2795,9 +2846,9 @@ layout: &#34;list&#34;
         
         <entry>
             <title type="html"><![CDATA[一本时间管理书的精髓]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E4%B8%80%E6%9C%AC%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E4%B9%A6%E7%9A%84%E7%B2%BE%E9%AB%93.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E4%B8%80%E6%9C%AC%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E4%B9%A6%E7%9A%84%E7%B2%BE%E9%AB%93.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E4%B8%80%E6%9C%AC%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E4%B9%A6%E7%9A%84%E7%B2%BE%E9%AB%93.html/</id>
+                <id>http://localhost:1313/archives/%E4%B8%80%E6%9C%AC%E6%97%B6%E9%97%B4%E7%AE%A1%E7%90%86%E4%B9%A6%E7%9A%84%E7%B2%BE%E9%AB%93.html/</id>
             
             
             <published>2023-08-01T10:03:12+08:00</published>
@@ -2900,7 +2951,7 @@ Step.13 享受假期，假期是活跃生命力的时间</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -2910,9 +2961,9 @@ Step.13 享受假期，假期是活跃生命力的时间</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="http://localhost:1313/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="http://localhost:1313/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -2923,9 +2974,9 @@ Step.13 享受假期，假期是活跃生命力的时间</p>
         
         <entry>
             <title type="html"><![CDATA[博客，我的定位是？]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%8D%9A%E5%AE%A2%E6%88%91%E7%9A%84%E5%AE%9A%E4%BD%8D%E6%98%AF.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E5%8D%9A%E5%AE%A2%E6%88%91%E7%9A%84%E5%AE%9A%E4%BD%8D%E6%98%AF.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E5%8D%9A%E5%AE%A2%E6%88%91%E7%9A%84%E5%AE%9A%E4%BD%8D%E6%98%AF.html/</id>
+                <id>http://localhost:1313/archives/%E5%8D%9A%E5%AE%A2%E6%88%91%E7%9A%84%E5%AE%9A%E4%BD%8D%E6%98%AF.html/</id>
             
             
             <published>2023-07-30T09:16:02+08:00</published>
@@ -2990,7 +3041,7 @@ Step.13 享受假期，假期是活跃生命力的时间</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="http://localhost:1313/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -3000,7 +3051,7 @@ Step.13 享受假期，假期是活跃生命力的时间</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
+                                <category scheme="http://localhost:1313/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
                             
                         
                     
@@ -3011,9 +3062,9 @@ Step.13 享受假期，假期是活跃生命力的时间</p>
         
         <entry>
             <title type="html"><![CDATA[简化 Hugo 常用操作的方法]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E7%AE%80%E5%8C%96-hugo-%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E7%9A%84%E6%96%B9%E6%B3%95.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E7%AE%80%E5%8C%96-hugo-%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E7%9A%84%E6%96%B9%E6%B3%95.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E7%AE%80%E5%8C%96-hugo-%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E7%9A%84%E6%96%B9%E6%B3%95.html/</id>
+                <id>http://localhost:1313/archives/%E7%AE%80%E5%8C%96-hugo-%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E7%9A%84%E6%96%B9%E6%B3%95.html/</id>
             
             
             <published>2023-07-29T09:41:28+08:00</published>
@@ -3069,7 +3120,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -3079,7 +3130,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/hugo" term="hugo" label="hugo" />
+                                <category scheme="http://localhost:1313/tags1/hugo" term="hugo" label="hugo" />
                             
                         
                     
@@ -3090,9 +3141,9 @@ exit
         
         <entry>
             <title type="html"><![CDATA[最近学了几道菜]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E6%9C%80%E8%BF%91%E5%AD%A6%E4%BA%86%E5%87%A0%E9%81%93%E8%8F%9C.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E6%9C%80%E8%BF%91%E5%AD%A6%E4%BA%86%E5%87%A0%E9%81%93%E8%8F%9C.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E6%9C%80%E8%BF%91%E5%AD%A6%E4%BA%86%E5%87%A0%E9%81%93%E8%8F%9C.html/</id>
+                <id>http://localhost:1313/archives/%E6%9C%80%E8%BF%91%E5%AD%A6%E4%BA%86%E5%87%A0%E9%81%93%E8%8F%9C.html/</id>
             
             
             <published>2023-07-28T13:55:34+08:00</published>
@@ -3138,7 +3189,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="http://localhost:1313/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -3148,7 +3199,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%A3%9F%E8%B0%B1" term="%E9%A3%9F%E8%B0%B1" label="食谱" />
+                                <category scheme="http://localhost:1313/tags1/%E9%A3%9F%E8%B0%B1" term="%E9%A3%9F%E8%B0%B1" label="食谱" />
                             
                         
                     
@@ -3159,9 +3210,9 @@ exit
         
         <entry>
             <title type="html"><![CDATA[《奇特的一生》：正确的时间观念]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%A5%87%E7%89%B9%E7%9A%84%E4%B8%80%E7%94%9F%E6%AD%A3%E7%A1%AE%E7%9A%84%E6%97%B6%E9%97%B4%E8%A7%82%E5%BF%B5.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E5%A5%87%E7%89%B9%E7%9A%84%E4%B8%80%E7%94%9F%E6%AD%A3%E7%A1%AE%E7%9A%84%E6%97%B6%E9%97%B4%E8%A7%82%E5%BF%B5.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E5%A5%87%E7%89%B9%E7%9A%84%E4%B8%80%E7%94%9F%E6%AD%A3%E7%A1%AE%E7%9A%84%E6%97%B6%E9%97%B4%E8%A7%82%E5%BF%B5.html/</id>
+                <id>http://localhost:1313/archives/%E5%A5%87%E7%89%B9%E7%9A%84%E4%B8%80%E7%94%9F%E6%AD%A3%E7%A1%AE%E7%9A%84%E6%97%B6%E9%97%B4%E8%A7%82%E5%BF%B5.html/</id>
             
             
             <published>2023-07-25T19:35:39+08:00</published>
@@ -3198,7 +3249,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -3208,7 +3259,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="http://localhost:1313/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -3219,9 +3270,9 @@ exit
         
         <entry>
             <title type="html"><![CDATA[谨慎选择你的路 | 以过程为导向]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E8%B0%A8%E6%85%8E%E9%80%89%E6%8B%A9%E4%BD%A0%E7%9A%84%E8%B7%AF-%E4%BB%A5%E8%BF%87%E7%A8%8B%E4%B8%BA%E5%AF%BC%E5%90%91.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E8%B0%A8%E6%85%8E%E9%80%89%E6%8B%A9%E4%BD%A0%E7%9A%84%E8%B7%AF-%E4%BB%A5%E8%BF%87%E7%A8%8B%E4%B8%BA%E5%AF%BC%E5%90%91.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E8%B0%A8%E6%85%8E%E9%80%89%E6%8B%A9%E4%BD%A0%E7%9A%84%E8%B7%AF-%E4%BB%A5%E8%BF%87%E7%A8%8B%E4%B8%BA%E5%AF%BC%E5%90%91.html/</id>
+                <id>http://localhost:1313/archives/%E8%B0%A8%E6%85%8E%E9%80%89%E6%8B%A9%E4%BD%A0%E7%9A%84%E8%B7%AF-%E4%BB%A5%E8%BF%87%E7%A8%8B%E4%B8%BA%E5%AF%BC%E5%90%91.html/</id>
             
             
             <published>2023-07-24T21:51:32+08:00</published>
@@ -3310,7 +3361,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="http://localhost:1313/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -3320,9 +3371,9 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="http://localhost:1313/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="http://localhost:1313/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -3333,9 +3384,9 @@ exit
         
         <entry>
             <title type="html"><![CDATA[一些做记录的方法]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E4%B8%80%E4%BA%9B%E5%81%9A%E8%AE%B0%E5%BD%95%E7%9A%84%E6%96%B9%E6%B3%95.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E4%B8%80%E4%BA%9B%E5%81%9A%E8%AE%B0%E5%BD%95%E7%9A%84%E6%96%B9%E6%B3%95.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E4%B8%80%E4%BA%9B%E5%81%9A%E8%AE%B0%E5%BD%95%E7%9A%84%E6%96%B9%E6%B3%95.html/</id>
+                <id>http://localhost:1313/archives/%E4%B8%80%E4%BA%9B%E5%81%9A%E8%AE%B0%E5%BD%95%E7%9A%84%E6%96%B9%E6%B3%95.html/</id>
             
             
             <published>2023-05-08T19:33:29+08:00</published>
@@ -3460,7 +3511,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -3470,9 +3521,9 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
+                                <category scheme="http://localhost:1313/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
+                                <category scheme="http://localhost:1313/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
                             
                         
                     
@@ -3483,9 +3534,9 @@ exit
         
         <entry>
             <title type="html"><![CDATA[少思考“远离什么样的人”]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%B0%91%E6%80%9D%E8%80%83%E8%BF%9C%E7%A6%BB%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BA%BA.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E5%B0%91%E6%80%9D%E8%80%83%E8%BF%9C%E7%A6%BB%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BA%BA.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E5%B0%91%E6%80%9D%E8%80%83%E8%BF%9C%E7%A6%BB%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BA%BA.html/</id>
+                <id>http://localhost:1313/archives/%E5%B0%91%E6%80%9D%E8%80%83%E8%BF%9C%E7%A6%BB%E4%BB%80%E4%B9%88%E6%A0%B7%E7%9A%84%E4%BA%BA.html/</id>
             
             
             <published>2023-03-17T00:02:02+08:00</published>
@@ -3510,7 +3561,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="http://localhost:1313/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -3520,7 +3571,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="http://localhost:1313/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -3531,9 +3582,9 @@ exit
         
         <entry>
             <title type="html"><![CDATA[为什么长大后会变得不快乐？]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%95%BF%E5%A4%A7%E5%90%8E%E4%BC%9A%E5%8F%98%E5%BE%97%E4%B8%8D%E5%BF%AB%E4%B9%90.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%95%BF%E5%A4%A7%E5%90%8E%E4%BC%9A%E5%8F%98%E5%BE%97%E4%B8%8D%E5%BF%AB%E4%B9%90.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%95%BF%E5%A4%A7%E5%90%8E%E4%BC%9A%E5%8F%98%E5%BE%97%E4%B8%8D%E5%BF%AB%E4%B9%90.html/</id>
+                <id>http://localhost:1313/archives/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%95%BF%E5%A4%A7%E5%90%8E%E4%BC%9A%E5%8F%98%E5%BE%97%E4%B8%8D%E5%BF%AB%E4%B9%90.html/</id>
             
             
             <published>2023-03-09T21:38:34+08:00</published>
@@ -3571,7 +3622,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -3581,7 +3632,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="http://localhost:1313/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -3592,9 +3643,9 @@ exit
         
         <entry>
             <title type="html"><![CDATA[为什么人必须有目标？]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BA%BA%E5%BF%85%E9%A1%BB%E6%9C%89%E7%9B%AE%E6%A0%87.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BA%BA%E5%BF%85%E9%A1%BB%E6%9C%89%E7%9B%AE%E6%A0%87.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BA%BA%E5%BF%85%E9%A1%BB%E6%9C%89%E7%9B%AE%E6%A0%87.html/</id>
+                <id>http://localhost:1313/archives/%E4%B8%BA%E4%BB%80%E4%B9%88%E4%BA%BA%E5%BF%85%E9%A1%BB%E6%9C%89%E7%9B%AE%E6%A0%87.html/</id>
             
             
             <published>2023-02-17T00:03:45+08:00</published>
@@ -3656,7 +3707,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -3666,9 +3717,9 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="http://localhost:1313/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="http://localhost:1313/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -3679,9 +3730,9 @@ exit
         
         <entry>
             <title type="html"><![CDATA[Web前端基础——我们是怎样访问网页的]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/web%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E6%88%91%E4%BB%AC%E6%98%AF%E6%80%8E%E6%A0%B7%E8%AE%BF%E9%97%AE%E7%BD%91%E9%A1%B5%E7%9A%84.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/web%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E6%88%91%E4%BB%AC%E6%98%AF%E6%80%8E%E6%A0%B7%E8%AE%BF%E9%97%AE%E7%BD%91%E9%A1%B5%E7%9A%84.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/web%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E6%88%91%E4%BB%AC%E6%98%AF%E6%80%8E%E6%A0%B7%E8%AE%BF%E9%97%AE%E7%BD%91%E9%A1%B5%E7%9A%84.html/</id>
+                <id>http://localhost:1313/archives/web%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80%E6%88%91%E4%BB%AC%E6%98%AF%E6%80%8E%E6%A0%B7%E8%AE%BF%E9%97%AE%E7%BD%91%E9%A1%B5%E7%9A%84.html/</id>
             
             
             <published>2023-02-10T12:18:53+08:00</published>
@@ -3740,7 +3791,7 @@ url 的组成：协议+域名+资源路径。</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -3750,7 +3801,7 @@ url 的组成：协议+域名+资源路径。</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/hugo" term="hugo" label="hugo" />
+                                <category scheme="http://localhost:1313/tags1/hugo" term="hugo" label="hugo" />
                             
                         
                     
@@ -3761,9 +3812,9 @@ url 的组成：协议+域名+资源路径。</p>
         
         <entry>
             <title type="html"><![CDATA[摘录：火影忍者经典语录]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E6%91%98%E5%BD%95%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85%E7%BB%8F%E5%85%B8%E8%AF%AD%E5%BD%95.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E6%91%98%E5%BD%95%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85%E7%BB%8F%E5%85%B8%E8%AF%AD%E5%BD%95.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E6%91%98%E5%BD%95%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85%E7%BB%8F%E5%85%B8%E8%AF%AD%E5%BD%95.html/</id>
+                <id>http://localhost:1313/archives/%E6%91%98%E5%BD%95%E7%81%AB%E5%BD%B1%E5%BF%8D%E8%80%85%E7%BB%8F%E5%85%B8%E8%AF%AD%E5%BD%95.html/</id>
             
             
             <published>2023-02-05T22:11:19+08:00</published>
@@ -3900,7 +3951,7 @@ url 的组成：协议+域名+资源路径。</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -3910,7 +3961,7 @@ url 的组成：协议+域名+资源路径。</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="http://localhost:1313/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -3921,9 +3972,9 @@ url 的组成：协议+域名+资源路径。</p>
         
         <entry>
             <title type="html"><![CDATA[博客的CDN加速方案]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E5%8A%A0%E9%80%9F%E6%96%B9%E6%A1%88.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E5%8A%A0%E9%80%9F%E6%96%B9%E6%A1%88.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E5%8A%A0%E9%80%9F%E6%96%B9%E6%A1%88.html/</id>
+                <id>http://localhost:1313/archives/%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E5%8A%A0%E9%80%9F%E6%96%B9%E6%A1%88.html/</id>
             
             
             <published>2023-01-05T20:36:23+08:00</published>
@@ -3987,7 +4038,7 @@ url 的组成：协议+域名+资源路径。</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -3997,7 +4048,7 @@ url 的组成：协议+域名+资源路径。</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/hugo" term="hugo" label="hugo" />
+                                <category scheme="http://localhost:1313/tags1/hugo" term="hugo" label="hugo" />
                             
                         
                     
@@ -4008,9 +4059,9 @@ url 的组成：协议+域名+资源路径。</p>
         
         <entry>
             <title type="html"><![CDATA[Python正则表达式pattern分类]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/python%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8Fpattern%E5%88%86%E7%B1%BB.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/python%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8Fpattern%E5%88%86%E7%B1%BB.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/python%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8Fpattern%E5%88%86%E7%B1%BB.html/</id>
+                <id>http://localhost:1313/archives/python%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8Fpattern%E5%88%86%E7%B1%BB.html/</id>
             
             
             <published>2023-01-03T21:52:45+08:00</published>
@@ -4116,7 +4167,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -4126,7 +4177,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%BC%96%E7%A8%8B" term="%E7%BC%96%E7%A8%8B" label="编程" />
+                                <category scheme="http://localhost:1313/tags1/%E7%BC%96%E7%A8%8B" term="%E7%BC%96%E7%A8%8B" label="编程" />
                             
                         
                     
@@ -4137,9 +4188,9 @@ print(result)
         
         <entry>
             <title type="html"><![CDATA[手写笔记如何避免杂乱无章]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E6%89%8B%E5%86%99%E7%AC%94%E8%AE%B0%E5%A6%82%E4%BD%95%E9%81%BF%E5%85%8D%E6%9D%82%E4%B9%B1%E6%97%A0%E7%AB%A0.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E6%89%8B%E5%86%99%E7%AC%94%E8%AE%B0%E5%A6%82%E4%BD%95%E9%81%BF%E5%85%8D%E6%9D%82%E4%B9%B1%E6%97%A0%E7%AB%A0.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E6%89%8B%E5%86%99%E7%AC%94%E8%AE%B0%E5%A6%82%E4%BD%95%E9%81%BF%E5%85%8D%E6%9D%82%E4%B9%B1%E6%97%A0%E7%AB%A0.html/</id>
+                <id>http://localhost:1313/archives/%E6%89%8B%E5%86%99%E7%AC%94%E8%AE%B0%E5%A6%82%E4%BD%95%E9%81%BF%E5%85%8D%E6%9D%82%E4%B9%B1%E6%97%A0%E7%AB%A0.html/</id>
             
             
             <published>2022-12-31T19:06:18+08:00</published>
@@ -4205,7 +4256,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -4215,7 +4266,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
+                                <category scheme="http://localhost:1313/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                             
                         
                     
@@ -4226,9 +4277,9 @@ print(result)
         
         <entry>
             <title type="html"><![CDATA[获得勇气的好办法]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E8%8E%B7%E5%BE%97%E5%8B%87%E6%B0%94%E7%9A%84%E5%A5%BD%E5%8A%9E%E6%B3%95.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E8%8E%B7%E5%BE%97%E5%8B%87%E6%B0%94%E7%9A%84%E5%A5%BD%E5%8A%9E%E6%B3%95.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E8%8E%B7%E5%BE%97%E5%8B%87%E6%B0%94%E7%9A%84%E5%A5%BD%E5%8A%9E%E6%B3%95.html/</id>
+                <id>http://localhost:1313/archives/%E8%8E%B7%E5%BE%97%E5%8B%87%E6%B0%94%E7%9A%84%E5%A5%BD%E5%8A%9E%E6%B3%95.html/</id>
             
             
             <published>2022-12-31T15:19:20+08:00</published>
@@ -4260,7 +4311,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -4270,7 +4321,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="http://localhost:1313/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -4281,9 +4332,9 @@ print(result)
         
         <entry>
             <title type="html"><![CDATA[《穷爸爸富爸爸》]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E7%A9%B7%E7%88%B8%E7%88%B8%E5%AF%8C%E7%88%B8%E7%88%B8.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E7%A9%B7%E7%88%B8%E7%88%B8%E5%AF%8C%E7%88%B8%E7%88%B8.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E7%A9%B7%E7%88%B8%E7%88%B8%E5%AF%8C%E7%88%B8%E7%88%B8.html/</id>
+                <id>http://localhost:1313/archives/%E7%A9%B7%E7%88%B8%E7%88%B8%E5%AF%8C%E7%88%B8%E7%88%B8.html/</id>
             
             
             <published>2022-12-23T22:02:35+08:00</published>
@@ -4453,7 +4504,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -4463,7 +4514,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="http://localhost:1313/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -4474,9 +4525,9 @@ print(result)
         
         <entry>
             <title type="html"><![CDATA[《被讨厌的勇气》第四章]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%E7%AC%AC%E5%9B%9B%E7%AB%A0.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%E7%AC%AC%E5%9B%9B%E7%AB%A0.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%E7%AC%AC%E5%9B%9B%E7%AB%A0.html/</id>
+                <id>http://localhost:1313/archives/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%E7%AC%AC%E5%9B%9B%E7%AB%A0.html/</id>
             
             
             <published>2022-12-18T19:45:44+08:00</published>
@@ -4551,7 +4602,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -4561,7 +4612,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="http://localhost:1313/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -4572,9 +4623,9 @@ print(result)
         
         <entry>
             <title type="html"><![CDATA[《被讨厌的勇气》第三章]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%E7%AC%AC%E4%B8%89%E7%AB%A0.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%E7%AC%AC%E4%B8%89%E7%AB%A0.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%E7%AC%AC%E4%B8%89%E7%AB%A0.html/</id>
+                <id>http://localhost:1313/archives/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%E7%AC%AC%E4%B8%89%E7%AB%A0.html/</id>
             
             
             <published>2022-12-18T18:23:50+08:00</published>
@@ -4614,7 +4665,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -4624,7 +4675,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="http://localhost:1313/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -4635,9 +4686,9 @@ print(result)
         
         <entry>
             <title type="html"><![CDATA[《被讨厌的勇气》第二章]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%E7%AC%AC%E4%BA%8C%E7%AB%A0.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%E7%AC%AC%E4%BA%8C%E7%AB%A0.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%E7%AC%AC%E4%BA%8C%E7%AB%A0.html/</id>
+                <id>http://localhost:1313/archives/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%E7%AC%AC%E4%BA%8C%E7%AB%A0.html/</id>
             
             
             <published>2022-12-18T16:58:31+08:00</published>
@@ -4699,7 +4750,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -4709,7 +4760,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="http://localhost:1313/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -4720,9 +4771,9 @@ print(result)
         
         <entry>
             <title type="html"><![CDATA[财务基础笔记——《货币金融学》]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E8%B4%A2%E5%8A%A1%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0%E8%B4%A7%E5%B8%81%E9%87%91%E8%9E%8D%E5%AD%A6.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E8%B4%A2%E5%8A%A1%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0%E8%B4%A7%E5%B8%81%E9%87%91%E8%9E%8D%E5%AD%A6.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E8%B4%A2%E5%8A%A1%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0%E8%B4%A7%E5%B8%81%E9%87%91%E8%9E%8D%E5%AD%A6.html/</id>
+                <id>http://localhost:1313/archives/%E8%B4%A2%E5%8A%A1%E5%9F%BA%E7%A1%80%E7%AC%94%E8%AE%B0%E8%B4%A7%E5%B8%81%E9%87%91%E8%9E%8D%E5%AD%A6.html/</id>
             
             
             <published>2022-11-21T16:24:47+08:00</published>
@@ -4863,7 +4914,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -4873,7 +4924,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="http://localhost:1313/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -4884,9 +4935,9 @@ print(result)
         
         <entry>
             <title type="html"><![CDATA[常用电脑小技巧——快速搜索网页、打开常用应用]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%84%91%E5%B0%8F%E6%8A%80%E5%B7%A7%E5%BF%AB%E9%80%9F%E6%90%9C%E7%B4%A2%E7%BD%91%E9%A1%B5%E6%89%93%E5%BC%80%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%84%91%E5%B0%8F%E6%8A%80%E5%B7%A7%E5%BF%AB%E9%80%9F%E6%90%9C%E7%B4%A2%E7%BD%91%E9%A1%B5%E6%89%93%E5%BC%80%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%84%91%E5%B0%8F%E6%8A%80%E5%B7%A7%E5%BF%AB%E9%80%9F%E6%90%9C%E7%B4%A2%E7%BD%91%E9%A1%B5%E6%89%93%E5%BC%80%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8.html/</id>
+                <id>http://localhost:1313/archives/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%84%91%E5%B0%8F%E6%8A%80%E5%B7%A7%E5%BF%AB%E9%80%9F%E6%90%9C%E7%B4%A2%E7%BD%91%E9%A1%B5%E6%89%93%E5%BC%80%E5%B8%B8%E7%94%A8%E5%BA%94%E7%94%A8.html/</id>
             
             
             <published>2022-11-12T00:29:17+08:00</published>
@@ -4930,7 +4981,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -4940,7 +4991,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" term="%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" label="电脑&amp;手机" />
+                                <category scheme="http://localhost:1313/tags1/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" term="%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" label="电脑&amp;手机" />
                             
                         
                     
@@ -4951,9 +5002,9 @@ print(result)
         
         <entry>
             <title type="html"><![CDATA[《被讨厌的勇气》第一章]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%E7%AC%AC%E4%B8%80%E7%AB%A0.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%E7%AC%AC%E4%B8%80%E7%AB%A0.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%E7%AC%AC%E4%B8%80%E7%AB%A0.html/</id>
+                <id>http://localhost:1313/archives/%E8%A2%AB%E8%AE%A8%E5%8E%8C%E7%9A%84%E5%8B%87%E6%B0%94%E7%AC%AC%E4%B8%80%E7%AB%A0.html/</id>
             
             
             <published>2022-11-10T13:52:24+08:00</published>
@@ -5011,7 +5062,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="http://localhost:1313/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -5021,7 +5072,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="http://localhost:1313/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -5032,9 +5083,9 @@ print(result)
         
         <entry>
             <title type="html"><![CDATA[从 kelei 公司的游戏中感悟生活]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E4%BB%8E-kelei-%E5%85%AC%E5%8F%B8%E7%9A%84%E6%B8%B8%E6%88%8F%E4%B8%AD%E6%84%9F%E6%82%9F%E7%94%9F%E6%B4%BB.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/%E4%BB%8E-kelei-%E5%85%AC%E5%8F%B8%E7%9A%84%E6%B8%B8%E6%88%8F%E4%B8%AD%E6%84%9F%E6%82%9F%E7%94%9F%E6%B4%BB.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E4%BB%8E-kelei-%E5%85%AC%E5%8F%B8%E7%9A%84%E6%B8%B8%E6%88%8F%E4%B8%AD%E6%84%9F%E6%82%9F%E7%94%9F%E6%B4%BB.html/</id>
+                <id>http://localhost:1313/archives/%E4%BB%8E-kelei-%E5%85%AC%E5%8F%B8%E7%9A%84%E6%B8%B8%E6%88%8F%E4%B8%AD%E6%84%9F%E6%82%9F%E7%94%9F%E6%B4%BB.html/</id>
             
             
             <published>2022-11-06T20:21:40+08:00</published>
@@ -5096,7 +5147,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="http://localhost:1313/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -5106,7 +5157,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="http://localhost:1313/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -5117,9 +5168,9 @@ print(result)
         
         <entry>
             <title type="html"><![CDATA[Hugo使用经验]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/hugo%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/hugo%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/hugo%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C.html/</id>
+                <id>http://localhost:1313/archives/hugo%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C.html/</id>
             
             
             <published>2022-11-02T14:42:35+08:00</published>
@@ -5233,7 +5284,7 @@ print(result)
 </li>
 <li><strong>站内引用文章</strong>
 <ul>
-<li><a href="https://1xiaoyuan.github.io/archives/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%95%BF%E5%A4%A7%E5%90%8E%E4%BC%9A%E5%8F%98%E5%BE%97%E4%B8%8D%E5%BF%AB%E4%B9%90.html/">知道越多越不快乐？</a>：<code>[知道越多越不快乐](https://1xiaoyuan.github.io/archives/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%95%BF%E5%A4%A7%E5%90%8E%E4%BC%9A%E5%8F%98%E5%BE%97%E4%B8%8D%E5%BF%AB%E4%B9%90.html/)</code></li>
+<li><a href="http://localhost:1313/archives/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%95%BF%E5%A4%A7%E5%90%8E%E4%BC%9A%E5%8F%98%E5%BE%97%E4%B8%8D%E5%BF%AB%E4%B9%90.html/">知道越多越不快乐？</a>：<code>[知道越多越不快乐](http://localhost:1313/archives/%E4%B8%BA%E4%BB%80%E4%B9%88%E9%95%BF%E5%A4%A7%E5%90%8E%E4%BC%9A%E5%8F%98%E5%BE%97%E4%B8%8D%E5%BF%AB%E4%B9%90.html/)</code></li>
 </ul>
 </li>
 <li>引用图片
@@ -5305,7 +5356,7 @@ git push -u origin master #重新提交（若需要对其他分支进行操作�
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -5315,7 +5366,7 @@ git push -u origin master #重新提交（若需要对其他分支进行操作�
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/hugo" term="hugo" label="hugo" />
+                                <category scheme="http://localhost:1313/tags1/hugo" term="hugo" label="hugo" />
                             
                         
                     
@@ -5326,9 +5377,9 @@ git push -u origin master #重新提交（若需要对其他分支进行操作�
         
         <entry>
             <title type="html"><![CDATA[Hello World!]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/hello-world.html/" rel="alternate" type="text/html" />
+            <link href="http://localhost:1313/archives/hello-world.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/hello-world.html/</id>
+                <id>http://localhost:1313/archives/hello-world.html/</id>
             
             
             <published>2022-10-20T10:14:28+08:00</published>
@@ -5355,7 +5406,7 @@ git push -u origin master #重新提交（若需要对其他分支进行操作�
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="http://localhost:1313/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -5365,7 +5416,7 @@ git push -u origin master #重新提交（若需要对其他分支进行操作�
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/hugo" term="hugo" label="hugo" />
+                                <category scheme="http://localhost:1313/tags1/hugo" term="hugo" label="hugo" />
                             
                         
                     
