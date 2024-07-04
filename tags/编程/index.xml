@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>编程 on 朝闻道</title>
-    <link>http://localhost:1313/tags/%E7%BC%96%E7%A8%8B/</link>
+    <link>https://1xiaoyuan.github.io/tags/%E7%BC%96%E7%A8%8B/</link>
     <description>Recent content in 编程 on 朝闻道</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 11 Apr 2024 17:06:18 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://1xiaoyuan.github.io/tags/%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>统一的标准太重要了（预先解决无形的问题）</title>
-      <link>http://localhost:1313/archives/%E7%BB%9F%E4%B8%80%E7%9A%84%E6%A0%87%E5%87%86%E5%A4%AA%E9%87%8D%E8%A6%81%E4%BA%86%E9%A2%84%E5%85%88%E8%A7%A3%E5%86%B3%E6%97%A0%E5%BD%A2%E7%9A%84%E9%97%AE%E9%A2%98.html/</link>
+      <link>https://1xiaoyuan.github.io/archives/%E7%BB%9F%E4%B8%80%E7%9A%84%E6%A0%87%E5%87%86%E5%A4%AA%E9%87%8D%E8%A6%81%E4%BA%86%E9%A2%84%E5%85%88%E8%A7%A3%E5%86%B3%E6%97%A0%E5%BD%A2%E7%9A%84%E9%97%AE%E9%A2%98.html/</link>
       <pubDate>Thu, 11 Apr 2024 17:06:18 +0800</pubDate>
-      <guid>http://localhost:1313/archives/%E7%BB%9F%E4%B8%80%E7%9A%84%E6%A0%87%E5%87%86%E5%A4%AA%E9%87%8D%E8%A6%81%E4%BA%86%E9%A2%84%E5%85%88%E8%A7%A3%E5%86%B3%E6%97%A0%E5%BD%A2%E7%9A%84%E9%97%AE%E9%A2%98.html/</guid>
+      <guid>https://1xiaoyuan.github.io/archives/%E7%BB%9F%E4%B8%80%E7%9A%84%E6%A0%87%E5%87%86%E5%A4%AA%E9%87%8D%E8%A6%81%E4%BA%86%E9%A2%84%E5%85%88%E8%A7%A3%E5%86%B3%E6%97%A0%E5%BD%A2%E7%9A%84%E9%97%AE%E9%A2%98.html/</guid>
       <description>用 Python 挖掘事故报告中的死亡人数 今天用 Python 写一个函数，用来识别土木行业事故报告中的死亡人数。我的设计思路如下：&#xA;经过观察，80% 的事故报告中有关死亡人数的记录是有规律的，即“XX人死亡”，其中XX可能是汉语数字也可能是阿拉伯数字。 于是我设计出一个正则表达式，`pattern_death = r&amp;rsquo;([\d\w]+)(人死亡|名工人死亡)&amp;rsquo; 用以识别出这种模式。 对安徽省的几分调查报告的测试中，我发现这种识别模式会将“XX人死亡”之前的文字也提取出来，比如“该工程有5人死亡”，直到遇到标点符号，因为 ([\d\w]+) 的含义是提取任意数量的汉字或数字。 于是我有设计出第二个正则表达式，pattern_death_num = r&#39;(\d+|[零一二两三四五六七八九十百千万]+)(人死亡|名工人死亡)&#39; ，用以识别出上一种模式识别出的句子中的数字（无论是中文还是阿拉伯的）。 之后我又下载一个第三方库 cn2an ，将中文数字转换为数学数字。 将识别到的数字存放到字典中，没有识别到数字但文本中识别出“死亡”的做标记“待确认”。 虽然我在这里描述的似乎很轻松，但是你无法知道的是，我从最开始的起点走到这个目的地用了多久，以及为了识别条件、避免报错、存放识别出的数据等而为函数设计的逻辑化了多久时间。&#xA;在报了许多次错误、迭代了多次之后，这个程序基本上能运行起来了，这个思路已经可以从 393 个事故报告中提取 393-56 份 死亡人数了。&#xA;你可能会好奇，图上显示的分明是 57 份文件“待确认”，那么已提取到数据的数量不应该是 383-57 吗？&#xA;没错，这缺少的一份就是今天我要谈论的主角。&#xA;一字之差的工作量 这一份数据一直在报错，我不得不在每个省份的文件之间依次测试，找出有问题的文件。&#xA;我发现出错的原因是：程序的确识别出了“X人死亡”，并且将“X”提取了出来，但报错的那份文件用的不是“二人死亡”，而是是“两人死亡”。cn2an 这个专门将表示数字的中文转化为阿拉伯数字的库，它只能识别“二”，无法识别“两”。&#xA;于是我又要设计出一个新的逻辑语句，如果识别出了“两”，就将它改为“二”，然后再用 cn2an 将其转化为阿拉伯数字。&#xA;我找到这个导致错误的原因并写出解决问题的语句，花了近半个小时。仅仅是一个字的偏差，为了使程序能够适应这种情况，却需要大量的测试。&#xA;我并非一个计算机专业的学生，我比较好奇的是，也许“大量时间花费在解决报错上”就是软件开发的常态？&#xA;言归正传，这是我们提取数据中很简单的一步，为了适配所有可能性，它的工作量并不小。&#xA;如果是从文本中提取“事故性质”这样的数据，也许描述“事故性质”的方式有多种多样（暂时我们不确定），不过它一定比数字要复杂，并且上下文可能没有特殊的格式，如果真是这样，单凭正则表达式可能已经无法完成目的了。&#xA;如果正则表达式无法解决这个问题，根据我目前掌握的信息来看，我们就需要复杂的 NLP 技术去识别出命名实体的词语、语义逻辑关系等，让机器理解句子，再将事故原因做分类。而这套规则，需要预设已知的数据库使代码能够理解。&#xA;如果我们真的使用 NLP 技术去提取所有事故报告中的“事故原因”，那么为了做出一个适配所有情况的程序，其工作量一定非常大。&#xA;为什么这么费劲 我们之所以在提取数据时这么费劲，是什么原因呢？&#xA;答案显而易见，事故报告中大部分信息的记录方式都没有统一的格式，如果格式能够统一，如果每个事故报告中都有一个统一的清单，那么每一种数据只需要一个正则表达式就能够提取出来了，并且对所有文件适配。&#xA;只可惜，在事故报告的格式上，没有像秦始皇统一六国的伟大节点。&#xA;现在 ChatGPT-4 应该可以自动提取出你所需的数据，只是需要充钱。而我们老师想让我们做一个自动识别的程序，只能说有点难，哈哈。&#xA;秦始皇统一六国 秦始皇建立了中国历史上第一个统一的中央集权的封建国家，他不仅仅同意了中国，更重要的是他使书同文、车同轨、行同轮，统一文字、货币。&#xA;这些统一，不仅有利于信息的传递、规格的统一，也有助于我们中华文化的传承和发扬。&#xA;今天在写代码中遇到了这个“两”字引起的报错，以及对提取“事故性质”的工作量的思考，是否可以说明——统一的标准能在无形中解决许多问题呢？&#xA;我认为答案是肯定的。</description>
     </item>
     <item>
       <title>Python中的 “虚拟环境”，一个概念的缺失带来的影响</title>
-      <link>http://localhost:1313/archives/python%E4%B8%AD%E7%9A%84-%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E4%B8%80%E4%B8%AA%E6%A6%82%E5%BF%B5%E7%9A%84%E7%BC%BA%E5%A4%B1%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%BD%B1%E5%93%8D.html/</link>
+      <link>https://1xiaoyuan.github.io/archives/python%E4%B8%AD%E7%9A%84-%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E4%B8%80%E4%B8%AA%E6%A6%82%E5%BF%B5%E7%9A%84%E7%BC%BA%E5%A4%B1%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%BD%B1%E5%93%8D.html/</link>
       <pubDate>Wed, 10 Apr 2024 16:37:55 +0800</pubDate>
-      <guid>http://localhost:1313/archives/python%E4%B8%AD%E7%9A%84-%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E4%B8%80%E4%B8%AA%E6%A6%82%E5%BF%B5%E7%9A%84%E7%BC%BA%E5%A4%B1%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%BD%B1%E5%93%8D.html/</guid>
+      <guid>https://1xiaoyuan.github.io/archives/python%E4%B8%AD%E7%9A%84-%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E4%B8%80%E4%B8%AA%E6%A6%82%E5%BF%B5%E7%9A%84%E7%BC%BA%E5%A4%B1%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%BD%B1%E5%93%8D.html/</guid>
       <description>2024-04-10，下午14:00~16:05，倒腾了2个小时，终于能够成功运行PyHanLP了！下面记录一下学到的知识👇&#xA;为了完成毕业设计中的一个环节——从文本中提取非结构化的信息——我需要能够理解语义的工具，所以今天我为我的 Python 安装了 PyHanLP 。&#xA;下面分享一下我遇到的问题。有空了就介绍一下什么是 HanLP，没空就算了。&#xA;这篇文章，我将用我的实际经验向你证明，一个概念的缺失，有可能会让你的工作变得更复杂！如果我能够重视这个概念，并且理解它的影响，我想我会选择学习 Conde 这个专业的工具（用来专门负责 Python 的虚拟环境），再去下载 HanLP 这个第三方库。&#xA;HanLP 傻瓜安装注意事项 我使用了官网的 傻瓜安装包，谁知道这个傻瓜安装包真把我当傻瓜，它连安装目录都不让我选，就直接一键帮我安装了 JAVA 环境、HanLP、以及一个新 Python 3.8！&#xA;并且这些东西都被安装在了 C 盘！&#xA;我原本的 Python 3.12 无法调用 PyHanLP ，这个 PyHanLP 只能由傻瓜安装的 Python 3.8 才能调用。&#xA;为了解决这个问题，我试图将原本的项目虚拟环境中的 Python 3.12 换成 Python 3.8，但是换过之后原本写好的代码不管用了——原因是 Python 3.8 中并没有安装这些库。&#xA;我这才明白，虚拟环境中的 Python 版本也是指定的，就算我在虚拟环境中把解释器改成 Python 3.8，它也无法使用原本 Python 3.12 安装在虚拟环境中的 pip 库，因为这些库只认 Python 3.12！所以我必须新建一个虚拟环境。&#xA;然后我新建了一个虚拟环境，调用 Python 3.8 ，并将之前的代码都复制过来，然后重新下载这些代码中需要的第三方库，然而问题再次出现在我面前。&#xA;我试着运行 PyHanLP ，发现终端无法找到这个库。我又明白了，原来 PyHanLP 是全局环境的库，虚拟环境中无法调用全局环境中的库。&#xA;可问题是，就是因为在虚拟环境的终端中使用 pip install pyhanlp 根本就无法下载它，所以我才会选择傻瓜安装包来安装 PyHanLP。也就是说，我无法在虚拟环境中使用 PyHanLP了。我只能使用 C 盘的 Python 3.</description>
     </item>
     <item>
       <title>MySQL 基础知识笔记</title>
-      <link>http://localhost:1313/archives/mysql-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0.html/</link>
+      <link>https://1xiaoyuan.github.io/archives/mysql-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0.html/</link>
       <pubDate>Sun, 07 Apr 2024 08:17:31 +0800</pubDate>
-      <guid>http://localhost:1313/archives/mysql-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0.html/</guid>
+      <guid>https://1xiaoyuan.github.io/archives/mysql-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0.html/</guid>
       <description>MySQL 中的数据格式&#xA;INT 整数 DECIMAL(m,n) 有小数的数，m是所有数字的个数，n是小数的个数 VARCHA(n) 字符串 BLOB 二进制文件，如图片、影片 DATE 日期，&amp;lsquo;YYYY-MM-DD&amp;rsquo; TIMESTAMP 时间，&amp;lsquo;YYYY-MM-DD HH:MM:SS&amp;rsquo; MySQL 中的命令书写习惯&#xA;MySQL 自带命令关键字一般用大写表示，如 SHOU DATABASES 用户在 MySQL 中自定义的字段名一般用 `` 符号标记，如 sql_tutorial 要用 ; 在命令语句结尾标记，表示该语句已结束，如 CREATE DATABASE sql_tutorial; 1、单表格操作： CREATE DATABASE sql_tutorial;&#xA;该命令表示创建数据库&#xA;SHOW DATABASES;&#xA;该命令表示显示所有数据库&#xA;DROP DATABASE sql_tutorial;&#xA;该命令表示删除数据库&#xA;USE sql_tutorial;&#xA;该命令表示使用数据库&#xA;DESCRIBE TABLE sql_tutorial;&#xA;查看数据表&#xA;创建表格 CREATE TABLE `student`( `student_id` INT PRIMARY KEY, `name` VARCHAR(20), `major` VARCHAR(20) ); 该命令表示在使用的数据库中创建表&#xA;DESCRIBE student;&#xA;该命令表示查看表&#xA;DROP TABLE student;</description>
     </item>
     <item>
       <title>Python正则表达式pattern分类</title>
-      <link>http://localhost:1313/archives/python%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8Fpattern%E5%88%86%E7%B1%BB.html/</link>
+      <link>https://1xiaoyuan.github.io/archives/python%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8Fpattern%E5%88%86%E7%B1%BB.html/</link>
       <pubDate>Tue, 03 Jan 2023 21:52:45 +0800</pubDate>
-      <guid>http://localhost:1313/archives/python%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8Fpattern%E5%88%86%E7%B1%BB.html/</guid>
+      <guid>https://1xiaoyuan.github.io/archives/python%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8Fpattern%E5%88%86%E7%B1%BB.html/</guid>
       <description>网上的相关资料非常多，但都很乱。于是我做了个分类，一来自己方便查看，二来看到此文章的同仁也能省去些麻烦。&#xA;提示：正则表达式中的 pattern 参数通常都包含反斜杠，为了防止它们被识别为转义字符，最好使用原始字符串 r&#39;&#39; 来表示它们。(如 r&#39;\t&#39;，等价于 \\t )匹配相应的特殊字符。&#xA;使用原始字符串的优点是可以少写\号，代码阅读起来也更容易些。&#xA;正则表达式四大功能：匹配(bool值)、获取、替换、分割。&#xA;匹配单个字符 . ：表示任意一个字符。如表达式&#39;t.o&#39;，too或&#39;two&#39;都符合条件。 [&amp;hellip;]：匹配[]中列举的所有字符中的一个。 一个[]表示一个字符：[amk] 匹配 &amp;lsquo;a&amp;rsquo;，&amp;rsquo;m&amp;rsquo;或&amp;rsquo;k&amp;rsquo;。[a-zA-Z0-9]表示所有字母+数字。[A-Z][a-z]表示第一个字符为大写字母，第二个字符为小写字符，即两个字符。 注意无需使用 , 分割内容，[0-35-9] 表示0~3与5~9。 可以用 - 给出范围。如 [abc] 和 [a-c] 含义相同。 [^&amp;hellip;]：不在[]中的字符中的一个。 [^abc] 匹配除了a,b,c之外的字符。 匹配单个字符——它们可以写在字符集[]中 \w： 匹配数字字母下划线。等价于[a-zA-Z0-9_]，在Unicode字符中还可以匹配汉字、全角数字。 \W：匹配非数字字母下划线，等价于[^A-Za-z0-9_]。 \s：匹配任意空白字符、空格、tab键。等价于[\t\n\r\f]。 \S：匹配任意非空字符，等价于[^\t\n\r\f]。 \d：匹配任意数字，等价于 [0-9]。 \D：匹配任意非数字，等价于[^0-9]。 匹配多个字符 *：匹配*号前一个字符出现至少 0 次的表达式。如表达式abc*，匹配值ab，abccc。 +：匹配前⼀个字符出现 1 次或者⽆限次。如表达式abc+，匹配值abc，abccc。 ？：匹配前⼀个字符出现 1 次或者 0 次，即要么有 1 次，要么没有。非贪婪。 {m}：匹配前⼀个字符出现 m 次。如表达式ab{2}c，匹配值abbc。 {m,}：匹配前面表达式至少 m 次 {,n}：匹配前面的正则表达式最多 n 次 {m,n}：匹配前⼀个字符出现至少 m 至多 n 次。如表达式ab{1,3}c，匹配值abc，abbc，abbbc。 特殊匹配 | ：匹配左右任意一个表达式。如匹配0-100之间的数字，表达式re.</description>
     </item>
   </channel>
