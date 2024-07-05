@@ -96,7 +96,7 @@ a:hover {
 }
 
 .markdown-body {
-  font-size: 17px;
+  font-size: 17.8px;
   max-width: 100%;
 }
 
@@ -123,6 +123,7 @@ a:hover {
   background-color: #d1d1d1;
   border-radius: 6px;
 }
+
 
 /* reset code */
 
@@ -176,6 +177,8 @@ a:hover {
 .lang-switch {
   font-weight: 600;
 }
+
+
 
 /* posts list */
 
@@ -243,7 +246,9 @@ a:hover {
   color: #666;
 }
 
-/* post */
+
+
+/* post 帖子文章 */
 
 .post-content img {
   max-width: 100%;
@@ -376,7 +381,9 @@ a:hover {
   justify-content: center;
 }
 
-/* taxonomy */
+
+
+/* taxonomy 标签分类 */
 
 .taxonomy-term {
   font-size: 1.2rem;
@@ -384,7 +391,17 @@ a:hover {
   margin: 0;
 }
 
-/* gallery */
+.my-li-style {
+  list-style-type: disc; /* 设置列表项前的标记为实心圆点 */
+  margin-block-start: 1em; /* 设置列表项的上外边距为1em */
+  margin-block-end: 1em; /* 设置列表项的下外边距为1em */
+  padding-inline-start: 10px; /* 设置列表项的开始内边距为40px */
+  font-size: 17px; /* 设置字体大小 */
+
+}
+
+
+/* gallery 图像画廊 */
 
 .gallery-img {
   text-align: center;
@@ -399,7 +416,9 @@ a:hover {
   font-weight: 800;
 }
 
-/* disqus */
+
+
+/* disqus 评论？ */
 
 #disqus_thread {
   position: relative;
@@ -484,6 +503,8 @@ a:hover {
   }
 }
 
+
+
 /* 搜索 */
 .resume-section input {
   font-size: 16px;
@@ -499,6 +520,8 @@ a:hover {
 .resume-section input:focus {
   border: 2px solid #c1bfbf;
 }
+
+
 
 /* --- */
 
@@ -517,6 +540,8 @@ a:hover {
   margin: 0;
   font-size: 20px;
 }
+
+
 
 /* 网站背景粒子特效 */
 .canvas-wrap {

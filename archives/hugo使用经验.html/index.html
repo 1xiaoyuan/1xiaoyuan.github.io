@@ -91,6 +91,7 @@ archetypes 在default.md文件中存放文章页面参数 content 存放所有�
   <article class="post " id="article">
     <div class="row">
       <div class="col-xs-12">
+
         <div class="site-header">
           
 
@@ -126,6 +127,7 @@ archetypes 在default.md文件中存放文章页面参数 content 存放所有�
 
 <div class="header-line"></div>
         </div>
+
         <div class="post-box">
           <header class="post-header">
             <h1 class="post-title">Hugo使用经验</h1>
@@ -148,6 +150,7 @@ archetypes 在default.md文件中存放文章页面参数 content 存放所有�
             </div>
             
           </header>
+
           
           <div class="autoMenu" id="autoMenu" data-autoMenu></div>
           <div class="post-content markdown-body">
@@ -244,12 +247,13 @@ archetypes 在default.md文件中存放文章页面参数 content 存放所有�
 </li>
 <li><strong>生成网页</strong>： <code>hugo</code>
 <ul>
-<li>将在父文件夹中生成public文件夹，存放着已经渲染好的所有页面</li>
+<li>根据你的内容和主题生成静态网站，所有文件保存在 public 文件夹中，如果该文件夹已经存在同名文件，则会覆盖它们，但不会删除。</li>
 </ul>
 </li>
 <li><strong>查看效果</strong>： <code>hugo server</code>
 <ul>
-<li>返回一个网址，你可以使用自己的浏览器来实时查看自己的页面效果</li>
+<li>启动本地服务器，用于预览生成的网站，任何修改都实时反应在网页预览中。</li>
+<li>在本地浏览器中输入 <code>http://localhost:1313</code> 网址即可访问。</li>
 </ul>
 </li>
 <li><strong>主题</strong>
@@ -335,6 +339,9 @@ $ git commit -m &#39;删除了target&#39; # 提交,添加操作说明
 
 git push -u origin master #重新提交（若需要对其他分支进行操作，则把master换为对应分支，如:git push -u origin dev）
 </code></pre><h2 id="其他">其他</h2>
+<ul>
+<li><a href="https://1xiaoyuan.github.io/archives/hugo-%E8%AF%AD%E6%B3%95%E5%A4%87%E5%BF%98%E5%BD%95.html/">Hugo 语法备忘录</a></li>
+</ul>
 <p>剩下的有时间再写</p>
 
           </div>
@@ -342,6 +349,7 @@ git push -u origin master #重新提交（若需要对其他分支进行操作�
           
           <div class="row middle-xs">
             <div class="col-xs-12">
+              <span>标签：
               
               <div class="post-tags">
                 <a href="/tags/hugo/">
@@ -349,6 +357,17 @@ git push -u origin master #重新提交（若需要对其他分支进行操作�
                 </a>
               </div>
               
+
+              &nbsp;&nbsp;&nbsp;&nbsp;分类：
+              
+              <div class="post-tags">
+                <a href="/categories/%E5%B7%A5%E5%85%B7/">
+                  工具
+                </a>
+              </div>
+              
+
+              </span>
             </div>
           </div>
           <br>
@@ -375,8 +394,10 @@ git push -u origin master #重新提交（若需要对其他分支进行操作�
           </div>
 
           
+        </div>
 
         
+        <br>
         <div style="height:15px;"></div>
         <div class="post-box">
 <div>
@@ -431,6 +452,8 @@ git push -u origin master #重新提交（若需要对其他分支进行操作�
   var year = date.getFullYear();
   document.getElementById('year').innerHTML = year;
 </script>
+
+
       </div>
     </div>
   </article>
