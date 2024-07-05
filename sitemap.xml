@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://1xiaoyuan.github.io/categories/</loc>
+    <lastmod>2024-04-19T22:54:53+08:00</lastmod>
+  </url><url>
     <loc>https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83/</loc>
     <lastmod>2024-04-19T22:54:53+08:00</lastmod>
   </url><url>
@@ -13,6 +16,9 @@
   </url><url>
     <loc>https://1xiaoyuan.github.io/</loc>
     <lastmod>2024-04-19T22:54:53+08:00</lastmod>
+  </url><url>
+    <loc>https://1xiaoyuan.github.io/tags/</loc>
+    <lastmod>2024-04-11T17:06:18+08:00</lastmod>
   </url><url>
     <loc>https://1xiaoyuan.github.io/archives/%E7%BB%9F%E4%B8%80%E7%9A%84%E6%A0%87%E5%87%86%E5%A4%AA%E9%87%8D%E8%A6%81%E4%BA%86%E9%A2%84%E5%85%88%E8%A7%A3%E5%86%B3%E6%97%A0%E5%BD%A2%E7%9A%84%E9%97%AE%E9%A2%98.html/</loc>
     <lastmod>2024-04-11T17:06:18+08:00</lastmod>
@@ -239,22 +245,24 @@
   </url><url>
     <loc>https://1xiaoyuan.github.io/self/%E8%BF%91%E6%97%A5/</loc>
   </url><url>
-    <loc>https://1xiaoyuan.github.io/about/</loc>
+    <loc>https://1xiaoyuan.github.io/weblink/</loc>
   </url><url>
-    <loc>https://1xiaoyuan.github.io/list/</loc>
+    <loc>https://1xiaoyuan.github.io/weblink/about/</loc>
+  </url><url>
+    <loc>https://1xiaoyuan.github.io/weblink/list/</loc>
   </url><url>
     <loc>https://1xiaoyuan.github.io/self/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</loc>
   </url><url>
-    <loc>https://1xiaoyuan.github.io/weekly/</loc>
+    <loc>https://1xiaoyuan.github.io/%E8%8D%89%E7%A8%BF/link/weekly/</loc>
   </url><url>
-    <loc>https://1xiaoyuan.github.io/lab/</loc>
+    <loc>https://1xiaoyuan.github.io/%E8%8D%89%E7%A8%BF/link/lab/</loc>
   </url><url>
     <loc>https://1xiaoyuan.github.io/self/%E6%88%91%E7%9A%84%E8%BF%91%E5%86%B5/</loc>
   </url><url>
-    <loc>https://1xiaoyuan.github.io/search/</loc>
+    <loc>https://1xiaoyuan.github.io/%E8%8D%89%E7%A8%BF/link/search/</loc>
   </url><url>
-    <loc>https://1xiaoyuan.github.io/tags1/</loc>
+    <loc>https://1xiaoyuan.github.io/weblink/tags1/</loc>
   </url><url>
-    <loc>https://1xiaoyuan.github.io/message/</loc>
+    <loc>https://1xiaoyuan.github.io/weblink/message/</loc>
   </url>
 </urlset>

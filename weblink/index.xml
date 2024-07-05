@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Weblinks on 朝闻道</title>
+    <link>https://1xiaoyuan.github.io/weblink/</link>
+    <description>Recent content in Weblinks on 朝闻道</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <atom:link href="https://1xiaoyuan.github.io/weblink/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>关于</title>
+      <link>https://1xiaoyuan.github.io/weblink/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://1xiaoyuan.github.io/weblink/about/</guid>
+      <description>个人说明 欢迎观临，我是阿蒙。&#xA;📩E-mail: auesc@foxmail.com （可互加微信） 📲这是我的 RSS 订阅源：https://spider666.icu/index.xml 不知道为什么我的 RSS 订阅后没有排版，有懂这方面的哥哥姐姐吗？ 2024-04-09，已解决&#xA;建设这个网站的目的？&#xA;✍直面问题，解决问题，记录过程。 👋在世界留下“我的印记”。 🥰遇见你，是一件浪漫的事。 我的近况&#xA;0️⃣2024年聚焦：输入-思考-输出。 1️⃣2024年1月聚焦：写作、逻辑。 2️⃣2024年2月聚焦：生活 3️⃣2024年3月聚焦：定心 4️⃣2024年4月聚焦：毕业设计、英语单词、高等数学、Python、运动 下面是一些可以帮助你快速了解该 Blog 的文章👇&#xA;分类和标签的设置逻辑 终身受用之原则 其他 友情链接：点击进入</description>
+    </item>
+    <item>
+      <title>分类</title>
+      <link>https://1xiaoyuan.github.io/weblink/list/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://1xiaoyuan.github.io/weblink/list/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>标签</title>
+      <link>https://1xiaoyuan.github.io/weblink/tags1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://1xiaoyuan.github.io/weblink/tags1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>留言</title>
+      <link>https://1xiaoyuan.github.io/weblink/message/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://1xiaoyuan.github.io/weblink/message/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

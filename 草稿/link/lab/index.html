@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,8 +8,8 @@
   <meta name="toTop" content="true">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="author" content="阿蒙" />
-  <meta property="og:url" content="https://1xiaoyuan.github.io/categories/" />
-  <link rel="canonical" href="https://1xiaoyuan.github.io/categories/" /><link rel="apple-touch-icon" href="/img/%e5%95%86%e6%a0%87.png" />
+  <meta property="og:url" content="https://1xiaoyuan.github.io/%E8%8D%89%E7%A8%BF/link/lab/" />
+  <link rel="canonical" href="https://1xiaoyuan.github.io/%E8%8D%89%E7%A8%BF/link/lab/" /><link rel="apple-touch-icon" href="/img/%e5%95%86%e6%a0%87.png" />
   <link rel="icon" href="/img/%e5%95%86%e6%a0%87.png" />
   <link rel="shortcut" href="/img/%e5%95%86%e6%a0%87.png" /><link rel="alternate" type="application/atom+xml" href="https://1xiaoyuan.github.io/index.xml" title="朝闻道">
 
@@ -22,9 +21,9 @@
            "@type": "WebPage",
            "@id": "https:\/\/1xiaoyuan.github.io\/"
       },
-      "articleSection" : "categories",
-      "name" : "Categories",
-      "headline" : "Categories",
+      "articleSection" : "草稿",
+      "name" : "实验室",
+      "headline" : "实验室",
       "description" : "",
       "inLanguage" : "en-US",
       "author" : "阿蒙",
@@ -32,14 +31,14 @@
       "publisher": "阿蒙",
       "accountablePerson" : "阿蒙",
       "copyrightHolder" : "阿蒙",
-      "copyrightYear" : "2024",
-      "datePublished": "2024-04-19 22:54:53 \u002b0800 CST",
-      "dateModified" : "2024-04-19 22:54:53 \u002b0800 CST",
-      "url" : "https:\/\/1xiaoyuan.github.io\/categories\/",
+      "copyrightYear" : "0001",
+      "datePublished": "0001-01-01 00:00:00 \u002b0000 UTC",
+      "dateModified" : "0001-01-01 00:00:00 \u002b0000 UTC",
+      "url" : "https:\/\/1xiaoyuan.github.io\/%E8%8D%89%E7%A8%BF\/link\/lab\/",
       "keywords" : [  ]
   }
-</script><title>Categories</title>
-  <meta property="og:title" content="Categories" />
+</script><title>实验室</title>
+  <meta property="og:title" content="实验室" />
   <meta property="og:type" content="article" />
   <meta property="og:description" content="" />
   <meta name="description" content="" />
@@ -77,10 +76,11 @@
 
 
 <body>
-  <article class="posts">
+  <article class="post " id="article">
     <div class="row">
       <div class="col-xs-12">
-        
+        <div class="site-header">
+          
 
 <div class="progress-bar"></div>
 <header>
@@ -113,16 +113,121 @@
 </div>
 
 <div class="header-line"></div>
-        <div class="cate">
-          <div class="posts-line"><a href="/categories/生活/">生活</a></div>
-          <div class="posts-line"><a href="/categories/思考/">思考</a></div>
-          <div class="posts-line"><a href="/categories/工具/">工具</a></div>
         </div>
-        
-        <div id="posts-list">
-          
-        </div>
+        <div class="post-box">
+          <header class="post-header">
+            <h1 class="post-title">实验室</h1>
+            
+          </header>
 
+          <style>
+            .lab-list {
+              display: flex;
+              justify-content: space-between;
+              flex-wrap: wrap;
+            }
+
+            .lab-list .item {
+              width: 49%;
+              margin-bottom: 20px;
+            }
+
+            .lab-list .item a {
+              display: inline-flex;
+              align-items: center;
+              width: 100%;
+              height: 100%;
+              padding: 10px;
+              box-sizing: border-box;
+              box-shadow: 1px 2px 10px rgba(0, 0, 0, .1);
+              overflow: hidden;
+              border-radius: 6px;
+              transition: all 0.1s linear;
+              text-decoration: none;
+            }
+
+            .lab-list .item a:hover {
+              box-shadow: 1px 2px 10px rgba(0, 0, 0, .2);
+            }
+
+            .lab-list img {
+              margin: 0;
+              padding: 0;
+              box-shadow: none;
+              width: 100%;
+            }
+
+            .lab-list .icon {
+              width: 50px;
+            }
+
+            .lab-list .info {
+              flex: 1;
+              padding-left: 15px;
+            }
+
+            .lab-list span {
+              font-size: 18px;
+              color: #000;
+            }
+
+            .lab-list p {
+              margin: 0;
+              padding-top: 6px;
+              color: #777;
+              font-size: 15px;
+              display: -webkit-box;
+              -webkit-box-orient: vertical;
+              -webkit-line-clamp: 2;
+              overflow: hidden;
+            }
+
+            @media (max-width: 600px) {
+              .lab-list .item {
+                width: 100%;
+              }
+            }
+          </style>
+
+          <div class="post-content markdown-body">
+            
+            
+            <div class="lab-list"></div>
+          </div>
+
+          <script>
+            function picShow() {
+              var str = '';
+              $.ajax({
+                url: '/lab.json',
+                type: 'get',
+                dataType: 'json',
+                success: function (data) {
+                  $.each(data, function (i, item) {
+                    list = "<div class='item'>"
+                      + "<a target='_blank' href='" + item.url + "'>"
+                      + "<div class='icon'><img src='" + item.icon + "'></div>"
+                      + "<div class='info'>"
+                      + " <span>" + item.name + "</span>"
+                      + " <p>" + item.des + "</p>"
+                      + "</div>"
+                      + "</a>"
+                      + "</div>"
+
+                    str += list;
+                  }),
+                    $(".lab-list").html(str);
+
+                },
+                error: function () {
+                  console.log('error')
+                }
+              })
+            }
+            picShow();
+          </script>
+
+        </div>
         <div class="site-footer">
   <div>
     © 2022-<span id="year"></span> ·
@@ -165,6 +270,8 @@
 <script src="/js/simplebox.min.js"></script>
 <script src="/js/canvas.js"></script>
 <script src="/js/main.js"></script>
+  
+
 </body>
 
 </html>

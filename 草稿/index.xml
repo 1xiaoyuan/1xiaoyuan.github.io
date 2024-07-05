@@ -6,7 +6,28 @@
     <description>Recent content in 草稿s on 朝闻道</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://1xiaoyuan.github.io/%E8%8D%89%E7%A8%BF/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>周刊</title>
+      <link>https://1xiaoyuan.github.io/%E8%8D%89%E7%A8%BF/link/weekly/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://1xiaoyuan.github.io/%E8%8D%89%E7%A8%BF/link/weekly/</guid>
+      <description>记录我订阅的周刊，质量不错，内容挺有意思。如果你有推荐，欢迎在评论区分享。&#xA;(以下排名不分先后，仅以记录的先后顺序。)&#xA;1. DecoHack周刊&#xA;https://decohack.zhubai.love/&#xA;为独立创造者提供独立见解，帮助你发现新产品方向，启动和完善你的项目。&#xA;2. 好工具周刊&#xA;https://bestxtools.zhubai.love/&#xA;发现并分享有趣，有创意，免费、好用的工具，每周四发布。&#xA;3. 老胡的周刊&#xA;https://weekly.howie6879.cn/&#xA;每周记录看到的有价值的信息，主要针对计算机领域，内容主题极大程度被我个人喜好主导。这个项目核心目的在于记录让自己有印象的信息做一个留存以及共享。&#xA;4. 前段精读周刊&#xA;https://github.com/ascoders/weekly&#xA;前端界的好文精读，每周更新。&#xA;5. 科技爱好者周刊-阮一峰&#xA;https://github.com/ruanyf/weekly&#xA;记录每周值得分享的科技内容，周五发布。&#xA;月刊，也分享一下。&#xA;hellogithub - https://hellogithub.com/</description>
+    </item>
+    <item>
+      <title>实验室</title>
+      <link>https://1xiaoyuan.github.io/%E8%8D%89%E7%A8%BF/link/lab/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://1xiaoyuan.github.io/%E8%8D%89%E7%A8%BF/link/lab/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>搜索</title>
+      <link>https://1xiaoyuan.github.io/%E8%8D%89%E7%A8%BF/link/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://1xiaoyuan.github.io/%E8%8D%89%E7%A8%BF/link/search/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
