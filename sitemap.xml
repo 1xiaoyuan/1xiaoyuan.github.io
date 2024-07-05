@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://1xiaoyuan.github.io/categories/</loc>
-    <lastmod>2024-04-19T22:54:53+08:00</lastmod>
-  </url><url>
     <loc>https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83/</loc>
     <lastmod>2024-04-19T22:54:53+08:00</lastmod>
   </url><url>
@@ -242,11 +239,9 @@
   </url><url>
     <loc>https://1xiaoyuan.github.io/self/%E8%BF%91%E6%97%A5/</loc>
   </url><url>
-    <loc>https://1xiaoyuan.github.io/weblink/</loc>
+    <loc>https://1xiaoyuan.github.io/about/</loc>
   </url><url>
-    <loc>https://1xiaoyuan.github.io/weblink/about/</loc>
-  </url><url>
-    <loc>https://1xiaoyuan.github.io/weblink/list/</loc>
+    <loc>https://1xiaoyuan.github.io/list/</loc>
   </url><url>
     <loc>https://1xiaoyuan.github.io/self/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</loc>
   </url><url>
@@ -260,6 +255,6 @@
   </url><url>
     <loc>https://1xiaoyuan.github.io/tags1/</loc>
   </url><url>
-    <loc>https://1xiaoyuan.github.io/weblink/message/</loc>
+    <loc>https://1xiaoyuan.github.io/message/</loc>
   </url>
 </urlset>
