@@ -7,7 +7,7 @@
             <link href="https://1xiaoyuan.github.io/" rel="alternate" type="text/html" title="html" />
             <link href="https://1xiaoyuan.github.io/index.xml" rel="alternate" type="application/rss+xml" title="rss" />
             <link href="https://1xiaoyuan.github.io/index.json" rel="alternate" type="application/json" title="json" />
-    <updated>2024-07-05T16:35:31+08:00</updated>
+    <updated>2024-07-05T16:41:53+08:00</updated>
     
     
     <author>
@@ -125,7 +125,7 @@
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%BC%96%E7%A8%8B" term="%E7%BC%96%E7%A8%8B" label="编程" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%BC%96%E7%A8%8B" term="%E7%BC%96%E7%A8%8B" label="编程" />
                             
                         
                     
@@ -207,7 +207,7 @@
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%BC%96%E7%A8%8B" term="%E7%BC%96%E7%A8%8B" label="编程" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%BC%96%E7%A8%8B" term="%E7%BC%96%E7%A8%8B" label="编程" />
                             
                         
                     
@@ -705,7 +705,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%BC%96%E7%A8%8B" term="%E7%BC%96%E7%A8%8B" label="编程" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%BC%96%E7%A8%8B" term="%E7%BC%96%E7%A8%8B" label="编程" />
                             
                         
                     
@@ -779,7 +779,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                             
                         
                     
@@ -829,7 +829,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" term="%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" label="电脑&amp;手机" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" term="%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" label="电脑&amp;手机" />
                             
                         
                     
@@ -893,7 +893,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                             
                         
                     
@@ -943,7 +943,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/hugo" term="hugo" label="hugo" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/hugo" term="hugo" label="hugo" />
                             
                         
                     
@@ -996,7 +996,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -1070,7 +1070,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/hugo" term="hugo" label="Hugo" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/hugo" term="hugo" label="Hugo" />
                             
                         
                     
@@ -1121,7 +1121,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                             
                         
                     
@@ -1229,7 +1229,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                             
                         
                     
@@ -1301,7 +1301,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                             
                         
                     
@@ -1351,7 +1351,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -1409,7 +1409,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                             
                         
                     
@@ -1454,7 +1454,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                             
                         
                     
@@ -1546,11 +1546,11 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                             
                         
                     
@@ -1632,7 +1632,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -1694,7 +1694,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
                             
                         
                     
@@ -1757,7 +1757,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                             
                         
                     
@@ -1841,9 +1841,9 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                             
                         
                     
@@ -1915,7 +1915,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
                             
                         
                     
@@ -1983,7 +1983,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -2067,7 +2067,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
                             
                         
                     
@@ -2166,7 +2166,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -2243,9 +2243,9 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
                             
                         
                     
@@ -2338,7 +2338,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                             
                         
                     
@@ -2399,7 +2399,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                             
                         
                     
@@ -2470,7 +2470,7 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/hugo" term="hugo" label="hugo" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/hugo" term="hugo" label="hugo" />
                             
                         
                     
@@ -2535,9 +2535,9 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%9A%8F%E7%AC%94" term="%E9%9A%8F%E7%AC%94" label="随笔" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                             
                         
                     
@@ -2624,7 +2624,7 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -2683,7 +2683,7 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                             
                         
                     
@@ -2827,7 +2827,7 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                             
                         
                     
@@ -2953,9 +2953,9 @@ Step.13 享受假期，假期是活跃生命力的时间</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -3043,7 +3043,7 @@ Step.13 享受假期，假期是活跃生命力的时间</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
                             
                         
                     
@@ -3122,7 +3122,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/hugo" term="hugo" label="hugo" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/hugo" term="hugo" label="hugo" />
                             
                         
                     
@@ -3191,7 +3191,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E9%A3%9F%E8%B0%B1" term="%E9%A3%9F%E8%B0%B1" label="食谱" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E9%A3%9F%E8%B0%B1" term="%E9%A3%9F%E8%B0%B1" label="食谱" />
                             
                         
                     
@@ -3251,7 +3251,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -3363,9 +3363,9 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -3513,9 +3513,9 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E5%86%99%E4%BD%9C" term="%E5%86%99%E4%BD%9C" label="写作" />
                             
                         
                     
@@ -3563,7 +3563,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -3624,7 +3624,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -3709,9 +3709,9 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -3793,7 +3793,7 @@ url 的组成：协议+域名+资源路径。</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/hugo" term="hugo" label="hugo" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/hugo" term="hugo" label="hugo" />
                             
                         
                     
@@ -3953,7 +3953,7 @@ url 的组成：协议+域名+资源路径。</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -4040,7 +4040,7 @@ url 的组成：协议+域名+资源路径。</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/hugo" term="hugo" label="hugo" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/hugo" term="hugo" label="hugo" />
                             
                         
                     
@@ -4169,7 +4169,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%BC%96%E7%A8%8B" term="%E7%BC%96%E7%A8%8B" label="编程" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%BC%96%E7%A8%8B" term="%E7%BC%96%E7%A8%8B" label="编程" />
                             
                         
                     
@@ -4258,7 +4258,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
                             
                         
                     
@@ -4313,7 +4313,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -4506,7 +4506,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -4604,7 +4604,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -4667,7 +4667,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -4752,7 +4752,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -4916,7 +4916,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -4983,7 +4983,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" term="%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" label="电脑&amp;手机" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" term="%E7%94%B5%E8%84%91%E6%89%8B%E6%9C%BA" label="电脑&amp;手机" />
                             
                         
                     
@@ -5064,7 +5064,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" term="%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0" label="读书笔记" />
                             
                         
                     
@@ -5149,7 +5149,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
                             
                         
                     
@@ -5375,7 +5375,7 @@ git push -u origin master #重新提交（若需要对其他分支进行操作�
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/hugo" term="hugo" label="hugo" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/hugo" term="hugo" label="hugo" />
                             
                         
                     
@@ -5425,7 +5425,7 @@ git push -u origin master #重新提交（若需要对其他分支进行操作�
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags/hugo" term="hugo" label="hugo" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/hugo" term="hugo" label="hugo" />
                             
                         
                     
