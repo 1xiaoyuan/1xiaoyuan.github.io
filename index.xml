@@ -7,7 +7,7 @@
             <link href="https://1xiaoyuan.github.io/" rel="alternate" type="text/html" title="html" />
             <link href="https://1xiaoyuan.github.io/index.xml" rel="alternate" type="application/rss+xml" title="rss" />
             <link href="https://1xiaoyuan.github.io/index.json" rel="alternate" type="application/json" title="json" />
-    <updated>2024-07-06T00:29:04+08:00</updated>
+    <updated>2024-07-06T22:53:33+08:00</updated>
     
     
     <author>
@@ -74,7 +74,7 @@
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -160,9 +160,9 @@
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -220,9 +220,9 @@
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -296,7 +296,7 @@
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -378,7 +378,7 @@
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -876,7 +876,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -950,7 +950,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -1000,7 +1000,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -1064,7 +1064,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -1114,7 +1114,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -1167,7 +1167,7 @@ INSERT INTO `work_with` VALUES(210,404,'64000');
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -1241,7 +1241,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -1292,7 +1292,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -1400,7 +1400,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -1472,7 +1472,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -1522,7 +1522,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -1580,7 +1580,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -1625,7 +1625,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -1716,7 +1716,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -1802,7 +1802,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -1864,7 +1864,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -1927,7 +1927,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -2011,7 +2011,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -2085,7 +2085,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -2153,7 +2153,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -2237,7 +2237,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -2336,7 +2336,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -2386,7 +2386,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -2451,7 +2451,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -2544,9 +2544,9 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -2607,7 +2607,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -2676,9 +2676,9 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -2743,7 +2743,7 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -2832,7 +2832,7 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -2891,7 +2891,7 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -3035,7 +3035,7 @@ layout: &#34;list&#34;
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -3161,7 +3161,7 @@ Step.13 享受假期，假期是活跃生命力的时间</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -3251,7 +3251,7 @@ Step.13 享受假期，假期是活跃生命力的时间</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -3330,7 +3330,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -3399,7 +3399,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -3459,7 +3459,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -3571,7 +3571,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -3721,7 +3721,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -3771,7 +3771,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -3832,7 +3832,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -3917,7 +3917,7 @@ exit
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -4001,7 +4001,7 @@ url 的组成：协议+域名+资源路径。</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -4161,7 +4161,7 @@ url 的组成：协议+域名+资源路径。</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -4248,7 +4248,7 @@ url 的组成：协议+域名+资源路径。</p>
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -4377,7 +4377,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -4466,7 +4466,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -4521,7 +4521,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -4714,7 +4714,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -4812,7 +4812,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -4875,7 +4875,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -4960,7 +4960,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -5124,7 +5124,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -5191,7 +5191,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -5272,7 +5272,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E6%80%9D%E8%80%83" term="%E6%80%9D%E8%80%83" label="思考" />
                             
                         
                     
@@ -5357,7 +5357,7 @@ print(result)
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E7%94%9F%E6%B4%BB" term="%E7%94%9F%E6%B4%BB" label="生活" />
                             
                         
                     
@@ -5583,7 +5583,7 @@ git push -u origin master #重新提交（若需要对其他分支进行操作�
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     
@@ -5633,7 +5633,7 @@ git push -u origin master #重新提交（若需要对其他分支进行操作�
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/list/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
+                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
                             
                         
                     

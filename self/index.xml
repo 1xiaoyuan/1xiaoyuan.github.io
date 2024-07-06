@@ -9,32 +9,25 @@
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://1xiaoyuan.github.io/self/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>https://1xiaoyuan.github.io/self/about/</link>
+      <title>价值观</title>
+      <link>https://1xiaoyuan.github.io/self/%E4%BB%B7%E5%80%BC%E8%A7%82/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1xiaoyuan.github.io/self/about/</guid>
-      <description>:p[分享一首超超超超级温柔的歌：真爱至上]{.center}&#xA;https://music.163.com/song?id=1396923174&#xA;基本信息 性别：男 年龄：22 坐标：河南 职业：正在考研 📩 E-mail: excellencezz@outlook.com 个人特色 爱好&#xA;认知科学、语言学 写作 日记、知识库 跑步 喜好&#xA;水果：苹果 食物：红烧肉 生活方式：极简主义 运动方式：跑步 厌恶&#xA;形式主义 目标和事业 2024年下半年的目标：全力以赴，考上研究生。&#xA;愿景：成为写作的专家，从而发展为事业。&#xA;价值观 2024-06-20，我大学毕业了。关于“我想成为一个什么样的人”，这是我在大学时期找到的回答：&#xA;做一个知行合一的人。知道什么正确，就做；知道什么不正确，就改。 做一个有价值的人。能持续与至少1000人交换价值。 做一个长期主义者。保持耐心和毅力，解决面临的问题。 做一个积极主动的人。重要的机会往往难寻！ 做一个客观的人。独立思考，分清客观现实和主观臆断（事实和观点）。 做一个擅长生活的人。管理自己，从而管理生活。（不要反过来让生活管理自己） 用关键词来表述：执行力、价值、耐心、毅力、乐观、主动、理智、张弛有度。&#xA;博客 写博客的目的&#xA;✍ 直面问题，记录解决过程 👋 在互联世界留下“我的印记” 🥰 人与人的相遇是一件浪漫的事 博客的历史&#xA;曽在Github Page上搭建过一个基于Hugo生成的静态博客，截止到2024-06-01，运行时长有589天。 后来，在毕设过程中重装了一次PC系统，我深感配置本地环境之繁琐（Git、Hugo、Github SSH及访问加速），恰逢域名即将到期，于是决定换地方，来这儿写。 </description>
+      <guid>https://1xiaoyuan.github.io/self/%E4%BB%B7%E5%80%BC%E8%A7%82/</guid>
+      <description>价值观 2024-06-20，我大学毕业了。关于 “我想成为一个什么样的人”，这是我在大学时期找到的回答：&#xA;做一个知行合一的人。知道什么正确，就做；知道什么不正确，就改。 做一个有价值的人。能持续与至少 1000 人交换价值。 做一个长期主义者。保持耐心和毅力，解决面临的问题。 做一个积极主动的人。重要的机会往往难寻！ 做一个客观的人。独立思考，分清客观现实和主观臆断（事实和观点）。 做一个擅长生活的人。管理自己，从而管理生活。（不要反过来让生活管理自己） 用关键词来表述：执行力、价值、耐心、毅力、乐观、主动、理智、张弛有度。</description>
     </item>
     <item>
-      <title></title>
-      <link>https://1xiaoyuan.github.io/self/%E8%BF%91%E6%97%A5/</link>
+      <title>博客历史</title>
+      <link>https://1xiaoyuan.github.io/self/%E5%8D%9A%E5%AE%A2%E5%8E%86%E5%8F%B2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1xiaoyuan.github.io/self/%E8%BF%91%E6%97%A5/</guid>
-      <description> 这个页面用于展示我最近的动向。 更新时间：2024-06-20 21:28:58&#xA;原博客域名将到期，且重装电脑系统后不想配置Hugo、Github、Git，用心整理了Xlog的导航、CSS、文章标签。打算在这里写博客。 不立flag，没有硬要求，随心写。部分导航页面还没有书写内容，但框架基本确定了（下图）。 :p[导航]{.center}&#xA;接下来要做什么呢？&#xA;把电脑放到楼上，尽可能少用电子产品，楼下的环境只搞学习，记录感受； 每天跑个步，有空就把图记在日记上，没空就算了； 学数学、学英语、学逻辑。 </description>
-    </item>
-    <item>
-      <title>友情链接</title>
-      <link>https://1xiaoyuan.github.io/self/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://1xiaoyuan.github.io/self/%E5%8F%8B%E6%83%85%E9%93%BE%E6%8E%A5/</guid>
-      <description> 浪海导航 收录各种类型的博客 </description>
+      <guid>https://1xiaoyuan.github.io/self/%E5%8D%9A%E5%AE%A2%E5%8E%86%E5%8F%B2/</guid>
+      <description>博客的历史 2022-12-30：使用 yinyang主题。 2022-10-20：使用hugo+github搭建博客。 曾在 Github Page 上搭建过一个基于 Hugo 生成的静态博客，截止到 2024-06-01，运行时长有 589 天。 后来，在毕设过程中重装了一次 PC 系统，我深感配置本地环境之繁琐（Git、Hugo、Github SSH 及访问加速），恰逢域名即将到期，于是决定换地方，来这儿写。 小改动 2024-04-09，RSS </description>
     </item>
     <item>
       <title>我的近况</title>
       <link>https://1xiaoyuan.github.io/self/%E6%88%91%E7%9A%84%E8%BF%91%E5%86%B5/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://1xiaoyuan.github.io/self/%E6%88%91%E7%9A%84%E8%BF%91%E5%86%B5/</guid>
-      <description>高歌的今年 我的2024 健康：华为运动健康 写作：整理句子库 学业：毕业设计软件开发 前途：研究生 靠谱：练习口才 2024年要避免的陷阱&#xA;知识管理、时间管理、个人成长的内容以及软件 互联网帖子、文章、流量 网络游戏 尘封的去年 我的2023 “专注”与“开放” 重心英语，探索生活与学习的平衡 远离数据算法 我的二月 开学了 还在困惑考研与工作，已经开始偏向工作了，但学习数学英语也很有趣，所以先继续学着走着，反正也没正事干 被人相信的感觉真好 已经远离互联网了 网站访问速度快了很多。&#xA;更新于2023-02-10，下次更新在2023-03-10左右</description>
+      <description>我的近况&#xA;0️⃣2024年聚焦：输入-思考-输出。 1️⃣2024年1月聚焦：写作、逻辑。 2️⃣2024年2月聚焦：生活 3️⃣2024年3月聚焦：定心 4️⃣2024年4月聚焦：毕业设计、英语单词、高等数学、Python、运动 高歌的今年 我的2024 健康：华为运动健康 写作：整理句子库 学业：毕业设计软件开发 前途：研究生 靠谱：练习口才 2024年要避免的陷阱&#xA;知识管理、时间管理、个人成长的内容以及软件 互联网帖子、文章、流量 网络游戏 尘封的去年 我的2023 “专注”与“开放” 重心英语，探索生活与学习的平衡 远离数据算法 我的二月 开学了 还在困惑考研与工作，已经开始偏向工作了，但学习数学英语也很有趣，所以先继续学着走着，反正也没正事干 被人相信的感觉真好 已经远离互联网了 网站访问速度快了很多。&#xA;更新于2023-02-10，下次更新在2023-03-10左右</description>
     </item>
   </channel>
 </rss>
