@@ -1,0 +1,31 @@
+## markdown 书写格式
+
+引用网易云 音乐 👇
+{{< music id="" type="song" server="netease" >}}
+
+- id 是音乐的链接中的编号，如：id="1859178955"
+
+
+引用本站的 文章 👇
+[text](url)
+
+- text 是显示的文字
+- url 是 shortcode ：{{< ref "posts/文件名.md">}}
+
+
+引用本站的 图片 👇
+![text](site)
+
+- text 是图片的备注信息
+- site 是图片文件的地址：/img/文件名.png
+
+
+## Hugo 命令
+
+hugo
+
+> 在 public 文件夹下生成静态网站文件
+
+hugo server
+
+> 启动本地服务器渲染 public 文件夹中的静态网站
