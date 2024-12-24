@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.127.0">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="toTop" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="阿蒙" />
+  <meta property="og:url" content="https://1xiaoyuan.github.io/archives/python%E4%B8%AD%E7%9A%84-%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E4%B8%80%E4%B8%AA%E6%A6%82%E5%BF%B5%E7%9A%84%E7%BC%BA%E5%A4%B1%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%BD%B1%E5%93%8D.html/" />
+  <link rel="canonical" href="https://1xiaoyuan.github.io/archives/python%E4%B8%AD%E7%9A%84-%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E4%B8%80%E4%B8%AA%E6%A6%82%E5%BF%B5%E7%9A%84%E7%BC%BA%E5%A4%B1%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%BD%B1%E5%93%8D.html/" /><link rel="apple-touch-icon" href="/img/%e5%95%86%e6%a0%87.png" />
+  <link rel="icon" href="/img/%e5%95%86%e6%a0%87.png" />
+  <link rel="shortcut" href="/img/%e5%95%86%e6%a0%87.png" /><link rel="alternate" type="application/atom+xml" href="https://1xiaoyuan.github.io/index.xml" title="朝闻道">
+
+  <script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https:\/\/1xiaoyuan.github.io\/"
+      },
+      "articleSection" : "posts",
+      "name" : "Python中的 “虚拟环境”，一个概念的缺失带来的影响",
+      "headline" : "Python中的 “虚拟环境”，一个概念的缺失带来的影响",
+      "description" : "2024-04-10，下午14:00~16:05，倒腾了2个小时，终于能够成功运行PyHanLP了！下面记录一下学到的知识👇\n为了完成毕业设计中的一个环节——从文本中提取非结构化的信息——我需要能够理解语义的工具，所以今天我为我的 Python 安装了 PyHanLP 。\n下面分享一下我遇到的问题。有空了就介绍一下什么是 HanLP，没空就算了。\n这篇文章，我将用我的实际经验向你证明，一个概念的缺失，有可能会让你的工作变得更复杂！如果我能够重视这个概念，并且理解它的影响，我想我会选择学习 Conde 这个专业的工具（用来专门负责 Python 的虚拟环境），再去下载 HanLP 这个第三方库。\nHanLP 傻瓜安装注意事项 我使用了官网的 傻瓜安装包，谁知道这个傻瓜安装包真把我当傻瓜，它连安装目录都不让我选，就直接一键帮我安装了 JAVA 环境、HanLP、以及一个新 Python 3.8！\n并且这些东西都被安装在了 C 盘！\n我原本的 Python 3.12 无法调用 PyHanLP ，这个 PyHanLP 只能由傻瓜安装的 Python 3.8 才能调用。\n为了解决这个问题，我试图将原本的项目虚拟环境中的 Python 3.12 换成 Python 3.8，但是换过之后原本写好的代码不管用了——原因是 Python 3.8 中并没有安装这些库。\n我这才明白，虚拟环境中的 Python 版本也是指定的，就算我在虚拟环境中把解释器改成 Python 3.8，它也无法使用原本 Python 3.12 安装在虚拟环境中的 pip 库，因为这些库只认 Python 3.12！所以我必须新建一个虚拟环境。\n然后我新建了一个虚拟环境，调用 Python 3.8 ，并将之前的代码都复制过来，然后重新下载这些代码中需要的第三方库，然而问题再次出现在我面前。\n我试着运行 PyHanLP ，发现终端无法找到这个库。我又明白了，原来 PyHanLP 是全局环境的库，虚拟环境中无法调用全局环境中的库。\n可问题是，就是因为在虚拟环境的终端中使用 pip install pyhanlp 根本就无法下载它，所以我才会选择傻瓜安装包来安装 PyHanLP。也就是说，我无法在虚拟环境中使用 PyHanLP了。我只能使用 C 盘的 Python 3.",
+      "inLanguage" : "en-US",
+      "author" : "阿蒙",
+      "creator" : "阿蒙",
+      "publisher": "阿蒙",
+      "accountablePerson" : "阿蒙",
+      "copyrightHolder" : "阿蒙",
+      "copyrightYear" : "2024",
+      "datePublished": "2024-04-10 16:37:55 \u002b0800 CST",
+      "dateModified" : "2024-04-10 16:37:55 \u002b0800 CST",
+      "url" : "https:\/\/1xiaoyuan.github.io\/archives\/python%E4%B8%AD%E7%9A%84-%E8%99%9A%E6%8B%9F%E7%8E%AF%E5%A2%83%E4%B8%80%E4%B8%AA%E6%A6%82%E5%BF%B5%E7%9A%84%E7%BC%BA%E5%A4%B1%E5%B8%A6%E6%9D%A5%E7%9A%84%E5%BD%B1%E5%93%8D.html\/",
+      "keywords" : [ "编程", ]
+  }
+</script><title>Python中的 “虚拟环境”，一个概念的缺失带来的影响</title>
+  <meta property="og:title" content="Python中的 “虚拟环境”，一个概念的缺失带来的影响" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="2024-04-10，下午14:00~16:05，倒腾了2个小时，终于能够成功运行PyHanLP了！下面记录一下学到的知识👇
+为了完成毕业设计中的一个环节——从文本中提取非结构化的信息——我需要能够理解语义的工具，所以今天我为我的 Python 安装了 PyHanLP 。
+下面分享一下我遇到的问题。有空了就介绍一下什么是 HanLP，没空就算了。
+这篇文章，我将用我的实际经验向你证明，一个概念的缺失，有可能会让你的工作变得更复杂！如果我能够重视这个概念，并且理解它的影响，我想我会选择学习 Conde 这个专业的工具（用来专门负责 Python 的虚拟环境），再去下载 HanLP 这个第三方库。
+HanLP 傻瓜安装注意事项 我使用了官网的 傻瓜安装包，谁知道这个傻瓜安装包真把我当傻瓜，它连安装目录都不让我选，就直接一键帮我安装了 JAVA 环境、HanLP、以及一个新 Python 3.8！
+并且这些东西都被安装在了 C 盘！
+我原本的 Python 3.12 无法调用 PyHanLP ，这个 PyHanLP 只能由傻瓜安装的 Python 3.8 才能调用。
+为了解决这个问题，我试图将原本的项目虚拟环境中的 Python 3.12 换成 Python 3.8，但是换过之后原本写好的代码不管用了——原因是 Python 3.8 中并没有安装这些库。
+我这才明白，虚拟环境中的 Python 版本也是指定的，就算我在虚拟环境中把解释器改成 Python 3.8，它也无法使用原本 Python 3.12 安装在虚拟环境中的 pip 库，因为这些库只认 Python 3.12！所以我必须新建一个虚拟环境。
+然后我新建了一个虚拟环境，调用 Python 3.8 ，并将之前的代码都复制过来，然后重新下载这些代码中需要的第三方库，然而问题再次出现在我面前。
+我试着运行 PyHanLP ，发现终端无法找到这个库。我又明白了，原来 PyHanLP 是全局环境的库，虚拟环境中无法调用全局环境中的库。
+可问题是，就是因为在虚拟环境的终端中使用 pip install pyhanlp 根本就无法下载它，所以我才会选择傻瓜安装包来安装 PyHanLP。也就是说，我无法在虚拟环境中使用 PyHanLP了。我只能使用 C 盘的 Python 3." />
+  <meta name="description" content="2024-04-10，下午14:00~16:05，倒腾了2个小时，终于能够成功运行PyHanLP了！下面记录一下学到的知识👇
+为了完成毕业设计中的一个环节——从文本中提取非结构化的信息——我需要能够理解语义的工具，所以今天我为我的 Python 安装了 PyHanLP 。
+下面分享一下我遇到的问题。有空了就介绍一下什么是 HanLP，没空就算了。
+这篇文章，我将用我的实际经验向你证明，一个概念的缺失，有可能会让你的工作变得更复杂！如果我能够重视这个概念，并且理解它的影响，我想我会选择学习 Conde 这个专业的工具（用来专门负责 Python 的虚拟环境），再去下载 HanLP 这个第三方库。
+HanLP 傻瓜安装注意事项 我使用了官网的 傻瓜安装包，谁知道这个傻瓜安装包真把我当傻瓜，它连安装目录都不让我选，就直接一键帮我安装了 JAVA 环境、HanLP、以及一个新 Python 3.8！
+并且这些东西都被安装在了 C 盘！
+我原本的 Python 3.12 无法调用 PyHanLP ，这个 PyHanLP 只能由傻瓜安装的 Python 3.8 才能调用。
+为了解决这个问题，我试图将原本的项目虚拟环境中的 Python 3.12 换成 Python 3.8，但是换过之后原本写好的代码不管用了——原因是 Python 3.8 中并没有安装这些库。
+我这才明白，虚拟环境中的 Python 版本也是指定的，就算我在虚拟环境中把解释器改成 Python 3.8，它也无法使用原本 Python 3.12 安装在虚拟环境中的 pip 库，因为这些库只认 Python 3.12！所以我必须新建一个虚拟环境。
+然后我新建了一个虚拟环境，调用 Python 3.8 ，并将之前的代码都复制过来，然后重新下载这些代码中需要的第三方库，然而问题再次出现在我面前。
+我试着运行 PyHanLP ，发现终端无法找到这个库。我又明白了，原来 PyHanLP 是全局环境的库，虚拟环境中无法调用全局环境中的库。
+可问题是，就是因为在虚拟环境的终端中使用 pip install pyhanlp 根本就无法下载它，所以我才会选择傻瓜安装包来安装 PyHanLP。也就是说，我无法在虚拟环境中使用 PyHanLP了。我只能使用 C 盘的 Python 3." />
+  <meta property="og:locale" content="en-us" /><meta property="og:image" content="/img/商标.png" />
+  
+
+  <link rel="stylesheet" href="/css/simplebox.min.css">
+  <link rel="stylesheet" href="/css/flexboxgrid-6.3.1.min.css">
+  <link rel="stylesheet" href="/css/index.css">
+
+  <link href="/index.xml" rel="alternate" type="application/rss+xml"
+    title="朝闻道">
+
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-671ZJMVQN9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-671ZJMVQN9');
+  </script>
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?5f4839173d00c8b0d3dd40533d14450d";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+</head>
+
+
+<body>
+  <article class="post " id="article">
+    <div class="row">
+      <div class="col-xs-12">
+
+        <div class="site-header">
+          
+
+<div class="progress-bar"></div>
+<header>
+  <div class="header-title">
+    <a href="/">朝闻道</a>
+  </div>
+  <div class="header-subtitle">所谓超人，就是按客观规律办事的人</div>
+</header>
+<div class="row end-md center-xs header-items">
+
+
+  
+  
+  <div class="header-item">
+    <a href="/posts">📁归档</a>
+  </div>
+  
+  <div class="header-item">
+    <a href="/tags1">📌标签</a>
+  </div>
+  
+  <div class="header-item">
+    <a href="/message">📝留言</a>
+  </div>
+  
+  <div class="header-item">
+    <a href="/about">😲关于</a>
+  </div>
+  
+</div>
+
+<div class="header-line"></div>
+        </div>
+
+        <div class="post-box">
+          <header class="post-header">
+            <h1 class="post-title">Python中的 “虚拟环境”，一个概念的缺失带来的影响</h1>
+            
+            <div class="row post-desc">
+              <div class="col-xs-6">
+                
+                <time class="post-date" datetime=" 2024-04-10 16:37:55 CST">
+                  发布于 2024-04-10
+                </time>
+                
+              </div>
+              <div class="col-xs-6">
+                
+                <div class="post-author">
+                  <a target="_blank" href="/">@阿蒙</a>
+                </div>
+                
+              </div>
+            </div>
+            
+          </header>
+
+          
+          <div class="autoMenu" id="autoMenu" data-autoMenu></div>
+          <div class="post-content markdown-body">
+            
+            <p>2024-04-10，下午14:00~16:05，倒腾了2个小时，终于能够成功运行PyHanLP了！下面记录一下学到的知识👇</p>
+<p>为了完成毕业设计中的一个环节——从文本中提取非结构化的信息——我需要能够理解语义的工具，所以今天我为我的 Python 安装了 PyHanLP 。</p>
+<p>下面分享一下我遇到的问题。有空了就介绍一下什么是 HanLP，没空就算了。</p>
+<blockquote>
+<p>这篇文章，我将用我的实际经验向你证明，一个概念的缺失，有可能会让你的工作变得更复杂！如果我能够重视这个概念，并且理解它的影响，我想我会选择学习 Conde 这个专业的工具（用来专门负责 Python 的虚拟环境），再去下载 HanLP 这个第三方库。</p>
+</blockquote>
+<h2 id="hanlp-傻瓜安装注意事项">HanLP 傻瓜安装注意事项</h2>
+<p>我使用了官网的 <a href="https://hanlp.hankcs.com/install.html#_1-x%E7%89%88">傻瓜安装包</a>，谁知道这个傻瓜安装包真把我当傻瓜，它连安装目录都不让我选，就直接一键帮我安装了 JAVA 环境、HanLP、以及一个新 Python 3.8！</p>
+<p><strong>并且这些东西都被安装在了 C 盘！</strong></p>
+<p>我原本的 Python 3.12 无法调用 PyHanLP ，这个 PyHanLP 只能由傻瓜安装的 Python 3.8 才能调用。</p>
+<p>为了解决这个问题，我试图将原本的项目虚拟环境中的 Python 3.12 换成 Python 3.8，但是换过之后原本写好的代码不管用了——原因是 Python 3.8 中并没有安装这些库。</p>
+<blockquote>
+<p>我这才明白，虚拟环境中的 Python 版本也是指定的，就算我在虚拟环境中把解释器改成 Python 3.8，它也无法使用原本 Python 3.12 安装在虚拟环境中的 pip 库，因为这些库只认 Python 3.12！所以我必须新建一个虚拟环境。</p>
+</blockquote>
+<p>然后我新建了一个虚拟环境，调用 Python 3.8 ，并将之前的代码都复制过来，然后重新下载这些代码中需要的第三方库，然而问题再次出现在我面前。</p>
+<p>我试着运行 PyHanLP ，发现终端无法找到这个库。<strong>我又明白了，原来 PyHanLP 是全局环境的库，虚拟环境中无法调用全局环境中的库。</strong></p>
+<p>可问题是，就是因为在虚拟环境的终端中使用 <code>pip install pyhanlp</code> 根本就无法下载它，所以我才会选择傻瓜安装包来安装 PyHanLP。<strong>也就是说，我无法在虚拟环境中使用 PyHanLP了。我只能使用 C 盘的 Python 3.8，然后将库都装在 C 盘！</strong></p>
+<p>要解决这个问题，我不得不放弃使用虚拟环境，而直接使用全局环境。我需要将 Python 3.8 添加到电脑的环境变量中，并且Python3.8 的优先级必须比 Python3.12 的高。<strong>只有这样，在终端中使用的 <code>pip install</code> 命令才针对 Python3.8。</strong></p>
+<blockquote>
+<p>如果是虚拟环境那么我安装的所有库，都回安装在我的代码所在的文件夹——我当然不会放在 C 盘。</p>
+</blockquote>
+<p>正是这一个个拦路虎，让我终于明白了虚拟环境的真正含义——拥有自己的 pip 库，独立于其他任何的 Python 解释器的工作环境！</p>
+<p>我的 C 盘将被下载更多的库，本就内存不多。这一切都是因为我没有办法在虚拟环境中安装 PyHanLP！也都因为我之前不理解“虚拟环境”。</p>
+<p>虽然我也是新手，但至少从今天的经验中，我也许能够给出一些建议。</p>
+<p><strong>如果你是 Python 新手</strong>：如果你将要下载许多 Python 第三方库，也准备经常使用 Python 帮助你完成工作，并且你不想让你的 C 盘背负太多（想把东西存在其他盘），那你就去老老实实下载一个 Conde 吧，（Conde 是一个专门管理 Python 库、创建虚拟环境的工作平台）。</p>
+<p>如果你也想使用 HanLP 这个库，官方也提供的 conda 下载方案，两行代码就能搞定安装（并不比傻瓜安装包复杂）。而且我猜测，如果在 conda 中配置好了安装路径，那么它帮你安装的 PyHanLP 都不会傻乎乎地安装在 C 盘！</p>
+<h2 id="什么是虚拟环境">什么是虚拟环境</h2>
+<p>简而言之，虚拟环境就是，选择使用一个版本的 Python 、有自己独立的 pip 库。</p>
+<ol>
+<li>虚拟环境就相当于你又安装了一个新 Python ，不过毕竟不是真的安装了一个新 Python ，创建虚拟环境不会使用很大内存。</li>
+<li>如果你的项目已激活虚拟环境，那么你只能使用该环境中安装过的 Python 库，就算你原来那个 Python 里有很多库，虚拟环境中的 Python 也无法调用它们。</li>
+<li>虚拟环境是用来：将一个项目所需的库和其他项目所需的库区分开，对每个项目文件而言节省空间。</li>
+</ol>
+<h2 id="如何在-vscode-中创建虚拟环境">如何在 VSCode 中创建虚拟环境</h2>
+<p>在VSCode 中为项目创建专属的 Python 虚拟环境：</p>
+<ol>
+<li>打开VSCode，打开文件夹</li>
+<li>点击 VSCode 右下角的，Python 编辑器，在弹出的选项中选择，“创建虚拟环境”，点击创建一个虚拟环境，然后你打算使用的 Python 版本</li>
+<li>新建终端，在终端中输入 .<code>\venv\Scripts\activate</code> 激活虚拟环境，其实就是让终端进入这个目录。值得注意的是，下次再使用 VSCode 打开这个文件夹就不需要再激活虚拟环境了，软件会自动进入。</li>
+</ol>
+<h2 id="这件事的结局">这件事的结局</h2>
+<p>我并不打算下载 Conde 以重新安装 HanLP ，但我也不打算一直使用这个傻瓜安装包为我在 C 盘配置的一切。</p>
+<p>我没有更多时间去学 Conde的使用，不仅仅因为它是英文界面，还因为半天的时间对我而言也非常稀缺。我还有很多事情要忙。</p>
+<p>等我考上研究生后，再来好好操作这个好工具吧！现在我只好妥协，在 C 盘完成我的毕业设计。</p>
+
+          </div>
+
+          
+          <div class="row middle-xs">
+            <div class="col-xs-12">
+              <span>标签：
+              
+              <div class="post-tags">
+                <a href="/tags/%E7%BC%96%E7%A8%8B/">
+                  编程
+                </a>
+              </div>
+              
+
+              &nbsp;&nbsp;&nbsp;&nbsp;分类：
+              
+              <div class="post-tags">
+                <a href="/categories/%E5%B7%A5%E5%85%B7/">
+                  工具
+                </a>
+              </div>
+              
+
+              </span>
+            </div>
+          </div>
+          <br>
+
+          
+          
+          <div class="cate">
+            <div class="posts-line"><a class="post-tags" href="/archives/%E7%BB%9F%E4%B8%80%E7%9A%84%E6%A0%87%E5%87%86%E5%A4%AA%E9%87%8D%E8%A6%81%E4%BA%86%E9%A2%84%E5%85%88%E8%A7%A3%E5%86%B3%E6%97%A0%E5%BD%A2%E7%9A%84%E9%97%AE%E9%A2%98.html/" data-toggle="tooltip" data-placement="top" title="统一的标准太重要了（预先解决无形的问题）">
+              Last-统一的标准太重要了（预先解决无形的问题）</a></div>
+            <div class="posts-line"><a class="post-tags" href="/archives/mysql-%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0.html/" data-toggle="tooltip" data-placement="top" title="统一的标准太重要了（预先解决无形的问题）">
+              Past-MySQL 基础知识笔记</a></div>
+
+          </div>
+          
+          
+
+      
+
+          
+          <div class="row">
+            <div class="col-xs-12">
+              
+            </div>
+          </div>
+
+          
+        </div>
+
+        
+        <br>
+        <div style="height:15px;"></div>
+        <div class="post-box">
+<div>
+  <div class="pagination__title">
+      <span class="pagination__title-h" style="font-size: 20px;">💬评论</span>
+      <hr />
+  </div>
+  <div id="tcomment"></div>
+  <script src="https://cdn.staticfile.org/twikoo/1.6.32/twikoo.all.min.js"></script>
+  <script>
+      twikoo.init({
+          envId: "https://zhaowendao-blog.hf.space/",  
+          el: "#tcomment",
+          lang: 'zh-CN',
+          region: 'ap-shanghai',  
+          path: window.TWIKOO_MAGIC_PATH||window.location.pathname,
+      });
+  </script>
+</div>
+          
+
+          
+          
+
+        </div>
+        
+        <div class="site-footer">
+  <div>
+    © 2022-<span id="year"></span> ·
+    <a href="https://beian.miit.gov.cn/" target="_blank">
+      <span></span>
+    </a>
+    · 网站运行: <span id="days">0</span> 天
+  </div>
+  
+</div>
+<div class="canvas-wrap">
+  <canvas id="canvas"></canvas>
+</div>
+<div id="toTop">
+  Top!!
+</div>
+<script>
+  var s0 = '2022-10-20';
+  s1 = new Date(s0.replace(/-/g, "/"));
+  s2 = new Date();
+  var days = s2.getTime() - s1.getTime();
+  var number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
+  document.getElementById('days').innerHTML = number_of_days;
+
+  var date = new Date;
+  var year = date.getFullYear();
+  document.getElementById('year').innerHTML = year;
+</script>
+
+
+      </div>
+    </div>
+  </article>
+
+  <script src="https://cdn.zburu.com/list/jquery3.6.0.js"></script>
+
+
+
+<script src="/js/toc.js"></script>
+<script src="/js/simplebox.min.js"></script>
+<script src="/js/canvas.js"></script>
+<script src="/js/main.js"></script>
+  
+
+</body>
+
+</html>
