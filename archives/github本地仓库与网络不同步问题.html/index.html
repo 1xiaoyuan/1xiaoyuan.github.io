@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="Hugo 0.127.0">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="toTop" content="true">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="zz" />
+  <meta property="og:url" content="https://1xiaoyuan.github.io/archives/github%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%8D%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98.html/" />
+  <link rel="canonical" href="https://1xiaoyuan.github.io/archives/github%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%8D%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98.html/" /><link rel="apple-touch-icon" href="/img/%e5%95%86%e6%a0%87.png" />
+  <link rel="icon" href="/img/%e5%95%86%e6%a0%87.png" />
+  <link rel="shortcut" href="/img/%e5%95%86%e6%a0%87.png" /><link rel="alternate" type="application/atom+xml" href="https://1xiaoyuan.github.io/index.xml" title="朝闻道">
+
+  <script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https:\/\/1xiaoyuan.github.io\/"
+      },
+      "articleSection" : "posts",
+      "name" : "Github本地仓库与网络不同步问题",
+      "headline" : "Github本地仓库与网络不同步问题",
+      "description" : "问题1 在进行Git add .\u0027操作时，返回了多个以下结果：\nwarning: in the working copy of \u0026#39;img\/index.html\u0026#39;, LF will be replaced by CRLF the next time Git touches it 问题原因：其实，这是因为在文本处理中，回车符 CR(CarriageReturn) 和换行符 LF(LineFeed) 混用造成的。\nDos和Windows平台: 使用回车 (CR) 和换行 (LF) 两个字符都可以作为换行结束一行。 Mac 和 Linux平台: 只能使用换行 (LF) 字符来结束一行。 Github 仓库则要求统一使用换行符 (LF) ，所以在 Windows 下混乱使用 CR 和 LF，会被警告。 同一篇文章中既使用回车 (Enter) 来换行，又使用换行 (Tab) 来换行，使得 Git add . 操作时，工作区的文章转化为暂存区的文件时无法统一换行符，所以提出警告。\n参考方案1：\n输入git config --global core.autocrlf true，不过在我这里无效 原文链接：https:\/\/blog.csdn.net\/u012757419\/article\/details\/105614028 补充解读：https:\/\/www.zhihu.com\/question\/50862500 参考方案2：\n只使用 Enter 键换行，不要使用 Tab 键换行。 我之所以会同时使用这两种键，是因为 .",
+      "inLanguage" : "en-US",
+      "author" : "zz",
+      "creator" : "zz",
+      "publisher": "zz",
+      "accountablePerson" : "zz",
+      "copyrightHolder" : "zz",
+      "copyrightYear" : "2024",
+      "datePublished": "2024-01-27 08:11:54 \u002b0800 CST",
+      "dateModified" : "2024-01-27 08:11:54 \u002b0800 CST",
+      "url" : "https:\/\/1xiaoyuan.github.io\/archives\/github%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%8D%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98.html\/",
+      "keywords" : [ "Hugo", ]
+  }
+</script><title>Github本地仓库与网络不同步问题</title>
+  <meta property="og:title" content="Github本地仓库与网络不同步问题" />
+  <meta property="og:type" content="article" />
+  <meta property="og:description" content="问题1 在进行Git add .&#39;操作时，返回了多个以下结果：
+warning: in the working copy of &amp;#39;img/index.html&amp;#39;, LF will be replaced by CRLF the next time Git touches it 问题原因：其实，这是因为在文本处理中，回车符 CR(CarriageReturn) 和换行符 LF(LineFeed) 混用造成的。
+Dos和Windows平台: 使用回车 (CR) 和换行 (LF) 两个字符都可以作为换行结束一行。 Mac 和 Linux平台: 只能使用换行 (LF) 字符来结束一行。 Github 仓库则要求统一使用换行符 (LF) ，所以在 Windows 下混乱使用 CR 和 LF，会被警告。 同一篇文章中既使用回车 (Enter) 来换行，又使用换行 (Tab) 来换行，使得 Git add . 操作时，工作区的文章转化为暂存区的文件时无法统一换行符，所以提出警告。
+参考方案1：
+输入git config --global core.autocrlf true，不过在我这里无效 原文链接：https://blog.csdn.net/u012757419/article/details/105614028 补充解读：https://www.zhihu.com/question/50862500 参考方案2：
+只使用 Enter 键换行，不要使用 Tab 键换行。 我之所以会同时使用这两种键，是因为 ." />
+  <meta name="description" content="问题1 在进行Git add .&#39;操作时，返回了多个以下结果：
+warning: in the working copy of &amp;#39;img/index.html&amp;#39;, LF will be replaced by CRLF the next time Git touches it 问题原因：其实，这是因为在文本处理中，回车符 CR(CarriageReturn) 和换行符 LF(LineFeed) 混用造成的。
+Dos和Windows平台: 使用回车 (CR) 和换行 (LF) 两个字符都可以作为换行结束一行。 Mac 和 Linux平台: 只能使用换行 (LF) 字符来结束一行。 Github 仓库则要求统一使用换行符 (LF) ，所以在 Windows 下混乱使用 CR 和 LF，会被警告。 同一篇文章中既使用回车 (Enter) 来换行，又使用换行 (Tab) 来换行，使得 Git add . 操作时，工作区的文章转化为暂存区的文件时无法统一换行符，所以提出警告。
+参考方案1：
+输入git config --global core.autocrlf true，不过在我这里无效 原文链接：https://blog.csdn.net/u012757419/article/details/105614028 补充解读：https://www.zhihu.com/question/50862500 参考方案2：
+只使用 Enter 键换行，不要使用 Tab 键换行。 我之所以会同时使用这两种键，是因为 ." />
+  <meta property="og:locale" content="en-us" /><meta property="og:image" content="/img/商标.png" />
+  
+
+  <link rel="stylesheet" href="/css/simplebox.min.css">
+  <link rel="stylesheet" href="/css/flexboxgrid-6.3.1.min.css">
+  <link rel="stylesheet" href="/css/index.css">
+
+  <link href="/index.xml" rel="alternate" type="application/rss+xml"
+    title="朝闻道">
+
+
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-671ZJMVQN9"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-671ZJMVQN9');
+  </script>
+
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?5f4839173d00c8b0d3dd40533d14450d";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+</head>
+
+
+<body>
+  <article class="post " id="article">
+    <div class="row">
+      <div class="col-xs-12">
+
+        <div class="site-header">
+          
+
+<div class="progress-bar"></div>
+<header>
+  <div class="header-title">
+    <a href="/">朝闻道</a>
+  </div>
+  <div class="header-subtitle">所谓超人，就是按客观规律办事的人</div>
+</header>
+<div class="row end-md center-xs header-items">
+
+
+  
+  
+  <div class="header-item">
+    <a href="/posts">📁归档</a>
+  </div>
+  
+  <div class="header-item">
+    <a href="/tags1">📌标签</a>
+  </div>
+  
+  <div class="header-item">
+    <a href="/message">📝留言</a>
+  </div>
+  
+  <div class="header-item">
+    <a href="/about">😲关于</a>
+  </div>
+  
+</div>
+
+<div class="header-line"></div>
+        </div>
+
+        <div class="post-box">
+          <header class="post-header">
+            <h1 class="post-title">Github本地仓库与网络不同步问题</h1>
+            
+            <div class="row post-desc">
+              <div class="col-xs-6">
+                
+                <time class="post-date" datetime=" 2024-01-27 08:11:54 CST">
+                  发布于 2024-01-27
+                </time>
+                
+              </div>
+              <div class="col-xs-6">
+                
+                <div class="post-author">
+                  <a target="_blank" href="/">@zz</a>
+                </div>
+                
+              </div>
+            </div>
+            
+          </header>
+
+          
+          <div class="autoMenu" id="autoMenu" data-autoMenu></div>
+          <div class="post-content markdown-body">
+            
+            <h1 id="问题1">问题1</h1>
+<p>在进行<code>Git add .'</code>操作时，返回了多个以下结果：</p>
+<pre tabindex="0"><code>warning: in the working copy of &#39;img/index.html&#39;, LF will be replaced by CRLF the next time Git touches it
+</code></pre><p>问题原因：其实，这是因为在文本处理中，回车符 CR(CarriageReturn) 和换行符 LF(LineFeed) 混用造成的。</p>
+<ul>
+<li>Dos和Windows平台: 使用回车 (CR) 和换行 (LF) 两个字符都可以作为换行结束一行。</li>
+<li>Mac 和 Linux平台: 只能使用换行 (LF) 字符来结束一行。</li>
+<li>Github 仓库则要求统一使用换行符 (LF) ，所以在 Windows 下混乱使用 CR 和 LF，会被警告。</li>
+</ul>
+<p>同一篇文章中既使用回车 (Enter) 来换行，又使用换行 (Tab) 来换行，使得 <code>Git add .</code> 操作时，工作区的文章转化为暂存区的文件时无法统一换行符，所以提出警告。</p>
+<p>参考方案1：</p>
+<ul>
+<li>输入<code>git config --global core.autocrlf true</code>，不过在我这里无效</li>
+<li>原文链接：https://blog.csdn.net/u012757419/article/details/105614028</li>
+<li>补充解读：https://www.zhihu.com/question/50862500</li>
+</ul>
+<p>参考方案2：</p>
+<ul>
+<li>只使用 Enter 键换行，不要使用 Tab 键换行。</li>
+</ul>
+<blockquote>
+<p>我之所以会同时使用这两种键，是因为 <code>.md</code> 文件相邻的两个段落在 <code>.html</code> 页面会融合成一段。但如果使用 Enter 换行，两段的距离就比较远；而若使用 Tab 分隔两行，这两行在可视化为 <code>.html</code> 页面后就是相邻且不同行的文字，这能满足我的一些排版需求。</p>
+</blockquote>
+<p>不过“警告”不影响向 Github 上传文件，真想解决这些问题，还是使用方案 2 吧，方案 1 并没有解决我的问题。</p>
+<h1 id="问题2">问题2</h1>
+<pre tabindex="0"><code>On branch main
+Your branch is up to date with &#39;origin/main&#39;.
+
+nothing to commit, working tree clean
+</code></pre><p>经常遇到这个问题，原因是之前上传过文件，某种原因使得 Github 仓库的文件版本和本地的文件版本不对应。</p>
+<p>之前一直用<code>Git pull</code>就能解决，昨天解决不了，瞎找方案最后 解决了，迷。。。</p>
+<p>参考方案</p>
+<ul>
+<li><a href="https://blog.csdn.net/weixin_44786530/article/details/129735762">https://blog.csdn.net/weixin_44786530/article/details/129735762</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/578129279">https://zhuanlan.zhihu.com/p/578129279</a></li>
+</ul>
+
+          </div>
+
+          
+          <div class="row middle-xs">
+            <div class="col-xs-12">
+              <span>标签：
+              
+              <div class="post-tags">
+                <a href="/tags/hugo/">
+                  Hugo
+                </a>
+              </div>
+              
+
+              &nbsp;&nbsp;&nbsp;&nbsp;分类：
+              
+              <div class="post-tags">
+                <a href="/categories/%E5%B7%A5%E5%85%B7/">
+                  工具
+                </a>
+              </div>
+              
+
+              </span>
+            </div>
+          </div>
+          <br>
+
+          
+          
+          <div class="cate">
+            <div class="posts-line"><a class="post-tags" href="/archives/2024%E5%B9%B4%E7%AC%AC52%E5%91%A8%E8%87%AA%E5%BE%8B.html/" data-toggle="tooltip" data-placement="top" title="2024年第52周自律">
+              Last-2024年第52周自律</a></div>
+            <div class="posts-line"><a class="post-tags" href="/archives/%E8%AF%AD%E6%B3%95%E5%92%8C%E9%80%BB%E8%BE%91%E5%92%8C%E5%86%99%E4%BD%9C.html/" data-toggle="tooltip" data-placement="top" title="2024年第52周自律">
+              Past-语法和逻辑和写作</a></div>
+
+          </div>
+          
+          
+
+      
+
+          
+          <div class="row">
+            <div class="col-xs-12">
+              
+            </div>
+          </div>
+
+          
+        </div>
+
+        
+        <br>
+        <div style="height:15px;"></div>
+        <div class="post-box">
+<div>
+  <div class="pagination__title">
+      <span class="pagination__title-h" style="font-size: 20px;">💬评论</span>
+      <hr />
+  </div>
+  <div id="tcomment"></div>
+  <script src="https://cdn.staticfile.org/twikoo/1.6.32/twikoo.all.min.js"></script>
+  <script>
+      twikoo.init({
+          envId: "https://zhaowendao-blog.hf.space/",  
+          el: "#tcomment",
+          lang: 'zh-CN',
+          region: 'ap-shanghai',  
+          path: window.TWIKOO_MAGIC_PATH||window.location.pathname,
+      });
+  </script>
+</div>
+          
+
+          
+          
+
+        </div>
+        
+        <div class="site-footer">
+  <div>
+    © 2022-<span id="year"></span> ·
+    <a href="https://beian.miit.gov.cn/" target="_blank">
+      <span></span>
+    </a>
+    · 网站运行: <span id="days">0</span> 天
+  </div>
+  
+</div>
+<div class="canvas-wrap">
+  <canvas id="canvas"></canvas>
+</div>
+<div id="toTop">
+  Top!!
+</div>
+<script>
+  var s0 = '2022-10-20';
+  s1 = new Date(s0.replace(/-/g, "/"));
+  s2 = new Date();
+  var days = s2.getTime() - s1.getTime();
+  var number_of_days = parseInt(days / (1000 * 60 * 60 * 24));
+  document.getElementById('days').innerHTML = number_of_days;
+
+  var date = new Date;
+  var year = date.getFullYear();
+  document.getElementById('year').innerHTML = year;
+</script>
+
+
+      </div>
+    </div>
+  </article>
+
+  <script src="https://cdn.zburu.com/list/jquery3.6.0.js"></script>
+
+
+
+<script src="/js/toc.js"></script>
+<script src="/js/simplebox.min.js"></script>
+<script src="/js/canvas.js"></script>
+<script src="/js/main.js"></script>
+  
+
+</body>
+
+</html>

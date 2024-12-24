@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工具 on 朝闻道</title>
+    <link>https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7/</link>
+    <description>Recent content in 工具 on 朝闻道</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Jan 2024 08:11:54 +0800</lastBuildDate>
+    <atom:link href="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github本地仓库与网络不同步问题</title>
+      <link>https://1xiaoyuan.github.io/archives/github%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%8D%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98.html/</link>
+      <pubDate>Sat, 27 Jan 2024 08:11:54 +0800</pubDate>
+      <guid>https://1xiaoyuan.github.io/archives/github%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%8D%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98.html/</guid>
+      <description>问题1 在进行Git add .&#39;操作时，返回了多个以下结果：&#xA;warning: in the working copy of &amp;#39;img/index.html&amp;#39;, LF will be replaced by CRLF the next time Git touches it 问题原因：其实，这是因为在文本处理中，回车符 CR(CarriageReturn) 和换行符 LF(LineFeed) 混用造成的。&#xA;Dos和Windows平台: 使用回车 (CR) 和换行 (LF) 两个字符都可以作为换行结束一行。 Mac 和 Linux平台: 只能使用换行 (LF) 字符来结束一行。 Github 仓库则要求统一使用换行符 (LF) ，所以在 Windows 下混乱使用 CR 和 LF，会被警告。 同一篇文章中既使用回车 (Enter) 来换行，又使用换行 (Tab) 来换行，使得 Git add . 操作时，工作区的文章转化为暂存区的文件时无法统一换行符，所以提出警告。&#xA;参考方案1：&#xA;输入git config --global core.autocrlf true，不过在我这里无效 原文链接：https://blog.csdn.net/u012757419/article/details/105614028 补充解读：https://www.zhihu.com/question/50862500 参考方案2：&#xA;只使用 Enter 键换行，不要使用 Tab 键换行。 我之所以会同时使用这两种键，是因为 .</description>
+    </item>
+    <item>
+      <title>分类和标签的用法</title>
+      <link>https://1xiaoyuan.github.io/archives/%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E7%9A%84%E7%94%A8%E6%B3%95.html/</link>
+      <pubDate>Sat, 23 Dec 2023 17:49:41 +0800</pubDate>
+      <guid>https://1xiaoyuan.github.io/archives/%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E7%9A%84%E7%94%A8%E6%B3%95.html/</guid>
+      <description>对分类和标签的使用 书接上回，写完 2023-12-23我来了，Xlog.md 这篇文章后，我又对所有文档的分类和标签进行的优化。&#xA;首先对于“分类”和“标签”这两个功能，我的理解是👇&#xA;分类用来对文章进行 方向/维度 的划分； 标签通过关键词（对文章）进行主题上的划分。 分类是提前设定的框架，是给自己的一种提示：以后写这几个方面的内容，不要写偏了。&#xA;常见的分类有“工作、学习、生活”，“修身、齐家、治国、平天下”等。&#xA;根据我写博客的需求，我为自己设定的的分类如下👇&#xA;生活：和生活、经历相关的内容，有助于了解我的生活； 思考：精彩内容摘录、读书笔记、个人思考等，是可能提供思考材料的信息； 工具：软件、方法论、技巧等，可能提供解决方案的信息。 相比分类，标签的设置更为具体，方便浏览时快速锁定一个主题的内容，如“读书笔记”、“Hugo”、“知识管理”等。&#xA;标签不需要提前设定，而是根据我的写作内容进行打标签，让其自然生长。&#xA;我打标签还有两个原则：数量要尽可能少（避免眼花缭乱），尽可能具体（精确到 一个主题 / 一类问题）。&#xA;愿这篇 Blog 能让你了解对这个博客多一些了解，或者得到一些相应的收获。</description>
+    </item>
+    <item>
+      <title>简化 Hugo 常用操作的方法</title>
+      <link>https://1xiaoyuan.github.io/archives/%E7%AE%80%E5%8C%96-hugo-%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E7%9A%84%E6%96%B9%E6%B3%95.html/</link>
+      <pubDate>Sat, 29 Jul 2023 09:41:28 +0800</pubDate>
+      <guid>https://1xiaoyuan.github.io/archives/%E7%AE%80%E5%8C%96-hugo-%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C%E7%9A%84%E6%96%B9%E6%B3%95.html/</guid>
+      <description>我使用的博客工具 hugo：博客网站生成工具 vscode：文件编辑工具 git：上传文件到Github的工具 shell语言：编写一键完成指令代码 使用 vscode 和 git ，每次更新博客都需要输入一连串重复的代码，那么下面的内容可能会对为此而苦恼的用户有所帮助。&#xA;使用vscode和git的不方便之处 每次新建文件都需要在vscode的终端输入hugo new posts/新文件名.md来创建新文件 每次上传文件都需要在vscode的终端输入至少5个指令&amp;hellip;&amp;hellip;hugo、cd public、git add .&amp;hellip;&amp;hellip; 如果每修改并上传一次就要输入5个指令，这很令人产生不快，厌倦 那么有没有比较好的解决方案呢？ 答案是肯定的。&#xA;解决方案 一键创建新文件 1、首先，在博客的顶级文件夹创建new.sh文件 2、在文件中输入以下内容&#xA;time=$(date &amp;#34;+%Y-%m-%d&amp;#34;) echo $time hugo new posts/$time.md exit 3、每次新建文件时，在终端输入new再按Tab键，然后按回车键，即可在posts/目录中新建以当天日期为文件名的新文件。&#xA;一键上传文件 1、首先，在博客的顶级文件夹创建hugo.sh文件 2、在文件中输入以下内容&#xA;hugo time=$(date &amp;#34;+%Y-%m-%d %H:%M:%S&amp;#34;) echo $time cd public git add . git commit -m &amp;#34;自动执行构建脚本 🎓$time&amp;#34; git push exit 3、每次更新（上传）文件时，在终端输入hugo再按Tab键，然后按回车，即可将更新的博客自动上传至Github，并以当时的日期为更新备注。&#xA;如有问题，请通过邮箱联系。</description>
+    </item>
+    <item>
+      <title>博客的CDN加速方案</title>
+      <link>https://1xiaoyuan.github.io/archives/%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E5%8A%A0%E9%80%9F%E6%96%B9%E6%A1%88.html/</link>
+      <pubDate>Thu, 05 Jan 2023 20:36:23 +0800</pubDate>
+      <guid>https://1xiaoyuan.github.io/archives/%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E5%8A%A0%E9%80%9F%E6%96%B9%E6%A1%88.html/</guid>
+      <description>小白互助😄&#xA;Oh，我的网站好慢呐 博客搭在Github的一个缺点是网页访问速度慢，为了解决这个问题，可以借助CDN。&#xA;网页为什么慢，简单地说，就是服务器（Github服务器在国外）和客户端（访问网站的用户）距离太远，资源拉取慢。&#xA;CDN，即内容分发网络。它的功能是将指定的资源提前缓存到分布在各个城市的站点（缓存服务器）。这样一来，在用户在访问网站后，数据将直接从距离最近的服务器中获取，无需再从原来那个远在天边的源服务器获取（如果它真的远在天边的话）。&#xA;ok，那么接下来的问题就是找到一个能白嫖的CDN了，嘻嘻。&#xA;jsdelivr（已弃用） 现在该轮到今天的主角了——jsdelivr。&#xA;配置起来及其简单，你不需要下载任何软件、申请任何账号，甚至只需要在浏览器的地址栏，按照要求的格式输入代码（其实就是一个网址/url），即可将你Github page上的博客文件上传到jsdelivr的服务器，然后使用他们的服务——CDN加速访问你的博客文件。&#xA;如果你的博客也搭建在Github，那么下面的内容对你会有所帮助。&#xA;首先，为你的Github的博客仓库发布一个release版本（只有这样才能使用jsdelivr）（很简单，需要你自行上网搜一下），然后我来告诉你需要在浏览器地址栏输入的代码：&#xA;注意：下面“你的Github名”、“你的仓库名”、“@发布的版本号”都需要你按照自己的Github来输入，你可以参考该文章末尾处最后一个代码（我的用法）。&#xA;如果想上传博客文件库的某个版本： https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/@发布的版本号/ 或者上传版本中的某个文件： https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/@发布的版本号/文件名+后缀 或者上传版本中的某个文件夹： https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/@发布的版本号/文件夹名/ 注意结尾的 / 号是必须有的。&#xA;成功后会出现已上传的文档页面。然后你可能就会发现自己的网页打开速度飞快，至少比上次快。&#xA;使用以下代码可以直接上传整个仓库的文件，并且实时更新文件，而不是一次上传一个版本，事实上我觉得这是最方便的做法。&#xA;https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/&#xA;比如我是这么用的：https://cdn.jsdelivr.net/gh/1xiaoyuan/1xiaoyuan.github.io/&#xA;这是后来我才发现的，去掉版本号可以直接上传整个仓库🤷‍♂️ 实时更新真的太爽了。&#xA;新方案：cloudflare 2023-07-30，将新域名用 cloudflare 进行CDN托管，速度大大提高。</description>
+    </item>
+    <item>
+      <title>Hugo使用经验</title>
+      <link>https://1xiaoyuan.github.io/archives/hugo%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C.html/</link>
+      <pubDate>Wed, 02 Nov 2022 14:42:35 +0800</pubDate>
+      <guid>https://1xiaoyuan.github.io/archives/hugo%E4%BD%BF%E7%94%A8%E7%BB%8F%E9%AA%8C.html/</guid>
+      <description>为了防止时间太久忘记方法，建站的关键知识点还是要记录一下的。&#xA;大人，时代变了 最初我打算自己写出整个网站（现在想想真傻），于是学了一些 html 和 css 知识。后来打开第一个 txt 文件准备动手写主页 html 文件时，我发现，我一点也写不下去，几个标签下来就厌倦不已，想完全掌握并熟练运用这些知识需要很长时间，就算掌握了它们，写出漂亮页面还需要想象力和创造力——短期内根本不可能写出完整的网页。最重要的是它们非常繁琐，一个人要投入多少时间精力才能搞定所有工作啊！&#xA;后来看到网友的一句话——独自造轮子的时代已经结束了，前人已经帮你把模型调好了——我才恍然大悟。我们这个时代太快了，闭门造车的做法很是愚蠢，学会借力前行才是。所以后来果断选择使用 hugo 引擎来做网站——它的作用是，你给出参数（模型），它负责组装。&#xA;不过 html 和 css 知识也没有白学，因为对网页结构有了解的话，知道什么是标签，什么是属性和值，以及它们的基本规则，与网页打交道时很有帮助，才有可能根据自己喜好修改主题的细节。&#xA;选择Hugo 网站生成器有很多，我看到许多人建站都会经历兜兜转转的过程，工具从 wordpress 到 hexo ，再到 hugo ，再到 wordpress &amp;hellip;&amp;hellip;所以我想避免这个坑，于是在开始动手之前花了许久做决定，我的要求是经济、高效、方便—— Hugo 最适合不过了——静态网页经济安全，Hugo生成速度最快，也不需要服务器。&#xA;文件目录 这是每个文件夹存放的内容及其作用的标准格式。&#xA;archetypes 在default.md文件中存放文章页面参数 content 存放所有文章，如关于、分类、以及每篇文章 layouts：存放生成页面所使用的模板、参数 _default 页面模板 如list.html是列表页的模板，page.html是普通页的模板 hugo渲染并生成页面的本质：内容+模板=页面 partials 配件模板 如footer.html是页面底部区域的模板，header.html是页面头部的模板 页面模板中常会引用这些配件模板 shortcodes 短代码 在文章中固定格式的简洁代码，如引用bilibili的视频，插入网易云的音乐，所使用的代码存放在这里 这个思维导图，以及顶部的音乐都是短代码的功劳 如有需要，欢迎留言 static img 存放图像 css css模板 css的作用是让页面更漂亮，就像穿了新衣服 js JavaScript themes 存放所有的主题 代码 Hugo 查看版本：hugo version 新建库：hugo new site 666 在当前目录下，新建一个名为&amp;quot;666&amp;quot;的文件夹，其中内置应有的结构 新建文章： hugo new post/name.</description>
+    </item>
+    <item>
+      <title>Hello World!</title>
+      <link>https://1xiaoyuan.github.io/archives/hello-world.html/</link>
+      <pubDate>Thu, 20 Oct 2022 10:14:28 +0800</pubDate>
+      <guid>https://1xiaoyuan.github.io/archives/hello-world.html/</guid>
+      <description>简简单单，无关风月，听从内心，真情表达。&#xA;非常感谢马同学和Rollrock两位大哥的协助，帮我解决了一些建站难题，使得本站的初版得以建立。&#xA;我希望将生活的一部分记录于此，不知道互联网能带我走向何处，但一定要留下一些属于我的足迹。如果能与一些人建立新的联系，当然再好不过，这也是我的初心之一。</description>
+    </item>
+  </channel>
+</rss>

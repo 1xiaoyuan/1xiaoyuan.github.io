@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Selves on 朝闻道</title>
+    <link>https://1xiaoyuan.github.io/self/</link>
+    <description>Recent content in Selves on 朝闻道</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://1xiaoyuan.github.io/self/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>价值观</title>
+      <link>https://1xiaoyuan.github.io/self/%E8%AF%B4%E6%98%8E/%E4%BB%B7%E5%80%BC%E8%A7%82/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://1xiaoyuan.github.io/self/%E8%AF%B4%E6%98%8E/%E4%BB%B7%E5%80%BC%E8%A7%82/</guid>
+      <description>价值观 2024-06-20，我大学毕业了。关于 “我想成为一个什么样的人”，这是我在大学时期找到的回答：&#xA;做一个知行合一的人。知道什么正确，就做；知道什么不正确，就改。 做一个有价值的人。能持续与至少 1000 人交换价值。 做一个长期主义者。保持耐心和毅力，解决面临的问题。 做一个积极主动的人。重要的机会往往难寻！ 做一个客观的人。独立思考，分清客观现实和主观臆断（事实和观点）。 做一个擅长生活的人。管理自己，从而管理生活。（不要反过来让生活管理自己） 用关键词来表述：执行力、价值、耐心、毅力、乐观、主动、理智、张弛有度。</description>
+    </item>
+    <item>
+      <title>博客历史</title>
+      <link>https://1xiaoyuan.github.io/self/%E8%AF%B4%E6%98%8E/%E5%8D%9A%E5%AE%A2%E5%8E%86%E5%8F%B2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://1xiaoyuan.github.io/self/%E8%AF%B4%E6%98%8E/%E5%8D%9A%E5%AE%A2%E5%8E%86%E5%8F%B2/</guid>
+      <description>博客的历史 2022-12-30：使用 yinyang主题。 2022-10-20：使用hugo+github搭建博客。 曾在 Github Page 上搭建过一个基于 Hugo 生成的静态博客，截止到 2024-06-01，运行时长有 589 天。 后来，在毕设过程中重装了一次 PC 系统，我深感配置本地环境之繁琐（Git、Hugo、Github SSH 及访问加速），恰逢域名即将到期，于是决定换地方，来这儿写。 小改动 2024-04-09，RSS </description>
+    </item>
+    <item>
+      <title>我的近况</title>
+      <link>https://1xiaoyuan.github.io/self/%E8%AF%B4%E6%98%8E/%E6%88%91%E7%9A%84%E8%BF%91%E5%86%B5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://1xiaoyuan.github.io/self/%E8%AF%B4%E6%98%8E/%E6%88%91%E7%9A%84%E8%BF%91%E5%86%B5/</guid>
+      <description>我的近况&#xA;0️⃣2024年聚焦：输入-思考-输出。 1️⃣2024年1月聚焦：写作、逻辑。 2️⃣2024年2月聚焦：生活 3️⃣2024年3月聚焦：定心 4️⃣2024年4月聚焦：毕业设计、英语单词、高等数学、Python、运动 高歌的今年 我的2024 健康：华为运动健康 写作：整理句子库 学业：毕业设计软件开发 前途：研究生 靠谱：练习口才 2024年要避免的陷阱&#xA;知识管理、时间管理、个人成长的内容以及软件 互联网帖子、文章、流量 网络游戏 尘封的去年 我的2023 “专注”与“开放” 重心英语，探索生活与学习的平衡 远离数据算法 我的二月 开学了 还在困惑考研与工作，已经开始偏向工作了，但学习数学英语也很有趣，所以先继续学着走着，反正也没正事干 被人相信的感觉真好 已经远离互联网了 网站访问速度快了很多。&#xA;更新于2023-02-10，下次更新在2023-03-10左右</description>
+    </item>
+  </channel>
+</rss>
