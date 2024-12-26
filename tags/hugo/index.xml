@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on 张朝的生活档案</title>
+    <title>Hugo on 朝闻道</title>
     <link>https://1xiaoyuan.github.io/tags/hugo/</link>
-    <description>Recent content in Hugo on 张朝的生活档案</description>
+    <description>Recent content in Hugo on 朝闻道</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 27 Jan 2024 08:11:54 +0800</lastBuildDate>
@@ -14,6 +14,13 @@
       <pubDate>Sat, 27 Jan 2024 08:11:54 +0800</pubDate>
       <guid>https://1xiaoyuan.github.io/archives/github%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%8D%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98.html/</guid>
       <description>问题1 在进行Git add .&#39;操作时，返回了多个以下结果：&#xA;warning: in the working copy of &amp;#39;img/index.html&amp;#39;, LF will be replaced by CRLF the next time Git touches it 问题原因：其实，这是因为在文本处理中，回车符 CR(CarriageReturn) 和换行符 LF(LineFeed) 混用造成的。&#xA;Dos和Windows平台: 使用回车 (CR) 和换行 (LF) 两个字符都可以作为换行结束一行。 Mac 和 Linux平台: 只能使用换行 (LF) 字符来结束一行。 Github 仓库则要求统一使用换行符 (LF) ，所以在 Windows 下混乱使用 CR 和 LF，会被警告。 同一篇文章中既使用回车 (Enter) 来换行，又使用换行 (Tab) 来换行，使得 Git add . 操作时，工作区的文章转化为暂存区的文件时无法统一换行符，所以提出警告。&#xA;参考方案1：&#xA;输入git config --global core.autocrlf true，不过在我这里无效 原文链接：https://blog.csdn.net/u012757419/article/details/105614028 补充解读：https://www.zhihu.com/question/50862500 参考方案2：&#xA;只使用 Enter 键换行，不要使用 Tab 键换行。 我之所以会同时使用这两种键，是因为 .</description>
+    </item>
+    <item>
+      <title>分类和标签的用法</title>
+      <link>https://1xiaoyuan.github.io/archives/%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E7%9A%84%E7%94%A8%E6%B3%95.html/</link>
+      <pubDate>Sat, 23 Dec 2023 17:49:41 +0800</pubDate>
+      <guid>https://1xiaoyuan.github.io/archives/%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E7%9A%84%E7%94%A8%E6%B3%95.html/</guid>
+      <description>对分类和标签的使用 书接上回，写完 2023-12-23我来了，Xlog.md 这篇文章后，我又对所有文档的分类和标签进行的优化。&#xA;首先对于“分类”和“标签”这两个功能，我的理解是👇&#xA;分类用来对文章进行 方向/维度 的划分； 标签通过关键词（对文章）进行主题上的划分。 分类是提前设定的框架，是给自己的一种提示：以后写这几个方面的内容，不要写偏了。&#xA;常见的分类有“工作、学习、生活”，“修身、齐家、治国、平天下”等。&#xA;根据我写博客的需求，我为自己设定的的分类如下👇&#xA;生活：生活、自律、见闻等内容，有助于了解我的生活； 思考：生活态度、摘录等，为提供思考材料； 工具：方法、技巧等，一些解决问题的方案。 相比分类，标签的设置更为具体和精准，方便访问者在浏览时聚焦同一个主题的内容，如“Hugo”、“生活方式”等。标签不需要提前设定，而是先有内容后打标签，自然生长。&#xA;我打标签还有两个原则：&#xA;数量要尽可能少。避免使人眼花缭乱，也告诫自己要把注意力集中在有限的事情上。 尽可能具体。精确到一个主题或一类问题。 2024-12-26 修正。</description>
     </item>
     <item>
       <title>简化 Hugo 常用操作的方法</title>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-us">
-    <generator uri="https://gohugo.io/" version="0.127.0">Hugo</generator><title type="html"><![CDATA[张朝的生活档案]]></title>
+    <generator uri="https://gohugo.io/" version="0.127.0">Hugo</generator><title type="html"><![CDATA[朝闻道]]></title>
     
     
     
             <link href="https://1xiaoyuan.github.io/" rel="alternate" type="text/html" title="html" />
             <link href="https://1xiaoyuan.github.io/index.xml" rel="alternate" type="application/rss+xml" title="rss" />
             <link href="https://1xiaoyuan.github.io/index.json" rel="alternate" type="application/json" title="json" />
-    <updated>2024-12-26T06:19:11+08:00</updated>
+    <updated>2024-12-26T14:31:05+08:00</updated>
     
     
     <author>
@@ -332,10 +332,10 @@ nothing to commit, working tree clean
     
         
         <entry>
-            <title type="html"><![CDATA[语法和逻辑和写作]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E8%AF%AD%E6%B3%95%E5%92%8C%E9%80%BB%E8%BE%91%E5%92%8C%E5%86%99%E4%BD%9C.html/" rel="alternate" type="text/html" />
+            <title type="html"><![CDATA[逻辑和语法]]></title>
+            <link href="https://1xiaoyuan.github.io/archives/%E9%80%BB%E8%BE%91%E5%92%8C%E8%AF%AD%E6%B3%95.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E8%AF%AD%E6%B3%95%E5%92%8C%E9%80%BB%E8%BE%91%E5%92%8C%E5%86%99%E4%BD%9C.html/</id>
+                <id>https://1xiaoyuan.github.io/archives/%E9%80%BB%E8%BE%91%E5%92%8C%E8%AF%AD%E6%B3%95.html/</id>
             
             
             <published>2024-01-02T19:24:29+08:00</published>
@@ -541,15 +541,18 @@ nothing to commit, working tree clean
 </blockquote>
 <p>根据我写博客的需求，我为自己设定的的分类如下👇</p>
 <ol>
-<li><strong>生活</strong>：和生活、经历相关的内容，有助于了解我的生活；</li>
-<li><strong>思考</strong>：精彩内容摘录、读书笔记、个人思考等，是可能提供思考材料的信息；</li>
-<li><strong>工具</strong>：软件、方法论、技巧等，可能提供解决方案的信息。</li>
+<li><strong>生活</strong>：生活、自律、见闻等内容，有助于了解我的生活；</li>
+<li><strong>思考</strong>：生活态度、摘录等，为提供思考材料；</li>
+<li><strong>工具</strong>：方法、技巧等，一些解决问题的方案。</li>
 </ol>
-<p>相比分类，标签的设置更为具体，方便浏览时快速锁定一个<strong>主题</strong>的内容，如“读书笔记”、“Hugo”、“知识管理”等。</p>
-<p>标签不需要提前设定，而是根据我的写作内容进行打标签，让其自然生长。</p>
-<p>我打标签还有两个原则：数量要尽可能少（避免眼花缭乱），尽可能具体（精确到 一个主题 / 一类问题）。</p>
+<p>相比分类，标签的设置更为具体和精准，方便访问者在浏览时聚焦同一个<strong>主题</strong>的内容，如“Hugo”、“生活方式”等。标签不需要提前设定，而是先有内容后打标签，自然生长。</p>
+<p>我打标签还有两个原则：</p>
+<ol>
+<li><strong>数量要尽可能少</strong>。避免使人眼花缭乱，也告诫自己要把注意力集中在有限的事情上。</li>
+<li><strong>尽可能具体</strong>。精确到一个主题或一类问题。</li>
+</ol>
 <blockquote>
-<p>愿这篇 Blog 能让你了解对这个博客多一些了解，或者得到一些相应的收获。</p>
+<p>2024-12-26 修正。</p>
 </blockquote>
 ]]></content>
             
@@ -569,7 +572,7 @@ nothing to commit, working tree clean
                         
                             
                              
-                                <category scheme="https://1xiaoyuan.github.io/tags1/%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" term="%E7%9F%A5%E8%AF%86%E7%AE%A1%E7%90%86" label="知识管理" />
+                                <category scheme="https://1xiaoyuan.github.io/tags1/hugo" term="hugo" label="Hugo" />
                             
                         
                     
