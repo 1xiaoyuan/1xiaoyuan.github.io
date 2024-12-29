@@ -24,7 +24,7 @@
       "articleSection" : "posts",
       "name" : "Hugo使用经验",
       "headline" : "Hugo使用经验",
-      "description" : "为了防止时间太久忘记方法，建站的关键知识点还是要记录一下的。\n大人，时代变了 最初我打算自己写出整个网站（现在想想真傻），于是学了一些 html 和 css 知识。后来打开第一个 txt 文件准备动手写主页 html 文件时，我发现，我一点也写不下去，几个标签下来就厌倦不已，想完全掌握并熟练运用这些知识需要很长时间，就算掌握了它们，写出漂亮页面还需要想象力和创造力——短期内根本不可能写出完整的网页。最重要的是它们非常繁琐，一个人要投入多少时间精力才能搞定所有工作啊！\n后来看到网友的一句话——独自造轮子的时代已经结束了，前人已经帮你把模型调好了——我才恍然大悟。我们这个时代太快了，闭门造车的做法很是愚蠢，学会借力前行才是。所以后来果断选择使用 hugo 引擎来做网站——它的作用是，你给出参数（模型），它负责组装。\n不过 html 和 css 知识也没有白学，因为对网页结构有了解的话，知道什么是标签，什么是属性和值，以及它们的基本规则，与网页打交道时很有帮助，才有可能根据自己喜好修改主题的细节。\n选择Hugo 网站生成器有很多，我看到许多人建站都会经历兜兜转转的过程，工具从 wordpress 到 hexo ，再到 hugo ，再到 wordpress \u0026hellip;\u0026hellip;所以我想避免这个坑，于是在开始动手之前花了许久做决定，我的要求是经济、高效、方便—— Hugo 最适合不过了——静态网页经济安全，Hugo生成速度最快，也不需要服务器。\n文件目录 这是每个文件夹存放的内容及其作用的标准格式。\narchetypes 在default.md文件中存放文章页面参数 content 存放所有文章，如关于、分类、以及每篇文章 layouts：存放生成页面所使用的模板、参数 _default 页面模板 如list.html是列表页的模板，page.html是普通页的模板 hugo渲染并生成页面的本质：内容\u002b模板=页面 partials 配件模板 如footer.html是页面底部区域的模板，header.html是页面头部的模板 页面模板中常会引用这些配件模板 shortcodes 短代码 在文章中固定格式的简洁代码，如引用bilibili的视频，插入网易云的音乐，所使用的代码存放在这里 这个思维导图，以及顶部的音乐都是短代码的功劳 如有需要，欢迎留言 static img 存放图像 css css模板 css的作用是让页面更漂亮，就像穿了新衣服 js JavaScript themes 存放所有的主题 代码 Hugo 查看版本：hugo version 新建库：hugo new site 666 在当前目录下，新建一个名为\u0026quot;666\u0026quot;的文件夹，其中内置应有的结构 新建文章： hugo new post\/name.",
+      "description" : "为了防止时间太久忘记方法，建站的要点还是要记录一下的。\n一、前言 大人，时代变了 最初我打算自己写出整个网站（现在想想真傻），于是学了一些 html 和 css 知识。后来打开第一个 txt 文件准备动手写主页 html 文件时，我发现，我一点也写不下去，几个标签下来就厌倦不已，想完全掌握并熟练运用这些知识需要很长时间，就算掌握了它们，写出漂亮页面还需要想象力和创造力——短期内根本不可能写出完整的网页。最重要的是它们非常繁琐，一个人要投入多少时间精力才能搞定所有工作啊！\n后来看到网友的一句话——独自造轮子的时代已经结束了，前人已经帮你把模型调好了——我才恍然大悟。我们这个时代太快了，闭门造车的做法很是愚蠢，学会借力前行才是。所以后来果断选择使用 hugo 引擎来做网站——它的作用是，你给出参数（模型），它负责组装。\n不过 html 和 css 知识也没有白学，因为对网页结构有了解的话，知道什么是标签，什么是属性和值，以及它们的基本规则，与网页打交道时很有帮助，才有可能根据自己喜好修改主题的细节。\n选择 Hugo 网站生成器有很多，我看到许多人建站都会经历兜兜转转的过程，工具从 wordpress 到 hexo ，再到 hugo ，再到 wordpress \u0026hellip;\u0026hellip;所以我想避免这个坑，于是在开始动手之前花了许久做决定，我的要求是经济、高效、方便—— Hugo 最适合不过了——静态网页经济安全，Hugo生成速度最快，也不需要服务器。\n二、Hugo 的使用 文件目录\n这是每个文件夹存放的内容及其作用的标准格式。\narchetypes 在default.md文件中存放文章页面参数 content 存放所有文章，如关于、分类、以及每篇文章 layouts：存放生成页面所使用的模板、参数 _default 页面模板 如list.html是列表页的模板，page.html是普通页的模板 hugo渲染并生成页面的本质：内容\u002b模板=页面 partials 配件模板 如footer.html是页面底部区域的模板，header.html是页面头部的模板 页面模板中常会引用这些配件模板 shortcodes 短代码 在文章中固定格式的简洁代码，如引用bilibili的视频，插入网易云的音乐，所使用的代码存放在这里 这个思维导图，以及顶部的音乐都是短代码的功劳 如有需要，欢迎留言 static img 存放图像 css css模板 css的作用是让页面更漂亮，就像穿了新衣服 js JavaScript themes 存放所有的主题 常用指令\n查看版本：hugo version 新建库：hugo new site 666 在当前目录下，新建一个名为\u0026quot;666\u0026quot;的文件夹，其中内置应有的结构 新建文章： hugo new post\/name.",
       "inLanguage" : "en-US",
       "author" : "zz",
       "creator" : "zz",
@@ -40,20 +40,24 @@
 </script><title>Hugo使用经验</title>
   <meta property="og:title" content="Hugo使用经验" />
   <meta property="og:type" content="article" />
-  <meta property="og:description" content="为了防止时间太久忘记方法，建站的关键知识点还是要记录一下的。
-大人，时代变了 最初我打算自己写出整个网站（现在想想真傻），于是学了一些 html 和 css 知识。后来打开第一个 txt 文件准备动手写主页 html 文件时，我发现，我一点也写不下去，几个标签下来就厌倦不已，想完全掌握并熟练运用这些知识需要很长时间，就算掌握了它们，写出漂亮页面还需要想象力和创造力——短期内根本不可能写出完整的网页。最重要的是它们非常繁琐，一个人要投入多少时间精力才能搞定所有工作啊！
+  <meta property="og:description" content="为了防止时间太久忘记方法，建站的要点还是要记录一下的。
+一、前言 大人，时代变了 最初我打算自己写出整个网站（现在想想真傻），于是学了一些 html 和 css 知识。后来打开第一个 txt 文件准备动手写主页 html 文件时，我发现，我一点也写不下去，几个标签下来就厌倦不已，想完全掌握并熟练运用这些知识需要很长时间，就算掌握了它们，写出漂亮页面还需要想象力和创造力——短期内根本不可能写出完整的网页。最重要的是它们非常繁琐，一个人要投入多少时间精力才能搞定所有工作啊！
 后来看到网友的一句话——独自造轮子的时代已经结束了，前人已经帮你把模型调好了——我才恍然大悟。我们这个时代太快了，闭门造车的做法很是愚蠢，学会借力前行才是。所以后来果断选择使用 hugo 引擎来做网站——它的作用是，你给出参数（模型），它负责组装。
 不过 html 和 css 知识也没有白学，因为对网页结构有了解的话，知道什么是标签，什么是属性和值，以及它们的基本规则，与网页打交道时很有帮助，才有可能根据自己喜好修改主题的细节。
-选择Hugo 网站生成器有很多，我看到许多人建站都会经历兜兜转转的过程，工具从 wordpress 到 hexo ，再到 hugo ，再到 wordpress &amp;hellip;&amp;hellip;所以我想避免这个坑，于是在开始动手之前花了许久做决定，我的要求是经济、高效、方便—— Hugo 最适合不过了——静态网页经济安全，Hugo生成速度最快，也不需要服务器。
-文件目录 这是每个文件夹存放的内容及其作用的标准格式。
-archetypes 在default.md文件中存放文章页面参数 content 存放所有文章，如关于、分类、以及每篇文章 layouts：存放生成页面所使用的模板、参数 _default 页面模板 如list.html是列表页的模板，page.html是普通页的模板 hugo渲染并生成页面的本质：内容&#43;模板=页面 partials 配件模板 如footer.html是页面底部区域的模板，header.html是页面头部的模板 页面模板中常会引用这些配件模板 shortcodes 短代码 在文章中固定格式的简洁代码，如引用bilibili的视频，插入网易云的音乐，所使用的代码存放在这里 这个思维导图，以及顶部的音乐都是短代码的功劳 如有需要，欢迎留言 static img 存放图像 css css模板 css的作用是让页面更漂亮，就像穿了新衣服 js JavaScript themes 存放所有的主题 代码 Hugo 查看版本：hugo version 新建库：hugo new site 666 在当前目录下，新建一个名为&amp;quot;666&amp;quot;的文件夹，其中内置应有的结构 新建文章： hugo new post/name." />
-  <meta name="description" content="为了防止时间太久忘记方法，建站的关键知识点还是要记录一下的。
-大人，时代变了 最初我打算自己写出整个网站（现在想想真傻），于是学了一些 html 和 css 知识。后来打开第一个 txt 文件准备动手写主页 html 文件时，我发现，我一点也写不下去，几个标签下来就厌倦不已，想完全掌握并熟练运用这些知识需要很长时间，就算掌握了它们，写出漂亮页面还需要想象力和创造力——短期内根本不可能写出完整的网页。最重要的是它们非常繁琐，一个人要投入多少时间精力才能搞定所有工作啊！
+选择 Hugo 网站生成器有很多，我看到许多人建站都会经历兜兜转转的过程，工具从 wordpress 到 hexo ，再到 hugo ，再到 wordpress &amp;hellip;&amp;hellip;所以我想避免这个坑，于是在开始动手之前花了许久做决定，我的要求是经济、高效、方便—— Hugo 最适合不过了——静态网页经济安全，Hugo生成速度最快，也不需要服务器。
+二、Hugo 的使用 文件目录
+这是每个文件夹存放的内容及其作用的标准格式。
+archetypes 在default.md文件中存放文章页面参数 content 存放所有文章，如关于、分类、以及每篇文章 layouts：存放生成页面所使用的模板、参数 _default 页面模板 如list.html是列表页的模板，page.html是普通页的模板 hugo渲染并生成页面的本质：内容&#43;模板=页面 partials 配件模板 如footer.html是页面底部区域的模板，header.html是页面头部的模板 页面模板中常会引用这些配件模板 shortcodes 短代码 在文章中固定格式的简洁代码，如引用bilibili的视频，插入网易云的音乐，所使用的代码存放在这里 这个思维导图，以及顶部的音乐都是短代码的功劳 如有需要，欢迎留言 static img 存放图像 css css模板 css的作用是让页面更漂亮，就像穿了新衣服 js JavaScript themes 存放所有的主题 常用指令
+查看版本：hugo version 新建库：hugo new site 666 在当前目录下，新建一个名为&amp;quot;666&amp;quot;的文件夹，其中内置应有的结构 新建文章： hugo new post/name." />
+  <meta name="description" content="为了防止时间太久忘记方法，建站的要点还是要记录一下的。
+一、前言 大人，时代变了 最初我打算自己写出整个网站（现在想想真傻），于是学了一些 html 和 css 知识。后来打开第一个 txt 文件准备动手写主页 html 文件时，我发现，我一点也写不下去，几个标签下来就厌倦不已，想完全掌握并熟练运用这些知识需要很长时间，就算掌握了它们，写出漂亮页面还需要想象力和创造力——短期内根本不可能写出完整的网页。最重要的是它们非常繁琐，一个人要投入多少时间精力才能搞定所有工作啊！
 后来看到网友的一句话——独自造轮子的时代已经结束了，前人已经帮你把模型调好了——我才恍然大悟。我们这个时代太快了，闭门造车的做法很是愚蠢，学会借力前行才是。所以后来果断选择使用 hugo 引擎来做网站——它的作用是，你给出参数（模型），它负责组装。
 不过 html 和 css 知识也没有白学，因为对网页结构有了解的话，知道什么是标签，什么是属性和值，以及它们的基本规则，与网页打交道时很有帮助，才有可能根据自己喜好修改主题的细节。
-选择Hugo 网站生成器有很多，我看到许多人建站都会经历兜兜转转的过程，工具从 wordpress 到 hexo ，再到 hugo ，再到 wordpress &amp;hellip;&amp;hellip;所以我想避免这个坑，于是在开始动手之前花了许久做决定，我的要求是经济、高效、方便—— Hugo 最适合不过了——静态网页经济安全，Hugo生成速度最快，也不需要服务器。
-文件目录 这是每个文件夹存放的内容及其作用的标准格式。
-archetypes 在default.md文件中存放文章页面参数 content 存放所有文章，如关于、分类、以及每篇文章 layouts：存放生成页面所使用的模板、参数 _default 页面模板 如list.html是列表页的模板，page.html是普通页的模板 hugo渲染并生成页面的本质：内容&#43;模板=页面 partials 配件模板 如footer.html是页面底部区域的模板，header.html是页面头部的模板 页面模板中常会引用这些配件模板 shortcodes 短代码 在文章中固定格式的简洁代码，如引用bilibili的视频，插入网易云的音乐，所使用的代码存放在这里 这个思维导图，以及顶部的音乐都是短代码的功劳 如有需要，欢迎留言 static img 存放图像 css css模板 css的作用是让页面更漂亮，就像穿了新衣服 js JavaScript themes 存放所有的主题 代码 Hugo 查看版本：hugo version 新建库：hugo new site 666 在当前目录下，新建一个名为&amp;quot;666&amp;quot;的文件夹，其中内置应有的结构 新建文章： hugo new post/name." />
+选择 Hugo 网站生成器有很多，我看到许多人建站都会经历兜兜转转的过程，工具从 wordpress 到 hexo ，再到 hugo ，再到 wordpress &amp;hellip;&amp;hellip;所以我想避免这个坑，于是在开始动手之前花了许久做决定，我的要求是经济、高效、方便—— Hugo 最适合不过了——静态网页经济安全，Hugo生成速度最快，也不需要服务器。
+二、Hugo 的使用 文件目录
+这是每个文件夹存放的内容及其作用的标准格式。
+archetypes 在default.md文件中存放文章页面参数 content 存放所有文章，如关于、分类、以及每篇文章 layouts：存放生成页面所使用的模板、参数 _default 页面模板 如list.html是列表页的模板，page.html是普通页的模板 hugo渲染并生成页面的本质：内容&#43;模板=页面 partials 配件模板 如footer.html是页面底部区域的模板，header.html是页面头部的模板 页面模板中常会引用这些配件模板 shortcodes 短代码 在文章中固定格式的简洁代码，如引用bilibili的视频，插入网易云的音乐，所使用的代码存放在这里 这个思维导图，以及顶部的音乐都是短代码的功劳 如有需要，欢迎留言 static img 存放图像 css css模板 css的作用是让页面更漂亮，就像穿了新衣服 js JavaScript themes 存放所有的主题 常用指令
+查看版本：hugo version 新建库：hugo new site 666 在当前目录下，新建一个名为&amp;quot;666&amp;quot;的文件夹，其中内置应有的结构 新建文章： hugo new post/name." />
   <meta property="og:locale" content="en-us" /><meta property="og:image" content="/img/商标.png" />
   
 
@@ -156,17 +160,19 @@ archetypes 在default.md文件中存放文章页面参数 content 存放所有�
           <div class="post-content markdown-body">
             
             <blockquote>
-<p>为了防止时间太久忘记方法，建站的关键知识点还是要记录一下的。</p>
+<p>为了防止时间太久忘记方法，建站的要点还是要记录一下的。</p>
 </blockquote>
+<h1 id="一前言">一、前言</h1>
 <h2 id="大人时代变了">大人，时代变了</h2>
 <p>最初我打算自己写出整个网站（现在想想真傻），于是学了一些 html 和 css 知识。后来打开第一个 txt 文件准备动手写主页 html 文件时，我发现，我一点也写不下去，几个标签下来就厌倦不已，想完全掌握并熟练运用这些知识需要很长时间，就算掌握了它们，写出漂亮页面还需要想象力和创造力——短期内根本不可能写出完整的网页。最重要的是它们非常繁琐，<strong>一个人要投入多少时间精力才能搞定所有工作啊！</strong></p>
 <p>后来看到网友的一句话——独自造轮子的时代已经结束了，前人已经帮你把模型调好了——我才恍然大悟。我们这个时代太快了，闭门造车的做法很是愚蠢，学会借力前行才是。所以后来果断选择使用 hugo 引擎来做网站——它的作用是，你给出参数（模型），它负责组装。</p>
 <blockquote>
 <p>不过 html 和 css 知识也没有白学，因为对网页结构有了解的话，知道什么是标签，什么是属性和值，以及它们的基本规则，与网页打交道时很有帮助，才有可能根据自己喜好修改主题的细节。</p>
 </blockquote>
-<h2 id="选择hugo">选择Hugo</h2>
+<h2 id="选择-hugo">选择 Hugo</h2>
 <p>网站生成器有很多，我看到许多人建站都会经历兜兜转转的过程，工具从 wordpress 到 hexo ，再到 hugo ，再到 wordpress &hellip;&hellip;所以我想避免这个坑，于是在开始动手之前花了许久做决定，我的要求是经济、高效、方便—— Hugo 最适合不过了——静态网页经济安全，Hugo生成速度最快，也不需要服务器。</p>
-<h2 id="文件目录">文件目录</h2>
+<h1 id="二hugo-的使用">二、Hugo 的使用</h1>
+<p><strong>文件目录</strong></p>
 <p>这是每个文件夹存放的内容及其作用的标准格式。</p>
 <ul>
 <li>archetypes
@@ -231,8 +237,7 @@ archetypes 在default.md文件中存放文章页面参数 content 存放所有�
 </ul>
 </li>
 </ul>
-<h2 id="代码">代码</h2>
-<h4 id="hugo">Hugo</h4>
+<p><strong>常用指令</strong></p>
 <ul>
 <li><strong>查看版本</strong>：<code>hugo version</code></li>
 <li><strong>新建库</strong>：<code>hugo new site 666</code>
@@ -272,7 +277,7 @@ archetypes 在default.md文件中存放文章页面参数 content 存放所有�
 </ul>
 </li>
 </ul>
-<h4 id="github">Github</h4>
+<h1 id="三github-的使用">三、Github 的使用</h1>
 <p><strong>配置 Github SSH</strong></p>
 <ol>
 <li>打开 Git Bush，输入 <code>ssh-keygen</code> 生成 SSH 密钥（默认全回车）；</li>
@@ -301,8 +306,39 @@ git push -u origin main   #master/main
 git add .
 git commit -m &#34;自行填写备注&#34;
 git push
-</code></pre><p>如果push和本地无关，则需要 <code>git pull</code> 将网上的内容和本地的同步。</p>
-<h2 id="评论系统">评论系统</h2>
+</code></pre><p><strong>当本地和云端仓库文件不一致时，需要现将云端拉取到本地，再重新上传</strong></p>
+<pre tabindex="0"><code>cd public
+git pull origin main
+git push origin main
+</code></pre><p><strong>删除仓库内容</strong></p>
+<p>想要删除远程仓库中的内容，不删除本地文件，也不删除仓库。其实我不太会用，琐碎的代码先放在这吧。</p>
+<pre tabindex="0"><code>$ git pull origin master  # 将远程仓库里面的项目拉下来
+
+$ dir # 查看有哪些文件夹
+
+$ git rm -r --cached target  # 删除你要删除的文件名称，这里是删除target文件夹（cached不会把本地的flashview文件夹删除）
+
+$ git commit -m &#39;删除了target&#39; # 提交,添加操作说明
+
+git push -u origin master #重新提交（若需要对其他分支进行操作，则把master换为对应分支，如:git push -u origin dev）
+</code></pre><p><strong>自定义域名</strong></p>
+<!-- raw HTML omitted -->
+<p>假如不考虑 CDN ，只为 Github Page 配置一个自定义域名，怎么做？</p>
+<ol>
+<li>购买域名，等待实名认知通过；</li>
+<li>在 Github Page 的设置中输入域名；</li>
+<li>在域名购买网站进行<strong>域名解析</strong>，新增记录如下：</li>
+</ol>
+<pre tabindex="0"><code>www CNAME记录 username.github.io
+@ A记录 185.199.108.153
+@ A记录 185.199.109.153
+@ A记录 185.199.110.153
+@ A记录 185.199.111.153
+</code></pre><ol start="4">
+<li>在 Github Page 的设置中勾选强制 HTTPS.</li>
+</ol>
+<h1 id="三其他">三、其他</h1>
+<p><strong>评论系统（已关闭）</strong></p>
 <p>本站使用的是 <strong>utterances</strong> 的服务：只需创建一个 github 仓库即可。无广告、配置简单，轻量开源评论系统，一点也不折腾，10分钟之内就能搞定；缺点是需要登陆Github账号才能评论。</p>
 <ol>
 <li>
@@ -327,17 +363,6 @@ git push
     crossorigin=&#34;anonymous&#34;
     async&gt;
 &lt;/script&gt;
-</code></pre><h2 id="删除仓库内容">删除仓库内容</h2>
-<p>想要删除远程仓库中的内容，不删除本地文件，也不删除仓库。其实我不太会用，琐碎的代码先放在这吧。</p>
-<pre tabindex="0"><code>$ git pull origin master  # 将远程仓库里面的项目拉下来
-
-$ dir # 查看有哪些文件夹
-
-$ git rm -r --cached target  # 删除你要删除的文件名称，这里是删除target文件夹（cached不会把本地的flashview文件夹删除）
-
-$ git commit -m &#39;删除了target&#39; # 提交,添加操作说明
-
-git push -u origin master #重新提交（若需要对其他分支进行操作，则把master换为对应分支，如:git push -u origin dev）
 </code></pre>
           </div>
 

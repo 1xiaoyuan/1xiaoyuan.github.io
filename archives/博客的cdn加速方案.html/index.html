@@ -24,7 +24,7 @@
       "articleSection" : "posts",
       "name" : "博客的CDN加速方案",
       "headline" : "博客的CDN加速方案",
-      "description" : "小白互助😄\nOh，我的网站好慢呐 博客搭在Github的一个缺点是网页访问速度慢，为了解决这个问题，可以借助CDN。\n网页为什么慢，简单地说，就是服务器（Github服务器在国外）和客户端（访问网站的用户）距离太远，资源拉取慢。\nCDN，即内容分发网络。它的功能是将指定的资源提前缓存到分布在各个城市的站点（缓存服务器）。这样一来，在用户在访问网站后，数据将直接从距离最近的服务器中获取，无需再从原来那个远在天边的源服务器获取（如果它真的远在天边的话）。\nok，那么接下来的问题就是找到一个能白嫖的CDN了，嘻嘻。\njsdelivr（已弃用） 现在该轮到今天的主角了——jsdelivr。\n配置起来及其简单，你不需要下载任何软件、申请任何账号，甚至只需要在浏览器的地址栏，按照要求的格式输入代码（其实就是一个网址\/url），即可将你Github page上的博客文件上传到jsdelivr的服务器，然后使用他们的服务——CDN加速访问你的博客文件。\n如果你的博客也搭建在Github，那么下面的内容对你会有所帮助。\n首先，为你的Github的博客仓库发布一个release版本（只有这样才能使用jsdelivr）（很简单，需要你自行上网搜一下），然后我来告诉你需要在浏览器地址栏输入的代码：\n注意：下面“你的Github名”、“你的仓库名”、“@发布的版本号”都需要你按照自己的Github来输入，你可以参考该文章末尾处最后一个代码（我的用法）。\n如果想上传博客文件库的某个版本： https:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/@发布的版本号\/ 或者上传版本中的某个文件： https:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/@发布的版本号\/文件名\u002b后缀 或者上传版本中的某个文件夹： https:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/@发布的版本号\/文件夹名\/ 注意结尾的 \/ 号是必须有的。\n成功后会出现已上传的文档页面。然后你可能就会发现自己的网页打开速度飞快，至少比上次快。\n使用以下代码可以直接上传整个仓库的文件，并且实时更新文件，而不是一次上传一个版本，事实上我觉得这是最方便的做法。\nhttps:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/\n这是后来我才发现的，去掉版本号可以直接上传整个仓库🤷‍♂️ 实时更新真的太爽了。\n新方案：cloudflare 2023-07-30，将新域名用 cloudflare 进行CDN托管，速度大大提高。",
+      "description" : "小白互助😄\nOh，我的网站好慢呐 博客搭在Github的一个缺点是网页访问速度慢，为了解决这个问题，可以借助CDN。\n网页为什么慢，简单地说，就是服务器（Github服务器在国外）和客户端（访问网站的用户）距离太远，资源拉取慢。\nCDN，即内容分发网络。它的功能是将指定的资源提前缓存到分布在各个城市的站点（缓存服务器）。这样一来，在用户在访问网站后，数据将直接从距离最近的服务器中获取，无需再从原来那个远在天边的源服务器获取（如果它真的远在天边的话）。\nok，那么接下来的问题就是找到一个能白嫖的CDN了，嘻嘻。\njsdelivr（已弃用） 现在该轮到今天的主角了——jsdelivr。\n配置起来及其简单，你不需要下载任何软件、申请任何账号，甚至只需要在浏览器的地址栏，按照要求的格式输入代码（其实就是一个网址\/url），即可将你Github page上的博客文件上传到jsdelivr的服务器，然后使用他们的服务——CDN加速访问你的博客文件。\n如果你的博客也搭建在Github，那么下面的内容对你会有所帮助。\n首先，为你的Github的博客仓库发布一个release版本（只有这样才能使用jsdelivr）（很简单，需要你自行上网搜一下），然后我来告诉你需要在浏览器地址栏输入的代码：\n注意：下面“你的Github名”、“你的仓库名”、“@发布的版本号”都需要你按照自己的Github来输入，你可以参考该文章末尾处最后一个代码（我的用法）。\n如果想上传博客文件库的某个版本： https:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/@发布的版本号\/ 或者上传版本中的某个文件： https:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/@发布的版本号\/文件名\u002b后缀 或者上传版本中的某个文件夹： https:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/@发布的版本号\/文件夹名\/ 注意结尾的 \/ 号是必须有的。\n成功后会出现已上传的文档页面。然后你可能就会发现自己的网页打开速度飞快，至少比上次快。\n使用以下代码可以直接上传整个仓库的文件，并且实时更新文件，而不是一次上传一个版本，事实上我觉得这是最方便的做法。\nhttps:\/\/cdn.jsdelivr.net\/gh\/你的Github名\/你的仓库名\/\n这是后来我才发现的，去掉版本号可以直接上传整个仓库🤷‍♂️ 实时更新真的太爽了。\n新方案：cloudflare 2023-07-30，将新域名用 cloudflare 进行CDN托管，速度大大提高。\nGithub Page \u002b 自定义域名 \u002b Cloudflare 配置顺序：\n购买域名，等待实名认证通过； 在 Github Page 的 Settings 的 Pages 的 Custom domain 中输入新域名； 进入 Cloudflare 账户主页，点击“添加域”，输入新域名； 新域添加 DNS 记录，参考下文的 DNS 的“记录”的内容； 进入购买域名的平台，修改域名的 DNS，两个值在 Cloudflare 的 “DNS”的“记录”底部查看，为“Cloudflare 名称服务器”; 等待 1 小时左右，CDN 配置成功后会有邮件提醒； 为 Github Page 的 Settings 的 Pages 的 “Enforce HTTPS”打上对勾； 检查并修改下文的设置，使一致。 使用 cloudflare 后，Github Page 与 cloudflare 的相关设置：",
       "inLanguage" : "en-US",
       "author" : "zz",
       "creator" : "zz",
@@ -55,7 +55,9 @@ jsdelivr（已弃用） 现在该轮到今天的主角了——jsdelivr。
 使用以下代码可以直接上传整个仓库的文件，并且实时更新文件，而不是一次上传一个版本，事实上我觉得这是最方便的做法。
 https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/
 这是后来我才发现的，去掉版本号可以直接上传整个仓库🤷‍♂️ 实时更新真的太爽了。
-新方案：cloudflare 2023-07-30，将新域名用 cloudflare 进行CDN托管，速度大大提高。" />
+新方案：cloudflare 2023-07-30，将新域名用 cloudflare 进行CDN托管，速度大大提高。
+Github Page &#43; 自定义域名 &#43; Cloudflare 配置顺序：
+购买域名，等待实名认证通过； 在 Github Page 的 Settings 的 Pages 的 Custom domain 中输入新域名； 进入 Cloudflare 账户主页，点击“添加域”，输入新域名； 新域添加 DNS 记录，参考下文的 DNS 的“记录”的内容； 进入购买域名的平台，修改域名的 DNS，两个值在 Cloudflare 的 “DNS”的“记录”底部查看，为“Cloudflare 名称服务器”; 等待 1 小时左右，CDN 配置成功后会有邮件提醒； 为 Github Page 的 Settings 的 Pages 的 “Enforce HTTPS”打上对勾； 检查并修改下文的设置，使一致。 使用 cloudflare 后，Github Page 与 cloudflare 的相关设置：" />
   <meta name="description" content="小白互助😄
 Oh，我的网站好慢呐 博客搭在Github的一个缺点是网页访问速度慢，为了解决这个问题，可以借助CDN。
 网页为什么慢，简单地说，就是服务器（Github服务器在国外）和客户端（访问网站的用户）距离太远，资源拉取慢。
@@ -71,7 +73,9 @@ jsdelivr（已弃用） 现在该轮到今天的主角了——jsdelivr。
 使用以下代码可以直接上传整个仓库的文件，并且实时更新文件，而不是一次上传一个版本，事实上我觉得这是最方便的做法。
 https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/
 这是后来我才发现的，去掉版本号可以直接上传整个仓库🤷‍♂️ 实时更新真的太爽了。
-新方案：cloudflare 2023-07-30，将新域名用 cloudflare 进行CDN托管，速度大大提高。" />
+新方案：cloudflare 2023-07-30，将新域名用 cloudflare 进行CDN托管，速度大大提高。
+Github Page &#43; 自定义域名 &#43; Cloudflare 配置顺序：
+购买域名，等待实名认证通过； 在 Github Page 的 Settings 的 Pages 的 Custom domain 中输入新域名； 进入 Cloudflare 账户主页，点击“添加域”，输入新域名； 新域添加 DNS 记录，参考下文的 DNS 的“记录”的内容； 进入购买域名的平台，修改域名的 DNS，两个值在 Cloudflare 的 “DNS”的“记录”底部查看，为“Cloudflare 名称服务器”; 等待 1 小时左右，CDN 配置成功后会有邮件提醒； 为 Github Page 的 Settings 的 Pages 的 “Enforce HTTPS”打上对勾； 检查并修改下文的设置，使一致。 使用 cloudflare 后，Github Page 与 cloudflare 的相关设置：" />
   <meta property="og:locale" content="en-us" /><meta property="og:image" content="/img/商标.png" />
   
 
@@ -222,6 +226,64 @@ https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/
 <blockquote>
 <p>2023-07-30，将新域名用 <a href="https://www.cloudflare-cn.com/">cloudflare</a> 进行CDN托管，速度大大提高。</p>
 </blockquote>
+<!-- raw HTML omitted -->
+<p>Github Page + 自定义域名 + Cloudflare 配置顺序：</p>
+<ol>
+<li><strong>购买域名，等待实名认证通过；</strong></li>
+<li><strong>在 Github Page 的 Settings 的 Pages 的 Custom domain 中输入新域名；</strong></li>
+<li><strong>进入 Cloudflare 账户主页，点击“添加域”，输入新域名；</strong></li>
+<li><strong>新域添加 DNS 记录，参考下文的 DNS 的“记录”的内容；</strong></li>
+<li><strong>进入购买域名的平台，修改域名的 DNS，两个值在 Cloudflare 的 “DNS”的“记录”底部查看，为“Cloudflare 名称服务器”;</strong></li>
+<li><strong>等待 1 小时左右，CDN 配置成功后会有邮件提醒；</strong></li>
+<li><strong>为 Github Page 的 Settings 的 Pages 的 “Enforce HTTPS”打上对勾；</strong></li>
+<li><strong>检查并修改下文的设置，使一致。</strong></li>
+</ol>
+<p>使用 cloudflare 后，Github Page 与 cloudflare 的相关设置：</p>
+<p>github page 设置</p>
+<ul>
+<li>自定义域：xxxxxx</li>
+<li>强制实施 HTTPS：✅</li>
+</ul>
+<p>Couldflare 设置</p>
+<ul>
+<li>DNS
+<ul>
+<li>记录
+- CNAME www username.github.io 仅DNS （先输入这个）
+- A @ 185.199.111.153 已代理
+- A @ 185.199.110.153 已代理
+- A @ 185.199.109.153 已代理
+- A @ 185.199.108.153 已代理</li>
+<li>设置
+<ul>
+<li>DNSSEC：关闭！（必须关闭，否则会陷入“重定向”错误的坑）</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>SSL/TLS
+<ul>
+<li>概述
+<ul>
+<li>配置加密模式：完全</li>
+</ul>
+</li>
+<li>边缘证书
+<ul>
+<li>Total TLS：✖</li>
+<li>始终使用 HTTPS：✅</li>
+<li>HTTP 严格传输安全（HSTS）：关闭（未启用）</li>
+<li>最低 TLS 版本：TLS 1.0 默认</li>
+<li>随机加密：✖</li>
+<li>TLS 1.3：✅</li>
+<li>自动 HTTPS 重写：关闭/开启（不影响，建议开启）</li>
+<li>证书透明度监视：✖（未测试）</li>
+<li>禁用通用 SSL：关闭（未禁用）</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 
           </div>
 
