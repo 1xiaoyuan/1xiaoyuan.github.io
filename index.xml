@@ -7,7 +7,7 @@
             <link href="https://1xiaoyuan.github.io/" rel="alternate" type="text/html" title="html" />
             <link href="https://1xiaoyuan.github.io/index.xml" rel="alternate" type="application/rss+xml" title="rss" />
             <link href="https://1xiaoyuan.github.io/index.json" rel="alternate" type="application/json" title="json" />
-    <updated>2024-12-30T13:04:55+08:00</updated>
+    <updated>2025-01-06T16:30:22+08:00</updated>
     
     
     <author>
@@ -228,80 +228,6 @@
     
         
         <entry>
-            <title type="html"><![CDATA[Github本地仓库与网络不同步问题]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/github%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%8D%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98.html/" rel="alternate" type="text/html" />
-            
-                <id>https://1xiaoyuan.github.io/archives/github%E6%9C%AC%E5%9C%B0%E4%BB%93%E5%BA%93%E4%B8%8E%E7%BD%91%E7%BB%9C%E4%B8%8D%E5%90%8C%E6%AD%A5%E9%97%AE%E9%A2%98.html/</id>
-            
-            
-            <published>2024-01-27T08:11:54+08:00</published>
-            <updated>2024-01-27T08:11:54+08:00</updated>
-            
-            
-            <content type="html"><![CDATA[<h1 id="问题1">问题1</h1>
-<p>在进行<code>Git add .'</code>操作时，返回了多个以下结果：</p>
-<pre tabindex="0"><code>warning: in the working copy of &#39;img/index.html&#39;, LF will be replaced by CRLF the next time Git touches it
-</code></pre><p>问题原因：其实，这是因为在文本处理中，回车符 CR(CarriageReturn) 和换行符 LF(LineFeed) 混用造成的。</p>
-<ul>
-<li>Dos和Windows平台: 使用回车 (CR) 和换行 (LF) 两个字符都可以作为换行结束一行。</li>
-<li>Mac 和 Linux平台: 只能使用换行 (LF) 字符来结束一行。</li>
-<li>Github 仓库则要求统一使用换行符 (LF) ，所以在 Windows 下混乱使用 CR 和 LF，会被警告。</li>
-</ul>
-<p>同一篇文章中既使用回车 (Enter) 来换行，又使用换行 (Tab) 来换行，使得 <code>Git add .</code> 操作时，工作区的文章转化为暂存区的文件时无法统一换行符，所以提出警告。</p>
-<p>参考方案1：</p>
-<ul>
-<li>输入<code>git config --global core.autocrlf true</code>，不过在我这里无效</li>
-<li>原文链接：https://blog.csdn.net/u012757419/article/details/105614028</li>
-<li>补充解读：https://www.zhihu.com/question/50862500</li>
-</ul>
-<p>参考方案2：</p>
-<ul>
-<li>只使用 Enter 键换行，不要使用 Tab 键换行。</li>
-</ul>
-<blockquote>
-<p>我之所以会同时使用这两种键，是因为 <code>.md</code> 文件相邻的两个段落在 <code>.html</code> 页面会融合成一段。但如果使用 Enter 换行，两段的距离就比较远；而若使用 Tab 分隔两行，这两行在可视化为 <code>.html</code> 页面后就是相邻且不同行的文字，这能满足我的一些排版需求。</p>
-</blockquote>
-<p>不过“警告”不影响向 Github 上传文件，真想解决这些问题，还是使用方案 2 吧，方案 1 并没有解决我的问题。</p>
-<h1 id="问题2">问题2</h1>
-<pre tabindex="0"><code>On branch main
-Your branch is up to date with &#39;origin/main&#39;.
-
-nothing to commit, working tree clean
-</code></pre><p>经常遇到这个问题，原因是之前上传过文件，某种原因使得 Github 仓库的文件版本和本地的文件版本不对应。</p>
-<p>之前一直用<code>Git pull</code>就能解决，昨天解决不了，瞎找方案最后 解决了，迷。。。</p>
-<p>参考方案</p>
-<ul>
-<li><a href="https://blog.csdn.net/weixin_44786530/article/details/129735762">https://blog.csdn.net/weixin_44786530/article/details/129735762</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/578129279">https://zhuanlan.zhihu.com/p/578129279</a></li>
-</ul>
-]]></content>
-            
-                 
-                    
-                         
-                        
-                            
-                             
-                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
-                            
-                        
-                    
-                 
-                    
-                         
-                        
-                            
-                             
-                                <category scheme="https://1xiaoyuan.github.io/tags1/hugo" term="hugo" label="Hugo" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        
-        <entry>
             <title type="html"><![CDATA[逻辑和语法]]></title>
             <link href="https://1xiaoyuan.github.io/archives/%E9%80%BB%E8%BE%91%E5%92%8C%E8%AF%AD%E6%B3%95.html/" rel="alternate" type="text/html" />
             
@@ -479,70 +405,6 @@ nothing to commit, working tree clean
                             
                              
                                 <category scheme="https://1xiaoyuan.github.io/tags1/%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" term="%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F" label="生活方式" />
-                            
-                        
-                    
-                
-            
-        </entry>
-    
-        
-        <entry>
-            <title type="html"><![CDATA[分类和标签的用法]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E7%9A%84%E7%94%A8%E6%B3%95.html/" rel="alternate" type="text/html" />
-            
-                <id>https://1xiaoyuan.github.io/archives/%E5%88%86%E7%B1%BB%E5%92%8C%E6%A0%87%E7%AD%BE%E7%9A%84%E7%94%A8%E6%B3%95.html/</id>
-            
-            
-            <published>2023-12-23T17:49:41+08:00</published>
-            <updated>2023-12-23T17:49:41+08:00</updated>
-            
-            
-            <content type="html"><![CDATA[<h2 id="对分类和标签的使用">对分类和标签的使用</h2>
-<p>书接上回，写完 2023-12-23我来了，Xlog.md 这篇文章后，我又对所有文档的分类和标签进行的优化。</p>
-<p>首先对于“分类”和“标签”这两个功能，我的理解是👇</p>
-<ul>
-<li>分类用来对文章进行 方向/维度 的划分；</li>
-<li>标签通过关键词（对文章）进行主题上的划分。</li>
-</ul>
-<p>分类是提前设定的框架，是给自己的一种提示：以后写这几个方面的内容，不要写偏了。</p>
-<blockquote>
-<p>常见的分类有“工作、学习、生活”，“修身、齐家、治国、平天下”等。</p>
-</blockquote>
-<p>根据我写博客的需求，我为自己设定的的分类如下👇</p>
-<ol>
-<li><strong>生活</strong>：生活、自律、见闻等内容，有助于了解我的生活；</li>
-<li><strong>思考</strong>：生活态度、摘录等，为提供思考材料；</li>
-<li><strong>工具</strong>：方法、技巧等，一些解决问题的方案。</li>
-</ol>
-<p>相比分类，标签的设置更为具体和精准，方便访问者在浏览时聚焦同一个<strong>主题</strong>的内容，如“Hugo”、“生活方式”等。标签不需要提前设定，而是先有内容后打标签，自然生长。</p>
-<p>我打标签还有两个原则：</p>
-<ol>
-<li><strong>数量要尽可能少</strong>。避免使人眼花缭乱，也告诫自己要把注意力集中在有限的事情上。</li>
-<li><strong>尽可能具体</strong>。精确到一个主题或一类问题。</li>
-</ol>
-<blockquote>
-<p>2024-12-26 修正。</p>
-</blockquote>
-]]></content>
-            
-                 
-                    
-                         
-                        
-                            
-                             
-                                <category scheme="https://1xiaoyuan.github.io/categories/%E5%B7%A5%E5%85%B7" term="%E5%B7%A5%E5%85%B7" label="工具" />
-                            
-                        
-                    
-                 
-                    
-                         
-                        
-                            
-                             
-                                <category scheme="https://1xiaoyuan.github.io/tags1/hugo" term="hugo" label="Hugo" />
                             
                         
                     
@@ -939,10 +801,10 @@ exit
     
         
         <entry>
-            <title type="html"><![CDATA[博客的CDN加速方案]]></title>
-            <link href="https://1xiaoyuan.github.io/archives/%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E5%8A%A0%E9%80%9F%E6%96%B9%E6%A1%88.html/" rel="alternate" type="text/html" />
+            <title type="html"><![CDATA[网站的 CDN 加速方案]]></title>
+            <link href="https://1xiaoyuan.github.io/archives/%E7%BD%91%E7%AB%99%E7%9A%84-cdn-%E5%8A%A0%E9%80%9F%E6%96%B9%E6%A1%88.html/" rel="alternate" type="text/html" />
             
-                <id>https://1xiaoyuan.github.io/archives/%E5%8D%9A%E5%AE%A2%E7%9A%84cdn%E5%8A%A0%E9%80%9F%E6%96%B9%E6%A1%88.html/</id>
+                <id>https://1xiaoyuan.github.io/archives/%E7%BD%91%E7%AB%99%E7%9A%84-cdn-%E5%8A%A0%E9%80%9F%E6%96%B9%E6%A1%88.html/</id>
             
             
             <published>2023-01-05T20:36:23+08:00</published>
@@ -953,50 +815,50 @@ exit
 <p>小白互助😄</p>
 </blockquote>
 <h2 id="oh我的网站好慢呐">Oh，我的网站好慢呐</h2>
-<p>博客搭在Github的一个缺点是网页访问速度慢，为了解决这个问题，可以借助CDN。</p>
+<p>网站搭在 Github 的最大缺点是网页访问速度慢，为了解决这个问题，可以借助 CDN。</p>
 <p>网页为什么慢，简单地说，就是服务器（Github服务器在国外）和客户端（访问网站的用户）距离太远，资源拉取慢。</p>
 <p>CDN，即内容分发网络。它的功能是将指定的资源提前缓存到分布在各个城市的站点（缓存服务器）。这样一来，在用户在访问网站后，数据将直接从距离最近的服务器中获取，无需再从原来那个远在天边的源服务器获取（如果它真的远在天边的话）。</p>
-<p>ok，那么接下来的问题就是找到一个能白嫖的CDN了，嘻嘻。</p>
+<p>ok，那么接下来的问题就是找到一个能白嫖的 CDN 了，嘻嘻。</p>
 <h2 id="jsdelivr已弃用">jsdelivr（已弃用）</h2>
 <p>现在该轮到今天的主角了——<a href="https://www.jsdelivr.com/">jsdelivr</a>。</p>
-<p>配置起来及其简单，你不需要下载任何软件、申请任何账号，甚至只需要在浏览器的地址栏，按照要求的格式输入代码（其实就是一个网址/url），即可将你Github page上的博客文件上传到jsdelivr的服务器，然后使用他们的服务——CDN加速访问你的博客文件。</p>
-<p>如果你的博客也搭建在Github，那么下面的内容对你会有所帮助。</p>
-<p>首先，为你的Github的博客仓库发布一个release版本（只有这样才能使用jsdelivr）（很简单，需要你自行上网搜一下），然后我来告诉你需要在浏览器地址栏输入的代码：</p>
+<p>配置这个服务极其简单，不需要下载任何软件、申请任何账号，甚至只需要在浏览器的地址栏，按照要求的格式输入一串代码（其实就是一个网址/url），即可将你 Github page 上的网站文件上传到 jsdelivr 的服务器，然后使用他们的 CDN 服务进行加速。</p>
+<p>如果你的网站也搭建在Github，那么下面的内容对你会有所帮助。</p>
+<p>首先，为你的 Github 仓库发布一个 release 版本（只有这样才能使用 jsdelivr）（很简单，需要自行上网搜一下），然后在浏览器的地址栏输入下面的代码：</p>
 <blockquote>
-<p>注意：下面“你的Github名”、“你的仓库名”、“@发布的版本号”都需要你按照自己的Github来输入，你可以参考该文章末尾处最后一个代码（我的用法）。</p>
+<p>注意：下面“你的Github名”、“你的仓库名”、“@发布的版本号”都需要你按照自己的仓库来填写，你可以参考该文章末尾处最后一个实例代码。</p>
 </blockquote>
 <ul>
-<li>如果想上传博客文件库的某个版本：
+<li>如果想上传仓库文件库的某个版本：
 <ul>
 <li><code>https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/@发布的版本号/</code></li>
 </ul>
 </li>
-<li>或者上传版本中的某个文件：
+<li>如果想上传版本中的某个文件：
 <ul>
 <li><code>https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/@发布的版本号/文件名+后缀</code></li>
 </ul>
 </li>
-<li>或者上传版本中的某个文件夹：
+<li>如果想上传版本中的某个文件夹：
 <ul>
 <li><code>https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/@发布的版本号/文件夹名/</code></li>
 </ul>
 </li>
 </ul>
 <blockquote>
-<p>注意结尾的 <code>/</code> 号是必须有的。</p>
+<p>注意结尾的 <code>/</code> 号是必须有的，否则不会成功。</p>
 </blockquote>
 <blockquote>
 <p>成功后会出现已上传的文档页面。然后你可能就会发现自己的网页打开速度飞快，至少比上次快。</p>
 </blockquote>
-<p>使用以下代码可以直接上传整个仓库的文件，并且实时更新文件，而不是一次上传一个版本，事实上我觉得这是最方便的做法。</p>
+<p>使用以下代码可以直接上传整个仓库的文件，并且实时更新文件，而不是一次上传一个版本，事实上，我觉得这是最方便的做法。</p>
 <p><code>https://cdn.jsdelivr.net/gh/你的Github名/你的仓库名/</code></p>
 <!-- raw HTML omitted -->
 <blockquote>
-<p>这是后来我才发现的，去掉版本号可以直接上传整个仓库🤷‍♂️ 实时更新真的太爽了。</p>
+<p>后来，一段时间后我才发现，去掉版本号可以直接上传整个仓库🤷‍♂️ 实时更新真的太爽了。</p>
 </blockquote>
 <h2 id="新方案cloudflare">新方案：cloudflare</h2>
 <blockquote>
-<p>2023-07-30，将新域名用 <a href="https://www.cloudflare-cn.com/">cloudflare</a> 进行CDN托管，速度大大提高。</p>
+<p>2023-07-30，将新域名使用 <a href="https://www.cloudflare-cn.com/">cloudflare</a> 进行CDN托管，速度大大提高。</p>
 </blockquote>
 <!-- raw HTML omitted -->
 <p>Github Page + 自定义域名 + Cloudflare 配置顺序：</p>
